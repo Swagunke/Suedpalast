@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Signatur: G 25-1-7: Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</title>
+            <title type="part" n="4"></title>
+            <author>
+               <persName ref="https://d-nb.info/gnd/118861700">
+                  <surname>Froriep</surname>
+                  <forename>Robert</forename>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname>Polenz</surname>
+                  <forename>Kathrin</forename>
+               </persName>
+            </editor>
+            
+            <respStmt>
+               
+               <orgName>Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Herausgeber</note>
+                  
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>ausgewählte Briefe</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName role="project">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+            </publisher>
+            
+            <pubPlace>Jena</pubPlace>
+            <date type="publication">2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Distributed under the Creative Commons License
+                     Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00028991</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="remarkSource">aus einem Konvolut mit 16 Briefen und diversen Briefbeilagen an seine Gattin Wilhelmine Froriep geb. Ammermüller. Frankfurt/Main, Wiesbaden und [Bad] Homburg, 16. Januar bis 3. Februar 1854. 58 [gebundene und in den mit Fileten verzierten Halbledereinband "Menzies Report" eingelegte] Blätter[ggf. Kommentar zur zugrundeliegenden Ausgabe]</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="MAN">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</title>
+                  <author>
+                     <persName ref="https://d-nb.info/gnd/118861700">
+                        <surname>Froriep</surname>
+                        <forename>Robert</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <extent>
+                  <measure type="pages">4 Folio, 6 beschriebene Seiten</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher/>
+                  <pubPlace>Wiesbaden</pubPlace>
+                  <date type="creation">18540123</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>
+                     <p>
+                        Signatur: G 25-1-7
+                     </p>
+                  </note>
+               </notesStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
+                  <idno>
+                     <idno type="shelfmark">Signatur: G 25-1-7</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
+               kodiert.&lt;/p&gt; </p>
+         </editorialDecl>
+         <tagsDecl/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+               >Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+               >Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>   <text>
+      <body>
+         <p>
+         <pb facs="https://collections.thulb.uni-jena.de/rsc/viewer/HisBest_derivate_00013876/SR_G25_1-07_0004.tif"/>
+            <lb/>kann
+            das auch erwarten, denn "er hat die Mittel dazu." <lb/>Gute Nacht tausend Grüße den
+            Kindern; dein tr. <persName ref="https://d-nb.info/gnd/118861700">Robert</persName>
+            <lb/>Montag Abend ¼ 1. Uhr. <lb/>
+            
+         </p>
+      </body>
+   </text>
+</TEI>

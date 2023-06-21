@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Signatur: G 25-1-7: Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</title>
+            <title type="part" n="3"></title>
+            <author>
+               <persName ref="https://d-nb.info/gnd/118861700">
+                  <surname>Froriep</surname>
+                  <forename>Robert</forename>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname>Polenz</surname>
+                  <forename>Kathrin</forename>
+               </persName>
+            </editor>
+            
+            <respStmt>
+               
+               <orgName>Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Herausgeber</note>
+                  
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>ausgewählte Briefe</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName role="project">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+            </publisher>
+            
+            <pubPlace>Jena</pubPlace>
+            <date type="publication">2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Distributed under the Creative Commons License
+                     Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00028991</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="remarkSource">aus einem Konvolut mit 16 Briefen und diversen Briefbeilagen an seine Gattin Wilhelmine Froriep geb. Ammermüller. Frankfurt/Main, Wiesbaden und [Bad] Homburg, 16. Januar bis 3. Februar 1854. 58 [gebundene und in den mit Fileten verzierten Halbledereinband "Menzies Report" eingelegte] Blätter[ggf. Kommentar zur zugrundeliegenden Ausgabe]</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="MAN">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</title>
+                  <author>
+                     <persName ref="https://d-nb.info/gnd/118861700">
+                        <surname>Froriep</surname>
+                        <forename>Robert</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <extent>
+                  <measure type="pages">4 Folio, 6 beschriebene Seiten</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher/>
+                  <pubPlace>Wiesbaden</pubPlace>
+                  <date type="creation">18540123</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>
+                     <p>
+                        Signatur: G 25-1-7
+                     </p>
+                  </note>
+               </notesStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
+                  <idno>
+                     <idno type="shelfmark">Signatur: G 25-1-7</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
+               kodiert.&lt;/p&gt; </p>
+         </editorialDecl>
+         <tagsDecl/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+               >Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+               >Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>   <text>
+      <body>
+         <p>
+         <pb facs="https://collections.thulb.uni-jena.de/rsc/viewer/HisBest_derivate_00013876/SR_G25_1-07_0003.tif"/>
+         <lb/>der <persName ref="https://d-nb.info/gnd/116749253">Livia Frege</persName>, die
+         aber wegen Unwohlsein nicht mit da <lb/>war, gaffte nur u. verstand offenbar nicht
+         worauf es <lb/>ankam; es war noch da eine englische Miss von 40 Jahren, eine
+         <lb/>deutsche Desgl. von Desgl., ein Schulrath mit 4 Töchtern (ein <lb/>Abklatsch von
+         Prediger <persName ref="p003">Jungk</persName> nebst Töchtern), mit einem
+         <lb/>Bräutigam. <persName ref="https://d-nb.info/gnd/116323876">Doris</persName>
+         versicherte indeß zur Ehre des Wir- <lb/>thes, so sei es noch nie da gewesen. Ich
+         brachte <persName ref="https://d-nb.info/gnd/116323876">Doris</persName> nach <lb/>Hause
+         sie grüßt dich u. die <persName ref="https://d-nb.info/gnd/116673397"/><persName
+            ref=" https://d-nb.info/gnd/116840315"/><persName ref="p004"/><persName ref=" p005"
+            />Mädchen vielmals. <persName ref="https://d-nb.info/gnd/100370896">Hr. v.
+               Löw</persName>
+         <lb/>u. <persName ref="p011">Frau</persName> waren möglichst nett, doch gesellig
+         unbeholfen <lb/>dagegen freute mich zu sehen, wie freundlich u. rücksichtsvoll <lb/>sie
+         mit <persName ref="https://d-nb.info/gnd/116323876">Doris G.</persName> umgiengen. Ich
+         werde nun morgen früh <lb/>erfahren ob ich Morgen od. Übermorgen zum <persName
+            ref="https://d-nb.info/gnd/119208806">Herzog</persName> beschieden <lb/>werde. Ich
+         will bei ihm zunächst nichts, als ihn durch eine Schil- <lb/>derung meines Planes in
+         Flammen bringen, dann geräth viel- <lb/>leicht auch <persName
+            ref="https://d-nb.info/gnd/117488380">V.</persName> ins Kochen u. dann wird schon was
+         überlaufen. <lb/>Was dann, – weiß ich noch nicht, – aber – liebes Herz drän- <lb/>ge
+         mich nicht, ich bin ja nicht zum Spaß hier, wenn es sich <lb/>um so wichtige Aussichten
+         handelt, muß man auch so viel Hin- <lb/>gebung haben, daß man sich nicht um ein paar
+         Tage hat. <lb/>Hier ist er rechte Platz, ein herrliches Stück Welt, prächtiges
+         <lb/>Local, schöne Stadt, u. ein ausgezeichneter Baumeister. <lb/>Ich bin nun nur
+         begierig, ob nicht noch etwas aus <placeName ref="https://d-nb.info/gnd/4025770-8"
+            >Homburg</placeName>
+         <lb/>kommt; das wäre alsdann als Keil zu benutzen. <persName
+            ref=" https://d-nb.info/gnd/117488380">V.</persName> hat <lb/>seinen gestrigen Brief
+         offenbar geschrieben, um sich nur <lb/>vor der Hand in seiner Geschäftsnoth Luft zu
+         schaffen. Jezt ist 
+            
+            <pb facs="https://collections.thulb.uni-jena.de/rsc/viewer/HisBest_derivate_00013876/SR_G25_1-07_0003.tif"/>der rechte Zeitpunkt den <persName
+            ref="https://d-nb.info/gnd/119208806">Herzog</persName> ins Feuer zu rufen. Ich
+         <lb/>möchte auch etwas vor Ungeduld verzweifeln, aber das <lb/>hilft zu gar nichts, es
+         kommt nicht darauf an, daß ich rasch <lb/>zurückkomme, sondern – daß ich reüßire. –
+         Wegen dem <lb/>Schlüßelverein habe ich an <persName
+            ref="https://d-nb.info/gnd/117019135">Sauppe</persName> geschrieben, u. daß du
+         <lb/>der <persName>Weber</persName> die Nachricht gegeben hast ist sehr recht, ich hatte
+         <lb/>sie in meiner hiesigen Hetzerei vergeßen. – Der Süd- <lb/>palast ist, wie ich
+         glaube, das Fundament für die Zukunft un- <lb/>serer Kinder u. nicht minder ein
+         Ehrendenkmal für mich <lb/>Recht gut, daß ich die Sache in <placeName
+            ref="https://d-nb.info/gnd/4065105-8">W.</placeName> so allseitig durchgedacht u.
+         <lb/>bearbeitet habe; hier staunen die fachkundigen Leute nur <lb/>wie ich alles schon
+         bedacht u. auf alles einen Bescheid in <lb/>Bereitschaft habe. – Also jezt bist du bei
+         <persName ref="https://d-nb.info/gnd/139879439"/><persName ref="p002"
+            >Hardtmuths</persName>? <lb/>Nun da vermißest du mich nicht. Ich bin wohl u. guten
+         <lb/>Muthes. Hier aber ist immer strenger Frost, helles <lb/>Wetter u. Sonnenschein,
+         heute von dem Dach des Ministe- <lb/>riums herab hatte ich einen trefflichen
+         Panoramablick <lb/>der Umgebung v. <placeName ref="https://d-nb.info/gnd/4066043-6"
+            >Wiesbaden</placeName>. Ist reizend u. würde dir <lb/>u. den Kindern herrlich
+         gefallen. – Nun mein lieb <lb/>Herz, Geduld u. ruhiges Vertrauen! Alles Drängen <lb/>u.
+         treiben hilft nichts. <lb/><persName ref="https://d-nb.info/gnd/116749296">Hr. Prof.
+            Frege</persName> habe mich gnädigst versichert, seine <lb/><persName
+               ref="https://d-nb.info/gnd/116749253">Frau</persName> werde sich freuen mich zu
+         sehen; ich werde ihm wohl <lb/>den Besuch heimgeben sollen, den er mir in <placeName
+            ref="https://d-nb.info/gnd/4065105-8">W.</placeName> nicht gemacht <lb/>hat. Ein so
+         verdienstvoller <persName ref="https://d-nb.info/gnd/116749296">Mann</persName>, an dem
+         seine <persName ref="https://d-nb.info/gnd/116749253">Frau</persName> kränkelt 
+            
+         </p>
+      </body>
+   </text>
+</TEI>
