@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">Signatur: G 25-1-3: Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</title>
-            <title type="part" n="1"></title>
+            <title type="part" n="1"/>
             <author>
                <persName ref="https://d-nb.info/gnd/118861700">
                   <surname>Froriep</surname>
@@ -93,11 +90,90 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-03_0001_test.xml?place_annotation_20230621152317105",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-06-21T13:23:17.105Z",
+	"dcterms:modified": "2023-06-21T13:23:17.105Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-03_0001_test.xml?place_annotation_20230621152317105#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-03_0001_test.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-03_0001_test.xml?place_annotation_20230621152317105#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2809346",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
-            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
-               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
-               kodiert.&lt;/p&gt; </p>
+            <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt;
+               kodiert.&amp;lt;/p&amp;gt; </p>
          </editorialDecl>
          <tagsDecl/>
       </encodingDesc>
@@ -106,10 +182,8 @@
             <language ident="deu">German</language>
          </langUsage>
          <textClass>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
-               >Gebrauchsliteratur</classCode>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
-               >Brief</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
          </textClass>
       </profileDesc>
    </teiHeader>
@@ -117,17 +191,15 @@
       <body>
          <p>
             <pb facs="https://collections.thulb.uni-jena.de/rsc/viewer/HisBest_derivate_00013876/SR_G25_1-03_0001.tif"/>
-            <placeName ref="https://d-nb.info/gnd/4066043-6">Wiesbaden</placeName> 18 Jan. 54.
+            <placeName ref="https://d-nb.info/gnd/4066043-6"><placeName key="Wiesbaden Hesse Germany" ref="https://geonames.org/2809346">Wiesbaden</placeName></placeName> 18 Jan. 54.
             <lb/>Mein liebes <persName ref="p001">Minele</persName>! Es scheint, du sollst alle Tage
             einen <lb/>Brief von mir erhalten, deswegen schreibe ich dir heute schon <lb/>wieder,
             obwohl ich dir natürlich noch nicht ein Endresultat melden <lb/>kann. Der heutige Tag
             vergieng einigermaßen mit warten. Früh <lb/>hatte ich allerhand zu schreiben, dann
-            machte ich einige Festbesuche <lb/>u. begrüßte <persName
-               ref="https://d-nb.info/gnd/116323876">Frl Doris Genast</persName>, die ich zwar mit
+            machte ich einige Festbesuche <lb/>u. begrüßte <persName ref="https://d-nb.info/gnd/116323876">Frl Doris Genast</persName>, die ich zwar mit
             verbundenem <lb/>Gesicht, aber sonst munter u. wie mir scheint zufrieden fand.
             <lb/>Nachmittags besuchte mich Hr. <persName ref=" https://d-nb.info/gnd/117488380">Geh.
-               Rth Vollpracht</persName>, der mir sagte <lb/>der <persName
-               ref="https://d-nb.info/gnd/119208806">Herzog</persName> habe mit großem Intereße von
+               Rth Vollpracht</persName>, der mir sagte <lb/>der <persName ref="https://d-nb.info/gnd/119208806">Herzog</persName> habe mit großem Intereße von
             meinem Plan Kennt- <lb/>niß genommen und wünsche sehr daß mein Plan hier zur Ausfüh-
             <lb/>rung komme; er habe ihm <persName ref=" https://d-nb.info/gnd/117488380"> (Hr.
                V.)</persName> daher den Auftrag ertheilt, mit <lb/>mir nun weiter zu verhandeln u.
@@ -140,8 +212,7 @@
             Platz an der <placeName ref="https://d-nb.info/gnd/1137229764">Wilhelms
                Allee</placeName> sei <lb/>Privat (nicht Domäne) Eigenthum, laße sich aber allerdings
             mit <lb/>Hülfe des Expropriations Gesetzes erwerben, werde aber eine <lb/>Kaufsumme von
-            100,000 Fl erfordern u. diese seie, da der <persName
-               ref=" https://d-nb.info/gnd/119208806">Herzog</persName>
+            100,000 Fl erfordern u. diese seie, da der <persName ref=" https://d-nb.info/gnd/119208806">Herzog</persName>
             <lb/>jezt nicht mehr<note type="editorial">eingef.: mehr</note> ohne Bewilligung der
             Stände über das Domänenvermö- <lb/>gen verfügen könne, für seine Privatschatulle zu
             groß. Ich <lb/>hätte beinahe gelacht, habe es aber nicht gethan, sondern suchte
@@ -150,12 +221,9 @@
             Verabredung, ich wolle ihm nach weiterer Überlegung mei- <lb/>ne Forderungen kundgeben,
             mündlich oder schriftlich. Als er fort war <lb/>überlegte ich mir die Sache u. kam auf
             mehreres, worüber ich Rück- <lb/>sprache mit terrainkundigen Leuten v. Ort nöthig hatte.
-            Deswegen <lb/>gieng ich zu <persName ref=" https://d-nb.info/gnd/117019135"
-               >Sauppes</persName>&quot; Freund, <persName ref=" https://d-nb.info/gnd/100370896"
-               >Hr. v. Löw</persName>&quot;, der hier übrigens <lb/>keinen Einfluß hat; diesen traf
+            Deswegen <lb/>gieng ich zu <persName ref=" https://d-nb.info/gnd/117019135">Sauppes</persName>" Freund, <persName ref=" https://d-nb.info/gnd/100370896">Hr. v. Löw</persName>", der hier übrigens <lb/>keinen Einfluß hat; diesen traf
             ich in seinem schönen ober- <lb/>halb des Curhauses gelegenen Landhaus nicht zu Haus,
-            gieng <lb/>also zu Kirchenrath <persName ref=" https://d-nb.info/gnd/117202061"
-               >Schulz</persName>, den ich zu Hause fand; mit ihm sprach <lb/>ich mancherlei über
+            gieng <lb/>also zu Kirchenrath <persName ref=" https://d-nb.info/gnd/117202061">Schulz</persName>, den ich zu Hause fand; mit ihm sprach <lb/>ich mancherlei über
             die Sache, kam aber doch nicht weiter, endlich <lb/>fragte ich ihn, ob er denn nicht
             vielleicht einen tüchtigen Archi- <lb/>tecten mich empfehlen könne; da führte mich
             sofort selbst zu <lb/>einem <persName ref=" https://d-nb.info/gnd/119106310">Baurath
@@ -163,38 +231,30 @@
             der meinen Plan außeror- <lb/>dentlich goutirte, u. mit dem ich alles besprach, was mir
             <lb/>zu wißen nöthig war. Ich habe nun zunächst 3 Arten vor mir, <lb/>wie ich die Sache
             weiter zu behandeln denke. Durchgeführt <lb/>wird sie, daran zweifle ich so wenig, wie
-               <persName ref=" https://d-nb.info/gnd/117202061">Schulz</persName> u. <persName
-               ref=" https://d-nb.info/gnd/119106310">Boos</persName>. <lb/>Lezter ließ mich gar
+               <persName ref=" https://d-nb.info/gnd/117202061">Schulz</persName> u. <persName ref=" https://d-nb.info/gnd/119106310">Boos</persName>. <lb/>Lezter ließ mich gar
             nicht fort, so daß ich eben erst (1/2 11) <lb/>nach Hause gekommen bin. Ich habe durch
             ihn das Terrain <lb/>sehr viel beßer kennen gelernt u. wie ich glaube einen
             <lb/>eifrigen Förderer meiner Idee gefunden. Morgen früh schrei- <lb/>be ich nun
             zunächst an <persName ref=" https://d-nb.info/gnd/117488380">V.</persName> Übermorgen
-            aber fahre ich wahrschein- <lb/>scheinlich nach <placeName
-               ref=" https://d-nb.info/gnd/4664536-6">Schaumburg</placeName> zum <persName
-               ref=" https://d-nb.info/gnd/119019116">Erzherzog Stephan</persName>, doch weiß
+            aber fahre ich wahrschein- <lb/>scheinlich nach <placeName ref=" https://d-nb.info/gnd/4664536-6">Schaumburg</placeName> zum <persName ref=" https://d-nb.info/gnd/119019116">Erzherzog Stephan</persName>, doch weiß
             <lb/>ich dieß noch nicht. Hoffentlich erhalte ich morgen einen Brief <lb/>von dir
                (<placeName ref=" https://d-nb.info/gnd/4066043-6">Wiesbaden</placeName>. im Adler
             No. 7). Für heute schließe ich, es <lb/>ist schon zu kalt in meiner Stube. Das Wetter
             übrigens <lb/>prächtig. Gute Nacht. Morgen früh füge ich noch einiges bei. <lb/>W. 19/1
             54. Die Bekanntschaft des <persName ref=" https://d-nb.info/gnd/119106310">Baurath
                Boos</persName> gestern Abend hat <lb/>mir viel Freude gemacht; ein geistvoller Mann,
-            der jezt hier <lb/>eine <placeName ref=" https://d-nb.info/gnd/7580068-8"
-               >protestantische Kirche</placeName> baut u. mehrere schöne öffentliche <lb/>Gebäude
+            der jezt hier <lb/>eine <placeName ref=" https://d-nb.info/gnd/7580068-8">protestantische Kirche</placeName> baut u. mehrere schöne öffentliche <lb/>Gebäude
             ausgeführt hat, u. a. das Ministerial Gebäude <lb/>welches jeder größten Stadt würdig
             wäre. Dabei war er von <lb/>meinem Plan so ergriffen, daß er schon dadurch mich sehr
-            <lb/>für sich eingenommen hat. Er ist der Baumeister des <persName
-               ref=" https://d-nb.info/gnd/119019116">Erzher- <lb/>zog Stephan</persName>, der in
+            <lb/>für sich eingenommen hat. Er ist der Baumeister des <persName ref=" https://d-nb.info/gnd/119019116">Erzher- <lb/>zog Stephan</persName>, der in
                <placeName ref=" https://d-nb.info/gnd/1104500655">Schaumburg</placeName> an der
                <placeName ref=" https://d-nb.info/gnd/4034102-1">Lahn</placeName> gewißermaßen
             <lb/>in der Verbannung lebt. Dieser hat sehr viel Geld u. da fiel <lb/>mir ein ihm die
             Proposition zu machen, davon ca 2 Millionen <lb/>in dem Südpalast anzutragen, um daraus
-            höhere Procente <lb/>zu ziehen. Dadurch kam ich an <persName
-               ref=" https://d-nb.info/gnd/119106310">Baurath Boos</persName>; ich wollte je-
-            <lb/>mand über des <persName ref=" https://d-nb.info/gnd/119019116"
-               >Erzherzogs</persName> Persönlichkeit sprechen; nun will <lb/>ich morgen einmal nach
+            höhere Procente <lb/>zu ziehen. Dadurch kam ich an <persName ref=" https://d-nb.info/gnd/119106310">Baurath Boos</persName>; ich wollte je-
+            <lb/>mand über des <persName ref=" https://d-nb.info/gnd/119019116">Erzherzogs</persName> Persönlichkeit sprechen; nun will <lb/>ich morgen einmal nach
                <placeName ref=" https://d-nb.info/gnd/4664536-6">Schaumburg</placeName> fahren,
-            heute aber zunächst <lb/>mit <persName ref=" https://d-nb.info/gnd/117488380"
-               >Vollpracht</persName> weiter verhandeln und sehen wie weit ich <lb/>hier komme.
+            heute aber zunächst <lb/>mit <persName ref=" https://d-nb.info/gnd/117488380">Vollpracht</persName> weiter verhandeln und sehen wie weit ich <lb/>hier komme.
                <placeName ref=" https://d-nb.info/gnd/4066043-6">Wiesbaden</placeName> liegt sehr
             schön, u. das Local das <lb/>ich im Auge habe (es heißt: der warme Damm) ist ganz wie zu
             <lb/>meinem Plane gemacht, es fehlt auch nicht eine einzige Be- <lb/>dingung. Nun, mein
