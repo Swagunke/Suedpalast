@@ -91,7 +91,165 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-01_0002.xml?person_annotation_20230623085607988",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-06-23T06:56:07.988Z",
+	"dcterms:modified": "2023-06-23T06:56:07.988Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-01_0002.xml?person_annotation_20230623085607988#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-01_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-01_0002.xml?person_annotation_20230623085607988#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/344168230316553080009/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-01_0002.xml?person_annotation_20230623085654431",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-06-23T06:56:54.431Z",
+	"dcterms:modified": "2023-06-23T06:56:54.431Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-01_0002.xml?person_annotation_20230623085654431#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-01_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-01_0002.xml?person_annotation_20230623085654431#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/76439297/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
                href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt;
@@ -111,7 +269,7 @@
    </teiHeader>
    <text>
       <body>
-         <p>&amp;lt;lb/&amp;gt;M. hat mir Karten für den Leibarzt xxx es xxx ein-&amp;lt;lb/&amp;gt;flußreiche Leute mitgegeben. Voyons! – Nachher&amp;lt;lb/&amp;gt;wollte ich Fritsch besuchen, fand ihn aber nicht zu Hause. –&amp;lt;lb/&amp;gt;Später gieng ich mit Mappes in den Bürgerverein, ein&amp;lt;lb/&amp;gt;brillantes Erholungslocal, das Palais des Reichsverwesers&amp;lt;lb/&amp;gt;welches die Gesellschaft für 130,000 Fl angekauft hat.&amp;lt;lb/&amp;gt;Fürstlich u. großartig aber nicht minder Qualmhaltig.&amp;lt;lb/&amp;gt;Ich unterhielt mich mit M. gut, er ist meiner Art,&amp;lt;lb/&amp;gt;treibt mancherlei was ihn nichts angeht u. andere ihm&amp;lt;lb/&amp;gt;nicht danken. Bei so verschiedenem habe ich indeß nicht&amp;lt;lb/&amp;gt;unintereßante Notizen gesammelt. – Jezt habe&amp;lt;lb/&amp;gt;ich Thee getrunken u. die 3t Semel aus W. dazu gegeßen&amp;lt;lb/&amp;gt;und in dem ich Dir und den Kindern nun nur noch die herz-&amp;lt;lb/&amp;gt;lichsten Grüße sage, bitte ich Dich mir nach Wiesbaden&amp;lt;lb/&amp;gt;in den Adler zu schreiben. Ich frankire nicht, aber Du.&amp;lt;lb/&amp;gt;Hoffentlich geht es unserem lieben August gut, grüße ihn&amp;lt;lb/&amp;gt;auch, den guten Buben. Jetzt will ich den Brief noch&amp;lt;lb/&amp;gt;selbst auf der Post abgeben. ½ 10 Uhr. Bleibt alle&amp;lt;lb/&amp;gt;gesund u. seid munter u. vergnügt.&amp;lt;lb/&amp;gt;Dein tr. Robert&amp;lt;lb/&amp;gt;&amp;lt;lb/&amp;gt;Ich unterhielt mich mit M. gut, er ist</p>
+         <p>&amp;lt;lb/&amp;gt;<persName key="Mappes, Johannes Michael" ref="http://viaf.org/viaf/344168230316553080009/" cert="high" type="real">M.</persName> hat mir Karten für den Leibarzt xxx es xxx ein-&amp;lt;lb/&amp;gt;flußreiche Leute mitgegeben. Voyons! – Nachher&amp;lt;lb/&amp;gt;wollte ich Fritsch besuchen, fand ihn aber nicht zu Hause. –&amp;lt;lb/&amp;gt;Später gieng ich mit Mappes in den Bürgerverein, ein&amp;lt;lb/&amp;gt;brillantes Erholungslocal, das Palais des Reichsverwesers&amp;lt;lb/&amp;gt;welches die Gesellschaft für 130,000 Fl angekauft hat.&amp;lt;lb/&amp;gt;Fürstlich u. großartig aber nicht minder Qualmhaltig.&amp;lt;lb/&amp;gt;Ich unterhielt mich mit M. gut, er ist meiner Art,&amp;lt;lb/&amp;gt;treibt mancherlei was ihn nichts angeht u. andere ihm&amp;lt;lb/&amp;gt;nicht danken. Bei so verschiedenem habe ich indeß nicht&amp;lt;lb/&amp;gt;unintereßante Notizen gesammelt. – Jezt habe&amp;lt;lb/&amp;gt;ich Thee getrunken u. die 3t Semel aus W. dazu gegeßen&amp;lt;lb/&amp;gt;und in dem ich Dir und den Kindern nun nur noch die herz-&amp;lt;lb/&amp;gt;lichsten Grüße sage, bitte ich Dich mir nach Wiesbaden&amp;lt;lb/&amp;gt;in den Adler zu schreiben. Ich frankire nicht, aber Du.&amp;lt;lb/&amp;gt;Hoffentlich geht es unserem lieben August gut, grüße ihn&amp;lt;lb/&amp;gt;auch, den guten Buben. Jetzt will ich den Brief noch&amp;lt;lb/&amp;gt;selbst auf der Post abgeben. ½ 10 Uhr. Bleibt alle&amp;lt;lb/&amp;gt;gesund u. seid munter u. vergnügt.&amp;lt;lb/&amp;gt;Dein tr. <persName key="Froriep, Robert, 1804-1861" ref="http://viaf.org/viaf/76439297/">Robert</persName>&amp;lt;lb/&amp;gt;&amp;lt;lb/&amp;gt;Ich unterhielt mich mit M. gut, er ist</p>
       </body>
    </text>
 </TEI>
