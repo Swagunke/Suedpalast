@@ -90,7 +90,87 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-01_0001.xml?place_annotation_20230623064458843",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-06-23T04:44:58.843Z",
+	"dcterms:modified": "2023-06-23T04:44:58.843Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-01_0001.xml?place_annotation_20230623064458843#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-01_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-01_0001.xml?place_annotation_20230623064458843#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q1794",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
                href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt;
@@ -110,7 +190,7 @@
    </teiHeader>
    <text>
       <body>
-         <p>              &amp;lt;lb/&amp;gt;&amp;lt;lb/&amp;gt;Frankfurt 16. Jan. 1854&amp;lt;lb/&amp;gt;&amp;lt;lb/&amp;gt;Liebstes &amp;lt;persName ref=“p001“&amp;gt;Minele&amp;lt;/persName&amp;gt;! Ich bin heute Morgen 11 Uhr ganz&amp;lt;lb/&amp;gt;gut hier angekommen, ohne zu frieren oder sonstiges Unge-&amp;lt;lb/&amp;gt;mach. Nachdem ich mich gesäubert machte ich im Sonnenschein&amp;lt;lb/&amp;gt;übrigens bei ziemlicher Kälte (so daß es selbst im Sonnen-&amp;lt;lb/&amp;gt;schein nicht aufthaute) noch einen kleinen Spatziergang&amp;lt;lb/&amp;gt;über die Zeile. Ich aß im Weidenbusch mit Begleitung&amp;lt;lb/&amp;gt;xxx, xxx Offiziers Unterhaltung. Nach Tisch&amp;lt;lb/&amp;gt;gieng ich zu &amp;lt;persName ref=“ https://d-nb.info/gnd/116738243“&amp;gt;Mappes&amp;lt;/persName&amp;gt;, der mich sehr freundlich empfing u.&amp;lt;lb/&amp;gt;mit dem ich, nachdem ich ihm u. seinen 3 Töchtern nebst&amp;lt;lb/&amp;gt;Gesellschafterin bei Tisch Gesellschaft geleistet&amp;lt;lb/&amp;gt;hatte, Kaffee trank und meine Geschichte des ausführlich-&amp;lt;lb/&amp;gt;sten durchsprach; er schien sich sehr für die Sache, nicht bloß&amp;lt;lb/&amp;gt;für meine Person dabei zu interessiren. Sein Rath,&amp;lt;lb/&amp;gt;welchem ich auch nach seinen Gründen a,&amp;lt;lb/&amp;gt;um so mehr als er mir Hr. Rothschild anders schilderte&amp;lt;lb/&amp;gt;als Hr. Rost vollkommen beistimmen mußte, ist, daß ich&amp;lt;lb/&amp;gt;zuerst nach Wiesbaden gehe u. dort für meinen Plan&amp;lt;lb/&amp;gt;Boden gewinne, damit er nicht trotz aller Durcharbeitung&amp;lt;lb/&amp;gt;den Eindruck wie ein bloßes Project mache; M.&amp;lt;lb/&amp;gt;meint dort werde ich Willfahrigkeit finden u. dann&amp;lt;lb/&amp;gt;sei auch das Gelingen bei den Geldleuten eher zu er-&amp;lt;lb/&amp;gt;warten. pp Also ich gehe morgen früh nach WiesbadenHier die Transkription
+         <p>              &amp;lt;lb/&amp;gt;&amp;lt;lb/&amp;gt;<placeName key="Frankfurt" ref="http://www.wikidata.org/entity/Q1794" cert="high">Frankfurt<precision match="@ref" precision="high"/></placeName> 16. Jan. 1854&amp;lt;lb/&amp;gt;&amp;lt;lb/&amp;gt;Liebstes &amp;lt;persName ref=“p001“&amp;gt;Minele&amp;lt;/persName&amp;gt;! Ich bin heute Morgen 11 Uhr ganz&amp;lt;lb/&amp;gt;gut hier angekommen, ohne zu frieren oder sonstiges Unge-&amp;lt;lb/&amp;gt;mach. Nachdem ich mich gesäubert machte ich im Sonnenschein&amp;lt;lb/&amp;gt;übrigens bei ziemlicher Kälte (so daß es selbst im Sonnen-&amp;lt;lb/&amp;gt;schein nicht aufthaute) noch einen kleinen Spatziergang&amp;lt;lb/&amp;gt;über die Zeile. Ich aß im Weidenbusch mit Begleitung&amp;lt;lb/&amp;gt;xxx, xxx Offiziers Unterhaltung. Nach Tisch&amp;lt;lb/&amp;gt;gieng ich zu &amp;lt;persName ref=“ https://d-nb.info/gnd/116738243“&amp;gt;Mappes&amp;lt;/persName&amp;gt;, der mich sehr freundlich empfing u.&amp;lt;lb/&amp;gt;mit dem ich, nachdem ich ihm u. seinen 3 Töchtern nebst&amp;lt;lb/&amp;gt;Gesellschafterin bei Tisch Gesellschaft geleistet&amp;lt;lb/&amp;gt;hatte, Kaffee trank und meine Geschichte des ausführlich-&amp;lt;lb/&amp;gt;sten durchsprach; er schien sich sehr für die Sache, nicht bloß&amp;lt;lb/&amp;gt;für meine Person dabei zu interessiren. Sein Rath,&amp;lt;lb/&amp;gt;welchem ich auch nach seinen Gründen a,&amp;lt;lb/&amp;gt;um so mehr als er mir Hr. Rothschild anders schilderte&amp;lt;lb/&amp;gt;als Hr. Rost vollkommen beistimmen mußte, ist, daß ich&amp;lt;lb/&amp;gt;zuerst nach Wiesbaden gehe u. dort für meinen Plan&amp;lt;lb/&amp;gt;Boden gewinne, damit er nicht trotz aller Durcharbeitung&amp;lt;lb/&amp;gt;den Eindruck wie ein bloßes Project mache; M.&amp;lt;lb/&amp;gt;meint dort werde ich Willfahrigkeit finden u. dann&amp;lt;lb/&amp;gt;sei auch das Gelingen bei den Geldleuten eher zu er-&amp;lt;lb/&amp;gt;warten. pp Also ich gehe morgen früh nach WiesbadenHier die Transkription
          </p>
       </body>
    </text>
