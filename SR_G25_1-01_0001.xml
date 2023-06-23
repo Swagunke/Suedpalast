@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">Signatur: G 25-1-1: Brief</title>
-            <title type="part" n="1"></title>
+            <title type="part" n="1"/>
             <author>
                <persName ref="https://d-nb.info/gnd/118861700">
                   <surname>Froriep</surname>
@@ -66,7 +63,7 @@
                      </author>
                </titleStmt>
                <extent>
-                  <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
+                  <measure type="pages"/> <!-- hier den Umfang eingeben -->
                </extent>
                <publicationStmt>
                   <publisher/>
@@ -93,11 +90,11 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
          <editorialDecl>
-            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
-               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
-               kodiert.&lt;/p&gt; </p>
+            <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt;
+               kodiert.&amp;lt;/p&amp;gt; </p>
          </editorialDecl>
          <tagsDecl/>
       </encodingDesc>
@@ -106,17 +103,14 @@
             <language ident="deu">German</language>
          </langUsage>
          <textClass>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
-               >Gebrauchsliteratur</classCode>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
-               >Brief</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
          </textClass>
       </profileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>
-            Hier die Transkription
+         <p>              &amp;lt;lb/&amp;gt;&amp;lt;lb/&amp;gt;Frankfurt 16. Jan. 1854&amp;lt;lb/&amp;gt;&amp;lt;lb/&amp;gt;Liebstes &amp;lt;persName ref=“p001“&amp;gt;Minele&amp;lt;/persName&amp;gt;! Ich bin heute Morgen 11 Uhr ganz&amp;lt;lb/&amp;gt;gut hier angekommen, ohne zu frieren oder sonstiges Unge-&amp;lt;lb/&amp;gt;mach. Nachdem ich mich gesäubert machte ich im Sonnenschein&amp;lt;lb/&amp;gt;übrigens bei ziemlicher Kälte (so daß es selbst im Sonnen-&amp;lt;lb/&amp;gt;schein nicht aufthaute) noch einen kleinen Spatziergang&amp;lt;lb/&amp;gt;über die Zeile. Ich aß im Weidenbusch mit Begleitung&amp;lt;lb/&amp;gt;xxx, xxx Offiziers Unterhaltung. Nach Tisch&amp;lt;lb/&amp;gt;gieng ich zu &amp;lt;persName ref=“ https://d-nb.info/gnd/116738243“&amp;gt;Mappes&amp;lt;/persName&amp;gt;, der mich sehr freundlich empfing u.&amp;lt;lb/&amp;gt;mit dem ich, nachdem ich ihm u. seinen 3 Töchtern nebst&amp;lt;lb/&amp;gt;Gesellschafterin bei Tisch Gesellschaft geleistet&amp;lt;lb/&amp;gt;hatte, Kaffee trank und meine Geschichte des ausführlich-&amp;lt;lb/&amp;gt;sten durchsprach; er schien sich sehr für die Sache, nicht bloß&amp;lt;lb/&amp;gt;für meine Person dabei zu interessiren. Sein Rath,&amp;lt;lb/&amp;gt;welchem ich auch nach seinen Gründen a,&amp;lt;lb/&amp;gt;um so mehr als er mir Hr. Rothschild anders schilderte&amp;lt;lb/&amp;gt;als Hr. Rost vollkommen beistimmen mußte, ist, daß ich&amp;lt;lb/&amp;gt;zuerst nach Wiesbaden gehe u. dort für meinen Plan&amp;lt;lb/&amp;gt;Boden gewinne, damit er nicht trotz aller Durcharbeitung&amp;lt;lb/&amp;gt;den Eindruck wie ein bloßes Project mache; M.&amp;lt;lb/&amp;gt;meint dort werde ich Willfahrigkeit finden u. dann&amp;lt;lb/&amp;gt;sei auch das Gelingen bei den Geldleuten eher zu er-&amp;lt;lb/&amp;gt;warten. pp Also ich gehe morgen früh nach WiesbadenHier die Transkription
          </p>
       </body>
    </text>
