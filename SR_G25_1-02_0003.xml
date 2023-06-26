@@ -91,7 +91,87 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0003.xml?place_annotation_20230626104232007",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-06-26T08:42:32.007Z",
+	"dcterms:modified": "2023-06-26T08:42:32.007Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0003.xml?place_annotation_20230626104232007#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0003.xml?place_annotation_20230626104232007#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q16054321",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
                href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt;
@@ -111,7 +191,7 @@
    </teiHeader>
    <text>
       <body>
-         <p>&amp;lt;lb/&amp;gt;arbeitet, trotz der dazu erforderlichen bedeutenden Summen habe&amp;lt;lb/&amp;gt;ich über die Ausführbarkeit dennoch nicht den mindesten Zweifel&amp;lt;lb/&amp;gt;u. so befinde ich mich zu der Sache in demselben Verhältniß&amp;lt;lb/&amp;gt;wie ein Erfinder zu seiner Erfindung, ich betrachte die Durch-&amp;lt;lb/&amp;gt;führung als eine Aufgabe, die mir geworden sei u. die ich auch&amp;lt;lb/&amp;gt;bewerkstelligen werde. Zunächst handle es sich nun nur&amp;lt;lb/&amp;gt;darum, daß ich dafür den Boden gewinne, da eine solche&amp;lt;lb/&amp;gt;Sache, sie möge noch so richtig gedacht sein, für den Geldmann&amp;lt;lb/&amp;gt;lediglich Project bleibe, so lange sich die Knüpfung an bestimm-&amp;lt;lb/&amp;gt;te Localitäten noch nicht nachweisen laße. Erst dadurch ge-&amp;lt;lb/&amp;gt;winne ein Project die Natur eines Planes. In der Beziehung&amp;lt;lb/&amp;gt;hätte ich mein Auge zunächst auf 3 Orte gerichtet (&amp;lt;placeName ref=“ https://d-nb.info/gnd/4066043-6“&amp;gt;Wies-&amp;lt;lb/&amp;gt;baden&amp;lt;/placeName&amp;gt;, &amp;lt;placeName ref=“ https://d-nb.info/gnd/4000003-5“&amp;gt;Aachen&amp;lt;/placeName&amp;gt;, &amp;lt;placeName ref=“ https://d-nb.info/gnd/65461-9“&amp;gt;Baden Baden&amp;lt;/placeName&amp;gt;) u. deswegen sei ich jetzt hier.&amp;lt;lb/&amp;gt;&amp;lt;persName ref=“ https://d-nb.info/gnd/117488380“&amp;gt;Hr. V.&amp;lt;/placeName&amp;gt; ließ sich nun meinen Plan vollständig entwickeln&amp;lt;lb/&amp;gt;sprach sich sehr günstig u. anerkennend darüber aus, schilderte&amp;lt;lb/&amp;gt;die darauf bezüglichen hiesigen Verhältniße genau wie&amp;lt;lb/&amp;gt;&amp;lt;persName ref=“ https://d-nb.info/gnd/117202061“&amp;gt;Schulz&amp;lt;/persName&amp;gt;, gieng sodann auf die Frage wegen Beschaffung&amp;lt;lb/&amp;gt;der Gelder über, ließ sich andeuten, was ich für diese&amp;lt;lb/&amp;gt;Sache zunächst nun von der Regierung erwarte, wobei ich&amp;lt;lb/&amp;gt;nur sagte: ich wünsche daß dieselbe in irgend einer&amp;lt;lb/&amp;gt;nachweisbaren Weise der Sache entgegen komme, die&amp;lt;lb/&amp;gt;Art u. Weise laße sich sehr verschieden denken, aber&amp;lt;lb/&amp;gt;eine Bethätigung resp. Betheiligung der Regierung&amp;lt;lb/&amp;gt;sei das erste u. unerläßliche, was allem anderen vorangehen&amp;lt;lb/&amp;gt;müße. Dieß erkannte er an u. bot nun selbst an, er habe&amp;lt;lb/&amp;gt;Morgen Vortrag beim &amp;lt;persName ref=“ https://d-nb.info/gnd/119208806“&amp;gt;Herzog&amp;lt;/persName&amp;gt;, da wolle er die Sache vortragen&amp;lt;lb/&amp;gt;(wozu ich ihm das gedruckte Pro Memoria übergab) u. nach&amp;lt;lb/&amp;gt;dem Vortrag wolle er zu mir kommen u. mir das Resul-&amp;lt;lb/&amp;gt;tat mittheilen u. dann könnten wir über die nächsten Schritte&amp;lt;lb/&amp;gt;Wahl des Locals u. Beschaffung der Mittel sprechen. Auf die&amp;lt;lb/&amp;gt;Berechnungen gieng er vor der Hand nicht ein, das sei eine&amp;lt;lb/&amp;gt;vom 1t Entschluß getrennte Sache, über die man dann leichter&amp;lt;lb/&amp;gt;wegkomme, wenn man recht wiße, wie der Entschluß des&amp;lt;lb/&amp;gt;&amp;lt;persName ref=“ https://d-nb.info/gnd/119208806“&amp;gt;Herzog’s&amp;lt;/persName&amp;gt; über die Sache im Allgemeinen sei. Nun aber&amp;lt;lb/&amp;gt;bot er mir an, wir wollten einen Spatziergang nach den&amp;lt;lb/&amp;gt;Theilen der Stadt Umgebung machen die sich etwa für meine&amp;lt;lb/&amp;gt;Unternehmung paßen möchten. So liefen wir denn bis 5 Uhr&amp;lt;lb/&amp;gt;um die ganze Stadt herum u. besichtigten die von mir&amp;lt;lb/&amp;gt;schon angesehenen Localitäten, über die ich lediglich ihn&amp;lt;lb/&amp;gt;sprechen ließ. Er besprach vorzugsweis das Local was in der&amp;lt;lb/&amp;gt;That das vorzüglichste dazu wäre, gerade von entsprechender&amp;lt;lb/&amp;gt;Größe, neben dem Kurhaus längs der Kur Allee. Zwischen&amp;lt;lb/&amp;gt;Stadt u. den Kur Anlagen, ein ebener Thalboden, durch wel-&amp;lt;lb/&amp;gt;chen ein Bach fließt, der sämmtliches warmes Waßer der&amp;lt;lb/&amp;gt;Thermalquellen aufnimmt; dieses Areal von 22 Morgen&amp;lt;lb/&amp;gt;(wie unser Garten) enthält jezt eine Anzahl Privatgär-</p>
+         <p>&amp;lt;lb/&amp;gt;arbeitet, trotz der dazu erforderlichen bedeutenden Summen habe&amp;lt;lb/&amp;gt;ich über die Ausführbarkeit dennoch nicht den mindesten Zweifel&amp;lt;lb/&amp;gt;u. so befinde ich mich zu der Sache in demselben Verhältniß&amp;lt;lb/&amp;gt;wie ein Erfinder zu seiner Erfindung, ich betrachte die Durch-&amp;lt;lb/&amp;gt;führung als eine Aufgabe, die mir geworden sei u. die ich auch&amp;lt;lb/&amp;gt;bewerkstelligen werde. Zunächst handle es sich nun nur&amp;lt;lb/&amp;gt;darum, daß ich dafür den Boden gewinne, da eine solche&amp;lt;lb/&amp;gt;Sache, sie möge noch so richtig gedacht sein, für den Geldmann&amp;lt;lb/&amp;gt;lediglich Project bleibe, so lange sich die Knüpfung an bestimm-&amp;lt;lb/&amp;gt;te Localitäten noch nicht nachweisen laße. Erst dadurch ge-&amp;lt;lb/&amp;gt;winne ein Project die Natur eines Planes. In der Beziehung&amp;lt;lb/&amp;gt;hätte ich mein Auge zunächst auf 3 Orte gerichtet (&amp;lt;placeName ref=“ https://d-nb.info/gnd/4066043-6“&amp;gt;Wies-&amp;lt;lb/&amp;gt;baden&amp;lt;/placeName&amp;gt;, &amp;lt;placeName ref=“ https://d-nb.info/gnd/4000003-5“&amp;gt;Aachen&amp;lt;/placeName&amp;gt;, &amp;lt;placeName ref=“ https://d-nb.info/gnd/65461-9“&amp;gt;Baden Baden&amp;lt;/placeName&amp;gt;) u. deswegen sei ich jetzt hier.&amp;lt;lb/&amp;gt;&amp;lt;persName ref=“ https://d-nb.info/gnd/117488380“&amp;gt;Hr. V.&amp;lt;/placeName&amp;gt; ließ sich nun meinen Plan vollständig entwickeln&amp;lt;lb/&amp;gt;sprach sich sehr günstig u. anerkennend darüber aus, schilderte&amp;lt;lb/&amp;gt;die darauf bezüglichen hiesigen Verhältniße genau wie&amp;lt;lb/&amp;gt;&amp;lt;persName ref=“ https://d-nb.info/gnd/117202061“&amp;gt;Schulz&amp;lt;/persName&amp;gt;, gieng sodann auf die Frage wegen Beschaffung&amp;lt;lb/&amp;gt;der Gelder über, ließ sich andeuten, was ich für diese&amp;lt;lb/&amp;gt;Sache zunächst nun von der Regierung erwarte, wobei ich&amp;lt;lb/&amp;gt;nur sagte: ich wünsche daß dieselbe in irgend einer&amp;lt;lb/&amp;gt;nachweisbaren Weise der Sache entgegen komme, die&amp;lt;lb/&amp;gt;Art u. Weise laße sich sehr verschieden denken, aber&amp;lt;lb/&amp;gt;eine Bethätigung resp. Betheiligung der Regierung&amp;lt;lb/&amp;gt;sei das erste u. unerläßliche, was allem anderen vorangehen&amp;lt;lb/&amp;gt;müße. Dieß erkannte er an u. bot nun selbst an, er habe&amp;lt;lb/&amp;gt;Morgen Vortrag beim &amp;lt;persName ref=“ https://d-nb.info/gnd/119208806“&amp;gt;Herzog&amp;lt;/persName&amp;gt;, da wolle er die Sache vortragen&amp;lt;lb/&amp;gt;(wozu ich ihm das gedruckte Pro Memoria übergab) u. nach&amp;lt;lb/&amp;gt;dem Vortrag wolle er zu mir kommen u. mir das Resul-&amp;lt;lb/&amp;gt;tat mittheilen u. dann könnten wir über die nächsten Schritte&amp;lt;lb/&amp;gt;Wahl des Locals u. Beschaffung der Mittel sprechen. Auf die&amp;lt;lb/&amp;gt;Berechnungen gieng er vor der Hand nicht ein, das sei eine&amp;lt;lb/&amp;gt;vom 1t Entschluß getrennte Sache, über die man dann leichter&amp;lt;lb/&amp;gt;wegkomme, wenn man recht wiße, wie der Entschluß des&amp;lt;lb/&amp;gt;&amp;lt;persName ref=“ https://d-nb.info/gnd/119208806“&amp;gt;Herzog’s&amp;lt;/persName&amp;gt; über die Sache im Allgemeinen sei. Nun aber&amp;lt;lb/&amp;gt;bot er mir an, wir wollten einen Spatziergang nach den&amp;lt;lb/&amp;gt;Theilen der Stadt Umgebung machen die sich etwa für meine&amp;lt;lb/&amp;gt;Unternehmung paßen möchten. So liefen wir denn bis 5 Uhr&amp;lt;lb/&amp;gt;um die ganze Stadt herum u. besichtigten die von mir&amp;lt;lb/&amp;gt;schon angesehenen Localitäten, über die ich lediglich ihn&amp;lt;lb/&amp;gt;sprechen ließ. Er besprach vorzugsweis das Local was in der&amp;lt;lb/&amp;gt;That das vorzüglichste dazu wäre, gerade von entsprechender&amp;lt;lb/&amp;gt;Größe, neben dem <placeName key="Kurhaus Wiesbaden" ref="http://www.wikidata.org/entity/Q16054321" cert="high">Kurhaus<precision match="@ref" precision="high"/></placeName> längs der Kur Allee. Zwischen&amp;lt;lb/&amp;gt;Stadt u. den Kur Anlagen, ein ebener Thalboden, durch wel-&amp;lt;lb/&amp;gt;chen ein Bach fließt, der sämmtliches warmes Waßer der&amp;lt;lb/&amp;gt;Thermalquellen aufnimmt; dieses Areal von 22 Morgen&amp;lt;lb/&amp;gt;(wie unser Garten) enthält jezt eine Anzahl Privatgär-</p>
       </body>
    </text>
 </TEI>
