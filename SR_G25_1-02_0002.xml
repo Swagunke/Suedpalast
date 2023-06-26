@@ -171,6 +171,164 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230626085013603",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-06-26T06:50:13.603Z",
+	"dcterms:modified": "2023-06-26T06:50:13.603Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230626085013603#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230626085013603#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/8159462/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230626085042550",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-06-26T06:50:42.550Z",
+	"dcterms:modified": "2023-06-26T06:50:42.550Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230626085042550#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230626085042550#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/8159462/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -191,7 +349,7 @@
    </teiHeader>
    <text>
       <body>
-         <p>&amp;lt;lb/&amp;gt;Dieß, dass er denn auch mit solcher Ausführlichkeit, Klarheit und&amp;lt;lb/&amp;gt;Präcicision, daß ich dadurch auch das größte Vertrauen in die&amp;lt;lb/&amp;gt;Richtigkeit bekam. Dabei bestach er mich einerseits durch das&amp;lt;lb/&amp;gt;sehr lebhafte Intereße, das er an meinem Plan nahm, deßen&amp;lt;lb/&amp;gt;Bedeutung für &amp;lt;placeName ref=" https://d-nb.info/gnd/4066043-6"&amp;gt;Wiesbaden&amp;lt;/placeName" er vollkommen würdigte, andern-&amp;lt;lb/&amp;gt;theils dadurch daß er sich in seinen Mittheilungen ganz objec-&amp;lt;lb/&amp;gt;tiv hielt und alles vermied,  was einer directen Einwir-&amp;lt;lb/&amp;gt;kung auf meine weiteren Entschlüße ähnlich gesehen&amp;lt;lb/&amp;gt;hätte, so daß ich von ihm in der That ganz befriedigt war;&amp;lt;lb/&amp;gt;Nachdem wir alle diese hiesigen Verhältniße nach allen&amp;lt;lb/&amp;gt;Richtungen durchgesprochen hatten, sagte er, nun werde ich wohl&amp;lt;lb/&amp;gt;an fait sein u. nun möchte ich mich selbst entschließen und&amp;lt;lb/&amp;gt;ihm sagen,  welchen Weg ich einschlagen wolle. Dieß that ich&amp;lt;lb/&amp;gt;u. als er wußte, was ich wollte, sagte er: „Diesen Weg halte&amp;lt;lb/&amp;gt;ich auch für den richtigen u. nun wollen wir, wenn es Ihnen&amp;lt;lb/&amp;gt;recht ist gleich noch zu dem Herren gehen.“ Wir giengen&amp;lt;lb/&amp;gt;auf das Finanz Ministerium, der Minister &amp;lt;persName ref= "https://d-nb.info/gnd/117488380 "&amp;gt;(Gh Rth Volpracht)&amp;lt;/persName&amp;gt;&amp;lt;lb/&amp;gt;den ich in &amp;lt;placeName ref=" https://d-nb.info/gnd/4015240-6"&amp;gt;Erfurt&amp;lt;/placeName&amp;gt; beim &amp;lt;placeName ref=" https://d-nb.info/gnd/74943-6"&amp;gt;Parlament&amp;lt;/placeName&amp;gt; gesehen u. etwas ge-&amp;lt;lb/&amp;gt;sprochen hatte,  war aber in der Sitzung; ich gab meine Karte&amp;lt;lb/&amp;gt;ab u. ließ ihm sagen, ich würde nach Tisch zu ihm in seine&amp;lt;lb/&amp;gt;Wohnung kommen, nun machte ich noch einen Gang mit&amp;lt;lb/&amp;gt;&amp;lt;perName&amp;gt;Schulz&amp;lt;/persName&amp;gt; nach den Gegenden hin, die für mein Vorhaben&amp;lt;lb/&amp;gt;etwa ins Auge zu faßen wären; um 12 brachte ich&amp;lt;lb/&amp;gt;Hr. KR. &amp;lt;persName&amp;gt;Schulz&amp;lt;/persName&amp;gt; an seine Wohnung zurück u. benutze die Stunde&amp;lt;lb/&amp;gt;bis 1 Uhr noch, um die bereits gesehenen Plätze nochmals&amp;lt;lb/&amp;gt;zu besehen u. einige gehörig abzuschreiten, so kam ich nun&amp;lt;lb/&amp;gt;nach Tisch 3/117488380 117488380 Uhr recht gut vorbereitet zu G R. &amp;lt;persName ref=" https://d-nb.info/gnd/4066043"&amp;gt;Vollpracht&amp;lt;/persName&amp;gt;&amp;lt;lb/ &amp;gt;der wie es scheint hier eigentlich der bedeutendste Mann ist, ein&amp;lt;lb/&amp;gt;ruhiger klarer u. kluger u. dabei wohlwollender Mann.&amp;lt;lb/&amp;gt;Du warst neugierig, wie ich wohl von der Geschichte&amp;lt;lb/&amp;gt;anfangen werde. Das war einfach, ich will es Dir speciell&amp;lt;lb/&amp;gt;berichten. Ich wurde freundlich aufs Sopha genöthigt,&amp;lt;lb/&amp;gt;während &amp;lt;persName ref=" https://d-nb.info/gnd/6"&amp;gt;Hr. V.&amp;lt;/persName&amp;gt; sagte: "Sie werden sich über unseren Win-&amp;lt;lb/&amp;gt;ter wundern, der dem Ruf, in welchem unser Klima steht&amp;lt;lb/&amp;gt;durchaus widerspricht." Darauf sagte ich: Das ist richtig&amp;lt;lb/&amp;gt;mir aber ganz lieb, denn es läßt mich erwarten, daß&amp;lt;lb/&amp;gt;dadurch der Plan, wegen deßen ich hieher gekommen bin,&amp;lt;lb/&amp;gt;um so leichter einige Beachtung findet, - ich komme näm-&amp;lt;lb/&amp;gt;lich mit dem Plan, <placeName key="Wiesbaden (Allemagne, Hesse ; région)" ref="http://viaf.org/viaf/9819149719125911130000/" cert="high">Wiesbaden<precision match="@ref" precision="high"/></placeName>&amp;lt;/placeName&amp;gt; ein künstliches Klima&amp;lt;lb/&amp;gt;in einer großen Anstalt zu schaffen u. dadurch eine&amp;lt; lb/ &amp;gt; Wintersaison einzuleiten. – Du siehst, der Eingang war&amp;lt;lb/&amp;gt;leicht gefunden und eben so leicht gemacht. Denn nun gieng&amp;lt;lb/&amp;gt;ich ohne Weiteres daran, u. gab eine allgemeine&amp;lt;lb/&amp;gt;aber doch möglichst vollständige Schilderung meines&amp;lt;lb/&amp;gt;Planes indem ich noch vorausschickte, der Plan habe mich&amp;lt;lb/&amp;gt;viel beschäftigt, sei bis ins Einzelne von mir durchge-</p>
+         <p>&amp;lt;lb/&amp;gt;Dieß, dass er denn auch mit solcher Ausführlichkeit, Klarheit und&amp;lt;lb/&amp;gt;Präcicision, daß ich dadurch auch das größte Vertrauen in die&amp;lt;lb/&amp;gt;Richtigkeit bekam. Dabei bestach er mich einerseits durch das&amp;lt;lb/&amp;gt;sehr lebhafte Intereße, das er an meinem Plan nahm, deßen&amp;lt;lb/&amp;gt;Bedeutung für &amp;lt;placeName ref=" https://d-nb.info/gnd/4066043-6"&amp;gt;Wiesbaden&amp;lt;/placeName" er vollkommen würdigte, andern-&amp;lt;lb/&amp;gt;theils dadurch daß er sich in seinen Mittheilungen ganz objec-&amp;lt;lb/&amp;gt;tiv hielt und alles vermied,  was einer directen Einwir-&amp;lt;lb/&amp;gt;kung auf meine weiteren Entschlüße ähnlich gesehen&amp;lt;lb/&amp;gt;hätte, so daß ich von ihm in der That ganz befriedigt war;&amp;lt;lb/&amp;gt;Nachdem wir alle diese hiesigen Verhältniße nach allen&amp;lt;lb/&amp;gt;Richtungen durchgesprochen hatten, sagte er, nun werde ich wohl&amp;lt;lb/&amp;gt;an fait sein u. nun möchte ich mich selbst entschließen und&amp;lt;lb/&amp;gt;ihm sagen,  welchen Weg ich einschlagen wolle. Dieß that ich&amp;lt;lb/&amp;gt;u. als er wußte, was ich wollte, sagte er: "Diesen Weg halte&amp;lt;lb/&amp;gt;ich auch für den richtigen u. nun wollen wir, wenn es Ihnen&amp;lt;lb/&amp;gt;recht ist gleich noch zu dem Herren gehen." Wir giengen&amp;lt;lb/&amp;gt;auf das Finanz Ministerium, der Minister &amp;lt;persName ref= "https://d-nb.info/gnd/117488380 "&amp;gt;(Gh Rth Volpracht)&amp;lt;/persName&amp;gt;&amp;lt;lb/&amp;gt;den ich in &amp;lt;placeName ref=" https://d-nb.info/gnd/4015240-6"&amp;gt;Erfurt&amp;lt;/placeName&amp;gt; beim &amp;lt;placeName ref=" https://d-nb.info/gnd/74943-6"&amp;gt;Parlament&amp;lt;/placeName&amp;gt; gesehen u. etwas ge-&amp;lt;lb/&amp;gt;sprochen hatte,  war aber in der Sitzung; ich gab meine Karte&amp;lt;lb/&amp;gt;ab u. ließ ihm sagen, ich würde nach Tisch zu ihm in seine&amp;lt;lb/&amp;gt;Wohnung kommen, nun machte ich noch einen Gang mit&amp;lt;lb/&amp;gt;&amp;lt;perName&amp;gt;<persName key="Schultz, Karl Wilhelm 1801-1856" ref="http://viaf.org/viaf/8159462/">Schulz</persName>&amp;lt;/persName&amp;gt; nach den Gegenden hin, die für mein Vorhaben&amp;lt;lb/&amp;gt;etwa ins Auge zu faßen wären; um 12 brachte ich&amp;lt;lb/&amp;gt;Hr. KR. &amp;lt;persName&amp;gt;<persName key="Schultz, Karl Wilhelm 1801-1856" ref="http://viaf.org/viaf/8159462/" cert="high" type="real">Schulz</persName>&amp;lt;/persName&amp;gt; an seine Wohnung zurück u. benutze die Stunde&amp;lt;lb/&amp;gt;bis 1 Uhr noch, um die bereits gesehenen Plätze nochmals&amp;lt;lb/&amp;gt;zu besehen u. einige gehörig abzuschreiten, so kam ich nun&amp;lt;lb/&amp;gt;nach Tisch 3/117488380 117488380 Uhr recht gut vorbereitet zu G R. &amp;lt;persName ref=" https://d-nb.info/gnd/4066043"&amp;gt;Vollpracht&amp;lt;/persName&amp;gt;&amp;lt;lb/ &amp;gt;der wie es scheint hier eigentlich der bedeutendste Mann ist, ein&amp;lt;lb/&amp;gt;ruhiger klarer u. kluger u. dabei wohlwollender Mann.&amp;lt;lb/&amp;gt;Du warst neugierig, wie ich wohl von der Geschichte&amp;lt;lb/&amp;gt;anfangen werde. Das war einfach, ich will es Dir speciell&amp;lt;lb/&amp;gt;berichten. Ich wurde freundlich aufs Sopha genöthigt,&amp;lt;lb/&amp;gt;während &amp;lt;persName ref=" https://d-nb.info/gnd/6"&amp;gt;Hr. V.&amp;lt;/persName&amp;gt; sagte: "Sie werden sich über unseren Win-&amp;lt;lb/&amp;gt;ter wundern, der dem Ruf, in welchem unser Klima steht&amp;lt;lb/&amp;gt;durchaus widerspricht." Darauf sagte ich: Das ist richtig&amp;lt;lb/&amp;gt;mir aber ganz lieb, denn es läßt mich erwarten, daß&amp;lt;lb/&amp;gt;dadurch der Plan, wegen deßen ich hieher gekommen bin,&amp;lt;lb/&amp;gt;um so leichter einige Beachtung findet, - ich komme näm-&amp;lt;lb/&amp;gt;lich mit dem Plan, <placeName key="Wiesbaden (Allemagne, Hesse ; région)" ref="http://viaf.org/viaf/9819149719125911130000/" cert="high">Wiesbaden<precision match="@ref" precision="high"/></placeName>&amp;lt;/placeName&amp;gt; ein künstliches Klima&amp;lt;lb/&amp;gt;in einer großen Anstalt zu schaffen u. dadurch eine&amp;lt; lb/ &amp;gt; Wintersaison einzuleiten. – Du siehst, der Eingang war&amp;lt;lb/&amp;gt;leicht gefunden und eben so leicht gemacht. Denn nun gieng&amp;lt;lb/&amp;gt;ich ohne Weiteres daran, u. gab eine allgemeine&amp;lt;lb/&amp;gt;aber doch möglichst vollständige Schilderung meines&amp;lt;lb/&amp;gt;Planes indem ich noch vorausschickte, der Plan habe mich&amp;lt;lb/&amp;gt;viel beschäftigt, sei bis ins Einzelne von mir durchge-</p>
       </body>
    </text>
 </TEI>
