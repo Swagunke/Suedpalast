@@ -152,12 +152,92 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0002.xml?place_annotation_20230628163355806#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName"
+			"rdf:value": "TEI/text/body/p/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
 		"@id": "http://www.wikidata.org/entity/Q142",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0002.xml?place_annotation_20230628165343201",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-06-28T14:53:43.201Z",
+	"dcterms:modified": "2023-06-28T14:53:43.201Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0002.xml?place_annotation_20230628165343201#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0002.xml?place_annotation_20230628165343201#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/123167575/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -190,7 +270,7 @@
    </teiHeader>
    <text>
       <body>
-         <p>Pachtvertrag jezt angegriffen worden, er liegt dem Hofgericht&amp;lt;lb/&amp;gt;vor u. ich habe gehört, daß an der Umstoßung nicht zu zweifeln&amp;lt;lb/&amp;gt;sei. Dieß betreibt eine neue Spielpächter Gesellschaft die&amp;lt;lb/&amp;gt;enorme Spielpacht etc etc. bietet. Ich habe nun darauf hin&amp;lt;lb/&amp;gt;den Antrag gestellt, die Regierung soll als eine der Spiel-&amp;lt;lb/&amp;gt;pacht Bedingungen, gewißermaßen als eine Caution, den mit &amp;lt;lb/&amp;gt;3 % zu verzinsenden Vorschuß von drei Millionen Gulden&amp;lt;lb/&amp;gt;zu dem Behuf des Baus meines Südpalastes verlangen. Dieses&amp;lt;lb/&amp;gt;Verlangen ist nicht übertrieben, und hat für die hiesigen Ba-&amp;lt;lb/&amp;gt;de Verwaltung den Vortheil, „1) daß sie selbst für mich gar&amp;lt;lb/&amp;gt;nichts zu thun braucht, 2) daß sie dennoch den Südpalast an die&amp;lt;lb/&amp;gt;schönste Stelle erhält u. 3) daß in dem Maaße, als ich (dem&amp;lt;lb/&amp;gt;das Capital nicht gekündigt werden darf) amortisiren,&amp;lt;lb/&amp;gt;durch die zurückzuzahlenden Summen immer wieder zu Verbeßerungen&amp;lt;lb/&amp;gt;Gelder mit niedrigem Zinsfuß disponibel werden. Mir&amp;lt;lb/&amp;gt;scheint, dieß muß gehen, denn diese Preposition erfüllt alle&amp;lt;lb/&amp;gt;Bedingungen, die man an einen Vorschlag stellen kann“, er ist&amp;lt;lb/&amp;gt;nämlich für alle Theile vortheilhaft u. annehmbar; für&amp;lt;lb/&amp;gt;mich, für die Naßauer Regierung u. für den Spielpächter, dem&amp;lt;lb/&amp;gt;sie eigentlich gar kein Opfer auferlegt, da derselbe in <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">Frankreich<precision match="@ref" precision="high"/></placeName>&amp;lt;lb/&amp;gt;zu 3 % Kapital bekommt so viel er will. Für die&amp;lt;lb/&amp;gt;Regierung aber hat er noch den besonderen Vortheil, daß&amp;lt;lb/&amp;gt;damit einem Vorwurf begegnet wird, der bis jezt, wie&amp;lt;lb/&amp;gt;ich gehört habe, derselbe hier&amp;lt;note type="editional&amp;gt;eingef.: hier&amp;lt;/note&amp;gt; immer u. sehr allgemein gemacht &amp;lt;lb/&amp;gt;</p>
+         <p>Pachtvertrag jezt angegriffen worden, er liegt dem Hofgericht&amp;lt;lb/&amp;gt;vor u. ich habe gehört, daß an der Umstoßung nicht zu zweifeln&amp;lt;lb/&amp;gt;sei. Dieß betreibt eine neue Spielpächter Gesellschaft die&amp;lt;lb/&amp;gt;enorme Spielpacht etc etc. bietet. Ich habe nun darauf hin&amp;lt;lb/&amp;gt;den Antrag gestellt, die Regierung soll als eine der Spiel-&amp;lt;lb/&amp;gt;pacht Bedingungen, gewißermaßen als eine Caution, den mit &amp;lt;lb/&amp;gt;3 % zu verzinsenden Vorschuß von drei Millionen Gulden&amp;lt;lb/&amp;gt;zu dem Behuf des Baus meines Südpalastes verlangen. Dieses&amp;lt;lb/&amp;gt;Verlangen ist nicht übertrieben, und hat für die hiesigen Ba-&amp;lt;lb/&amp;gt;de Verwaltung den Vortheil, „1) daß sie selbst für mich gar&amp;lt;lb/&amp;gt;nichts zu thun braucht, 2) daß sie dennoch den Südpalast an die&amp;lt;lb/&amp;gt;schönste Stelle erhält u. 3) daß in dem Maaße, als ich (dem&amp;lt;lb/&amp;gt;das Capital nicht gekündigt werden darf) amortisiren,&amp;lt;lb/&amp;gt;durch die zurückzuzahlenden Summen immer wieder zu Verbeßerungen&amp;lt;lb/&amp;gt;Gelder mit niedrigem Zinsfuß disponibel werden. Mir&amp;lt;lb/&amp;gt;scheint, dieß muß gehen, denn diese Preposition erfüllt alle&amp;lt;lb/&amp;gt;Bedingungen, die man an einen Vorschlag stellen kann“, er ist&amp;lt;lb/&amp;gt;nämlich für alle Theile vortheilhaft u. annehmbar; für&amp;lt;lb/&amp;gt;mich, für die <placeName key="Staat Nassau" ref="http://viaf.org/viaf/123167575/" cert="high">Naßau<precision match="@ref" precision="high"/></placeName>er Regierung u. für den Spielpächter, dem&amp;lt;lb/&amp;gt;sie eigentlich gar kein Opfer auferlegt, da derselbe in <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">Frankreich<precision match="@ref" precision="high"/></placeName>&amp;lt;lb/&amp;gt;zu 3 % Kapital bekommt so viel er will. Für die&amp;lt;lb/&amp;gt;Regierung aber hat er noch den besonderen Vortheil, daß&amp;lt;lb/&amp;gt;damit einem Vorwurf begegnet wird, der bis jezt, wie&amp;lt;lb/&amp;gt;ich gehört habe, derselbe hier&amp;lt;note type="editional&amp;gt;eingef.: hier&amp;lt;/note&amp;gt; immer u. sehr allgemein gemacht &amp;lt;lb/&amp;gt;</p>
       </body>
    </text>
 </TEI>
