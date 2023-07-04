@@ -1667,6 +1667,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?note_annotation_20230704112807259",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-04T09:28:07.259Z",
+	"dcterms:modified": "2023-07-04T09:28:07.259Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?note_annotation_20230704112807259#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?note_annotation_20230704112807259#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "gestr.: habe"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -1716,7 +1795,7 @@
 <lb/>zeichneter, genialer u. kenntnißvoller Mann ist. Bei dem habe ich
 <lb/>gestern Abend nachdem ich fast den ganzen Tag geschrieben u. ge-
 <lb/>rechnet hatte 2 recht angenehme u. intereßante Stunden ver-
-<lb/>plauderte<note type="editorial">gestr.: habe</note>. Er hat unter anderem die Vergrämung des
+<lb/>plaudert<note type="editorial">gestr.: habe</note>. Er hat unter anderem die Vergrämung des
 <lb/>von den <placeName key="Hesse-Cassel" ref="http://viaf.org/viaf/6195148574361124430002/" cert="high">Heßen<precision match="@ref" precision="high"/></placeName> in den <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584">Rhein</placeName> geworfenen Dammes oder vielmehr
 <lb/>der dadurch binnen 48 Stunden zu Stande gekommenen völligen 
 <lb/>Versandung des <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680" cert="high">Bieberischen<precision match="@ref" precision="high"/></placeName> Rheinarmes geleitet <note type="editorial">gestr.: hat</note>(un-
