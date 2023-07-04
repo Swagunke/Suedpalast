@@ -1,174 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <teiHeader>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Signatur: G 25-1-5: Brief</title>
-            <title type="part" n="2"></title>
-            <author>
-               <persName ref="https://d-nb.info/gnd/118861700">
-                  <surname>Froriep</surname>
-                  <forename>Robert</forename>
-               </persName>
-            </author>
-            <editor>
-               <persName>
-                  <surname>Polenz</surname>
-                  <forename>Kathrin</forename>
-               </persName>
-            </editor>
-            
-            <respStmt>
-               
-               <orgName>Thüringer Universitäts- und Landesbibliothek Jena</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Herausgeber</note>
-                  
-               </resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition>ausgewählte Briefe</edition>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName role="project">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
-               <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
-            </publisher>
-            
-            <pubPlace>Jena</pubPlace>
-            <date type="publication">2023</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-                  <p>Distributed under the Creative Commons License
-                     Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
-               </licence>
-            </availability>
-            <idno>
-               <idno type="URLWeb">https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00028991</idno>
-            </idno>
-         </publicationStmt>
-         <notesStmt>
-            <note type="remarkSource">aus einem Konvolut mit 16 Briefen und diversen Briefbeilagen an seine Gattin Wilhelmine Froriep geb. Ammermüller. Frankfurt/Main, Wiesbaden und [Bad] Homburg, 16. Januar bis 3. Februar 1854. 58 [gebundene und in den mit Fileten verzierten Halbledereinband "Menzies Report" eingelegte] Blätter[ggf. Kommentar zur zugrundeliegenden Ausgabe]</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="MAN">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</bibl>
-            <biblFull>
+<?xml-model  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   
+         <teiHeader>
+            <fileDesc>
                <titleStmt>
-                  <title level="m" type="main">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</title>
+                  <title type="main">Signatur: G 25-1-5: Brief</title>
+                  <title type="part" n="2"></title>
                   <author>
                      <persName ref="https://d-nb.info/gnd/118861700">
                         <surname>Froriep</surname>
                         <forename>Robert</forename>
                      </persName>
-                     </author>
+                  </author>
+                  <editor>
+                     <persName>
+                        <surname>Polenz</surname>
+                        <forename>Kathrin</forename>
+                     </persName>
+                  </editor>
+                  
+                  <respStmt>
+                     
+                     <orgName>Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+                     <resp>
+                        <note type="remarkResponsibility">Herausgeber</note>
+                        
+                     </resp>
+                  </respStmt>
                </titleStmt>
-               <extent>
-                  <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
-               </extent>
+               <editionStmt>
+                  <edition>ausgewählte Briefe</edition>
+               </editionStmt>
                <publicationStmt>
-                  <publisher/>
-                  <pubPlace>Wiesbaden</pubPlace> <!-- Absendeort eintrage -->
-                  <date type="creation">18540118</date> <!-- Datum eintragen -->
+                  <publisher>
+                     <orgName role="project">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+                     <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+                  </publisher>
+                  
+                  <pubPlace>Jena</pubPlace>
+                  <date type="publication">2023</date>
+                  <availability>
+                     <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        <p>Distributed under the Creative Commons License
+                           Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+                     </licence>
+                  </availability>
+                  <idno>
+                     <idno type="URLWeb">https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00028991</idno>
+                  </idno>
                </publicationStmt>
                <notesStmt>
-                  <note>
-                     <p>
-                        Signatur: G 25-1-5
-                     </p>
-                  </note>
+                  <note type="remarkSource">aus einem Konvolut mit 16 Briefen und diversen Briefbeilagen an seine Gattin Wilhelmine Froriep geb. Ammermüller. Frankfurt/Main, Wiesbaden und [Bad] Homburg, 16. Januar bis 3. Februar 1854. 58 [gebundene und in den mit Fileten verzierten Halbledereinband "Menzies Report" eingelegte] Blätter[ggf. Kommentar zur zugrundeliegenden Ausgabe]</note>
                </notesStmt>
-            </biblFull>
-            <msDesc>
-               <msIdentifier>
-                  <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
-                  <idno>
-                     <idno type="shelfmark">Signatur: G 25-1-5</idno>
-                  </idno>
-               </msIdentifier>
-               <physDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
-               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
-               kodiert.&lt;/p&gt; </p>
-         </editorialDecl>
-         <tagsDecl/>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="deu">German</language>
-         </langUsage>
-         <textClass>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
-               >Gebrauchsliteratur</classCode>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
-               >Brief</classCode>
-         </textClass>
-      </profileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p>
-            ausbezahlen sie trotz aller scheinbaren Zinsverluste am Schluß
-            <lb/>der 10 Jahre 400,00 Fl. gewonnen haben. Die Wiesbadener er-
-            <lb/>schrecken vor den Summen, die allerdings groß klingen, aber
-            <lb/>für den Geschäftsmann gilt die Bilanz, nicht der Ansatz. Da übri-
-            <lb/>gens diese Leute in <placeName key="France" ref="http://www.wikidata.org/entity/Q142">Frankreich</placeName> wahrscheinlich große Summen zu
-            <lb/>2½ % bekommen u. sie ihnen hier mit 3 % verzinst werden sollen,
-            <lb/>so ist ihr Gewinn wahrscheinlich u. zwar<note type="editorial">eingef.: u. zwar</note> bloß durch meinen Vorschlag noch
-            <lb/>viel bedeutender, denn ½ % zehn Jahre lang macht mindestens 5 %
-            <lb/>u. dieß ist bei Millionen eine sehr namhafte Summe, nämlich
-            <lb/>da sie 4 Millionen (wovon ich aber nur 2 brauche) auszahlen sollen
-            <lb/>so hätten sie mit ½ % Zinsdifferenz in 10 Jahren 1 Million ge-
-            <lb/>wonnen oder statt 4 Millionen, die sie Pacht<note type="editorial">eingef.: Pacht</note> zahlen müßten, wenn
-            <lb/>sie ratweis zahlten, werden sie dann nur 2,600,00 ausgegeben
-            <lb/>haben. Ich arbeite eben jezt ein Pro Memoria für Hr. <persName key="Vollpracht, Ferdinand" ref="http://www.wikidata.org/entity/Q27600899" cert="high" type="real">V.</persName>
-            <lb/>aus, das er den Pachtcompetenten mittheilen kann, u. das
-            <lb/>wie dem Hr. <persName>v. Hader</persName> seine Prügel „mehr spricht als die Flammen-
-            <lb/>züge der Geschichte.“ – Sinn u. Capacität ist übrigens hier,
-            <lb/>da merkt man die Nähe des <placeName key="Rhine" ref="http://dbpedia.org/resource/Rhine" cert="high">Rheins<precision match="@ref" precision="high"/></placeName>, – aber wie gesagt, kein
-            <lb/>freier Muth. – Mein Plan fängt an hier die Runde zu machen
-            <lb/>gestern war der <persName>Leibarzt</persName> bei mir, ein braver Mann, dem 
-            <lb/>wirbelte der Kopf, trotz allem Entzückens fuhr er sich alle
-            <lb/>Augenblick mit beiden Händen vor die Stirn, hielt sich den
-            <lb/>Kopf, u. sagte: „ja es wäre wundervoll! Machen Sie nur, machen
-            <lb/>Sie nur, Sie werdens schon durchführen.“ <persName key="Schultz, Karl Wilhelm 1801-1856" ref="http://viaf.org/viaf/8159462/" cert="high" type="real">Schulz</persName> übrigens steht
-            <lb/>wie ein Mann vor der Sache, er meint es werde schwer sein aber <lb/>es werde gelingen. Daßelbe meint <persName key="Carl Boos deutscher Architekt und nassauischer Baubeamter" ref="http://viaf.org/viaf/306063864/" cert="high" type="real">Boos</persName>, der ein wirklich ausge-
-            <lb/>zeichneter, genialer u. kenntnißvoller Mann ist. Bei dem habe ich
-            <lb/>gestern Abend nachdem ich fast den ganzen Tag geschrieben u. ge-
-            <lb/>rechnet hatte 2 recht angenehme u. intereßante Stunden ver-
-            <lb/>plaudert<note type="editorial">gestr.: habe</note>. Er hat unter anderem die Vergrämung des
-            <lb/>von den <placeName key="Hesse-Cassel" ref="http://viaf.org/viaf/6195148574361124430002/" cert="high">Heßen<precision match="@ref" precision="high"/></placeName> in den <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584">Rhein</placeName> geworfenen Dammes oder vielmehr
-            <lb/>der dadurch binnen 48 Stunden zu Stande gekommenen völligen 
-            <lb/>Versandung des <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680" cert="high">Bieberischen<precision match="@ref" precision="high"/></placeName> Rheinarmes geleitet <note type="editorial">gestr.: hat</note>(un-
-            <lb/>ter Zuziehung <persName>von Hagen</persName>, deßen <persName>Frau</persName> Du in <placeName key="Berlin" ref="http://www.wikidata.org/entity/Q64">Berlin</placeName> in einem
-            <lb/>Kaffe<note type="editorial">gestr.: kennen</note> u bei <persName>Nikolovius</persName> kennen gelernt hast). Ich
-            <lb/>ließ mir diese höchst intereßante Operation erklären
-            <lb/>die um so schwieriger war, als die Naßauer an dem
-            <lb/>Punkt des <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584" cert="high">Rheins<precision match="@ref" precision="high"/></placeName>, wo man eigentlich die Correction hätte
-            <lb/>angreifen müßen, nicht zugelaßen wurden, da er zu heßi-
-            <lb/>schem Gebiete gehörte. Man hat übrigens kaum einen Begriff
-            <lb/>von der Macht eines solchen <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584" cert="high">Stromes<precision match="@ref" precision="high"/></placeName>;   denke dir, daß nach
-            <lb/>Ausführung des heßischen Coups, als sie die Quader, die sie nach-
-            <lb/>her wieder herausholen mußten, ins Waßer geworfen
-            <lb/>hatten, in dem heßischen <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584">Rheinarm</placeName>, das Waßer, das nun nicht
-            <lb/>mehr nach <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680" cert="high">Bieberich<precision match="@ref" precision="high"/></placeName> konnte eine Rinne von 18 Fuß Tiefe
-            <lb/>schon nach 48 Stunden gerißen hatte. Dagegen war 8 Tage
-            <lb/>darauf der Bieberischer Arm schon so versandet, daß man
-            <lb/>bei niedrigem Waßerstand trocknen Fußes auf die
-            <lb/>Insel zwischen beiden Armen von <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680">Bieberich</placeName> aus gelangen 
-            <lb/>konnte. Und diese Sandmaßen hat <persName key="Carl Boos deutscher Architekt und nassauischer Baubeamter" ref="http://viaf.org/viaf/306063864/" cert="high" type="real">Boos</persName> in den nachfolgenden
-            <lb/>
-            
-         </p>
-      </body>
-   </text>
-</TEI>
+               <sourceDesc>
+                  <bibl type="MAN">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</bibl>
+                  <biblFull>
+                     <titleStmt>
+                        <title level="m" type="main">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</title>
+                        <author>
+                           <persName ref="https://d-nb.info/gnd/118861700">
+                              <surname>Froriep</surname>
+                              <forename>Robert</forename>
+                           </persName>
+                        </author>
+                     </titleStmt>
+                     <extent>
+                        <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
+                     </extent>
+                     <publicationStmt>
+                        <publisher/>
+                        <pubPlace>Wiesbaden</pubPlace> <!-- Absendeort eintrage -->
+                        <date type="creation">18540118</date> <!-- Datum eintragen -->
+                     </publicationStmt>
+                     <notesStmt>
+                        <note>
+                           <p>
+                              Signatur: G 25-1-5
+                           </p>
+                        </note>
+                     </notesStmt>
+                  </biblFull>
+                  <msDesc>
+                     <msIdentifier>
+                        <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
+                        <idno>
+                           <idno type="shelfmark">Signatur: G 25-1-5</idno>
+                        </idno>
+                     </msIdentifier>
+                     <physDesc>
+                     </physDesc>
+                  </msDesc>
+               </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+               <editorialDecl>
+                  <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
+                     href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
+                     kodiert.&lt;/p&gt; </p>
+               </editorialDecl>
+               <tagsDecl/>
+            </encodingDesc>
+            <profileDesc>
+               <langUsage>
+                  <language ident="deu">German</language>
+               </langUsage>
+               <textClass>
+                  <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+                     >Gebrauchsliteratur</classCode>
+                  <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+                     >Brief</classCode>
+               </textClass>
+            </profileDesc>
+         </teiHeader>
+         <text>
+            <body>
+               <p>
+                  ausbezahlen sie trotz aller scheinbaren Zinsverluste am Schluß
+                  <lb/>der 10 Jahre 400,00 Fl. gewonnen haben. Die Wiesbadener er-
+                  <lb/>schrecken vor den Summen, die allerdings groß klingen, aber
+                  <lb/>für den Geschäftsmann gilt die Bilanz, nicht der Ansatz. Da übri-
+                  <lb/>gens diese Leute in <placeName key="France" ref="http://www.wikidata.org/entity/Q142">Frankreich</placeName> wahrscheinlich große Summen zu
+                  <lb/>2½ % bekommen u. sie ihnen hier mit 3 % verzinst werden sollen,
+                  <lb/>so ist ihr Gewinn wahrscheinlich u. zwar<note type="editorial">eingef.: u. zwar</note> bloß durch meinen Vorschlag noch
+                  <lb/>viel bedeutender, denn ½ % zehn Jahre lang macht mindestens 5 %
+                  <lb/>u. dieß ist bei Millionen eine sehr namhafte Summe, nämlich
+                  <lb/>da sie 4 Millionen (wovon ich aber nur 2 brauche) auszahlen sollen
+                  <lb/>so hätten sie mit ½ % Zinsdifferenz in 10 Jahren 1 Million ge-
+                  <lb/>wonnen oder statt 4 Millionen, die sie Pacht<note type="editorial">eingef.: Pacht</note> zahlen müßten, wenn
+                  <lb/>sie ratweis zahlten, werden sie dann nur 2,600,00 ausgegeben
+                  <lb/>haben. Ich arbeite eben jezt ein Pro Memoria für Hr. <persName key="Vollpracht, Ferdinand" ref="http://www.wikidata.org/entity/Q27600899" cert="high" type="real">V.</persName>
+                  <lb/>aus, das er den Pachtcompetenten mittheilen kann, u. das
+                  <lb/>wie dem Hr. <persName>v. Hader</persName> seine Prügel „mehr spricht als die Flammen-
+                  <lb/>züge der Geschichte.“ – Sinn u. Capacität ist übrigens hier,
+                  <lb/>da merkt man die Nähe des <placeName key="Rhine" ref="http://dbpedia.org/resource/Rhine" cert="high">Rheins<precision match="@ref" precision="high"/></placeName>, – aber wie gesagt, kein
+                  <lb/>freier Muth. – Mein Plan fängt an hier die Runde zu machen
+                  <lb/>gestern war der <persName>Leibarzt</persName> bei mir, ein braver Mann, dem 
+                  <lb/>wirbelte der Kopf, trotz allem Entzückens fuhr er sich alle
+                  <lb/>Augenblick mit beiden Händen vor die Stirn, hielt sich den
+                  <lb/>Kopf, u. sagte: „ja es wäre wundervoll! Machen Sie nur, machen
+                  <lb/>Sie nur, Sie werdens schon durchführen.“ <persName key="Schultz, Karl Wilhelm 1801-1856" ref="http://viaf.org/viaf/8159462/" cert="high" type="real">Schulz</persName> übrigens steht
+                  <lb/>wie ein Mann vor der Sache, er meint es werde schwer sein aber <lb/>es werde gelingen. Daßelbe meint <persName key="Carl Boos deutscher Architekt und nassauischer Baubeamter" ref="http://viaf.org/viaf/306063864/" cert="high" type="real">Boos</persName>, der ein wirklich ausge-
+                  <lb/>zeichneter, genialer u. kenntnißvoller Mann ist. Bei dem habe ich
+                  <lb/>gestern Abend nachdem ich fast den ganzen Tag geschrieben u. ge-
+                  <lb/>rechnet hatte 2 recht angenehme u. intereßante Stunden ver-
+                  <lb/>plaudert<note type="editorial">gestr.: habe</note>. Er hat unter anderem die Vergrämung des
+                  <lb/>von den <placeName key="Hesse-Cassel" ref="http://viaf.org/viaf/6195148574361124430002/" cert="high">Heßen<precision match="@ref" precision="high"/></placeName> in den <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584">Rhein</placeName> geworfenen Dammes oder vielmehr
+                  <lb/>der dadurch binnen 48 Stunden zu Stande gekommenen völligen 
+                  <lb/>Versandung des <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680" cert="high">Bieberischen<precision match="@ref" precision="high"/></placeName> Rheinarmes geleitet <note type="editorial">gestr.: hat</note>(un-
+                  <lb/>ter Zuziehung <persName>von Hagen</persName>, deßen <persName>Frau</persName> Du in <placeName key="Berlin" ref="http://www.wikidata.org/entity/Q64">Berlin</placeName> in einem
+                  <lb/>Kaffe<note type="editorial">gestr.: kennen</note> u bei <persName>Nikolovius</persName> kennen gelernt hast). Ich
+                  <lb/>ließ mir diese höchst intereßante Operation erklären
+                  <lb/>die um so schwieriger war, als die Naßauer an dem
+                  <lb/>Punkt des <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584" cert="high">Rheins<precision match="@ref" precision="high"/></placeName>, wo man eigentlich die Correction hätte
+                  <lb/>angreifen müßen, nicht zugelaßen wurden, da er zu heßi-
+                  <lb/>schem Gebiete gehörte. Man hat übrigens kaum einen Begriff
+                  <lb/>von der Macht eines solchen <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584" cert="high">Stromes<precision match="@ref" precision="high"/></placeName>;   denke dir, daß nach
+                  <lb/>Ausführung des heßischen Coups, als sie die Quader, die sie nach-
+                  <lb/>her wieder herausholen mußten, ins Waßer geworfen
+                  <lb/>hatten, in dem heßischen <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584">Rheinarm</placeName>, das Waßer, das nun nicht
+                  <lb/>mehr nach <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680" cert="high">Bieberich<precision match="@ref" precision="high"/></placeName> konnte eine Rinne von 18 Fuß Tiefe
+                  <lb/>schon nach 48 Stunden gerißen hatte. Dagegen war 8 Tage
+                  <lb/>darauf der Bieberischer Arm schon so versandet, daß man
+                  <lb/>bei niedrigem Waßerstand trocknen Fußes auf die
+                  <lb/>Insel zwischen beiden Armen von <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680">Bieberich</placeName> aus gelangen 
+                  <lb/>konnte. Und diese Sandmaßen hat <persName key="Carl Boos deutscher Architekt und nassauischer Baubeamter" ref="http://viaf.org/viaf/306063864/" cert="high" type="real">Boos</persName> in den nachfolgenden
+                  <lb/>
+                  
+               </p>
+            </body>
+         </text>
+      </TEI>
