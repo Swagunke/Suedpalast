@@ -1,174 +1,488 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css"?>
+<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   
-         <teiHeader>
-            <fileDesc>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Signatur: G 25-1-5: Brief</title>
+            <title type="part" n="2"/>
+            <author>
+               <persName ref="https://d-nb.info/gnd/118861700">
+                  <surname>Froriep</surname>
+                  <forename>Robert</forename>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname>Polenz</surname>
+                  <forename>Kathrin</forename>
+               </persName>
+            </editor>
+            
+            <respStmt>
+               
+               <orgName>Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Herausgeber</note>
+                  
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>ausgewählte Briefe</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName role="project">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+            </publisher>
+            
+            <pubPlace>Jena</pubPlace>
+            <date type="publication">2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Distributed under the Creative Commons License
+                     Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00028991</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="remarkSource">aus einem Konvolut mit 16 Briefen und diversen Briefbeilagen an seine Gattin Wilhelmine Froriep geb. Ammermüller. Frankfurt/Main, Wiesbaden und [Bad] Homburg, 16. Januar bis 3. Februar 1854. 58 [gebundene und in den mit Fileten verzierten Halbledereinband "Menzies Report" eingelegte] Blätter[ggf. Kommentar zur zugrundeliegenden Ausgabe]</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="MAN">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</bibl>
+            <biblFull>
                <titleStmt>
-                  <title type="main">Signatur: G 25-1-5: Brief</title>
-                  <title type="part" n="2"></title>
+                  <title level="m" type="main">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</title>
                   <author>
                      <persName ref="https://d-nb.info/gnd/118861700">
                         <surname>Froriep</surname>
                         <forename>Robert</forename>
                      </persName>
-                  </author>
-                  <editor>
-                     <persName>
-                        <surname>Polenz</surname>
-                        <forename>Kathrin</forename>
-                     </persName>
-                  </editor>
-                  
-                  <respStmt>
-                     
-                     <orgName>Thüringer Universitäts- und Landesbibliothek Jena</orgName>
-                     <resp>
-                        <note type="remarkResponsibility">Herausgeber</note>
-                        
-                     </resp>
-                  </respStmt>
+                     </author>
                </titleStmt>
-               <editionStmt>
-                  <edition>ausgewählte Briefe</edition>
-               </editionStmt>
+               <extent>
+                  <measure type="pages"/> <!-- hier den Umfang eingeben -->
+               </extent>
                <publicationStmt>
-                  <publisher>
-                     <orgName role="project">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
-                     <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
-                  </publisher>
-                  
-                  <pubPlace>Jena</pubPlace>
-                  <date type="publication">2023</date>
-                  <availability>
-                     <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-                        <p>Distributed under the Creative Commons License
-                           Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
-                     </licence>
-                  </availability>
-                  <idno>
-                     <idno type="URLWeb">https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00028991</idno>
-                  </idno>
+                  <publisher/>
+                  <pubPlace>Wiesbaden</pubPlace> <!-- Absendeort eintrage -->
+                  <date type="creation">18540118</date> <!-- Datum eintragen -->
                </publicationStmt>
                <notesStmt>
-                  <note type="remarkSource">aus einem Konvolut mit 16 Briefen und diversen Briefbeilagen an seine Gattin Wilhelmine Froriep geb. Ammermüller. Frankfurt/Main, Wiesbaden und [Bad] Homburg, 16. Januar bis 3. Februar 1854. 58 [gebundene und in den mit Fileten verzierten Halbledereinband "Menzies Report" eingelegte] Blätter[ggf. Kommentar zur zugrundeliegenden Ausgabe]</note>
+                  <note>
+                     <p>
+                        Signatur: G 25-1-5
+                     </p>
+                  </note>
                </notesStmt>
-               <sourceDesc>
-                  <bibl type="MAN">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</bibl>
-                  <biblFull>
-                     <titleStmt>
-                        <title level="m" type="main">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</title>
-                        <author>
-                           <persName ref="https://d-nb.info/gnd/118861700">
-                              <surname>Froriep</surname>
-                              <forename>Robert</forename>
-                           </persName>
-                        </author>
-                     </titleStmt>
-                     <extent>
-                        <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
-                     </extent>
-                     <publicationStmt>
-                        <publisher/>
-                        <pubPlace>Wiesbaden</pubPlace> <!-- Absendeort eintrage -->
-                        <date type="creation">18540118</date> <!-- Datum eintragen -->
-                     </publicationStmt>
-                     <notesStmt>
-                        <note>
-                           <p>
-                              Signatur: G 25-1-5
-                           </p>
-                        </note>
-                     </notesStmt>
-                  </biblFull>
-                  <msDesc>
-                     <msIdentifier>
-                        <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
-                        <idno>
-                           <idno type="shelfmark">Signatur: G 25-1-5</idno>
-                        </idno>
-                     </msIdentifier>
-                     <physDesc>
-                     </physDesc>
-                  </msDesc>
-               </sourceDesc>
-            </fileDesc>
-            <encodingDesc>
-               <editorialDecl>
-                  <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
-                     href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
-                     kodiert.&lt;/p&gt; </p>
-               </editorialDecl>
-               <tagsDecl/>
-            </encodingDesc>
-            <profileDesc>
-               <langUsage>
-                  <language ident="deu">German</language>
-               </langUsage>
-               <textClass>
-                  <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
-                     >Gebrauchsliteratur</classCode>
-                  <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
-                     >Brief</classCode>
-               </textClass>
-            </profileDesc>
-         </teiHeader>
-         <text>
-            <body>
-               <p>
-                  ausbezahlen sie trotz aller scheinbaren Zinsverluste am Schluß
-                  <lb/>der 10 Jahre 400,00 Fl. gewonnen haben. Die Wiesbadener er-
-                  <lb/>schrecken vor den Summen, die allerdings groß klingen, aber
-                  <lb/>für den Geschäftsmann gilt die Bilanz, nicht der Ansatz. Da übri-
-                  <lb/>gens diese Leute in <placeName key="France" ref="http://www.wikidata.org/entity/Q142">Frankreich</placeName> wahrscheinlich große Summen zu
-                  <lb/>2½ % bekommen u. sie ihnen hier mit 3 % verzinst werden sollen,
-                  <lb/>so ist ihr Gewinn wahrscheinlich u. zwar<note type="editorial">eingef.: u. zwar</note> bloß durch meinen Vorschlag noch
-                  <lb/>viel bedeutender, denn ½ % zehn Jahre lang macht mindestens 5 %
-                  <lb/>u. dieß ist bei Millionen eine sehr namhafte Summe, nämlich
-                  <lb/>da sie 4 Millionen (wovon ich aber nur 2 brauche) auszahlen sollen
-                  <lb/>so hätten sie mit ½ % Zinsdifferenz in 10 Jahren 1 Million ge-
-                  <lb/>wonnen oder statt 4 Millionen, die sie Pacht<note type="editorial">eingef.: Pacht</note> zahlen müßten, wenn
-                  <lb/>sie ratweis zahlten, werden sie dann nur 2,600,00 ausgegeben
-                  <lb/>haben. Ich arbeite eben jezt ein Pro Memoria für Hr. <persName key="Vollpracht, Ferdinand" ref="http://www.wikidata.org/entity/Q27600899" cert="high" type="real">V.</persName>
-                  <lb/>aus, das er den Pachtcompetenten mittheilen kann, u. das
-                  <lb/>wie dem Hr. <persName>v. Hader</persName> seine Prügel „mehr spricht als die Flammen-
-                  <lb/>züge der Geschichte.“ – Sinn u. Capacität ist übrigens hier,
-                  <lb/>da merkt man die Nähe des <placeName key="Rhine" ref="http://dbpedia.org/resource/Rhine" cert="high">Rheins<precision match="@ref" precision="high"/></placeName>, – aber wie gesagt, kein
-                  <lb/>freier Muth. – Mein Plan fängt an hier die Runde zu machen
-                  <lb/>gestern war der <persName>Leibarzt</persName> bei mir, ein braver Mann, dem 
-                  <lb/>wirbelte der Kopf, trotz allem Entzückens fuhr er sich alle
-                  <lb/>Augenblick mit beiden Händen vor die Stirn, hielt sich den
-                  <lb/>Kopf, u. sagte: „ja es wäre wundervoll! Machen Sie nur, machen
-                  <lb/>Sie nur, Sie werdens schon durchführen.“ <persName key="Schultz, Karl Wilhelm 1801-1856" ref="http://viaf.org/viaf/8159462/" cert="high" type="real">Schulz</persName> übrigens steht
-                  <lb/>wie ein Mann vor der Sache, er meint es werde schwer sein aber <lb/>es werde gelingen. Daßelbe meint <persName key="Carl Boos deutscher Architekt und nassauischer Baubeamter" ref="http://viaf.org/viaf/306063864/" cert="high" type="real">Boos</persName>, der ein wirklich ausge-
-                  <lb/>zeichneter, genialer u. kenntnißvoller Mann ist. Bei dem habe ich
-                  <lb/>gestern Abend nachdem ich fast den ganzen Tag geschrieben u. ge-
-                  <lb/>rechnet hatte 2 recht angenehme u. intereßante Stunden ver-
-                  <lb/>plaudert<note type="editorial">gestr.: habe</note>. Er hat unter anderem die Vergrämung des
-                  <lb/>von den <placeName key="Hesse-Cassel" ref="http://viaf.org/viaf/6195148574361124430002/" cert="high">Heßen<precision match="@ref" precision="high"/></placeName> in den <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584">Rhein</placeName> geworfenen Dammes oder vielmehr
-                  <lb/>der dadurch binnen 48 Stunden zu Stande gekommenen völligen 
-                  <lb/>Versandung des <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680" cert="high">Bieberischen<precision match="@ref" precision="high"/></placeName> Rheinarmes geleitet <note type="editorial">gestr.: hat</note>(un-
-                  <lb/>ter Zuziehung <persName>von Hagen</persName>, deßen <persName>Frau</persName> Du in <placeName key="Berlin" ref="http://www.wikidata.org/entity/Q64">Berlin</placeName> in einem
-                  <lb/>Kaffe<note type="editorial">gestr.: kennen</note> u bei <persName>Nikolovius</persName> kennen gelernt hast). Ich
-                  <lb/>ließ mir diese höchst intereßante Operation erklären
-                  <lb/>die um so schwieriger war, als die Naßauer an dem
-                  <lb/>Punkt des <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584" cert="high">Rheins<precision match="@ref" precision="high"/></placeName>, wo man eigentlich die Correction hätte
-                  <lb/>angreifen müßen, nicht zugelaßen wurden, da er zu heßi-
-                  <lb/>schem Gebiete gehörte. Man hat übrigens kaum einen Begriff
-                  <lb/>von der Macht eines solchen <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584" cert="high">Stromes<precision match="@ref" precision="high"/></placeName>;   denke dir, daß nach
-                  <lb/>Ausführung des heßischen Coups, als sie die Quader, die sie nach-
-                  <lb/>her wieder herausholen mußten, ins Waßer geworfen
-                  <lb/>hatten, in dem heßischen <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584">Rheinarm</placeName>, das Waßer, das nun nicht
-                  <lb/>mehr nach <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680" cert="high">Bieberich<precision match="@ref" precision="high"/></placeName> konnte eine Rinne von 18 Fuß Tiefe
-                  <lb/>schon nach 48 Stunden gerißen hatte. Dagegen war 8 Tage
-                  <lb/>darauf der Bieberischer Arm schon so versandet, daß man
-                  <lb/>bei niedrigem Waßerstand trocknen Fußes auf die
-                  <lb/>Insel zwischen beiden Armen von <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680">Bieberich</placeName> aus gelangen 
-                  <lb/>konnte. Und diese Sandmaßen hat <persName key="Carl Boos deutscher Architekt und nassauischer Baubeamter" ref="http://viaf.org/viaf/306063864/" cert="high" type="real">Boos</persName> in den nachfolgenden
-                  <lb/>
-                  
-               </p>
-            </body>
-         </text>
-      </TEI>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
+                  <idno>
+                     <idno type="shelfmark">Signatur: G 25-1-5</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?place_annotation_20230704095716456",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-04T07:57:16.456Z",
+	"dcterms:modified": "2023-07-04T07:57:16.456Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?place_annotation_20230704095716456#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?place_annotation_20230704095716456#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/9819149719125911130000/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704095859810",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-04T07:58:59.810Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704095859810#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704095859810#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q27600899",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704100255865",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-04T08:02:55.865Z",
+	"dcterms:modified": "2023-07-04T08:02:55.865Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704100255865#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704100255865#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/8159462/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704100336157",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-04T08:03:36.157Z",
+	"dcterms:modified": "2023-07-04T08:03:36.157Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704100336157#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704100336157#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/8159462/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
+         <editorialDecl>
+            <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt;
+               kodiert.&amp;lt;/p&amp;gt; </p>
+         </editorialDecl>
+         <tagsDecl/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body> 
+         <p>
+            ausbezahlen sie trotz aller scheinbaren Zinsverluste am Schluß
+            <lb/>der 10 Jahre 400,00 Fl. gewonnen haben. Die Wiesbadener er-
+            <lb/>schrecken vor den Summen, die allerdings groß klingen, aber
+            <lb/>für den Geschäftsmann gilt die Bilanz, nicht der Ansatz. Da übri-
+            <lb/>gens diese Leute in <placeName key="France" ref="http://www.wikidata.org/entity/Q142">Frankreich</placeName> wahrscheinlich große Summen zu
+            <lb/>2½ % bekommen u. sie ihnen hier mit 3 % verzinst werden sollen,
+            <lb/>so ist ihr Gewinn wahrscheinlich u. zwar<note type="editorial">eingef.: u. zwar</note> bloß durch meinen Vorschlag noch
+            <lb/>viel bedeutender, denn ½ % zehn Jahre lang macht mindestens 5 %
+            <lb/>u. dieß ist bei Millionen eine sehr namhafte Summe, nämlich
+            <lb/>da sie 4 Millionen (wovon ich aber nur 2 brauche) auszahlen sollen
+            <lb/>so hätten sie mit ½ % Zinsdifferenz in 10 Jahren 1 Million ge-
+            <lb/>wonnen oder statt 4 Millionen, die sie Pacht<note type="editorial">eingef.: Pacht</note> zahlen müßten, wenn
+            <lb/>sie ratweis zahlten, werden sie dann nur 2,600,00 ausgegeben
+            <lb/>haben. Ich arbeite eben jezt ein Pro Memoria für Hr. <persName key="Vollpracht, Ferdinand" ref="http://www.wikidata.org/entity/Q27600899" cert="high" type="real">V.</persName>
+            <lb/>aus, das er den Pachtcompetenten mittheilen kann, u. das
+            <lb/>wie dem Hr. <persName>v. Hader</persName> seine Prügel „mehr spricht als die Flammen-
+            <lb/>züge der Geschichte.“ – Sinn u. Capacität ist übrigens hier,
+            <lb/>da merkt man die Nähe des <placeName key="Rhine" ref="http://dbpedia.org/resource/Rhine" cert="high">Rheins<precision match="@ref" precision="high"/></placeName>, – aber wie gesagt, kein
+            <lb/>freier Muth. – Mein Plan fängt an hier die Runde zu machen
+            <lb/>gestern war der <persName>Leibarzt</persName> bei mir, ein braver Mann, dem 
+            <lb/>wirbelte der Kopf, trotz allem Entzückens fuhr er sich alle
+            <lb/>Augenblick mit beiden Händen vor die Stirn, hielt sich den
+            <lb/>Kopf, u. sagte: „ja es wäre wundervoll! Machen Sie nur, machen
+            <lb/>Sie nur, Sie werdens schon durchführen.“ <persName key="Schultz, Karl Wilhelm 1801-1856" ref="http://viaf.org/viaf/8159462/" cert="high" type="real">Schulz</persName> übrigens steht
+            <lb/>wie ein Mann vor der Sache, er meint es werde schwer sein aber <lb/>es werde gelingen. Daßelbe meint <persName key="Carl Boos deutscher Architekt und nassauischer Baubeamter" ref="http://viaf.org/viaf/306063864/" cert="high" type="real">Boos</persName>, der ein wirklich ausge-
+            <lb/>zeichneter, genialer u. kenntnißvoller Mann ist. Bei dem habe ich
+            <lb/>gestern Abend nachdem ich fast den ganzen Tag geschrieben u. ge-
+            <lb/>rechnet hatte 2 recht angenehme u. intereßante Stunden ver-
+            <lb/>plaudert<note type="editorial">gestr.: habe</note>. Er hat unter anderem die Vergrämung des
+            <lb/>von den <placeName key="Hesse-Cassel" ref="http://viaf.org/viaf/6195148574361124430002/" cert="high">Heßen<precision match="@ref" precision="high"/></placeName> in den <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584">Rhein</placeName> geworfenen Dammes oder vielmehr
+            <lb/>der dadurch binnen 48 Stunden zu Stande gekommenen völligen 
+            <lb/>Versandung des <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680" cert="high">Bieberischen<precision match="@ref" precision="high"/></placeName> Rheinarmes geleitet <note type="editorial">gestr.: hat</note>(un-
+            <lb/>ter Zuziehung <persName>von Hagen</persName>, deßen <persName>Frau</persName> Du in <placeName key="Berlin" ref="http://www.wikidata.org/entity/Q64">Berlin</placeName> in einem
+            <lb/>Kaffe<note type="editorial">gestr.: kennen</note> u bei <persName>Nikolovius</persName> kennen gelernt hast). Ich
+            <lb/>ließ mir diese höchst intereßante Operation erklären
+            <lb/>die um so schwieriger war, als die Naßauer an dem
+            <lb/>Punkt des <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584" cert="high">Rheins<precision match="@ref" precision="high"/></placeName>, wo man eigentlich die Correction hätte
+            <lb/>angreifen müßen, nicht zugelaßen wurden, da er zu heßi-
+            <lb/>schem Gebiete gehörte. Man hat übrigens kaum einen Begriff
+            <lb/>von der Macht eines solchen <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584" cert="high">Stromes<precision match="@ref" precision="high"/></placeName>;   denke dir, daß nach
+            <lb/>Ausführung des heßischen Coups, als sie die Quader, die sie nach-
+            <lb/>her wieder herausholen mußten, ins Waßer geworfen
+            <lb/>hatten, in dem heßischen <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584">Rheinarm</placeName>, das Waßer, das nun nicht
+            <lb/>mehr nach <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680" cert="high">Bieberich<precision match="@ref" precision="high"/></placeName> konnte eine Rinne von 18 Fuß Tiefe
+            <lb/>schon nach 48 Stunden gerißen hatte. Dagegen war 8 Tage
+            <lb/>darauf der Bieberischer Arm schon so versandet, daß man
+            <lb/>bei niedrigem Waßerstand trocknen Fußes auf die
+            <lb/>Insel zwischen beiden Armen von <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680">Bieberich</placeName> aus gelangen 
+            <lb/>konnte. Und diese Sandmaßen hat <persName key="Carl Boos deutscher Architekt und nassauischer Baubeamter" ref="http://viaf.org/viaf/306063864/" cert="high" type="real">Boos</persName> in den nachfolgenden
+            <lb/>
+            
+         </p>
+
+      </body>
+   </text>
+</TEI>
