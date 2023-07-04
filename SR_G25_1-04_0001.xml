@@ -487,6 +487,86 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0001.xml?place_annotation_20230704092257984",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-04T07:22:57.984Z",
+	"dcterms:modified": "2023-07-04T07:22:57.984Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Swagunke",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Swagunke"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0001.xml?place_annotation_20230704092257984#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0001.xml?place_annotation_20230704092257984#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q1721",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -507,7 +587,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><placeName key="Wiesbaden (Allemagne, Hesse ; région)" ref="http://viaf.org/viaf/9819149719125911130000/" cert="high">Wiesbaden<precision match="@ref" precision="high"/></placeName> 19 Jan. 1854.&amp;lt;lb/&amp;gt;</p><p>Mein liebes &amp;lt;persName ref="p001"&amp;gt;Herz&amp;lt;/persName&amp;gt;! Da ich heute Nachmittag auf Hr. v. Löw war-&amp;lt;lb/&amp;gt;ten muß, der heut Vormittag&amp;lt;note type="editional&amp;gt;eingef.: heut Vormittag&amp;lt;/note&amp;gt; auf seine Karte geschrieben hat er wolle zwischen&amp;lt;lb/&amp;gt;4 u. 5 wiederkommen, so ist es wohl das Beste ich unterhalte mich&amp;lt;lb/&amp;gt;ein wenig mit Dir, Du liebe Seele, an die ich jeden Moment denke&amp;lt;lb/&amp;gt;wenn ich nicht gerade mit Pläneschmieden beschäftigt bin, was ich bekannt-&amp;lt;lb/&amp;gt;lich mit nicht geringerer Paßion treibe, als unser braver <persName key="August von Froriep" ref="http://dbpedia.org/resource/August_von_Froriep" cert="high" type="real">Junge</persName> der&amp;lt;lb/&amp;gt;Zeugschmiedt mit seinem 20 [Pfund] Hammer; und meinen jetzigen Plänen&amp;lt;lb/&amp;gt;liegt ja am Ende auch der Gedanke an Dich zu Grunde u. an die frischen&amp;lt;lb/&amp;gt;Kinder, die ich in behaglichere Existenzen versetzen möchte, als sie&amp;lt;lb/&amp;gt;mein Erbtheil geworden sind. – Heute morgen habe ich nun an Hr. <persName key="Vollpracht, Ferdinand" ref="http://www.wikidata.org/entity/Q27600899">Vollpr</persName>.&amp;lt;lb/&amp;gt;geschrieben, das einzige, was mir die hiesige Regierung als Förderung&amp;lt;lb/&amp;gt;des Plans u. als Fixirung deßelben in <placeName key="Wiesbaden (Allemagne, Hesse ; région)" ref="http://viaf.org/viaf/9819149719125911130000/">Wiesbaden</placeName> leisten könne&amp;lt;note type="editional&amp;gt;eingef.: leisten könne&amp;lt;/note&amp;gt;, sei die Aufstellung&amp;lt;lb/&amp;gt;einer Garantie für den Kapitalgeber. &amp;lt;note type="editional&amp;gt;gestr.: Denn&amp;lt;/note&amp;gt; Die Form dafür müße&amp;lt;lb/&amp;gt;ich von ihnen erwarten, die die hiesigen Verhältniße kennen, ‑ „da-&amp;lt;lb/&amp;gt;gegen erlaube ich mir einen Vorschlag, der uns zum Ziele führe&amp;lt;lb/&amp;gt;u. zugleich der hiesigen Regierung ein, wie mir scheine, angeneh-&amp;lt;lb/&amp;gt;mes Mittel an die Hand gebe, für&amp;lt;note type="editioanl&amp;gt;eingef.: für&amp;lt;/note&amp;gt; eine sonst vielfältig getadelte&amp;lt;lb/&amp;gt;Maßregel versöhnend zu wirken.“ Diese Sache nämlich ver-&amp;lt;lb/&amp;gt;hält sich so: Der Spielpacht wird hier an die Actiengesellschaft&amp;lt;lb/&amp;gt;des <placeName key="Kurhaus Wiesbaden" ref="http://www.wikidata.org/entity/Q16054321" cert="high">Kurhauses<precision match="@ref" precision="high"/></placeName> entrichtet, Hauptactionär ist die Domänen-&amp;lt;lb/&amp;gt;Verwaltung, der lezte Pachtvertrag, der eine in Vergleich zu&amp;lt;lb/&amp;gt;anderen auswärtigen&amp;lt;note type="editional&amp;gt;eingef.: auswärtigen&amp;lt;/note&amp;gt; außerordentlich geringe Pachtsumme stipulirt, ist nun nur&amp;lt;lb/&amp;gt;von dem Vertreter der Domänenverwaltung u. nicht von den&amp;lt;lb/&amp;gt;übrigen Actionärs unterzeichnet worden. Darauf hin ist der</p>
+         <p> <placeName key="Wiesbaden" ref="http://www.wikidata.org/entity/Q1721" cert="high">Wiesbaden<precision match="@ref" precision="high"/></placeName> 19 Jan. 1854.Mein liebes Herz! Da ich heute Nachmittag auf Hr. v. Löw war-ten muß, der heut Vormittageingef.: heut Vormittag auf seine Karte geschrieben hat er wolle zwischen4 u. 5 wiederkommen, so ist es wohl das Beste ich unterhalte mich ein wenig mit Dir, Du liebe Seele, an die ich jeden Moment denke wenn ich nicht gerade mit Pläneschmieden beschäftigt bin, was ich bekannt-lich mit nicht geringerer Paßion treibe, als unser braver Junge der Zeugschmiedt mit seinem 20 [Pfund] Hammer; und meinen jetzigen Plänen liegt ja am Ende auch der Gedanke an Dich zu Grunde u. an die frischen Kinder, die ich in behaglichere Existenzen versetzen möchte, als sie mein Erbtheil geworden sind. – Heute morgen habe ich nun an Hr. Vollpr. geschrieben, das einzige, was mir die hiesige Regierung als Förderung des Plans u. als Fixirung deßelben in Wiesbaden leisten könne eingef.: leisten könne, sei die Aufstellung einer Garantie für den Kapitalgeber. gestr.: Denn Die Form dafür müße ich von ihnen erwarten, die die hiesigen Verhältniße kennen, ‑ „da-gegen erlaube ich mir einen Vorschlag, der uns zum Ziele führeu. zugleich der hiesigen Regierung ein, wie mir scheine, angeneh-mes Mittel an die Hand gebe, füreingef.: für eine sonst vielfältig getadelte Maßregel versöhnend zu wirken.“ Diese Sache nämlich ver-hält sich so: Der Spielpacht wird hier an die Actiengesellschaftdes Kurhauses entrichtet, Hauptactionär ist die Domänen-Verwaltung, der lezte Pachtvertrag, der eine in Vergleich zuanderen auswärtigen außerordentlich geringe Pachtsumme stipulirt, ist nun nurvon dem Vertreter der Domänenverwaltung u. nicht von denübrigen Actionärs unterzeichnet worden. Darauf hin ist der</p>
       </body>
    </text>
 </TEI>
