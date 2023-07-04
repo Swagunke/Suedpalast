@@ -73,7 +73,46 @@
                <notesStmt>
                   <note>
                      <p>
-                        Jahren vermittels der jährlich 2mal kommenden Hochwaßer des
+                      
+
+                     </p>
+                  </note>
+               </notesStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
+                  <idno>
+                     <idno type="shelfmark">Signatur: G 25-1-5</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
+         <editorialDecl>
+            <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt;
+               kodiert.&amp;lt;/p&amp;gt; </p>
+         </editorialDecl>
+         <tagsDecl/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <p>
+             Jahren vermittels der jährlich 2mal kommenden Hochwaßer des
 <lb/>Rheins wieder herausgeschafft, so daß wir vor 2 Jahren auch
 <lb/>ganz ruhig in Bieberich anfahren konnten. – V. habe ich heute
 <lb/>wieder verfehlt, aber mit einem Billet heimgesucht, wie er 
@@ -124,43 +163,6 @@
 <lb/>Misels zu entzücken. Vorn an der Straße, geht alsdann die Halle
 <lb/>in den Südpalast über, der kaum genug giebt, daß jeder Hypo-
 <lb/>
-
-                     </p>
-                  </note>
-               </notesStmt>
-            </biblFull>
-            <msDesc>
-               <msIdentifier>
-                  <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
-                  <idno>
-                     <idno type="shelfmark">Signatur: G 25-1-5</idno>
-                  </idno>
-               </msIdentifier>
-               <physDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
-         <editorialDecl>
-            <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
-               href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt;
-               kodiert.&amp;lt;/p&amp;gt; </p>
-         </editorialDecl>
-         <tagsDecl/>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="deu">German</language>
-         </langUsage>
-         <textClass>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
-         </textClass>
-      </profileDesc>
-   </teiHeader>
-   <text>
-      <body>
          <p/>
       </body>
    </text>
