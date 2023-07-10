@@ -445,7 +445,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230705084042394",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-05T06:40:42.394Z",
-	"dcterms:modified": "2023-07-05T06:40:42.394Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -472,12 +471,12 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230705084042394#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[9]"
+			"rdf:value": "TEI/text/body/p/placeName[10]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "http://viaf.org/viaf/670155105761376320000/",
+		"@id": "http://www.wikidata.org/entity/Q154828",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -486,8 +485,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
-	},
-	"cwrc:hasPrecision": "cwrc:highCertainty"
+	}
 }]]>
         </rdf:Description>
       
@@ -525,7 +523,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230705084254216",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-05T06:42:54.216Z",
-	"dcterms:modified": "2023-07-05T06:42:54.216Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -552,12 +549,12 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230705084254216#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[10]"
+			"rdf:value": "TEI/text/body/p/placeName[11]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q154828",
+		"@id": "http://www.wikidata.org/entity/Q64",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -567,6 +564,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
 	},
+	"cwrc:hasCertainty": "cwrc:high",
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
@@ -605,7 +603,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230705084308971",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-05T06:43:08.971Z",
-	"dcterms:modified": "2023-07-05T06:43:08.971Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -632,12 +629,12 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230705084308971#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[11]"
+			"rdf:value": "TEI/text/body/p/placeName[12]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q64",
+		"@id": "http://viaf.org/viaf/1416150172746300180002/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -646,8 +643,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
-	},
-	"cwrc:hasPrecision": "cwrc:highCertainty"
+	}
 }]]>
         </rdf:Description>
       
@@ -685,7 +681,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230705084329403",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-05T06:43:29.403Z",
-	"dcterms:modified": "2023-07-05T06:43:29.403Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -712,12 +707,12 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230705084329403#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[12]"
+			"rdf:value": "TEI/text/body/p/placeName[14]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "http://viaf.org/viaf/1416150172746300180002/",
+		"@id": "http://viaf.org/viaf/282346312/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -924,7 +919,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230705085002458",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-05T06:50:02.458Z",
-	"dcterms:modified": "2023-07-05T06:50:02.458Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -951,12 +945,12 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230705085002458#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[13]"
+			"rdf:value": "TEI/text/body/p/placeName[15]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "http://viaf.org/viaf/282346312/",
+		"@id": "http://viaf.org/viaf/1416150172746300180002/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -966,6 +960,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
 	},
+	"cwrc:hasCertainty": "cwrc:high",
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
@@ -1366,6 +1361,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230710165023274",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-10T14:50:23.274Z",
+	"dcterms:modified": "2023-07-10T14:50:23.274Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230710165023274#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230710165023274#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName[9]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/127167227/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230710165202288",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-10T14:52:02.288Z",
+	"dcterms:modified": "2023-07-10T14:52:02.288Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230710165202288#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?place_annotation_20230710165202288#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName[13]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/282346312/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -1418,7 +1572,7 @@
 <lb/>vorbringen. – Diese Trinkhalle übrigens wird, wenn sie nach 
 <lb/>meinem Vorschlag ausgeführt wird, ein Wunderwerk – sie be-
 <lb/>ginnt am <placeName key="Kochbrunnen (Wiesbaden)" ref="http://viaf.org/viaf/4651150518486203650002/">Kochbrunnen</placeName> an der <placeName key="Taunusstraße (Wiesbaden)" ref="http://viaf.org/viaf/670155105761376320000/" cert="high">Taunusstraße<precision match="@ref" precision="high"/></placeName> mit einer großen Glas-
-<lb/>Rotunde, geht 1/50 breit bis ans Theater, wo eine Ecke bleibt die
+<lb/>Rotunde, geht 1/50 breit bis ans <placeName key="Residenztheater Wiesbaden (Wiesbaden)" ref="http://viaf.org/viaf/127167227/" cert="high">Theater<precision match="@ref" precision="high"/></placeName>, wo eine Ecke bleibt die
 <lb/>sich zu einem großen Affenkäfig eignet (wie im <placeName key="Berlin Zoological Garden" ref="http://www.wikidata.org/entity/Q154828">zoologischen Garten</placeName> 
 <lb/>in <placeName key="Berlin" ref="http://www.wikidata.org/entity/Q64" cert="high">Berlin<precision match="@ref" precision="high"/></placeName>) einer immer amüsanten Unterhaltung, dann geht sie
 <lb/>über die <placeName key="Wilhelmstraße (Wiesbaden)" ref="http://viaf.org/viaf/1416150172746300180002/">Wilhelmstraße</placeName> herüber, wo sie die Form eines Triumph-
@@ -1426,7 +1580,7 @@
 <lb/>wieder als Glasgallerie ein durch einen lebedigen Bach beleb-
 <lb/>tes Miniatur-Thälchen, welches auch in Miniatur für Nipp-
 <lb/>geschmack angelegt werden muß, so gelangt sie bis hinter den
-<lb/>Kursaal u. bedeckt den Raum zwischen diesem und dem Weiher der
+<lb/><placeName key="Kurhaus Wiesbaden (Wiesbaden)" ref="http://viaf.org/viaf/282346312/">Kursaal</placeName> u. bedeckt den Raum zwischen diesem und dem Weiher der
 <lb/>reich mit Waßervögeln belebt werden muß, u. über den sie
 <lb/>eine reitzende Aussicht in ein enges schön bewachsenes Thal
 <lb/>hat, dann geht sie auf der anderen Seite des <placeName key="Kurhaus Wiesbaden (Wiesbaden)" ref="http://viaf.org/viaf/282346312/">Kursaals</placeName> durch
