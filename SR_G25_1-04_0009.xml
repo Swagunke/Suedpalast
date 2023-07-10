@@ -680,7 +680,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0009.xml?place_annotation_20230710162637852",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T14:26:37.852Z",
-	"dcterms:modified": "2023-07-10T14:26:37.852Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -707,7 +706,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0009.xml?place_annotation_20230710162637852#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[5]"
+			"rdf:value": "TEI/text/body/p/placeName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -722,6 +721,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
 	},
+	"cwrc:hasCertainty": "cwrc:high",
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
@@ -866,7 +866,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0009.xml?place_annotation_20230710163031862#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[7]"
+			"rdf:value": "TEI/text/body/p/placeName[8]"
 		}
 	},
 	"oa:hasBody": {
@@ -945,7 +945,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0009.xml?place_annotation_20230710163524965#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[6]"
+			"rdf:value": "TEI/text/body/p/placeName[7]"
 		}
 	},
 	"oa:hasBody": {
@@ -961,6 +961,85 @@
 		"schema:softwareVersion": "3.0.1"
 	},
 	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0009.xml?place_annotation_20230710163724077",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-10T14:37:24.077Z",
+	"dcterms:modified": "2023-07-10T14:37:24.077Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0009.xml?place_annotation_20230710163724077#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0009.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0009.xml?place_annotation_20230710163724077#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/9819149719125911130000/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -994,7 +1073,7 @@
 <lb/>mentlich etwa 400 Schritt nur hinauf ein chinesischer
 <lb/>Schirm steht, der die herrlichste Aussicht ins <placeName key="Rheingau" ref="http://www.wikidata.org/entity/Q212376" cert="high"><placeName key="Rheingau" ref="http://www.wikidata.org/entity/Q212376" cert="high">Rhein-
 <lb/>gau<precision match="@ref" precision="high"/></placeName><precision match="@ref" precision="high"/></placeName> u. bis auf die linke <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584">Rhein</placeName>-seite bietet, ein
-<lb/>weinig höher nur liegt das Landhaus des Hr. <persName key="Ludwig Löw von und zu Steinfurth (Gerichtspräsident) deutscher Hochschullehrer, Nassauischer Richter und Abgeordneter" ref="http://viaf.org/viaf/54492228/" cert="high" type="real">v. Löw</persName>, welches
+<lb/>wenig höher nur liegt das Landhaus des Hr. <persName key="Ludwig Löw von und zu Steinfurth (Gerichtspräsident) deutscher Hochschullehrer, Nassauischer Richter und Abgeordneter" ref="http://viaf.org/viaf/54492228/" cert="high" type="real">v. Löw</persName>, welches
 <lb/>wegen seiner einzigen Aussicht hier berühmt ist. Löws
 <lb/>machen übrigens ein hübsches Haus für eine wißenschaftlich
 <lb/>künstlerische Gesellschaft. Patienten habe ich auch schon hier
@@ -1002,7 +1081,7 @@
 <lb/>im Südpalast!! Merkwürdig aber ist doch wie hier
 <lb/>meine Idee wenn ich sie kaum erst angedeutet habe bei
 <lb/>den Leuten Verständniß findet u. entschieden zündet.
-<lb/>Solche Intereßen sind den Leuten in dem Badeort doch
+<lb/>Solche Intereßen sind den Leuten in dem <placeName key="Wiesbaden (Allemagne, Hesse ; région)" ref="http://viaf.org/viaf/9819149719125911130000/">Badeort</placeName> doch
 <lb/>zugänglicher. Wenn ich nicht abgehalten werde so will ich
 <lb/>morgen nach <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680" cert="high">Bieberich<precision match="@ref" precision="high"/></placeName> fahren u. die berühmten <placeName key="Schloss Biebrich" ref="http://viaf.org/viaf/238127296/" cert="high">Gewächshäu-
 <lb/>ser<precision match="@ref" precision="high"/></placeName> sehen, mit denen mein Palmenhaus revalisiren
