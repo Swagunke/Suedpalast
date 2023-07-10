@@ -2308,6 +2308,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?note_annotation_20230710140324927",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-10T12:03:24.927Z",
+	"dcterms:modified": "2023-07-10T12:03:24.927Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?note_annotation_20230710140324927#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?note_annotation_20230710140324927#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "eingef.: da es nicht neblig war"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?note_annotation_20230710140417907",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-10T12:04:17.907Z",
+	"dcterms:modified": "2023-07-10T12:04:17.907Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?note_annotation_20230710140417907#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?note_annotation_20230710140417907#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "eingef.: zum Theil recht geschmackvollen"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -2335,13 +2493,13 @@
 <lb/>Beiliegende 3 Bildchen sind 3 Hauptpunkte, die wenn die Sache hier wird
 <lb/>künftig von Deinem Fenster aus zu sehen sein würden, nebst viel Grün
 <lb/>Ich lege sie für <persName ref="p004">Lida</persName> <persName ref="p005">Clara</persName> u. <persName key="Froriep, August, 1849-1917" ref="http://viaf.org/viaf/37677642/">August<note type="editorial">eingef. am linken Rand: Beiliegende 3 Bildchen ... Clara u. August bei.</note></persName> bei. 
-<lb/>Heute sah ich übrigens da es nicht neblig war zum ersten mal wieder die Formation
+<lb/>Heute sah ich übrigens da es nicht neblig war<note type="editorial">eingef.: da es nicht neblig war</note> zum ersten mal wieder die Formation
 <lb/>des Bodens zunächst um <placeName key="Wiesbaden" ref="http://www.wikidata.org/entity/Q1721" cert="high">Wiesbaden<precision match="@ref" precision="high"/></placeName>; dieselbe ist sehr man-
 <lb/>nigfaltig, im allgemeinen Charakter vorwiegend ge-
 <lb/>fällig, dicht an die Stadt von Westen, Norden u. Osten reihen
 <lb/>sich sanfte Hügel an (die 4te Seite geht eben hinaus bis <persName key="Mainz" ref="http://www.wikidata.org/entity/Q1720" cert="high" type="real">Mainz</persName>, 
 <lb/><placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680">Bieberich</placeName> u. das <placeName key="Rheingau" ref="http://www.wikidata.org/entity/Q212376" cert="high">Rheingau<precision match="@ref" precision="high"/></placeName>) die Hügel sind mit Gärten
-<lb/>u. zum Theil recht geschmackvollen Landhäusern schon fast ganz besezt, dazwischen schneiden
+<lb/>u. zum Theil recht geschmackvollen<note type="editorial">eingef.: zum Theil recht geschmackvollen</note> Landhäusern schon fast ganz besezt, dazwischen schneiden
 <lb/>schmale Thälchen, die sehr reich bewachsen sind u. viel Man-
 <lb/>nigfaltigkeit bieten, tief hinein, so daß hier stille
 <lb/>enge, selbst romantische Parthien vorkommen. Weiter zu-
