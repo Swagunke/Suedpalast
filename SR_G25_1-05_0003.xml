@@ -1287,6 +1287,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?person_annotation_20230710164932608",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-10T14:49:32.608Z",
+	"dcterms:modified": "2023-07-10T14:49:32.608Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?person_annotation_20230710164932608#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0003.xml?person_annotation_20230710164932608#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Kochbrunnen",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -1316,7 +1395,7 @@
 <lb/>wohl jedenfalls noch 2–3 Tage hier dauern, aber dann hoffe
 <lb/>ich mit einem vom <persName key="Adolphe vu Lëtzebuerg" ref="http://viaf.org/viaf/262283873/" cert="high" type="real">Herzog</persName> unterzeichneten Contract, der frei-
 <lb/>lich zunächst nur eventuell sein kann, abzureisen. Ist das aber
-<lb/>nichts, so gehe ich noch nach <placeName key="Aachen" ref="http://www.wikidata.org/entity/Q1017" cert="high">Aachen<precision match="@ref" precision="high"/></placeName>. Habe Geduld, mein Herz, so
+<lb/>nichts, so gehe ich noch nach <placeName key="Aachen" ref="http://www.wikidata.org/entity/Q1017" cert="high">Aachen<precision match="@ref" precision="high"/></placeName>. Habe Geduld, mein <persName ref="p001">Herz</persName>, so
 <lb/>ein dicker Baum kann nicht auf 1 Schlag fallen, aber fallen
 <lb/>sollte u. wird er; die Sache ist jezt vollständig zu meiner
 <lb/>Aufgabe heran gewachsen u. der werde ich gerecht werden.
@@ -1329,7 +1408,7 @@
 <lb/>tige Weise angab, wie dieselbe angelegt werden müße
 <lb/>in Verbindung mit meinem Südpalast, wodurch für die
 <lb/>Kurtrinker eine bedeckte, höchst unterhaltende Spatzier-
-<lb/>bahn entsteht, die vom Brunnen hin u. zurück 1½ Englische Meilen
+<lb/>bahn entsteht, die vom <persName key="Kochbrunnen" ref="http://dbpedia.org/resource/Kochbrunnen">Brunnen</persName> hin u. zurück 1½ Englische Meilen
 <lb/>betragen wird. Deswegen dringe ich auf Vorauszahlung des
 <lb/>ganzen Pachtes, denn dann hat die Verwaltung gleich ½ Million
 <lb/>für diese Trinkhalle, und noch 1½ Millionen womit sie 
