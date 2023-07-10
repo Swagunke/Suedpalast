@@ -231,7 +231,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710132349215#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[2]"
+			"rdf:value": "TEI/text/body/p/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -274,7 +274,7 @@
 <lb/>es künftig wahrscheinlich aus deinem Salon sehen wirst.
 <lb/>Beiliegende 3 Bildchen sind 3 Hauptpunkte, die wenn die Sache hier wird
 <lb/>künftig von Deinem Fenster aus zu sehen sein würden, nebst viel Grün
-<lb/>Ich lege sie für Lida Clara u. <persName key="Froriep, August, 1849-1917" ref="http://viaf.org/viaf/37677642/">August</persName> bei. 
+<lb/>Ich lege sie für <persName cert="high" type="real">Lida</persName> Clara u. <persName key="Froriep, August, 1849-1917" ref="http://viaf.org/viaf/37677642/">August</persName> bei. 
 <lb/>Heute sah ich übrigens da es nicht neblig war zum ersten mal wieder die Formation
 <lb/>des Bodens zunächst um Wiesbaden; dieselbe ist sehr man-
 <lb/>nigfaltig, im allgemeinen Charakter vorwiegend ge-
