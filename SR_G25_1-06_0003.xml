@@ -125,6 +125,7 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-06_0003.xml?person_annotation_20230710100958544",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T08:09:58.544Z",
+	"dcterms:modified": "2023-07-10T08:09:58.544Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -151,7 +152,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-06_0003.xml?person_annotation_20230710100958544#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/persName"
+			"rdf:value": "TEI/text/body/p/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -165,8 +166,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
+	}
 }]]>
         </rdf:Description>
       
@@ -204,7 +204,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-06_0003.xml?place_annotation_20230710102600134",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T08:26:00.134Z",
-	"dcterms:modified": "2023-07-10T08:26:00.134Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -231,7 +230,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-06_0003.xml?place_annotation_20230710102600134#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/placeName[2]"
+			"rdf:value": "TEI/text/body/p/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -285,6 +284,7 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-06_0003.xml?person_annotation_20230710102747557",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T08:27:47.557Z",
+	"dcterms:modified": "2023-07-10T08:27:47.557Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -311,7 +311,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-06_0003.xml?person_annotation_20230710102747557#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/persName[3]"
+			"rdf:value": "TEI/text/body/p/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -325,8 +325,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
+	}
 }]]>
         </rdf:Description>
       
@@ -364,6 +363,7 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-06_0003.xml?person_annotation_20230710102852599",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T08:28:52.599Z",
+	"dcterms:modified": "2023-07-10T08:28:52.599Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -390,7 +390,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-06_0003.xml?person_annotation_20230710102852599#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/persName[4]"
+			"rdf:value": "TEI/text/body/p/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -442,6 +442,7 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-06_0003.xml?title_annotation_20230710143650191",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T12:36:50.191Z",
+	"dcterms:modified": "2023-07-10T12:36:50.191Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -468,7 +469,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-06_0003.xml?title_annotation_20230710143650191#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/title"
+			"rdf:value": "TEI/text/body/p/title"
 		}
 	},
 	"oa:hasBody": {
@@ -482,8 +483,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
+	}
 }]]>
         </rdf:Description>
       
@@ -521,6 +521,7 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-06_0003.xml?place_annotation_20230710143709560",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T12:37:09.560Z",
+	"dcterms:modified": "2023-07-10T12:37:09.560Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -547,7 +548,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-06_0003.xml?place_annotation_20230710143709560#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/placeName"
+			"rdf:value": "TEI/text/body/p/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -562,7 +563,6 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
 	},
-	"cwrc:hasCertainty": "cwrc:high",
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
@@ -629,15 +629,15 @@
 			"@type": "oa:RangeSelector",
 			"oa:hasStartSelector": {
 				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body"
+				"rdf:value": "TEI/text/body/p"
 			},
 			"oa:hasEndSelector": {
 				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/persName[2]"
+				"rdf:value": "TEI/text/body/p/persName[2]"
 			},
 			"oa:refinedBy": {
 				"@type": "oa:TextPositionSelector",
-				"oa:start": 202,
+				"oa:start": 189,
 				"oa:end": 3
 			}
 		}
@@ -676,11 +676,11 @@
    </teiHeader>
    <text>
       <body>
-         
+         <p>
             von <persName key="Paetsch, August Ferdinand 1817-1885" ref="http://viaf.org/viaf/25700845/" cert="high" type="real">Pätsch</persName> aber wärmer, edler, – merkwürdig und
 <lb/>derselbe Schauspieler gab lezthin den Robert in den
 <lb/><title key="Arago, Étienne (1802-1892). | Mémoires du diable" ref="http://viaf.org/viaf/309355971/" cert="high">Memoiren des Teufels</title> recht wie ein Commis voyageur.
-<lb/>Vor dem <placeName key="Residenztheater Wiesbaden (Wiesbaden)" ref="http://viaf.org/viaf/127167227/" cert="high">Theater<precision match="@ref" precision="high"/></placeName> war Hr. v. <persName key="Ludwig Löw von und zu Steinfurth (Gerichtspräsident) deutscher Hochschullehrer, Nassauischer Richter und Abgeordneter" ref="http://viaf.org/viaf/54492228/">Löw</persName> bei mir und lud mich noch-
+<lb/>Vor dem <placeName key="Residenztheater Wiesbaden (Wiesbaden)" ref="http://viaf.org/viaf/127167227/" cert="high">Theater<precision match="@ref" precision="high"/></placeName> war Hr. <persName key="Ludwig Löw von und zu Steinfurth (Gerichtspräsident) deutscher Hochschullehrer, Nassauischer Richter und Abgeordneter" ref="http://viaf.org/viaf/54492228/">Löw</persName> bei mir und lud mich noch-
 <lb/>mals auf morgen Abend ein, u. fragte zugleich, ob ich nicht
 <lb/>erlaube, daß er morgen Abend das Gespräch auf meinen
 <lb/>Plan bringe, mehrere Damen hätten den Wunsch geäußert, 
@@ -702,7 +702,7 @@
 <lb/>bei. Beiliegendes Billet gleich an <persName key="Sauppe, Hermann, 1809-1893" ref="http://viaf.org/viaf/71610901/">Sauppe</persName> wegen dem Mitt-
 <lb/>woch Verein. Mein liebes Herz verliere die Geduld nicht, und
 <lb/>grüße die lieben Kinder. Ganz und immer dein Robert.
-         
+         </p>
       </body>
    </text>
 </TEI>
