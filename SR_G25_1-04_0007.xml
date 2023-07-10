@@ -1807,7 +1807,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?place_annotation_20230710135259088#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[12]"
+			"rdf:value": "TEI/text/body/p/placeName[13]"
 		}
 	},
 	"oa:hasBody": {
@@ -1966,7 +1966,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?place_annotation_20230710135741054#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[13]"
+			"rdf:value": "TEI/text/body/p/placeName[14]"
 		}
 	},
 	"oa:hasBody": {
@@ -2853,6 +2853,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?place_annotation_20230710142947416",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-10T12:29:47.416Z",
+	"dcterms:modified": "2023-07-10T12:29:47.416Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?place_annotation_20230710142947416#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?place_annotation_20230710142947416#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName[12]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/127167227/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -2907,7 +2987,7 @@
 <lb/>in <placeName key="Bordeaux" ref="http://www.wikidata.org/entity/Q1479">Bordeaux<precision match="@ref" precision="high"/></placeName>, in <placeName key="Westindien" ref="http://viaf.org/viaf/246535206/" cert="high">Westindien</placeName>, in <placeName key="Rome" ref="http://www.wikidata.org/entity/Q220">Rom<precision match="@ref" precision="high"/></placeName> p p war u. von wel-
 <lb/>chem überall her Briefe abgedruckt sind, die für die Wich-
 <lb/>tigkeit und Richtigkeit meines Südpalastes sehr ener-
-<lb/>gisch sprechen. Nachher war ich im Theater, wo die <title key="Arago, Étienne (1802-1892). | Mémoires du diable" ref="http://viaf.org/viaf/309355971/">Memoi-
+<lb/>gisch sprechen. Nachher war ich im <placeName key="Residenztheater Wiesbaden (Wiesbaden)" ref="http://viaf.org/viaf/127167227/">Theater<precision match="@ref" precision="high"/></placeName>, wo die <title key="Arago, Étienne (1802-1892). | Mémoires du diable" ref="http://viaf.org/viaf/309355971/">Memoi-
 <lb/>ren des Teufels</title> gegeben wurden, einige Stellen recht
 <lb/>gut, andere sehr mittelmäßig, das Publikum war gün-
 <lb/>stig u. sehr theilnahmsvoll. Der <persName key="Adolphe vu Lëtzebuerg" ref="http://viaf.org/viaf/262283873/" cert="high" type="real">Herzog</persName> mit seiner sehr
