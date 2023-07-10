@@ -745,7 +745,8 @@
    </teiHeader>
    <text>
       <body>
-        Wiesbaden 19 Jan. 1854
+	<p>
+	      Wiesbaden 19 Jan. 1854
 <lb/>Mein liebes Herz! Da ich heute Nachmittag auf Hr. v. Löw war-
 <lb/>ten muß, der heut Vormittag auf seine Karte geschrieben hat er wolle zwischen
 <lb/>4 u. 5 wiederkommen, so ist es wohl das Beste ich unterhalte mich
@@ -770,6 +771,7 @@
 <lb/>anderen auswärtigene außerordentlich geringe Pachtsumme stipulirt, ist nun nur
 <lb/>von dem Vertreter der Domänenverwaltung u. nicht von den 
 <lb/>übrigen Actionärs unterzeichnet worden. Darauf hin ist der
-      </body>
+     		<p>
+	</body>
    </text>
 </TEI>
