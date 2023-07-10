@@ -759,7 +759,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710133608117",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T11:36:08.117Z",
-	"dcterms:modified": "2023-07-10T11:36:08.117Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -786,7 +785,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710133608117#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[6]"
+			"rdf:value": "TEI/text/body/p/persName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -800,7 +799,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -838,7 +838,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710133631247",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T11:36:31.247Z",
-	"dcterms:modified": "2023-07-10T11:36:31.247Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -865,7 +864,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710133631247#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[7]"
+			"rdf:value": "TEI/text/body/p/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -917,7 +916,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710133833047",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T11:38:33.047Z",
-	"dcterms:modified": "2023-07-10T11:38:33.047Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -944,7 +942,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710133833047#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[8]"
+			"rdf:value": "TEI/text/body/p/persName[7]"
 		}
 	},
 	"oa:hasBody": {
@@ -958,7 +956,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -996,7 +995,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710134012505",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T11:40:12.505Z",
-	"dcterms:modified": "2023-07-10T11:40:12.505Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -1023,7 +1021,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710134012505#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[9]"
+			"rdf:value": "TEI/text/body/p/persName[8]"
 		}
 	},
 	"oa:hasBody": {
@@ -1631,7 +1629,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710134605448",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T11:46:05.448Z",
-	"dcterms:modified": "2023-07-10T11:46:05.448Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -1658,7 +1655,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710134605448#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[10]"
+			"rdf:value": "TEI/text/body/p/persName[9]"
 		}
 	},
 	"oa:hasBody": {
@@ -1672,7 +1669,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -1710,7 +1708,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710134653854",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T11:46:53.854Z",
-	"dcterms:modified": "2023-07-10T11:46:53.854Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -1737,7 +1734,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710134653854#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[11]"
+			"rdf:value": "TEI/text/body/p/persName[10]"
 		}
 	},
 	"oa:hasBody": {
@@ -1895,7 +1892,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710135728603#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[14]"
+			"rdf:value": "TEI/text/body/p/persName[13]"
 		}
 	},
 	"oa:hasBody": {
@@ -2054,7 +2051,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710135829187#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[15]"
+			"rdf:value": "TEI/text/body/p/persName[14]"
 		}
 	},
 	"oa:hasBody": {
@@ -2133,7 +2130,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710135903853#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[16]"
+			"rdf:value": "TEI/text/body/p/persName[15]"
 		}
 	},
 	"oa:hasBody": {
@@ -2212,7 +2209,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?person_annotation_20230710135936838#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[17]"
+			"rdf:value": "TEI/text/body/p/persName[16]"
 		}
 	},
 	"oa:hasBody": {
@@ -2765,7 +2762,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0007.xml?note_annotation_20230710140733234#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[15]/note"
+			"rdf:value": "TEI/text/body/p/persName[14]/note"
 		}
 	},
 	"oa:hasBody": {
@@ -2813,7 +2810,7 @@
 <lb/>des Bodens zunächst um <placeName key="Wiesbaden" ref="http://www.wikidata.org/entity/Q1721" cert="high">Wiesbaden<precision match="@ref" precision="high"/></placeName>; dieselbe ist sehr man-
 <lb/>nigfaltig, im allgemeinen Charakter vorwiegend ge-
 <lb/>fällig, dicht an die Stadt von Westen, Norden u. Osten reihen
-<lb/>sich sanfte Hügel an (die 4te Seite geht eben hinaus bis <persName key="Mainz" ref="http://www.wikidata.org/entity/Q1720" cert="high" type="real">Mainz</persName>, 
+<lb/>sich sanfte Hügel an (die 4te Seite geht eben hinaus bis Mainz, 
 <lb/><placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680">Bieberich</placeName> u. das <placeName key="Rheingau" ref="http://www.wikidata.org/entity/Q212376" cert="high">Rheingau<precision match="@ref" precision="high"/></placeName>) die Hügel sind mit Gärten
 <lb/>u. zum Theil recht geschmackvollen<note type="editorial">eingef.: zum Theil recht geschmackvollen</note> Landhäusern schon fast ganz besezt, dazwischen schneiden
 <lb/>schmale Thälchen, die sehr reich bewachsen sind u. viel Man-
