@@ -1041,6 +1041,83 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?note_annotation_20230714134904408",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-14T11:49:04.408Z",
+	"dcterms:modified": "2023-07-14T11:49:04.408Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?note_annotation_20230714134904408#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?note_annotation_20230714134904408#Selector",
+			"@type": "oa:XPathSelector"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -1088,8 +1165,7 @@
 <lb/>ist weggerißen u. durch moderne Bauten ersetzt, Pflaster
 <lb/>u. Gasbeleuchtung vortrefflich in den neuen breiten
 <lb/>Straßen vortreffliche Trottoirs. – Du kannst dir
-<lb/>denken daß ich alles mit Intereße angehe. Nun<note type="editorial">Textverlust durch Papierausriss; sinngemäß ergänzt: Nun</note><lb/>morgen werden wir ja erfahren, wiesie<lb/>steht, u. dann wird sich zeigen was ich zunächst zu
-<lb/>thun habe. Morgen will ich nun auch noch andere Besuche machen
+<lb/>denken daß ich alles mit Intereße angehe. Nun<note type="editorial">Textverlust durch Papierausriss; sinngemäß ergänzt: Nun</note><lb/>morgen werden wir ja erfahren, wie sie <lb/>steht, u. dann wird sich zeigen was ich zunächst zu <lb/>thun habe. Morgen will ich nun auch noch andere Besuche machen
 <lb/>wo ich dann von meinem Plan nichts sage. Ich glaube heute
 <lb/>die Geschichte auf den richtigsten Weg gebracht zu haben
 <lb/>u. bin so weit zufrieden.
