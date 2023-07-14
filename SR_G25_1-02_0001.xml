@@ -1201,6 +1201,85 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?note_annotation_20230714110732257",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-14T09:07:32.257Z",
+	"dcterms:modified": "2023-07-14T09:07:32.257Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?note_annotation_20230714110732257#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?note_annotation_20230714110732257#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "eingef.: mit allen Wiesbadener Verhältnißen vertraut ist,\n"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -1243,7 +1322,8 @@
 <lb/>besuchte ich sodann sogleich den Kirchenrath <persName key="Schultz, Karl Wilhelm 1801-1856" ref="http://viaf.org/viaf/8159462/" cert="high" type="real">Schulz</persName>, an den ich 
 <lb/>von <persName key="Theophor Wilhelm Dittenberger" ref="http://www.wikidata.org/entity/Q2575382">Dittenberger</persName> einen Brief hatte. Da er ein geborener 
 <lb/>Wiesbadener u. wie mir <persName key="Theophor Wilhelm Dittenberger" ref="http://www.wikidata.org/entity/Q2575382" cert="high" type="real">Ditterb.</persName> versichert hatte (was 
-<lb/>sich auch vollkommen bestätigte) mit allen Wiesbadener Verhältnißen vertraut ist, so wendete ich mich an den 
+<lb/>sich auch vollkommen bestätigte) mit allen Wiesbadener Verhältnißen vertraut ist,<note type="editorial">eingef.: mit allen Wiesbadener Verhältnißen vertraut ist,
+</note> so wendete ich mich an den 
 <lb/>zu erst, sagte ihm, worum es sich handele u. bat ihn mir nun 
 <lb/>zunächst eine Übersicht der hiesigen Verhältniße zu geben. 
 	 </p>
