@@ -123,10 +123,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?person_annotation_20230623103147095",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?person_annotation_20230714101958283",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-06-23T08:31:47.095Z",
-	"dcterms:modified": "2023-06-23T08:31:47.095Z",
+	"dcterms:created": "2023-07-14T08:19:58.283Z",
+	"dcterms:modified": "2023-07-14T08:19:58.283Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -137,7 +137,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?person_annotation_20230623103147095#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?person_annotation_20230714101958283#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml",
@@ -151,14 +151,14 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?person_annotation_20230623103147095#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?person_annotation_20230714101958283#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[2]"
+			"rdf:value": "TEI/text/body/p/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/8159462/",
+		"@id": "http://viaf.org/viaf/64768137/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -202,10 +202,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?person_annotation_20230623103824932",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?place_annotation_20230714102009566",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-06-23T08:38:24.932Z",
-	"dcterms:modified": "2023-06-23T08:38:24.932Z",
+	"dcterms:created": "2023-07-14T08:20:09.566Z",
+	"dcterms:modified": "2023-07-14T08:20:09.566Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -216,7 +216,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?person_annotation_20230623103824932#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?place_annotation_20230714102009566#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml",
@@ -230,14 +230,14 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?person_annotation_20230623103824932#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0001.xml?place_annotation_20230714102009566#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName"
+			"rdf:value": "TEI/text/body/p/placeName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/35214274/",
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/9819149719125911130000/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -246,7 +246,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
-	}
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -270,8 +271,8 @@
    <text>
       <body>
          <p>
-	Wiesbaden. 17. Jan. 1854
-<lb/>Mein liebes Minele! Während Du mit den lieben Töchtern entweder 
+	<placeName key="Wiesbaden (Allemagne, Hesse ; région)" ref="http://viaf.org/viaf/9819149719125911130000/" cert="high">Wiesbaden<precision match="@ref" precision="high"/></placeName>. 17. Jan. 1854
+<lb/>Mein liebes <persName key="Froriep, Wilhelmine von 1808-1878" ref="http://viaf.org/viaf/64768137/" cert="high" type="real">Minele</persName>! Während Du mit den lieben Töchtern entweder 
 <lb/>bei Maltitz oder Plüskow’s bist will ich Dir wenigstens einige 
 <lb/>Zeilen schreiben, damit Du bald wieder etwas Nachricht von mir 
 <lb/>erhältst. Ich bin also heute Früh 8 Uhr Frankfurt hierhergefah-
