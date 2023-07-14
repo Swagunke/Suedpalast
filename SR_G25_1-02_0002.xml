@@ -123,10 +123,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?place_annotation_20230626084141482",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?place_annotation_20230714112102848",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-06-26T06:41:41.482Z",
-	"dcterms:modified": "2023-06-26T06:41:41.482Z",
+	"dcterms:created": "2023-07-14T09:21:02.848Z",
+	"dcterms:modified": "2023-07-14T09:21:02.848Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -137,7 +137,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?place_annotation_20230626084141482#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?place_annotation_20230714112102848#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml",
@@ -151,7 +151,7 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?place_annotation_20230626084141482#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?place_annotation_20230714112102848#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/placeName"
 		}
@@ -203,10 +203,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230626085013603",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230714112132180",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-06-26T06:50:13.603Z",
-	"dcterms:modified": "2023-06-26T06:50:13.603Z",
+	"dcterms:created": "2023-07-14T09:21:32.180Z",
+	"dcterms:modified": "2023-07-14T09:21:32.180Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -217,7 +217,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230626085013603#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230714112132180#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml",
@@ -231,14 +231,14 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230626085013603#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230714112132180#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[2]"
+			"rdf:value": "TEI/text/body/p/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/8159462/",
+		"@id": "http://viaf.org/viaf/67244462/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -282,10 +282,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230626085042550",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?place_annotation_20230714112145966",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-06-26T06:50:42.550Z",
-	"dcterms:modified": "2023-06-26T06:50:42.550Z",
+	"dcterms:created": "2023-07-14T09:21:45.966Z",
+	"dcterms:modified": "2023-07-14T09:21:45.966Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -296,7 +296,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230626085042550#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?place_annotation_20230714112145966#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml",
@@ -310,14 +310,14 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?person_annotation_20230626085042550#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0002.xml?place_annotation_20230714112145966#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName"
+			"rdf:value": "TEI/text/body/p/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/8159462/",
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q1729",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -354,7 +354,7 @@
 <lb/>Präcicision, daß ich dadurch auch das größte Vertrauen in die 
 <lb/>Richtigkeit bekam. Dabei bestach er mich einerseits durch das 
 <lb/>sehr lebhafte Intereße, das er an meinem Plan nahm, deßen 
-<lb/>Bedeutung für Wiesbaden er vollkommen würdigte, andern-
+<lb/>Bedeutung für <placeName key="Wiesbaden (Allemagne, Hesse ; région)" ref="http://viaf.org/viaf/9819149719125911130000/" cert="high">Wiesbaden<precision match="@ref" precision="high"/></placeName> er vollkommen würdigte, andern-
 <lb/>theils dadurch daß er sich in seinen Mittheilungen ganz objec-
 <lb/>tiv hielt und alles vermied, was einer directen Einwir-
 <lb/>kung auf meine weiteren Entschlüße ähnlich gesehen 
@@ -366,8 +366,8 @@
 <lb/>u. als er wußte, was ich wollte, sagte er: „Diesen Weg halte 
 <lb/>ich auch für den richtigen u. nun wollen wir, wenn es Ihnen
 <lb/>recht ist gleich noch zu dem Herren gehen.“ Wir giengen 
-<lb/>auf das Finanz Ministerium, der Minister (Gh Rth Volpracht 
-<lb/>den ich in Erfurt beim Parlament gesehen u. etwas ge-
+<lb/>auf das Finanz Ministerium, der Minister (Gh Rth <persName key="Vollpracht, Ferdinand 1802-1859" ref="http://viaf.org/viaf/67244462/" cert="high" type="real">Volpracht</persName> 
+<lb/>den ich in <placeName key="Erfurt" ref="http://www.wikidata.org/entity/Q1729">Erfurt</placeName> beim Parlament gesehen u. etwas ge-
 <lb/>sprochen hatte, war aber in der Sitzung; ich gab meine Karte 
 <lb/>ab u. ließ ihm sagen, ich würde nach Tisch zu ihm in seine 
 <lb/>Wohnung kommen, nun machte ich noch einen Gang mit 
