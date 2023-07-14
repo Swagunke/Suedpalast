@@ -707,7 +707,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?place_annotation_20230714132103817#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[3]"
+			"rdf:value": "TEI/text/body/p[3]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -787,7 +787,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?place_annotation_20230714132126136#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[4]"
+			"rdf:value": "TEI/text/body/p[3]/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -866,7 +866,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230714132248289#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[5]"
+			"rdf:value": "TEI/text/body/p[3]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -919,8 +919,7 @@
 <lb/>gut gegeben wurde. Das Haus ist etwas größer als 
 <lb/>das <placeName key="Theaterbau des Deutschen Nationaltheaters Weimar (Weimar)" ref="http://viaf.org/viaf/9205157100639272740008/">Weimarische</placeName>, war aber heute Abend kalt. Nachher 
 <lb/>habe ich im Gasthof zu Nachtgegeßen u. nun meinem 
-<lb/>Schatz geschrieben. – Die Localitäten sind folgende:
-<lb/>Das schraffirte ist das fragliche Stück ca 900 Fuß lang u. 500‘ breit. 
+<lb/>Schatz geschrieben. – Die Localitäten sind folgende:</p><p/><p><lb/>Das schraffirte ist das fragliche Stück ca 900 Fuß lang u. 500‘ breit. 
 <pb/>Das Wetter war heute schön, die nächsten u. weitere Umgebungen
 <lb/>von <placeName key="Wiesbaden (Allemagne, Hesse ; région)" ref="http://viaf.org/viaf/9819149719125911130000/" cert="high">Wiesbaden<precision match="@ref" precision="high"/></placeName> sind sehr hübsch, die Anlagen hinter u. neben
 <lb/>dem <placeName key="Kurhaus Wiesbaden (Wiesbaden)" ref="http://viaf.org/viaf/282346312/">Kurhaus</placeName> enthalten eine große Zahl eleganter und
