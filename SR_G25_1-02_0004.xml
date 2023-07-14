@@ -123,10 +123,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230626111749528",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230714130610849",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-06-26T09:17:49.528Z",
-	"dcterms:modified": "2023-06-26T09:17:49.528Z",
+	"dcterms:created": "2023-07-14T11:06:10.849Z",
+	"dcterms:modified": "2023-07-14T11:06:10.849Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -137,7 +137,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230626111749528#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230714130610849#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml",
@@ -151,14 +151,14 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230626111749528#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230714130610849#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/8159462/",
+		"@id": "http://viaf.org/viaf/67244462/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -202,10 +202,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?place_annotation_20230626112443874",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230714130629513",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-06-26T09:24:43.874Z",
-	"dcterms:modified": "2023-06-26T09:24:43.874Z",
+	"dcterms:created": "2023-07-14T11:06:29.513Z",
+	"dcterms:modified": "2023-07-14T11:06:29.513Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -216,7 +216,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?place_annotation_20230626112443874#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230714130629513#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml",
@@ -230,14 +230,14 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?place_annotation_20230626112443874#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230714130629513#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName"
+			"rdf:value": "TEI/text/body/p/persName[2]"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q16054321",
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/67244462/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -246,8 +246,86 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
 	},
-	"cwrc:hasPrecision": "cwrc:highCertainty"
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230714130653842",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-07-14T11:06:53.842Z",
+	"dcterms:modified": "2023-07-14T11:06:53.842Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230714130653842#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-02_0004.xml?person_annotation_20230714130653842#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/8159462/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -271,9 +349,9 @@
    <text>
       <body>
          <p>
-	ten, welche bei einer Expropriation, von der V. sprach, circa 
+	ten, welche bei einer Expropriation, von der <persName key="Vollpracht, Ferdinand 1802-1859" ref="http://viaf.org/viaf/67244462/" cert="high" type="real">V.</persName> sprach, circa 
 <lb/>100,000 Fl. kosten würde. Die Kosten die die Regierung aufzu-
-<lb/>wenden hätte, scheinen in der That V. ebensowenig wie Sch. 
+<lb/>wenden hätte, scheinen in der That <persName key="Vollpracht, Ferdinand 1802-1859" ref="http://viaf.org/viaf/67244462/">V.</persName> ebensowenig wie <persName key="Schultz, Karl Wilhelm 1801-1856" ref="http://viaf.org/viaf/8159462/" cert="high" type="real">Sch.</persName> 
 <lb/>Bedenken zu machen, es haben sich nämlich neue Spielpächter 
 <lb/>gemeldet, welche den bisherigen Spielpacht Vertrag angrei-
 <lb/>fen u. wie man überzeugt ist umstoßen u. die machen so außer-
