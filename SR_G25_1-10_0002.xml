@@ -664,7 +664,8 @@
    </teiHeader>
    <text>
       <body>
-       die Verpflichtung übernommen binnen 5 Jahren für 500,000 Thaler Bauten in
+	   <p>
+	      die Verpflichtung übernommen binnen 5 Jahren für 500,000 Thaler Bauten in
 <lb/>Nauheim auszuführen, p p auch wieder ein Beweis, was diese Menschen an
 <lb/>der Bank den Spielpächtern abnehmen. Ich sammelte auf dieser Fahrt eine
 <lb/>Menge werthvolle Notizen für meine hiesigen Operationen. (Du könn-
@@ -714,7 +715,7 @@
 <lb/>sich über meinen Plan, von dem ihm Volllpr. Vortrag gehalten habe,
 <lb/>freundlich geäußert habe. Ich sei nicht gekommen ihm noch irgend
 <lb/>ein Gesuch oder Antrag vorzulegen, sondern lediglich um mich ihm 
-      
+	   </p>    
       </body>
    </text>
 </TEI>
