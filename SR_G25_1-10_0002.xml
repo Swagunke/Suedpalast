@@ -205,7 +205,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112504469",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-08-03T09:25:04.469Z",
-	"dcterms:modified": "2023-08-03T09:25:04.469Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -232,7 +231,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112504469#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body[2]/placeName"
+			"rdf:value": "TEI/text/body[3]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -284,7 +283,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112541613",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-08-03T09:25:41.613Z",
-	"dcterms:modified": "2023-08-03T09:25:41.613Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -311,7 +309,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112541613#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body[2]/placeName[3]"
+			"rdf:value": "TEI/text/body[3]/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -326,6 +324,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
 	},
+	"cwrc:hasCertainty": "cwrc:high",
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
@@ -364,7 +363,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112553558",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-08-03T09:25:53.558Z",
-	"dcterms:modified": "2023-08-03T09:25:53.558Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -391,7 +389,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112553558#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body[2]/placeName[4]"
+			"rdf:value": "TEI/text/body[3]/placeName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -443,7 +441,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112615007",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-08-03T09:26:15.007Z",
-	"dcterms:modified": "2023-08-03T09:26:15.007Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -470,7 +467,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112615007#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body[2]/placeName[5]"
+			"rdf:value": "TEI/text/body[3]/placeName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -485,6 +482,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
 	},
+	"cwrc:hasCertainty": "cwrc:high",
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
@@ -523,7 +521,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112723178",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-08-03T09:27:23.178Z",
-	"dcterms:modified": "2023-08-03T09:27:23.178Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -550,7 +547,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112723178#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body[2]/placeName[6]"
+			"rdf:value": "TEI/text/body[3]/placeName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -672,7 +669,7 @@
 <lb/><placeName key="Bad Nauheim" ref="http://www.wikidata.org/entity/Q16105" cert="high">Nauheim<precision match="@ref" precision="high"/></placeName> auszuführen, p p auch wieder ein Beweis, was diese Menschen an
 <lb/>der Bank den Spielpächtern abnehmen. Ich sammelte auf dieser Fahrt eine
 <lb/>Menge werthvolle Notizen für meine hiesigen Operationen. (Du könn-
-<lb/>test Dittenberger fragen, was er über den jetzigen <placeName key="Baden-Baden" ref="http://www.wikidata.org/entity/Q4100" cert="high">Badner<precision match="@ref" precision="high"/></placeName> Spielpacht</body><body>der 1852 neu abgeschloßen wurde genaues weiß, wie viel jährlich an Pacht, wie viel für Verschönerung u.
+<lb/>test Dittenberger fragen, was er über den jetzigen <placeName key="Baden-Baden" ref="http://www.wikidata.org/entity/Q4100" cert="high">Badner<precision match="@ref" precision="high"/></placeName> Spielpacht</body><body/><body>der 1852 neu abgeschloßen wurde genaues weiß, wie viel jährlich an Pacht, wie viel für Verschönerung u.
 <lb/>was beim neuen Abschluß des Pachtes etc. etc. Du könntest mir dieß umgehend
 <lb/>schreiben; hier wißen sie unbegreiflicher Weise darüber nichts.) – 
 <lb/>In <placeName key="Frankfurt" ref="http://www.wikidata.org/entity/Q1794">Frankfurt</placeName> war Regenwetter, ich fuhr daher von d. Post um 1
