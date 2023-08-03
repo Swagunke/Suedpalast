@@ -122,10 +122,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112437719",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803115044866",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-08-03T09:24:37.719Z",
-	"dcterms:modified": "2023-08-03T09:24:37.719Z",
+	"dcterms:created": "2023-08-03T09:50:44.866Z",
+	"dcterms:modified": "2023-08-03T09:50:44.866Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -136,7 +136,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112437719#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803115044866#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml",
@@ -150,9 +150,9 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112437719#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803115044866#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/placeName"
+			"rdf:value": "TEI/text/body/p/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -202,9 +202,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112504469",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803115142641",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-08-03T09:25:04.469Z",
+	"dcterms:created": "2023-08-03T09:51:42.641Z",
+	"dcterms:modified": "2023-08-03T09:51:42.641Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -215,7 +216,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112504469#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803115142641#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml",
@@ -229,404 +230,9 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112504469#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803115142641#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body[3]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q1794",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.0.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112541613",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-08-03T09:25:41.613Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/KPolenz",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kathrin Polenz"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112541613#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.0.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112541613#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body[3]/placeName[3]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q1794",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.0.1"
-	},
-	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:highCertainty"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112553558",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-08-03T09:25:53.558Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/KPolenz",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kathrin Polenz"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112553558#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.0.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112553558#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body[3]/placeName[4]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q1670",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.0.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112615007",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-08-03T09:26:15.007Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/KPolenz",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kathrin Polenz"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112615007#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.0.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112615007#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body[3]/placeName[5]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q1721",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.0.1"
-	},
-	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:highCertainty"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112723178",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-08-03T09:27:23.178Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/KPolenz",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kathrin Polenz"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112723178#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.0.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112723178#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body[3]/placeName[6]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q1721",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.0.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803113142543",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-08-03T09:31:42.543Z",
-	"dcterms:modified": "2023-08-03T09:31:42.543Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/KPolenz",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kathrin Polenz"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803113142543#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.0.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803113142543#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/placeName[2]"
+			"rdf:value": "TEI/text/body/p/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -640,8 +246,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.0.1"
-	},
-	"cwrc:hasPrecision": "cwrc:highCertainty"
+	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -666,10 +271,10 @@
       <body>
 	   <p>
 	      die Verpflichtung übernommen binnen 5 Jahren für 500,000 Thaler Bauten in
-<lb/>Nauheim auszuführen, p p auch wieder ein Beweis, was diese Menschen an
+<lb/><placeName key="Bad Nauheim" ref="http://www.wikidata.org/entity/Q16105" cert="high">Nauheim<precision match="@ref" precision="high"/></placeName> auszuführen, p p auch wieder ein Beweis, was diese Menschen an
 <lb/>der Bank den Spielpächtern abnehmen. Ich sammelte auf dieser Fahrt eine
 <lb/>Menge werthvolle Notizen für meine hiesigen Operationen. (Du könn-
-<lb/>test Dittenberger fragen, was er über den jetzigen Badner Spielpacht
+<lb/>test Dittenberger fragen, was er über den jetzigen <placeName key="Baden-Baden" ref="http://www.wikidata.org/entity/Q4100">Badner</placeName> Spielpacht
 <lb/>der 1852 neu abgeschloßen wurde genaues weiß, wie viel jährlich an Pacht, wie viel für Verschönerung u.
 <lb/>was beim neuen Abschluß des Pachtes etc. etc. Du könntest mir dieß umgehend
 <lb/>schreiben; hier wißen sie unbegreiflicher Weise darüber nichts.) – 
