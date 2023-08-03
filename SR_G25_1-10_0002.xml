@@ -232,7 +232,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112504469#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/placeName[3]"
+			"rdf:value": "TEI/text/body[2]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -311,7 +311,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112541613#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/placeName[5]"
+			"rdf:value": "TEI/text/body[2]/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -391,7 +391,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112553558#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/placeName[6]"
+			"rdf:value": "TEI/text/body[2]/placeName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -470,7 +470,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112615007#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/placeName[7]"
+			"rdf:value": "TEI/text/body[2]/placeName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -550,7 +550,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112723178#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/placeName[8]"
+			"rdf:value": "TEI/text/body[2]/placeName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -672,8 +672,7 @@
 <lb/><placeName key="Bad Nauheim" ref="http://www.wikidata.org/entity/Q16105" cert="high">Nauheim<precision match="@ref" precision="high"/></placeName> auszuführen, p p auch wieder ein Beweis, was diese Menschen an
 <lb/>der Bank den Spielpächtern abnehmen. Ich sammelte auf dieser Fahrt eine
 <lb/>Menge werthvolle Notizen für meine hiesigen Operationen. (Du könn-
-<lb/>test Dittenberger fragen, was er über den jetzigen <placeName key="Baden-Baden" ref="http://www.wikidata.org/entity/Q4100" cert="high">Badner<precision match="@ref" precision="high"/></placeName> Spielpacht
-<lb/>der 1852 neu abgeschloßen wurde genaues weiß, wie viel jährlich an Pacht, wie viel für Verschönerung u.
+<lb/>test Dittenberger fragen, was er über den jetzigen <placeName key="Baden-Baden" ref="http://www.wikidata.org/entity/Q4100" cert="high">Badner<precision match="@ref" precision="high"/></placeName> Spielpacht</body><body>der 1852 neu abgeschloßen wurde genaues weiß, wie viel jährlich an Pacht, wie viel für Verschönerung u.
 <lb/>was beim neuen Abschluß des Pachtes etc. etc. Du könntest mir dieß umgehend
 <lb/>schreiben; hier wißen sie unbegreiflicher Weise darüber nichts.) – 
 <lb/>In <placeName key="Frankfurt" ref="http://www.wikidata.org/entity/Q1794">Frankfurt</placeName> war Regenwetter, ich fuhr daher von d. Post um 1
