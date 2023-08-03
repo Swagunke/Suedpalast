@@ -280,10 +280,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803154939170",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803155014233",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-08-03T13:49:39.170Z",
-	"dcterms:modified": "2023-08-03T13:49:39.170Z",
+	"dcterms:created": "2023-08-03T13:50:14.233Z",
+	"dcterms:modified": "2023-08-03T13:50:14.233Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -294,7 +294,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803154939170#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803155014233#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml",
@@ -308,14 +308,14 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803154939170#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803155014233#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[3]"
+			"rdf:value": "TEI/text/body/p/persName[4]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/269160307552557742714/",
+		"@id": "http://www.wikidata.org/entity/Q27600899",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -359,10 +359,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803155014233",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803155359650",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-08-03T13:50:14.233Z",
-	"dcterms:modified": "2023-08-03T13:50:14.233Z",
+	"dcterms:created": "2023-08-03T13:53:59.650Z",
+	"dcterms:modified": "2023-08-03T13:53:59.650Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -373,7 +373,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803155014233#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803155359650#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml",
@@ -387,14 +387,93 @@
 			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803155014233#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803155359650#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[4]"
+			"rdf:value": "TEI/text/body/p/persName[5]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q27600899",
+		"@id": "http://www.wikidata.org/entity/Q57302",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803155437666",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-08-03T13:54:37.666Z",
+	"dcterms:modified": "2023-08-03T13:54:37.666Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803155437666#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0003.xml?person_annotation_20230803155437666#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q57302",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -448,7 +527,7 @@
 <lb/>Kundgebung jenes Hemmnißes hätte mich dann darauf geführt, auf
 <lb/>ein Gerücht von Aufhebung des <placeName key="Spielbank Wiesbaden" ref="http://www.wikidata.org/entity/Q882865" cert="high">Spielpachtes</placeName> fußend Vorschläge zu
 <lb/>machen, durch welche sicher allen Theilen Genüge zu leisten gewesen
-<lb/>wäre. Der Herzog „ich zweifle nicht, ich habe ihre Vorschläge gelesen
+<lb/>wäre. Der <persName key="Adolphe, Grand Duke of Luxembourg" ref="http://www.wikidata.org/entity/Q57302">Herzog</persName> „ich zweifle nicht, ich habe ihre Vorschläge gelesen
 <lb/>u. Ihre Voraussetzung ist auch richtig, es handelt sich in der That
 <lb/>um Änderung des Spielpachtes“ – Ich: „Nun so zweifle ich auch nicht
 <lb/>daß die Sache sich vollständig so regeln wird, daß alle Betheiligten
@@ -460,7 +539,7 @@
 <lb/>gegen sich habe, die beste Verhöhnende Maßregel die sei, die Pächter
 <lb/>so ungeheuer bezahlen zu laßen, daß beträchtliche Summen 
 <lb/>für allgemein nützliche Gegenstände zur Verwendung
-<lb/>kommen. Der Herzog: „auch das gebe ich ihnen gern zu, indeß sind<lb/>die von Ihnen empfohlenen Forderungen, so ungeheuer, daß zu fürch-
+<lb/>kommen. Der <persName key="Adolphe, Grand Duke of Luxembourg" ref="http://www.wikidata.org/entity/Q57302" cert="high" type="real">Herzog</persName>: „auch das gebe ich ihnen gern zu, indeß sind<lb/>die von Ihnen empfohlenen Forderungen, so ungeheuer, daß zu fürch-
 <lb/>ten ist, sie springen ganz ab.“ Ich: „Dieß befürchte ich nicht, ich 
 <lb/>glaube vielmehr daß die Pächter nach einigem Weigern sehr gern auf jene Forderung eingehen, da meine supponirte Forderung noch unter dem
 <lb/>in Badenbaden angenommenen Pachtquantum bleibe, während Wies-
