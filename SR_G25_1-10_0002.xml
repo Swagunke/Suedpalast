@@ -152,7 +152,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112437719#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName"
+			"rdf:value": "TEI/text/body/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -232,7 +232,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112504469#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[3]"
+			"rdf:value": "TEI/text/body/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -311,7 +311,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112541613#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[5]"
+			"rdf:value": "TEI/text/body/placeName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -391,7 +391,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112553558#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[6]"
+			"rdf:value": "TEI/text/body/placeName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -470,7 +470,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112615007#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[7]"
+			"rdf:value": "TEI/text/body/placeName[7]"
 		}
 	},
 	"oa:hasBody": {
@@ -550,7 +550,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803112723178#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[8]"
+			"rdf:value": "TEI/text/body/placeName[8]"
 		}
 	},
 	"oa:hasBody": {
@@ -629,7 +629,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0002.xml?place_annotation_20230803113142543#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[2]"
+			"rdf:value": "TEI/text/body/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -667,12 +667,12 @@
    </teiHeader>
    <text>
       <body>
-         <p>
+         
             die Verpflichtung übernommen binnen 5 Jahren für 500,000 Thaler Bauten in
 <lb/><placeName key="Bad Nauheim" ref="http://www.wikidata.org/entity/Q16105" cert="high">Nauheim<precision match="@ref" precision="high"/></placeName> auszuführen, p p auch wieder ein Beweis, was diese Menschen an
 <lb/>der Bank den Spielpächtern abnehmen. Ich sammelte auf dieser Fahrt eine
 <lb/>Menge werthvolle Notizen für meine hiesigen Operationen. (Du könn-
-<lb/>test Dittenberger fragen, was er über den jetzigen <placeName key="Baden-Baden" ref="http://www.wikidata.org/entity/Q4100" cert="high">Badner<precision match="@ref" precision="high"/></placeName> Spielpacht
+<lb/>test Dittenberger fragen, was er über den jetzigen <placeName key="Baden-Baden" ref="http://www.wikidata.org/entity/Q4100" cert="high">Badner<precision match="@ref" precision="high"/></placeName> Spielpacht<note/>
 <lb/>der 1852 neu abgeschloßen wurde genaues weiß, wie viel jährlich an Pacht, wie viel für Verschönerung u.
 <lb/>was beim neuen Abschluß des Pachtes etc. etc. Du könntest mir dieß umgehend
 <lb/>schreiben; hier wißen sie unbegreiflicher Weise darüber nichts.) – 
@@ -718,7 +718,7 @@
 <lb/>sich über meinen Plan, von dem ihm Vollpr. Vortrag gehalten habe,
 <lb/>freundlich geäußert habe. Ich sei nicht gekommen ihm noch irgend
 <lb/>ein Gesuch oder Antrag vorzulegen, sondern lediglich um mich ihm 
-         </p>
+         
       </body>
    </text>
 </TEI>
