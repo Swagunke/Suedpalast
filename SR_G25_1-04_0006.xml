@@ -906,8 +906,9 @@
       <body>
          <p>
             worden ist, daß nämlich <placeName key="Wiesbaden (Allemagne, Hesse ; région)" ref="http://viaf.org/viaf/9819149719125911130000/">hier</placeName> von dem Spielpacht noch nie et-
-<lb/>was für die Hebung des Bades oder für sonstige gute all-
-<lb/>gemeine Intereßen gethan worden ist, während z. B. <placeName key="Bad Homburg vor der Höhe" ref="http://www.wikidata.org/entity/Q4165" cert="high">Hom-
+<lb/>was für die Hebung des Bades oder für sonstige <hi cert="high" rendition="underline" xml:space="default">gute all-
+<lb/>
+gemeine</hi> Intereßen gethan worden ist, während z. B. <placeName key="Bad Homburg vor der Höhe" ref="http://www.wikidata.org/entity/Q4165" cert="high">Hom-
 <lb/>burg<precision match="@ref" precision="high"/></placeName> lediglich u. allein aus einem Theile der Spielpacht-
 <lb/>summen in unglaublicher Weise aufgewachsen sei. Diese Klage
 <lb/>war der Punkt, in den ich zuerst meinen Enterhaken eingesezt
