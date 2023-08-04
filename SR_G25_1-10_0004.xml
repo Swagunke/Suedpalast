@@ -152,7 +152,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0004.xml?person_annotation_20230804085847693#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName"
+			"rdf:value": "TEI/text/body/p/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -435,11 +435,11 @@
 <lb/>bleibe dabei auch die Möglichkeit daß sich in den 6 Wintermonaten der
 <lb/>übrige, unvermeidlich böse Einfluß wieder ausgleiche indem sich das
 <lb/>moralische Selbstgefühl der großen Maße in dieser Zeit wieder
-<lb/>erhebe. etc. etc. Indeß laße sich den Spielpächtern leicht nachweisen
+<lb/>erhebe. etc. etc. Indeß laße sich den <persName>Spielpächtern</persName> leicht nachweisen
 <lb/>daß sie das, was ihnen eine Wintersaison sein soll in noch höherem 
 <lb/>Maaße durch eine Sommersaison in <placeName key="Wiesbaden" ref="http://www.wikidata.org/entity/Q1721">Wiesbaden</placeName> wenn daselbst der Süd-
 <lb/>palast stehe, erlangen. Es sei daher m. E. nur wünschenswerth, daß 
-<lb/>die Verhandlungen mit den Spielpächtern wirklich eingeleitet würden, diese
+<lb/>die Verhandlungen mit den <persName type="real">Spielpächtern</persName> wirklich eingeleitet würden, diese
 <lb/>Leute würden für das, was ihr Vortheil sei, leicht zu bestimmen sein.
 <lb/>Der Herzog: „Ja! aber ich kann doch mit dem Hr Niellon, einem belgischen
 <lb/>General oder dergl. nicht in Unterhandlung treten, u. auch die Domänen
