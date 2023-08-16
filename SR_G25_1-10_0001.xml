@@ -1083,7 +1083,7 @@
 <lb/>heimer Brunnen, auf artesische Brunnen u. drgl. worüber ich ihnen
 <lb/>allerhand neues mittheilte, was sie anzog und geneigt machte sich wei-
 <lb/>ter zu unterhalten, ich gieng nun allmälig auf <placeName key="Bad Homburg vor der Höhe" ref="http://www.wikidata.org/entity/Q4165" cert="high">Homburg<precision match="@ref" precision="high"/></placeName> u. <placeName key="Bad Nauheim" ref="http://www.wikidata.org/entity/Q16105">Nauheim</placeName>
-<lb/>über, der Friedberger hat eine Schwester in <placeName key="Bad Homburg vor der Höhe" ref="http://www.wikidata.org/entity/Q4165" cert="high">Homburg<precision match="@ref" precision="high"/></placeName> die (eine Witwe)
+<lb/>über, der <persName>Friedberger</persName> hat eine <persName cert="high" type="real">Schwester</persName> in <placeName key="Bad Homburg vor der Höhe" ref="http://www.wikidata.org/entity/Q4165" cert="high">Homburg<precision match="@ref" precision="high"/></placeName> die (eine Witwe)
 <lb/>ihr Vermögen zum Ankauf eines Logirhauses verwandt hat, wovon
 <lb/>ich mir nun alle Einzelheiten, Preise, Art des Vermiethens etc. mit-
 <lb/>theilen ließ; dabei ergab sich, wiederum daß ich selbst nach Homburger
@@ -1094,8 +1094,8 @@
 <lb/>heim<precision match="@ref" precision="high"/></placeName> hatte einen Bauplatz kaufen wollen, daß aber so wie der
 <lb/>für <placeName key="Bad Nauheim" ref="http://www.wikidata.org/entity/Q16105">Nauheim</placeName> abgeschloßene Spielpacht bekannt war, dort die
 <lb/>Preise für Bauplätze auf das 6-8 fache gestiegen seien etc. die Nau-
-<lb/>heimer Spielpächter ein Hr Piequont, ein Hr v. Buttlar u. ein Mr.
-<lb/>Lerars haben außer ihrer Spielpacht von jährlich 200000 Thaler noch
+<lb/>heimer Spielpächter ein Hr <persName>Piequont</persName>, ein Hr <persName cert="high" type="real">v. Buttlar</persName> u. ein Mr.
+<lb/><persName>Lerars</persName> haben außer ihrer Spielpacht von jährlich 200000 Thaler noch
          </p>
       </body>
    </text>
