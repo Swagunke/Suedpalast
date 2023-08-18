@@ -1285,6 +1285,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0001.xml?date_annotation_20230818090734720",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-08-18T07:07:34.720Z",
+	"dcterms:modified": "2023-08-18T07:07:34.720Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0001.xml?date_annotation_20230818090734720#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-10_0001.xml?date_annotation_20230818090734720#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1854-01-26"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -1313,7 +1391,7 @@
 <lb/>erhalten haben; ich fahre nun in meinen Stunden berichten fort, - denn diese
 <lb/>Gestalt haben meine Briefe an dich angenommen, so ausführlich u. detaillirt
 <lb/>wiederhole ich dir alles, was ich so nach u. nach erlebe. Ich fuhr von <placeName key="Bad Homburg vor der Höhe" ref="http://www.wikidata.org/entity/Q4165" cert="high">Hom-
-<lb/>burg<precision match="@ref" precision="high"/></placeName> gestern um 11 Uhr mit dem Postwagen ab, u. kam da mit 2 Männern
+<lb/>burg<precision match="@ref" precision="high"/></placeName> <date when="1854-01-26">gestern</date> um 11 Uhr mit dem Postwagen ab, u. kam da mit 2 Männern
 <lb/>aus der Gegend zusammen, 1 <persName>Landwirth</persName> u. 1 <persName cert="high" type="real">Bürger</persName> aus <placeName key="Friedberg" ref="http://www.wikidata.org/entity/Q516485">Friedberg</placeName>, einfache
 <lb/>aber klare Leute. Es kam bald das Gespräch auf den Homburger u. Nau-
 <lb/>heimer Brunnen, auf artesische Brunnen u. dergl. worüber ich ihnen
@@ -1328,7 +1406,7 @@
 <lb/>nochmals die Verhältniße der <persName cert="high" type="real">Homburger Spielpächter</persName> auseinandersetzen
 <lb/>kam dadurch auf <placeName key="Bad Nauheim" ref="http://www.wikidata.org/entity/Q16105">Nauheim</placeName> u. erfuhr nun daß mein Friedberger in <placeName key="Bad Nauheim" ref="http://www.wikidata.org/entity/Q16105" cert="high">Nau-
 <lb/>heim<precision match="@ref" precision="high"/></placeName> hatte einen Bauplatz kaufen wollen, daß aber so wie der
-<lb/>für <placeName key="Bad Nauheim" ref="http://www.wikidata.org/entity/Q16105">Nauheim</placeName> abgeschloßene Spielpacht bekannt<note type="editorial">gestr.: abgeschloßen; eingef.: bekannt</note> war, dort die
+<lb/>für <placeName key="Bad Nauheim" ref="http://www.wikidata.org/entity/Q16105">Nauheim</placeName> abgeschloßene Spielpacht bekannt<note type="editorial">gestrichen: abgeschloßen; eingefügt: bekannt</note> war, dort die
 <lb/>Preise für Bauplätze auf das 6-8 fache gestiegen seien etc. die Nau-
 <lb/>heimer Spielpächter ein Hr <persName>Piequont</persName>, ein Hr <persName cert="high" type="real">v. Buttlar</persName> u. ein Mr.
 <lb/><persName>Lerars</persName> haben außer ihrer Spielpacht von jährlich 200000 Thaler noch
