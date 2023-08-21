@@ -888,6 +888,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-11_0002.xml?note_annotation_20230821165814685",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-08-21T14:58:14.685Z",
+	"dcterms:modified": "2023-08-21T14:58:14.685Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-11_0002.xml?note_annotation_20230821165814685#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-11_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-11_0002.xml?note_annotation_20230821165814685#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "gestrichen: sei\n"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -916,14 +995,15 @@
 <lb/>palast entstände nicht zu bezweifeln sei daß in den Sommer Monaten
 <lb/>allein gewiß mehr als das doppelte, und leicht bis zu 3mal hundert-
 <lb/>tausend Menschen nach <placeName key="Wiesbaden" ref="http://www.wikidata.org/entity/Q1721" cert="high">Wiesbaden<precision match="@ref" precision="high"/></placeName> kommen würden. Während so also
-<lb/>durch Förderung  meines Unternehmens einestheils weit reichere
+<lb/>durch Förderung <note type="editorial">gestrichen: sei
+</note> meines Unternehmens einestheils weit reichere
 <lb/>Erndten für sich vorbereiteten, sicherten sie sich anderntheils dadurch
 <lb/>auch das Reüstiren mit ihren Anträgen, da der <persName key="Adolphe, Grand Duke of Luxembourg" ref="http://www.wikidata.org/entity/Q57302" cert="high" type="real">Herzog</persName> wie auch die Do-
 <lb/>manial Verwaltung und die ganze Stadt vorzugsweise jezt die Aus-
 <lb/>führung meines Südpalastes wünschen. Er schien von der Richtigkeit
 <lb/>dieser Bemerkungen betroffen u. fragte nun, was ich für die Ausführung
 <lb/>bräuche, ich sagte 2 Millionen Gulden entweder mittels ihrer Zinsenga-
-<lb/>rantie aufzunehmen, oder was sicher beide Theile das einfachere wäre
+<lb/>rantie aufzunehmen, oder was für beide Theile das einfachere wäre
 <lb/>Vorschuß dieser 2 Millionen zu billigen Zinsen u. auf mindestens
 <lb/>6 Jahre unkündigbar. Er meinte wenn die Gesellschaft darauf eingehe
 <lb/>so werde sie auch das leztere als das einfachere vorziehen. Ich möge ihm
