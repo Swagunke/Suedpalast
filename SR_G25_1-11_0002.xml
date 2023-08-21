@@ -1045,6 +1045,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-11_0002.xml?note_annotation_20230821170507031",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-08-21T15:05:07.031Z",
+	"dcterms:modified": "2023-08-21T15:05:07.031Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-11_0002.xml?note_annotation_20230821170507031#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-11_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-11_0002.xml?note_annotation_20230821170507031#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "gestrichen: schön; eingefügt: ein"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -1090,8 +1169,8 @@
 <lb/>des Glaspalastes geben p p dieß soll nun geschehen. Die Offerte der 
 <lb/>Gesellschaft ist zunächst folgende: sie bieten – 200/m Francs Caution, deren
 <lb/>Zinsen so lang der Pacht dauert, den Stadtarmen zu Gute kommen soll
-<lb/>(macht jährlich 8000 Frcs oder 4000 fl für die Armenkaße) ferner 3 Millionen
-<lb/>frcs (1/2 Mill. Gulden) binnen 3 Jahren auf Verschönerungen zu verwenden
+<lb/>(macht jährlich 8000 Frcs oder 4000 Fl für die Armenkaße) ferner 3 Millionen
+<lb/>Frcs (1/2 Mill. Gulden) binnen 3 Jahren auf Verschönerungen zu verwenden
 <pb/>ferner jährlich 80/m Frcs Zuschuß zur Theaterverwaltung zum Engagement
 <lb/>6 vorzüglicher Süjets, ferner 200/m Frcs jährlich Pacht, endlich – macht
 <lb/>sich die Gesellschaft aufrichtig einen Wintergarten u. ein Local zum Winter-
@@ -1099,9 +1178,9 @@
 <lb/>halten, großartige Feste, Bälle, Concerte etc. zu veranstalten.
 <lb/>Dieß leuchtet den Wiesbadenern die sich jezt bei ganz unthätiger
 <lb/>Pachtgesellschaft mit 80/m Frcs jährlich alles in Allem begnügen außer-
-<lb/>ordentlich ein zumal da die <persName cert="high">Pächter</persName> auch die Abfindung des jetzigen <persName>Päch-
+<lb/>ordentlich ein<note type="editorial">gestrichen: schön; eingefügt: ein</note> zumal da die <persName cert="high">Pächter</persName> auch die Abfindung des jetzigen <persName>Päch-
 <lb/>
-ters</persName> übernehmen wollen. Ich finde aber die Offerte viel
+ters</persName> übernehmen wollen. Ich finde aber die  Offerte viel
 <lb/>zu gering, bin auch überzeugt, daß die Gesellschaft sich wenigstens
 <lb/>auf das doppelte gefaßt macht, es ist nun die Hauptsache zu machen
 <lb/>daß <persName key="Vollpracht, Ferdinand" ref="http://www.wikidata.org/entity/Q27600899" cert="high" type="real">Vollpracht</persName> ihnen mit enormen Forderungen bang macht u. daß sie
