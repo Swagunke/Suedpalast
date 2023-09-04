@@ -569,6 +569,85 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-12_0002.xml?note_annotation_20230904114811262",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-04T09:48:11.262Z",
+	"dcterms:modified": "2023-09-04T09:48:11.262Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-12_0002.xml?note_annotation_20230904114811262#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-12_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-12_0002.xml?note_annotation_20230904114811262#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "eingefügt: aber"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -620,10 +699,10 @@ Spielpächter</persName></persName> in ihrer isolirten Stellung die öffentliche
 <lb/>feiler pachten u. ich gehe nach <placeName key="Baden-Baden" ref="http://www.wikidata.org/entity/Q4100" cert="high">Baden<precision match="@ref" precision="high"/></placeName> u. locke ihnen den Fremdenstrom
 <lb/>dorthin. Die Actionäre u. Domänenverwaltung aber die bis jezt mit
 <lb/>40000 Fl zufrieden waren werden sich höchst glücklich schätzen wenn ich
-<lb/>mit der Nachricht komme die <persName>neuen Pächter</persName> bieten euch durch mit 400,000
-<lb/>jährlich u. zwar (aber unter der Bedingung daß ihr mir 2 Millionen Fl à 3%
+<lb/>mit der Nachricht komme die <persName><persName type="real">neuen Pächter</persName></persName> bieten euch durch mich 400,000
+<lb/>jährlich u. zwar (aber<note type="editorial">eingefügt: aber</note> unter der Bedingung daß ihr mir 2 Millionen Fl à 3%
 <lb/>vorschießt u. den Baugrund schenkt) in einer en bloc Zahlung für 10 Jahre
-<lb/>mit 8 Millionen Francs,   u. dabei denke ich mir nun auch noch die 
+<lb/>mit 8 Millionen Francs, - u. dabei denke ich mir nun auch noch die 
 <lb/>städtische Theater Verwaltung besonders zu verpflichten, indem
 <lb/>ich hoffe den Vertrag so zu formuliren, daß die jährlichen 80000 Frcs
 <lb/>(die ihnen durch die Pächter öffentlich zugesagt waren aber unter einer Form wo-
