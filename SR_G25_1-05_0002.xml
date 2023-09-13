@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -124,10 +122,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?place_annotation_20230704095716456",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?place_annotation_20230704095716456",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-04T07:57:16.456Z",
-	"dcterms:modified": "2023-07-04T07:57:16.456Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -138,10 +135,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?place_annotation_20230704095716456#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?place_annotation_20230704095716456#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -149,17 +146,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.0.1"
+			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?place_annotation_20230704095716456#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?place_annotation_20230704095716456#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "http://viaf.org/viaf/9819149719125911130000/",
+		"@id": "http://www.wikidata.org/entity/Q142",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -167,9 +164,8 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.0.1"
-	},
-	"cwrc:hasPrecision": "cwrc:highCertainty"
+		"schema:softwareVersion": "3.2.2"
+	}
 }]]>
         </rdf:Description>
       
@@ -204,9 +200,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704095859810",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?person_annotation_20230704095859810",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-04T07:58:59.810Z",
+	"dcterms:modified": "2023-07-04T07:58:59.810Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -217,10 +214,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704095859810#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?person_annotation_20230704095859810#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -228,10 +225,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.0.1"
+			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704095859810#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?person_annotation_20230704095859810#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/persName[3]"
 		}
@@ -246,7 +243,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.0.1"
+		"schema:softwareVersion": "3.2.2"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -283,10 +280,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704100255865",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?person_annotation_20230704100255865",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-04T08:02:55.865Z",
-	"dcterms:modified": "2023-07-04T08:02:55.865Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -297,10 +293,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704100255865#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?person_annotation_20230704100255865#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -308,10 +304,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.0.1"
+			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704100255865#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?person_annotation_20230704100255865#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/persName[2]"
 		}
@@ -326,7 +322,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.0.1"
+		"schema:softwareVersion": "3.2.2"
 	}
 }]]>
         </rdf:Description>
@@ -362,10 +358,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704100336157",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?person_annotation_20230704100336157",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-04T08:03:36.157Z",
-	"dcterms:modified": "2023-07-04T08:03:36.157Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -376,10 +371,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704100336157#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?person_annotation_20230704100336157#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -387,10 +382,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.0.1"
+			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0001.xml?person_annotation_20230704100336157#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-05_0002.xml?person_annotation_20230704100336157#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/persName[4]"
 		}
@@ -405,8 +400,9 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.0.1"
-	}
+		"schema:softwareVersion": "3.2.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -436,12 +432,12 @@
             <lb/>für den Geschäftsmann gilt die Bilanz, nicht der Ansatz. Da übri-
             <lb/>gens diese Leute in <placeName key="France" ref="http://www.wikidata.org/entity/Q142">Frankreich</placeName> wahrscheinlich große Summen zu
             <lb/>2½ % bekommen u. sie ihnen hier mit 3 % verzinst werden sollen,
-            <lb/>so ist ihr Gewinn wahrscheinlich u. zwar<note type="editorial">eingef.: u. zwar</note> bloß durch meinen Vorschlag noch
+            <lb/>so ist ihr Gewinn wahrscheinlich u. zwar<note type="editorial">eingefügt: u. zwar</note> bloß durch meinen Vorschlag noch
             <lb/>viel bedeutender, denn ½ % zehn Jahre lang macht mindestens 5 %
             <lb/>u. dieß ist bei Millionen eine sehr namhafte Summe, nämlich
             <lb/>da sie 4 Millionen (wovon ich aber nur 2 brauche) auszahlen sollen
             <lb/>so hätten sie mit ½ % Zinsdifferenz in 10 Jahren 1 Million ge-
-            <lb/>wonnen oder statt 4 Millionen, die sie Pacht<note type="editorial">eingef.: Pacht</note> zahlen müßten, wenn
+            <lb/>wonnen oder statt 4 Millionen, die sie Pacht<note type="editorial">eingefügt: Pacht</note> zahlen müßten, wenn
             <lb/>sie ratweis zahlten, werden sie dann nur 2,600,00 ausgegeben
             <lb/>haben. Ich arbeite eben jezt ein Pro Memoria für Hr. <persName key="Vollpracht, Ferdinand" ref="http://www.wikidata.org/entity/Q27600899" cert="high" type="real">V.</persName>
             <lb/>aus, das er den Pachtcompetenten mittheilen kann, u. das
@@ -458,12 +454,12 @@
             <lb/>zeichneter, genialer u. kenntnißvoller Mann ist. Bei dem habe ich
             <lb/>gestern Abend nachdem ich fast den ganzen Tag geschrieben u. ge-
             <lb/>rechnet hatte 2 recht angenehme u. intereßante Stunden ver-
-            <lb/>plaudert<note type="editorial">gestr.: habe</note>. Er hat unter anderem die Vergrämung des
+            <lb/>plaudert<note type="editorial">gestrichen: habe</note>. Er hat unter anderem die Vergrämung des
             <lb/>von den <placeName key="Hesse-Cassel" ref="http://viaf.org/viaf/6195148574361124430002/" cert="high">Heßen<precision match="@ref" precision="high"/></placeName> in den <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584">Rhein</placeName> geworfenen Dammes oder vielmehr
             <lb/>der dadurch binnen 48 Stunden zu Stande gekommenen völligen 
-            <lb/>Versandung des <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680" cert="high">Bieberischen<precision match="@ref" precision="high"/></placeName> Rheinarmes geleitet <note type="editorial">gestr.: hat</note>(un-
+            <lb/>Versandung des <placeName key="Biebrich" ref="http://www.wikidata.org/entity/Q656680" cert="high">Bieberischen<precision match="@ref" precision="high"/></placeName> Rheinarmes geleitet <note type="editorial">gestrichen: hat</note>(un-
             <lb/>ter Zuziehung <persName>von Hagen</persName>, deßen <persName>Frau</persName> Du in <placeName key="Berlin" ref="http://www.wikidata.org/entity/Q64">Berlin</placeName> in einem
-            <lb/>Kaffe<note type="editorial">gestr.: kennen</note> u bei <persName>Nikolovius</persName> kennen gelernt hast). Ich
+            <lb/>Kaffe<note type="editorial">gestrichen: kennen</note> u bei <persName>Nikolovius</persName> kennen gelernt hast). Ich
             <lb/>ließ mir diese höchst intereßante Operation erklären
             <lb/>die um so schwieriger war, als die Naßauer an dem
             <lb/>Punkt des <placeName key="Rhine" ref="http://www.wikidata.org/entity/Q584" cert="high">Rheins<precision match="@ref" precision="high"/></placeName>, wo man eigentlich die Correction hätte
