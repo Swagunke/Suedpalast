@@ -1120,6 +1120,84 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-08_0001.xml?date_annotation_20230914161853889",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-14T14:18:53.889Z",
+	"dcterms:modified": "2023-09-14T14:18:53.889Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-08_0001.xml?date_annotation_20230914161853889#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-08_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-08_0001.xml?date_annotation_20230914161853889#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1854-01-24"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -1141,7 +1219,7 @@
    <text>
       <body>
          <p>
-           <placeName key="Bad Homburg vor der Höhe (Germany)" ref="http://viaf.org/viaf/315153830/" cert="high">Homburg<precision match="@ref" precision="high"/></placeName>.24. 1.54. Dienstag
+           <placeName key="Bad Homburg vor der Höhe (Germany)" ref="http://viaf.org/viaf/315153830/" cert="high">Homburg<precision match="@ref" precision="high"/></placeName>. <date when="1854-01-24">24. 1.54</date>. Dienstag
 <lb/>Abend. 10.
 <lb/>Mein liebes <persName key="Froriep, Wilhelmine von 1808-1878" ref="http://viaf.org/viaf/64768137/" cert="high" type="real">Minele</persName>! Heute früh erhielt ich <persName key="Gagern, Maximilian Joseph Ludwig, Freiherr von, 1810-1889" ref="http://viaf.org/viaf/8430167807473518130009/">v. Gagern</persName> die Nach-
 <lb/>richt, daß der <persName key="Adolphe vu Lëtzebuerg" ref="http://viaf.org/viaf/262283873/" cert="high" type="real">Herzog</persName> auf eine Jagd gegangen sei und nicht früher als Freitag
