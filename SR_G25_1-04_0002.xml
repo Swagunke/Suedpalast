@@ -205,7 +205,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0002.xml?note_annotation_20230710110842273",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-07-10T09:08:42.273Z",
-	"dcterms:modified": "2023-07-10T09:08:42.273Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -227,10 +226,89 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.0.1"
+			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0002.xml?note_annotation_20230710110842273#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "eingefügt: hier"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0002.xml?note_annotation_20231002141421628",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-02T12:14:21.628Z",
+	"dcterms:modified": "2023-10-02T12:14:21.628Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0002.xml?note_annotation_20231002141421628#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0002.xml?note_annotation_20231002141421628#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/note"
 		}
@@ -238,14 +316,14 @@
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
 		"dc:format": "text/plain",
-		"rdf:value": "eingef.: hier"
+		"rdf:value": "eingefügt: 1)"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.0.1"
+		"schema:softwareVersion": "3.2.2"
 	}
 }]]>
         </rdf:Description>
@@ -274,12 +352,12 @@
 <lb/>vor u. ich habe gehört, daß an der Umstoßung nicht zu zweifeln
 <lb/>sei. Dieß betreibt eine neue <orgName>Spielpächter Gesellschaft</orgName> die
 <lb/>enorme Spielpacht etc etc bietet. Ich habe nun darauf hin
-<lb/>den Antrag gestellt, die Regierung soll als eine der Spiel-
+<lb/>den Antrag gestellt, die Regierung soll als <hi cert="high" rendition="underline" xml:space="default">eine </hi>der Spiel-
 <lb/>pacht Bedingungen, gewißermaßen als eine Caution, den mit 
 <lb/>3 % zu verzinsenden Vorschuß von drei Millionen Gulden
 <lb/>zu dem Behuf des Baus meines Südpalastes verlangen. Dieses
 <lb/>Verlangen ist nicht übertrieben, und hat für die hiesige Ba-
-<lb/>de Verwaltung den Vortheil, 1) daß sie selbst für mich gar
+<lb/>de Verwaltung die Vortheile, 1)<note type="editorial">eingefügt: 1)</note> daß sie selbst für mich gar
 <lb/>nichts zu thun braucht, 2) daß sie dennoch den Südpalast an die
 <lb/>schönste Stelle erhält u. 3) daß in dem Maaße, als ich (dem
 <lb/>das Capital nicht gekündigt werden darf) amortisiren,
