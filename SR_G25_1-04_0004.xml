@@ -1,123 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+  <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Signatur: G 25-1-4: Brief</title>
-            <title type="part" n="4"></title>
-            <author>
-               <persName ref="https://d-nb.info/gnd/118861700">
-                  <surname>Froriep</surname>
-                  <forename>Robert</forename>
-               </persName>
-            </author>
-            <editor>
-               <persName>
-                  <surname>Polenz</surname>
-                  <forename>Kathrin</forename>
-               </persName>
-            </editor>
-            
-            <respStmt>
-               
-               <orgName>Thüringer Universitäts- und Landesbibliothek Jena</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Herausgeber</note>
-                  
-               </resp>
-            </respStmt>
+            <title>Title</title>
          </titleStmt>
-         <editionStmt>
-            <edition>ausgewählte Briefe</edition>
-         </editionStmt>
          <publicationStmt>
-            <publisher>
-               <orgName role="project">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
-               <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
-            </publisher>
-            
-            <pubPlace>Jena</pubPlace>
-            <date type="publication">2023</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-                  <p>Distributed under the Creative Commons License
-                     Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
-               </licence>
-            </availability>
-            <idno>
-               <idno type="URLWeb">https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00028991</idno>
-            </idno>
+            <p>Publication Information</p>
          </publicationStmt>
-         <notesStmt>
-            <note type="remarkSource">aus einem Konvolut mit 16 Briefen und diversen Briefbeilagen an seine Gattin Wilhelmine Froriep geb. Ammermüller. Frankfurt/Main, Wiesbaden und [Bad] Homburg, 16. Januar bis 3. Februar 1854. 58 [gebundene und in den mit Fileten verzierten Halbledereinband "Menzies Report" eingelegte] Blätter[ggf. Kommentar zur zugrundeliegenden Ausgabe]</note>
-         </notesStmt>
          <sourceDesc>
-            <bibl type="MAN">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</bibl>
-            <biblFull>
-               <titleStmt>
-                  <title level="m" type="main">Brief von Robert Froriep an Wilhelmine Froriep geb. Ammermüller</title>
-                  <author>
-                     <persName ref="https://d-nb.info/gnd/118861700">
-                        <surname>Froriep</surname>
-                        <forename>Robert</forename>
-                     </persName>
-                     </author>
-               </titleStmt>
-               <extent>
-                  <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
-               </extent>
-               <publicationStmt>
-                  <publisher/>
-                  <pubPlace>Wiesbaden</pubPlace> <!-- Absendeort eintrage -->
-                  <date type="creation">18540118</date> <!-- Datum eintragen -->
-               </publicationStmt>
-               <notesStmt>
-                  <note>
-                     <p>
-                        Signatur: G 25-1-4
-                     </p>
-                  </note>
-               </notesStmt>
-            </biblFull>
-            <msDesc>
-               <msIdentifier>
-                  <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
-                  <idno>
-                     <idno type="shelfmark">Signatur: G 25-1-4</idno>
-                  </idno>
-               </msIdentifier>
-               <physDesc>
-               </physDesc>
-            </msDesc>
+            <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
-               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
-               kodiert.&lt;/p&gt; </p>
-         </editorialDecl>
-         <tagsDecl/>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="deu">German</language>
-         </langUsage>
-         <textClass>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
-               >Gebrauchsliteratur</classCode>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
-               >Brief</classCode>
-         </textClass>
-      </profileDesc>
-   </teiHeader>
-   <text>
+  </teiHeader>
+  <text>
       <body>
          <p>
-            Hier die Transkription
+            <lb/>Es wird sich aber zugleich die Befürchtung aufdrängen, ob es auch möglich sein werde
+            
+            <lb/>die Kosten eines solchen Etablißements u. einer derartigen Verwaltung zu
+            
+            <lb/>decken. Dieß führt zu einer kurzen Übersicht des Calculs, welcher natürlich
+            
+            <lb/>dem Project zu Grunde gelegt werden mußte, wollte man denselben zu einem
+            
+            <lb/>Plane erheben.</p>
+            
+            <p>Nach den oben ausgesprochenen Bedingungen wurde ein Glasbau, welcher
+            
+            <lb/>mindestens 360000 □ Fuß bedeckt u. ein Hotel welches außer den nöthigen
+            
+               <lb/>Wirthschaftsräumen, Officianten Wohnungen a Gesellschaftslocalitäten u. Vergnügungslocalitätenb mindestens
+            
+               <lb/>320 Zimmer für Kurgäste enthält, angenommen die Baupreise wurden nach den theuer-
+            
+               <lb/>sten bekannten Preisen (für den Glaspalast) von London und (für die übrigen Gebäude)
+            
+               <lb/>von Berlin berechnet, welche überall in Deutschland mehr als ausreichend sich
+            
+               <lb/>erweisen müßen; die Ausstattung des ganzen Etablißements ist sorgfältig bis
+            
+               <lb/>ins Detail erhoben u. nach den in Berlin üblichen Preisen berechnetc u. so ergiebt sich einAnlage-Bedarf
+            
+            <table>
+               <row>
+                  <cell>
+                     für den Glasbau von
+                  </cell>
+                  <cell>
+                     700,000 Fl
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     für die übrigen Bauten von
+                  </cell>
+                  <cell>
+                     1,072,000 –
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     für die Ausstattung von
+                  </cell>
+                  <cell>
+                     141,800 –
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                    Gesammtbedarf 
+                  </cell>
+                  <cell>
+                    1,913,800 – 
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                   Reserve für faux frais   
+                  </cell>
+                  <cell>
+                      86,200 –
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     
+                  </cell>
+                  <cell>
+                     2,000,000 –
+                  </cell>
+               </row>
+            </table>
+               
+                
+            
+             
+            
+             
+            
+             
+            
+           
+            
+            
+            
+            Die Kosten des Betriebs berechnen sich auf das Jahr
+            
+            Jährliche Betriebskosten 110000 Fl
+            
+            Jährliche Zinsen 80000 –
+            
+            Jährlicher Bedarf 190,000 Fl
+            
+            Es ist also zunächst nachzuweisen, daß die Aufbringung von jährlich
+            
+            190,000 Fl außer Zweifel ist. Diese Summe ist auf folgende Weise
+            
+            zu decken:
+         
          </p>
       </body>
-   </text>
+  </text>
 </TEI>
