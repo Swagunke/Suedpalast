@@ -804,6 +804,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0001.xml?note_annotation_20231002115021168",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-02T09:50:21.168Z",
+	"dcterms:modified": "2023-10-02T09:50:21.168Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0001.xml?note_annotation_20231002115021168#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-04_0001.xml?note_annotation_20231002115021168#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "eingefügt: für"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -842,12 +921,12 @@
 <lb/>ich von ihnen erwarten, die die hiesigen Verhältniße kennen, „da-
 <lb/>gegen erlaube ich mir einen Vorschlag, der uns zum Ziele führe
 <lb/>u. zugleich der hiesigen Regierung ein, wie mir scheine, angeneh-
-<lb/>mes Mittel an die Hand gebe, fürd eine sonst vielfältig getadelte
+<lb/>mes Mittel an die Hand gebe, für<note type="editorial">eingefügt: für</note> eine sonst vielfältig getadelte
 <lb/>Maßregel versöhnend zu wirken.“ Diese Sache nämlich ver-
-<lb/>hält sich so: der Spielpacht wird hier an die Actiengesellschaft
+<lb/>hält sich so: Der Spielpacht wird hier an die Actiengesellschaft
 <lb/>des Kurhauses entrichtet, Hauptactionär ist die Domänen-
 <lb/>Verwaltung, der lezte Pachtvertrag, der eine in Vergleich zu
-<lb/>anderen auswärtigene außerordentlich geringe Pachtsumme stipulirt, ist nun nur
+<lb/>anderen auswärtigen außerordentlich geringe Pachtsumme stipulirt, ist nun nur
 <lb/>von dem Vertreter der Domänenverwaltung u. nicht von den 
 <lb/>übrigen Actionärs unterzeichnet worden. Darauf hin ist der
 		</p>
