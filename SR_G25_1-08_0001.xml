@@ -1219,7 +1219,7 @@
    <text>
       <body>
          <p>
-           <placeName key="Bad Homburg vor der Höhe (Germany)" ref="http://viaf.org/viaf/315153830/" cert="high">Homburg<precision match="@ref" precision="high"/></placeName>. <date when="1854-01-24">24. 1.54</date>. Dienstag
+           <placeName key="Bad Homburg vor der Höhe (Germany)" ref="http://viaf.org/viaf/315153830/" cert="high">Homburg<precision match="@ref" precision="high"/></placeName>. <date when="1854-01-24">24.1.54</date>. Dienstag
 <lb/>Abend. 10.
 <lb/>Mein liebes <persName key="Froriep, Wilhelmine von 1808-1878" ref="http://viaf.org/viaf/64768137/" cert="high" type="real">Minele</persName>! Heute früh erhielt ich <persName key="Gagern, Maximilian Joseph Ludwig, Freiherr von, 1810-1889" ref="http://viaf.org/viaf/8430167807473518130009/">v. Gagern</persName> die Nach-
 <lb/>richt, daß der <persName key="Adolphe vu Lëtzebuerg" ref="http://viaf.org/viaf/262283873/" cert="high" type="real">Herzog</persName> auf eine Jagd gegangen sei und nicht früher als Freitag
