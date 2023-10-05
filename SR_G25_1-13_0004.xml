@@ -90,7 +90,88 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?place_annotation_20231005125157828",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-05T10:51:57.828Z",
+	"dcterms:modified": "2023-10-05T10:51:57.828Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?place_annotation_20231005125157828#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?place_annotation_20231005125157828#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/6636152637781620220005/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
                href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt;
@@ -113,7 +194,7 @@
          <p>
             und zwar auf einem Umweg zu betreiben suchen. Dazu will ich einen der
 <lb/>enragirten Hotelbesitzer benutzen, der für den Südpalast schwärmt und
-<lb/>heute auch in der Versammlung war. Der muß seinerseits zu Hr Kalb
+<lb/>heute auch in der Versammlung war. Der muß seinerseits zu Hr <persName ref="010">Kalb</persName>
 <lb/>gehen u. treiben, daß der die Pachtgesellschaft auf den rechten Weg
 <lb/>dränge. Es ist schrecklich, was die Leute für übrige Zeit haben, denen
 <lb/>kommt es wie es scheint auf eine Woche gar nicht an. Da die neue Ge-
@@ -121,14 +202,15 @@
 <lb/>Frcs zu machen so kann es ihr ja auf 100,000 Frcs gar nicht ankommen, zumal
 <lb/>da sie diese am Ende der Domänen Verwaltung nachträglich von ihrem
 <lb/>Gebot abziehen kann; u. dafür glaube ich thut es der Guntz zumal
-<lb/>da er alsdann das Spiel in Bad Ems behält, während wenn das Gouverne-
+<lb/>da er alsdann das Spiel in <placeName key="Bad Ems (Allemagne ; région)" ref="http://viaf.org/viaf/6636152637781620220005/" cert="high">Bad Ems<precision match="@ref" precision="high"/></placeName> behält, während wenn das Gouverne-
 <lb/>ment auf Grund der heutigen Petition den Vertrag dem Gericht
 <lb/>zur eventuellen Auflösung mit Erfolg übergiebt, ihm gar nichts
 <lb/>übrig bleibt u. er auch nichts behält oder erhält. Ich bin bei der Gelegen-
 <lb/>heit dann doch begierig einmal zu hören, wie die Klaße der Hotelbesitzer
 <lb/>von meinem Plan eigentlich spricht. Ich hörte heute daß auch der Graf
 <lb/>Üxkül, den Fritze kennt, sehr für meinen Plan schwärme, ich denke 
-<lb/>ihn doch zu besuchen, man muß jezt doch auch auf den Herzog einzu-<lb/>wirken suchen. Es ist die Geschichte übrigens wirklich eine Schraube
+<lb/>ihn doch zu besuchen, man muß jezt doch auch auf den Herzog einzu-
+<lb/>wirken suchen. Es ist die Geschichte übrigens wirklich eine Schraube
 <lb/>ohne Ende; man kommt nicht vom Fleck u. ich könnte anfangen
 <lb/>ungeduldig zu werden, wenn das nur etwas helfen könnte. – 
 <lb/>Hier ist übrigens jezt Regen u. Thauwetter, aber ohne kalten Wind
@@ -146,7 +228,7 @@
 <lb/>Emma erzählen, die auch mit Zagen von der Geschichte hören wird,
 <lb/>das braucht dich aber nicht zu beunruhigen. Die Sache wird u.
 <lb/>wenn sie wird, so ist sie ganz gut.
-<lb/>Nun mein Herz grüße mir die lieben Kinder, die großen wie 
+<lb/>Nun mein Herz grüße mir die lieben Kinder, die Großen wie 
 <lb/>Kleinen. Alma gratulire ich zu Götzes Lob. – Daß die Kinder bei
 <lb/>Carlowitz abgesagt haben, ist mir lieb, obwohl sie ohne dieses dann
 <lb/>heute getanzt hätten, doch hoffe ich sind sie auch so heute vergnügt.
