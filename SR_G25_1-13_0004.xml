@@ -232,7 +232,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?person_annotation_20231005125251491#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[5]"
+			"rdf:value": "TEI/text/body/p/persName[8]"
 		}
 	},
 	"oa:hasBody": {
@@ -488,6 +488,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?person_annotation_20231005132757695",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-05T11:27:57.695Z",
+	"dcterms:modified": "2023-10-05T11:27:57.695Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?person_annotation_20231005132757695#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?person_annotation_20231005132757695#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[7]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/1596149198285474940000/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -533,16 +613,16 @@
 <lb/>Hier ist übrigens jezt Regen u. Thauwetter, aber ohne kalten Wind
 <lb/>sehr mild u. angenehm, so daß ich auch nicht oder fast nicht mehr heitzen
 <lb/>zu laßen brauche. Gummi Kalosche habe ich.
-<pb/>Die Auffaßung von Mathilde ist natürlich u. um so mehr, wenn das Pro-
+<pb/>Die Auffaßung von <persName type="real">Mathilde</persName> ist natürlich u. um so mehr, wenn das Pro-
 <lb/>ject nicht in seiner ganzen Größe dargestellt ist, denn – davon überzeuge
 <lb/>ich mich mehr, je mehr ich mich damit beschäftigt habe, daß nur in der 
 <lb/>immensen Größe die volle Sicherheit des Gewinns liegt, aber so wie
 <lb/>der Plan liegt, ist er in der That vollkommen sicher und ebenso gewinnreich.
-<lb/>Daß Fritze nicht ausgeht, ist mir zwar schmeichelhaft, aber doch zuviel
+<lb/>Daß <persName>Fritze</persName> nicht ausgeht, ist mir zwar schmeichelhaft, aber doch zuviel
 <lb/>Entsagung von ihr, wenn es gut Wetter ist u. sie sich wohl fühlt so
 <lb/>sollte sie doch ja ausgehen. Grüße sie recht herzlich von mir. Nun
 <lb/>mußt du übrigens doch gelegentlich noch etwas von der Sache von
-<lb/>Emma erzählen, die auch mit Zagen von der Geschichte hören wird,
+<lb/><persName key="Froriep, Emma von 1805-1872" ref="http://viaf.org/viaf/1596149198285474940000/" cert="high" type="real">Emma</persName> erzählen, die auch mit Zagen von der Geschichte hören wird,
 <lb/>das braucht dich aber nicht zu beunruhigen. Die Sache wird u.
 <lb/>wenn sie wird, so ist sie ganz gut.
 <lb/>Nun mein Herz grüße mir die lieben Kinder, die Großen wie 
