@@ -169,6 +169,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?note_annotation_20231006103119486",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-06T08:31:19.486Z",
+	"dcterms:modified": "2023-10-06T08:31:19.486Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?note_annotation_20231006103119486#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?note_annotation_20231006103119486#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "gestrichen: Grund"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -205,14 +284,14 @@
 <lb/>Sie müßen die Actionäre dahin bringen, daß sie den Vertrag nicht anerkennen.“
 <lb/>Worauf ich erwiderte, daran scheine mir nichts gelegen, denn mir scheine der
 <lb/>Vertrag an u. für sich vollständig nichtig. Darauf fährt mein Advocat auf
-<lb/>„Freilich, aber davon spricht man nicht!“ – Kurz es kam heraus, daß er bereits
+<lb/>„Freilich, aber davon spricht man nicht!“ – – Kurz es kam heraus, daß er bereits
 <lb/>auf diesen Punkt hin alle Schritte gethan hat, um den s. g. Vertrag als null u. nich-
 <lb/>tig umzustoßen. Actionäre stehen hinter ihm, er hat Chabert eine Frist der persön-
 <lb/>lichen Erscheinung setzen laßen u. meinte, das beste wäre, Chabert erscheine nicht, dann
 <lb/>sei die Sache um so kürzer abgemacht, aber eben deswegen sagte er: „ganz still!
 <lb/>nicht ein Wort! sonst holen sie den Chabert oder Guntz noch herbei; dem übri-
 <lb/>gens jedenfalls das hier publicirte u. noch nicht wie die „Grundrechte“ wieder
-<lb/>aufgehobene „Reichs Gesetz“ gegen alle f Spielbanken, den Hals bräche ff.“
+<lb/>aufgehobene „Reichs Gesetz“ gegen alle <note type="editorial">gestrichen: Grund</note> Spielbanken, den Hals bräche ff.“
 <lb/>Kurz er rieth mir noch einige Tage zu bleiben, da werde diese Sache
 <lb/>zum Ablauf kommen u. er zweifle nicht, daß die neue Gesellschaft (da s. nicht
 <pb/>die, wobei der General Niellon u. Bankier Kalb figurire, sondern eine andere von 5 französi-
