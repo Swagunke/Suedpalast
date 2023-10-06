@@ -707,7 +707,85 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0001.xml?date_annotation_20231006151223877#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/date[2]/date"
+			"rdf:value": "TEI/text/body/p/date[3]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1854-02-01"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0001.xml?date_annotation_20231006151403609",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-06T13:14:03.609Z",
+	"dcterms:modified": "2023-10-06T13:14:03.609Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0001.xml?date_annotation_20231006151403609#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0001.xml?date_annotation_20231006151403609#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/date[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -747,7 +825,7 @@
             <placeName key="Wiesbaden (Allemagne, Hesse ; région)" ref="http://viaf.org/viaf/9819149719125911130000/" cert="high">Wiesbaden<precision match="@ref" precision="high"/></placeName> <date when="1854-02-01" cert="high">1 Febr 54</date>.
 <lb/>Liebes <persName key="Froriep, Wilhelmine von 1808-1878" ref="http://viaf.org/viaf/64768137/" cert="high" type="real">Minele</persName>! Schon ein neuer Monat! und doch kann ich für den
 <lb/>Moment noch nicht fort. Die Sache hat heute wieder eine neue Gestalt für mich ge-
-<lb/>wonnen die mich jedenfalls noch einige Tage festhält. Ich war nämlich heute früh
+<lb/>wonnen die mich jedenfalls noch einige Tage festhält. Ich war nämlich <date when="1854-02-01" cert="high">heute</date> früh
 <lb/>bei einem hiesigen Hotelbesitzer, der gestern in der Versammlung mit Abfaßung
 <lb/>der Petition u. Sammlung der Unterschriften beauftragt worden war; wir
 <lb/>schwäzten gemüthlich über die Sache u. deren Beziehung zu meinem Plan. Ich
