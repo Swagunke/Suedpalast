@@ -280,10 +280,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0002.xml?note_annotation_20231009110653830",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0002.xml?note_annotation_20231009110846582",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-10-09T09:06:53.830Z",
-	"dcterms:modified": "2023-10-09T09:06:53.830Z",
+	"dcterms:created": "2023-10-09T09:08:46.582Z",
+	"dcterms:modified": "2023-10-09T09:08:46.582Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -294,7 +294,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0002.xml?note_annotation_20231009110653830#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0002.xml?note_annotation_20231009110846582#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0002.xml",
@@ -308,7 +308,7 @@
 			"schema:softwareVersion": "3.2.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0002.xml?note_annotation_20231009110653830#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0002.xml?note_annotation_20231009110846582#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/note[3]"
 		}
@@ -362,7 +362,7 @@
 <lb/>alte geheime Spielpacht Vertrag durch eine öffentliche Versteigerung
 <lb/> <note type="editorial">gestrichen: deßelben</note> aufgehoben wird, so ist mein Südpalast hier bei hoch u. niedrig
 <lb/>so außerordentlich populär geworden, daß deßen wesentliche Un-
-<lb/>terstützung <note type="editorial">gestrichen: deßelben</note>nicht zu umgehen ist,   u. wie die Geschichte endlich
+<lb/>terstützung <note type="editoria">gestrichen: deßelben</note> nicht zu umgehen ist,   u. wie die Geschichte endlich
 <lb/>zu Stande kommt, ist mir ganz gleichgültig. Da ich doch vermuthe daß
 <lb/>ich vor der Hand nicht mehr sehr lange hier bin, so habe ich heute den Tag
 <lb/>benuzt, um eine kleine Abhandlung über den „Südpalast in Wiesbaden“
