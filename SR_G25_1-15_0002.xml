@@ -327,6 +327,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0002.xml?person_annotation_20231009113323938",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-10-09T09:33:23.938Z",
+	"dcterms:modified": "2023-10-09T09:33:23.938Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0002.xml?person_annotation_20231009113323938#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0002.xml?person_annotation_20231009113323938#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/202370560/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -355,7 +435,7 @@
 <lb/>nur die Zinsengarantieen, oder aber das Kapital gleich vorschießen, <note type="editorial">gestrichen: oder</note><lb/>u. diesen Vorschuß der Behörde als ihren Beitrag zu den Badeverschöne-
 <lb/>rungen anrechnen oder auch selbst eine Actien Unternehmung darauf
 <lb/>gründen, bei der sie 33 1/3 % am Rein Ertrag Antheil erhalten und
-<lb/>den schon hoch anschlagen könnten. Der Dr. L. ist so gescheidt u. ein so
+<lb/>den schon hoch anschlagen könnten. Der Dr. <persName key="Leisler, Ernst 1795-1875" ref="http://viaf.org/viaf/202370560/" cert="high" type="real">L.</persName> ist so gescheidt u. ein so
 <lb/>eifriger Erwerbsmann, daß er selbst bei dieser Sache, wo er von
 <lb/>2 Seiten u. zwar nicht unerheblich verdienen kann, sicher nicht läßig 
 <lb/>ist. Er mag übrigens kommen wir er will, wenn nur überhaupt der 
@@ -375,7 +455,7 @@
 <lb/>nothwendig gewesen wäre. Ich habe ihn ihm vorgelesen u. heute Abend bei
 <lb/>ihm gelaßen, damit er ihn auch noch in der Stille überliest. Mit geht es
 <lb/>übrigens gar nicht, wie dir; zwar weiß ich recht wohl, daß der Bau u.
-<lb/>besonders der Anfang der Leitung keine leichte Sache sein wird, - aber
+<lb/>besonders der Anfang der Leitung keine leichte Sache sein wird, – aber
 <lb/>wie das gehen wird; das weiß ich ganz genau u. wenn ich mirs
 <lb/>lebhaft denke, so spannen sich alle meine Sehnen u. ich möchte nun auf der
 <lb/>Stelle anfangen; mit manchem Entzücken werde ich wieder etwas
