@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>SR_F100_051_0001</title>
+        <author />
+      </titleStmt>
+      <publicationStmt>
+        <p>no publication statement available</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p />
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Hochzuverehrender Herr Präsident</p>
+      <p>Indem ich mir erlaube Ew. Hochwohlgeboren hierbei ein kurzes Promemoria über</p>
+      <p>
+        meinen Plan eines Südpalastes zu überreichen, welches diese Angelegenheit
+        <hi rend="strikethrough">für den Fall</hi>
+      </p>
+      <p>auch in meiner Abwesenheit zu vertreten geeignet sein möchte. Meine Abwesenheit in</p>
+      <p>Wiesbaden hat in dieser Sache wenigstens den Erfolg gehabt, daß dadurch meine Wün-</p>
+      <p>
+        sche auf Wiesbaden
+        <hi rend="background-color(#ff6600)">fixirt</hi>
+        worden sind. Möge bei der Ordnung der Spielpacht Ange-
+      </p>
+      <p>
+        legenheit es möglich
+        <hi rend="background-color(#ff6600)">sein</hi>
+        , die von den Pächtern für Verschönerungen zu bestimmenden
+      </p>
+      <p>Summen zunächst \ zu einem Vorschuß / für dr. Ausführung des Südpalastes zu bestimmen, durch welche, dieß bin ich</p>
+      <p>überzeugt aller Intereßen am meisten gedient sein würde.</p>
+      <p> </p>
+      <p>Genehmigen Ew. Hochwohlgeboren die Versicherung vollkommsten Gutachtens</p>
+      <p />
+      <p>womit ich zu verharren die Ehre habe</p>
+      <p> </p>
+      <p>Ew. Hochw.</p>
+      <p>ganz ergebenster</p>
+      <p>R. Froriep</p>
+      <p> </p>
+      <p>W 4/2 54.</p>
+    </body>
+  </text>
+</TEI>
