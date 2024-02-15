@@ -208,7 +208,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_047_0002.xml?place_annotation_20240215151013109",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-15T14:10:13.109Z",
-	"dcterms:modified": "2024-02-15T14:10:13.109Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -234,25 +233,93 @@
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_047_0002.xml?place_annotation_20240215151013109#Selector",
-			"@type": "oa:RangeSelector",
-			"oa:hasStartSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/p[25]"
-			},
-			"oa:hasEndSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/p[25]"
-			},
-			"oa:refinedBy": {
-				"@type": "oa:TextPositionSelector",
-				"oa:start": 36,
-				"oa:end": 47
-			}
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[25]/placeName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
 		"@id": "http://www.wikidata.org/entity/Q4100",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_047_0002.xml?place_annotation_20240215152733128",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-15T14:27:33.128Z",
+	"dcterms:modified": "2024-02-15T14:27:33.128Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_047_0002.xml?place_annotation_20240215152733128#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_047_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_047_0002.xml?place_annotation_20240215152733128#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[26]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q4165",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -293,7 +360,7 @@
       <p>aufgeführten Punkten vorerst keinen praktischen</p>
       <p>Werth haben könnte.</p>
       <p>Ebensowenig bin ich im Stande über den</p>
-      <p>Betrag des Spielpachtes, welcher in Baden-Baden</p><p>und in Homburg entrichtet wird, eine bestimmte</p>
+      <p>Betrag des Spielpachtes, welcher in <placeName>Baden-Baden</placeName></p><p>und in <placeName key="Bad Homburg vor der Höhe" ref="http://www.wikidata.org/entity/Q4165" cert="high">Homburg<precision match="@ref" precision="high"/></placeName> entrichtet wird, eine bestimmte</p>
       <p>Angabe zu machen. Es ist mir darüber nichts Näheres</p>
       <p>bekannt, als was s. Z. in öffentlichen Blättern ge-</p>
       <p>standen hat. Die daselbst angegebenen Zahlen sind</p>
