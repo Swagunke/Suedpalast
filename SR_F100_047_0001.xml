@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>test1</title>
-        <author />
+        <author/>
       </titleStmt>
       <publicationStmt>
         <p>no publication statement available</p>
@@ -13,7 +12,7 @@
         <p>Written by OpenOffice</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <p rend="color(#0e0e0e)">Hochwohlgeborener</p>
@@ -21,7 +20,7 @@
       <p rend="color(#0e0e0e)">Zu meinem aufrichtigen Bedauern bin ich durch</p>
       <p rend="color(#0e0e0e)">ein Zusammentreffen dringender Dienstgeschäfte</p>
       <p rend="color(#0e0e0e)">verschiedener Art verhindert gewesen, die gefälli-</p>
-      <p rend="color(#0e0e0e)">gen Schreiben eurer Hochwohlgeboren vom 19., 20., &amp; 21.</p>
+      <p rend="color(#0e0e0e)">gen Schreiben Eurer Hochwohlgeboren vom 19., 20., &amp; 21.</p>
       <p rend="color(#0e0e0e)">dieses Monats sofort schriftlich oder mündlich zu beant-</p>
       <p rend="color(#0e0e0e)">worten.</p>
       <p rend="color(#0e0e0e)">Zu den Vorschlägen über die Aufbringung der</p>
@@ -33,7 +32,7 @@
       <p rend="color(#0e0e0e)">summe irgend eine Aussicht zu eröffnen nicht im</p>
       <p rend="color(#0e0e0e)">Stande bin. Sollte auch die Regierung bei genauerer</p>
       <p rend="color(#0e0e0e)">Prüfung der Sache auf einen solchen Vorschlag ein-</p>
-      <p rend="color(#0e0e0e)">zugehen</p>
+      <p rend="color(#0e0e0e)"/>
     </body>
   </text>
 </TEI>
