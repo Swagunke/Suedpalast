@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>test1</title>
+        <author />
+      </titleStmt>
+      <publicationStmt>
+        <p>no publication statement available</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written by OpenOffice</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p rend="color(#0e0e0e)">ich meine Ansichten in meinem Antwort-</p>
+      <p rend="color(#0e0e0e)">schreiben vom 22ten laufenden Monats mit</p>
+      <p rend="color(#0e0e0e)">derjenigen Offenheit ausgesprochen, welche</p>
+      <p rend="color(#0e0e0e)">ich Eurer Hochwohlgeboren schuldig zu sein</p>
+      <p rend="color(#0e0e0e)">glaube. Ich befinde mich zu meinem Bedauern</p>
+      <p rend="color(#0e0e0e)">nicht in der Lage, diesen Vorschlägen andere</p>
+      <p rend="color(#0e0e0e)">zu substituiren, wodurch die Ausführbarkeit</p>
+      <p rend="color(#0e0e0e)">des Unternehmens mehr gesichert werden</p>
+      <p rend="color(#0e0e0e)">könnte, bin indessen, wenn Euere Hochwohlgebo-</p>
+      <p rend="color(#0e0e0e)">ren dieses wünschen sollten, gerne bereit, die</p>
+      <p rend="color(#0e0e0e)">Sache nochmals höhsten Amts zum Vortrag zu</p>
+      <p rend="color(#0e0e0e)">bringen.</p>
+      <p rend="color(#0e0e0e)">Mit der vollkommensten Hochachtung</p>
+      <p rend="color(#0e0e0e)">habe ich die Ehre zu beharren</p>
+      <p rend="color(#0e0e0e)">Euer Hochwohlgeboren</p>
+      <p rend="color(#0e0e0e)">gehorsamster Diener</p>
+      <p rend="color(#0e0e0e)">Vollprecht</p>
+      <p rend="color(#0e0e0e)">Wiesbaden, d. 24ten Jan. 1854.</p>
+    </body>
+  </text>
+</TEI>
