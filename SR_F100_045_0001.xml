@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>SR_F100_045_0001</title>
-        <author />
+        <author/>
       </titleStmt>
       <publicationStmt>
         <p>no publication statement available</p>
@@ -13,7 +12,7 @@
         <p>Written by OpenOffice</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <p rend="color(#0e0e0e)">Hochzuverehrender Herr Geheimrath!</p>
@@ -23,7 +22,7 @@
       <p rend="color(#0e0e0e)">Die erste Mittheilung Eurer Hochwohlgeboren</p>
       <p rend="color(#0e0e0e)">über das beabsichtigte großartige Unternehmen</p>
       <p rend="color(#0e0e0e)">beschränkte sich auf eine nähere Bezeichnung des</p>
-      <p rend="color(#0e0e0e)">Planes im allgemeinen, wie solcher in dem über-</p>
+      <p rend="color(#0e0e0e)">Planes im Allgemeinen, wie solcher in dem über-</p>
       <p rend="color(#0e0e0e)">gebenen Promemoria dargelegt war. Von einem</p>
       <p rend="color(#0e0e0e)">Aufbringen der Mittel zu dessen Ausführung war</p>
       <p rend="color(#0e0e0e)">damals noch keine Rede. In der, nach erstattetem</p>
