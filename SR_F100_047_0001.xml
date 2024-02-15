@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>test1</title>
+        <author />
+      </titleStmt>
+      <publicationStmt>
+        <p>no publication statement available</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written by OpenOffice</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p rend="color(#0e0e0e)">Hochwohlgeborener</p>
+      <p rend="color(#0e0e0e)">Hochzuverehrender Herr Geheimrath!</p>
+      <p rend="color(#0e0e0e)">Zu meinem aufrichtigen Bedauern bin ich durch</p>
+      <p rend="color(#0e0e0e)">ein Zusammentreffen dringender Dienstgeschäfte</p>
+      <p rend="color(#0e0e0e)">verschiedener Art verhindert gewesen, die gefälli-</p>
+      <p rend="color(#0e0e0e)">gen Schreiben eurer Hochwohlgeboren vom 19., 20., &amp; 21.</p>
+      <p rend="color(#0e0e0e)">dieses Monats sofort schriftlich oder mündlich zu beant-</p>
+      <p rend="color(#0e0e0e)">worten.</p>
+      <p rend="color(#0e0e0e)">Zu den Vorschlägen über die Aufbringung der</p>
+      <p rend="color(#0e0e0e)">Geldmittel zur Ausführung des von Eurer Hoch-</p>
+      <p rend="color(#0e0e0e)">wohlgeboren beabsichtigten Unternehmens, erlaube</p>
+      <p rend="color(#0e0e0e)">ich mir nur kurz zu bemerken, daß ich für die</p>
+      <p rend="color(#0e0e0e)">Uebernahme einer Zinsengarantie oder auch nur</p>
+      <p rend="color(#0e0e0e)">einer Garantie für die aufzunehmende Capital-</p>
+      <p rend="color(#0e0e0e)">summe irgend eine Aussicht zu eröffnen nicht im</p>
+      <p rend="color(#0e0e0e)">Stande bin. Sollte auch die Regierung bei genauerer</p>
+      <p rend="color(#0e0e0e)">Prüfung der Sache auf einen solchen Vorschlag ein-</p>
+      <p rend="color(#0e0e0e)">zugehen</p>
+    </body>
+  </text>
+</TEI>
