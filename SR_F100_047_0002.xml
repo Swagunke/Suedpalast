@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Untitled Document</title>
-        <author />
+        <author/>
       </titleStmt>
       <publicationStmt>
         <p>no publication statement available</p>
@@ -13,7 +12,7 @@
         <p>Written by OpenOffice</p>
       </sourceDesc>
     </fileDesc>
-  </teiHeader>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
       <p>einzugehen geneigt sein; so würde derselbe doch an</p>
@@ -22,10 +21,10 @@
       <p>niß der hiesigen Verhältnisse, hiervon so fest über-</p>
       <p>zeugt, daß ich es für unrecht halten würde, wenn</p>
       <p>ich mich hierüber mit weniger Bestimmtheit</p>
-      <p>aussprechen wollte. Einer Combination der Unter-</p>
-      <p>nehmung mit der anderweiten Verpachtung der</p>
+      <p>aussprechen wollte. Einer Combination des Unter-</p>
+      <p>nehmens mit der anderweiten Verpachtung der</p>
       <p>hiesigen Hazardspiele  steht aber der Umstand ent-</p>
-      <p>gegen, daß es sich hierbei nicht um den Abschluss ei-</p>
+      <p>gegen, daß es sich hierbei nicht um den Abschluß ei-</p>
       <p>nes neuen, sondern nur um Modificationen</p>
       <p>eines schon früher abgeschlossenen , durch die Ereignisse</p>
       <p>des Jahres 1848 alterirten und bisher unvollzogen ge-</p>
