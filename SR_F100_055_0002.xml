@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>SR_F100_054_0001</title>
+        <author />
+      </titleStmt>
+      <publicationStmt>
+        <p>no publication statement available</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written by OpenOffice</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p rend="color(#0e0e0e)">F 100-55</p>
+      <p rend="color(#0e0e0e)">schwach, daß ich Anstand nehmen muß, Euere</p>
+      <p rend="color(#0e0e0e)">Hochwohlgeboren durch irgend eine Bemerkung</p>
+      <p rend="color(#0e0e0e)">zu dieser Unternehmung am hiesigen Orte</p>
+      <p rend="color(#0e0e0e)">aufzumuntern. Mein Ausspruch gründet</p>
+      <p rend="color(#0e0e0e)">sich auf meine seit fünf und zwanzig Jahren</p>
+      <p rend="color(#0e0e0e)">am hiesigen Orte gemachte Erfahrung, sowie</p>
+      <p rend="color(#0e0e0e)">auch auf die Unterredungen, welche ich des-</p>
+      <p rend="color(#0e0e0e)">halb mit mehreren Fachtkennern gehabt habe.</p>
+      <p rend="color(#0e0e0e)">Genehmigen Sie die Versicherung der</p>
+      <p rend="color(#0e0e0e)">ausgezeichnetesten Hochachtung, mit wel-</p>
+      <p rend="color(#0e0e0e)">cher die Ehre hat zu verharren</p>
+      <p rend="color(#0e0e0e)">Euerer Hochwohlgeboren</p>
+      <p rend="color(#0e0e0e)">ergebenster Diener</p>
+      <p rend="color(#0e0e0e)">D. Geisler</p>
+      <p rend="color(#0e0e0e)">Sen.</p>
+      <p rend="color(#0e0e0e)">Wiesbaden  den 20 Mai 1854</p>
+    </body>
+  </text>
+</TEI>

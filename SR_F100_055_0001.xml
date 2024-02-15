@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>SR_F100_054_0001</title>
+        <author />
+      </titleStmt>
+      <publicationStmt>
+        <p>no publication statement available</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written by OpenOffice</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p rend="color(#0e0e0e)">F 100-55</p>
+      <p rend="color(#0e0e0e)">Euere Hochwohlgeboren</p>
+      <p rend="color(#0e0e0e)">haben die Güte gehabt, mit Bezug auf</p>
+      <p rend="color(#0e0e0e)">ein Schreiben meines Freundes Dr. Auerbach,</p>
+      <p rend="color(#0e0e0e)">sich durch Herrn Baurath Roos hier, wegen</p>
+      <p rend="color(#0e0e0e)">Ihrer gemeinnützigen Unternehmung der</p>
+      <p rend="color(#0e0e0e)">Errichtung eines großen Glasgebäudes an mich</p>
+      <p rend="color(#0e0e0e)">zu wenden.</p>
+      <p rend="color(#0e0e0e)">So wünschenswerth die Ausführung</p>
+      <p rend="color(#0e0e0e)">im allgemeinen Interesse, sowie im Speciellen</p>
+      <p rend="color(#0e0e0e)">der hiesigen Stadt ist, so sind die Hoffnungen, die</p>
+      <p rend="color(#0e0e0e)">Ausführung am hiesigen Orte, durch Unter-</p>
+      <p rend="color(#0e0e0e)">stützung der Regierung, Bildung einer Ac-</p>
+      <p rend="color(#0e0e0e)">tiengesellschaft oder sonstigen Theilnahme</p>
+      <p rend="color(#0e0e0e)">Dritter, bewerkstelligen zu können, so</p>
+      <p rend="color(#0e0e0e)">schwach</p>
+    </body>
+  </text>
+</TEI>
