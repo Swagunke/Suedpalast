@@ -285,7 +285,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_060_0002.xml?place_annotation_20240216124547063",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-16T11:45:47.063Z",
-	"dcterms:modified": "2024-02-16T11:45:47.063Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -312,12 +311,93 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_060_0002.xml?place_annotation_20240216124547063#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName"
+			"rdf:value": "TEI/text/body/p/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
 		"@id": "http://www.wikidata.org/entity/Q3104",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_060_0002.xml?place_annotation_20240216124927240",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-16T11:49:27.240Z",
+	"dcterms:modified": "2024-02-16T11:49:27.240Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_060_0002.xml?place_annotation_20240216124927240#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_060_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_060_0002.xml?place_annotation_20240216124927240#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q65148295",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -377,7 +457,7 @@
 <lb/>ein nicht unbeträchtlicher Theil des Innern meines Mi-
 <pb/>nisterialgebäudes ein Raub der Flammen geworden sei
 <lb/>und mich augenblicklich hierher berief. Doch ließ mich der
-<lb/>Arzt (Dr. Petri in der Laubbach bei <placeName key="Koblenz" ref="http://www.wikidata.org/entity/Q3104" cert="high">Coblenz<precision match="@ref" precision="high"/></placeName>) nicht gehen und
+<lb/>Arzt (<persName ref="p022">Dr. Petri</persName> in der <placeName key="Bad Laubach am Rhein" ref="http://www.wikidata.org/entity/Q65148295" cert="high">Laubbach<precision match="@ref" precision="high"/></placeName> bei <placeName key="Koblenz" ref="http://www.wikidata.org/entity/Q3104" cert="high">Coblenz<precision match="@ref" precision="high"/></placeName>) nicht gehen und
 <lb/>entwickelte der Regierung die Gründe, die auch alle so 
 <lb/>richtig waren, daß mein Befinden – der Rückfall, den ich 
 <lb/>erlitt, sie leider vollgültig belegte. Statt die Cur, die 
