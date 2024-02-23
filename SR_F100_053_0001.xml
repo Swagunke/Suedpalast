@@ -1,155 +1,253 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Untitled Document</title>
-        <author>Admin</author>
-      </titleStmt>
-      <publicationStmt>
-        <p>no publication statement available</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Written by OpenOffice</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>F100-53</p>
-      <p>
-        Zu der
-        <hi rend="color(#FF0000)">xxx</hi>
-        d.
-        <hi rend="color(#FF0000)">xxx</hi>
-        verwaltung  in Wiesbaden
-      </p>
-      <p>5/2 54.</p>
-      <p>Die Macht des Klimas auf den Menschen wird von Ärzten und Laien in gleicher Weise ohne Beschränkung</p>
-      <p>anerkannt, und man weiß, dass Körperbau, allgemeine Stimmung des Geistes und der Temperamente und namentlich</p>
-      <p>
-        das Gleichgewicht
-        <hi rend="strikethrough">zwischen</hi>
-        der verschiedenen organischen Thätigkeiten, worauf die Gesundheit beruht,
-        <hi rend="strikethrough">lediglich</hi>
-        zulezt doch
-      </p>
-      <p>
-        von dem Klima abhängen, in
-        <hi rend="color(#FF0000)strikethrough">welchem</hi>
-        <hi rend="color(#FF0000)" />
-        \
-        <hi rend="color(#000000)">de</hi>
-        <hi rend="color(#000000)">ß</hi>
-        <hi rend="color(#000000)">en Ungunst</hi>
-        <hi rend="color(#000000)">/</hi>
-        <hi rend="color(#000000)">im Gegen</hi>
-        <hi rend="color(#000000)">theil die meisten \</hi>
-        <hi rend="color(#000000)">und verbreitetsten</hi>
-        <hi rend="color(#000000)">/ Krankheitsformen \</hi>
-        <hi rend="color(#000000)">ihre</hi>
-        <hi rend="color(#000000)">/</hi>
-        <hi rend="color(#000000)">Wurzel haben.</hi>
-      </p>
-      <p>
-        Es ist hiernach nicht zu bezweifeln, dass es Aufgabe der Heilkunst ist,
-        <hi rend="strikethrough">sich</hi>
-        den mächtigen Einfluss des Kli-
-      </p>
-      <p>
-        mas, so weit dies möglich ist, zu beherschen
-        <hi rend="strikethrough">oder</hi>
-        <hi rend="color(#FF0000)strikethrough">xxx</hi>
-        .
-      </p>
-      <p>In dieser Richtung sind indeß die Ärzte  \ bisher / noch nicht weiter gekommen, als daß sie ihre Kranken von</p>
-      <p>den Keimen entweder flüchten oder auf mehr oder minder vollkommene Weise durch Einsperrung in die</p>
-      <p>Stube sicher zu stellen \ suchen /. Das Flüchten nach südlichen Aufenthaltsorten ist für die Mittel der Mehrzahl der</p>
-      <p>
-        Patienten nicht ausführbar, und die Einsperrung in die Stuben dagegen oft eine der
-        <hi rend="color(#FF0000)">stärksten/höchsten/sichersten</hi>
-        <hi rend="color(#FF0000)" />
-        Maßregeln
-      </p>
-      <p>
-        des praktischen Arztes \ da sie mit einer Absperrung von allem
-        <hi rend="color(#FF0000)">xxx</hi>
-        Verkehr verbunden ist, sie ist in der Mehrzahl der Fälle aber / um so stärker, als das künstliche Klima der Krankheit selbst wieder \ als / eine
-      </p>
-      <p>Schädlichkeit bezeichnet werden muß, für viele Zustände bedenklicher als das Leiden selbst.</p>
-      <p>
-        Die Idee ein künstliches Klima herzustellen, welches bei der Milden \ Temperatur / des Südens
-        <hi rend="color(#FF0000)">doch/</hi>
-        <hi rend="color(#FF0000)">auch</hi>
-        die Reinheit
-      </p>
-      <p>der Luft, die Wohlthätigkeit des Lichtes u. den erfrischenden Einfluss eines bewegten heitern Lebens</p>
-      <p>bietet, wie sie zur Erhaltung und Kräftigung der Gesundheit unentbehrlich sind, ist offenbar \ auch / eine</p>
-      <p>Aufgabe, welche die Medizin \ noch / zu lösen hat.</p>
-      <p>
-        Licht und
-        <hi rend="strikethrough">der</hi>
-        großartigster Verkehr in einem übrigens geschlossenen \ und von den Unbilden der Witterung sichernden / Raum, hat zuerst der Glas-
-      </p>
-      <p>palast in London, und es sind bei jenem bewundernswürdigen Gebäude zugleich die Aufgaben</p>
-      <p>der Heizung, \ der / Kühlung und \ der / Lufterneuerung auf eine so befriedigende Weise gelöst worden,</p>
-      <p>
-        dass von dieser Seite der Ausführ
-        <hi rend="strikethrough">ung</hi>
-        barkeit der erwähnten großen medicinischen Aufgabe nichts
-      </p>
-      <p>mehr im Wege steht.</p>
-      <p>
-        Das Problem ist \
-        <hi rend="strikethrough">dadurch zwar</hi>
-        / gelöst, \ aber / die \ Aufgabe verlangt
-        <hi rend="strikethrough">ausführung</hi>
-        <hi rend="color(#FF0000)">eben</hi>
-        <hi rend="color(#FF0000)" />
-        praktische / Ausführung.
-        <hi rend="strikethrough">aber fehlt noch</hi>
-      </p>
-      <p>Die allgemeine Forderung dafür ist also: die gewöhnliche Wohnung der Kranken nicht allein, sondern der</p>
-      <p>ganze gesellig geistige Verkehr samt seinen Lebensgenüßen, an welchen die Bewohner unserer Länder</p>
-      <p>
-        gewöhnt sind sollen von einer das allbelebende Sonnenlicht nicht ausschließenden Hülle
-        <hi rend="color(#FF0000)" />
-        in der Art umge-
-      </p>
-      <p>
-        ben werden, daß sie samt und sonders von den Unbilden unserer \
-        <hi rend="strikethrough">der</hi>
-        / rauhen Heimat, \
-        <hi rend="strikethrough">die eigentlich</hi>
-      </p>
-      <p>
-        <hi rend="strikethrough">der Sitz gebildeter Bevölkerungen sind</hi>
-        /
-        <note xml:id="_ftn0" place="foot" n="1">Vgl. Rupke und seine These von der eurozentrischen Interpretation der gemäßigten Klimazonen, F. Kather.</note>
-        geschüzt seinen u. zwar nicht bloß auf Tage u. Wochen
-      </p>
-      <p>sondern auf Monate u. Jahre hinaus, wie es gerade der Natur der Krankheit und der Eigenthümlich-</p>
-      <p>keit der einzelnen Fälle verlangt.</p>
-      <p>Schon diese Bedingungen, dieß springt von selbst in die Augen, drängen auf sehr große Dimensionen</p>
-      <p>
-        der etwa zu machenden Anlage hin.
-        <hi rend="strikethrough">Diese</hi>
-        Solche werden aber durch
-        <hi rend="strikethrough">das</hi>
-        eine höhere humane
-        <hi rend="strikethrough">Aufgabe</hi>
-        Rücksicht, die der
-      </p>
-      <p>Arzt nie aus den Augen verlieren darf, noch gebieterischer gefordert.</p>
-      <p>Kolossaler Reichtum würde dem Einzelnen gestatten, für sich ein solches künstliches Klima mit</p>
-      <p>allen sonstigen Erfordernissen der Gesundheit u. des\jenigen/ Lebensgenußes, welcher gesund macht, zu schaffen.</p>
-      <p>Sollen aber viele, sollen möglichst alle an der Wohlthat des beabsichtigten Fortschrittes in der Heuilkunst</p>
-      <p>
-        theilhaben, so ist dieß \ da Staatsmittel für solche Zwecke nicht vorhanden sind, / nicht anders möglich zu machen, als daß die \ dafür nöthige / nicht unbedeutend
-        <hi rend="strikethrough">e</hi>
-        hohe pecuniärische Last
-      </p>
-      <p>auf eine möglichst große Anzahl von Schultern vertheilt wird. Dieß ist der Grund, warum</p>
-    </body>
-  </text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Signatur: F 100-53<!-- Hier noch die Gattung eintragen --></title>
+            <title type="part" n="1"></title>
+            <author>
+               <persName ref="https://d-nb.info/gnd/118861700">
+                  <surname>Froriep</surname>
+                  <forename>Robert</forename>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname>Polenz</surname>
+                  <forename>Kathrin</forename>
+               </persName>
+            </editor>
+            
+            <respStmt>
+               
+               <orgName>Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Herausgeber</note>
+                  
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>ausgewählte Briefe</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName role="project">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+            </publisher>
+            
+            <pubPlace>Jena</pubPlace>
+            <date type="publication">2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Distributed under the Creative Commons License
+                     Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00028987</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="remarkSource">Konvolut zum Südpalast-Projekt von Robert Froriep; 8. November 1853 bis 3. April 1856</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="MAN"><!-- hier noch Gattungsbegriff enfügen --></bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main"><!-- hier einen Titel einfügen --></title>
+                  <author>
+                     <persName ref="https://d-nb.info/gnd/118861700">
+                        <surname>Froriep</surname>
+                        <forename>Robert</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <extent>
+                  <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
+               </extent>
+               <publicationStmt>
+                  <publisher/>
+                  <pubPlace>Wiesbaden</pubPlace> <!-- Absendeort eintrage -->
+                  <date type="creation">18540118</date> <!-- Datum eintragen -->
+               </publicationStmt>
+               <notesStmt>
+                  <note>
+                     <p>
+                        Signatur: F 100-53
+                     </p>
+                  </note>
+               </notesStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
+                  <idno>
+                     <idno type="shelfmark">Signatur: F 100-53</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
+               kodiert.&lt;/p&gt; </p>
+         </editorialDecl>
+         <tagsDecl/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+               >Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+               >Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <p>
+            Zu der
+            <hi rend="color(#FF0000)">xxx</hi>
+            d.
+            <hi rend="color(#FF0000)">xxx</hi>
+            verwaltung  in Wiesbaden
+         
+         <lb/>5/2 54.
+         <lb/>Die Macht des Klimas auf den Menschen wird von Ärzten und Laien in gleicher Weise ohne Beschränkung
+         <lb/>anerkannt, und man weiß, dass Körperbau, allgemeine Stimmung des Geistes und der Temperamente und namentlich
+         <lb/>
+            das Gleichgewicht
+            <hi rend="strikethrough">zwischen</hi>
+            der verschiedenen organischen Thätigkeiten, worauf die Gesundheit beruht,
+            <hi rend="strikethrough">lediglich</hi>
+            zulezt doch
+         
+         <lb/>
+            von dem Klima abhängen, in
+            <hi rend="color(#FF0000)strikethrough">welchem</hi>
+            <hi rend="color(#FF0000)" />
+            \
+            <hi rend="color(#000000)">de</hi>
+            <hi rend="color(#000000)">ß</hi>
+            <hi rend="color(#000000)">en Ungunst</hi>
+            <hi rend="color(#000000)">/</hi>
+            <hi rend="color(#000000)">im Gegen</hi>
+            <hi rend="color(#000000)">theil die meisten \</hi>
+            <hi rend="color(#000000)">und verbreitetsten</hi>
+            <hi rend="color(#000000)">/ Krankheitsformen \</hi>
+            <hi rend="color(#000000)">ihre</hi>
+            <hi rend="color(#000000)">/</hi>
+            <hi rend="color(#000000)">Wurzel haben.</hi>
+         
+         <lb/>
+            Es ist hiernach nicht zu bezweifeln, dass es Aufgabe der Heilkunst ist,
+            <hi rend="strikethrough">sich</hi>
+            den mächtigen Einfluss des Kli-
+         
+         <lb/>
+            mas, so weit dies möglich ist, zu beherschen
+            <hi rend="strikethrough">oder</hi>
+            <hi rend="color(#FF0000)strikethrough">xxx</hi>
+            .
+         
+         <lb/>In dieser Richtung sind indeß die Ärzte  \ bisher / noch nicht weiter gekommen, als daß sie ihre Kranken von
+         <lb/>den Keimen entweder flüchten oder auf mehr oder minder vollkommene Weise durch Einsperrung in die
+         <lb/>Stube sicher zu stellen \ suchen /. Das Flüchten nach südlichen Aufenthaltsorten ist für die Mittel der Mehrzahl der
+         <lb/>
+            Patienten nicht ausführbar, und die Einsperrung in die Stuben dagegen oft eine der
+            <hi rend="color(#FF0000)">stärksten/höchsten/sichersten</hi>
+            <hi rend="color(#FF0000)" />
+            Maßregeln
+         
+         <lb/>
+            des praktischen Arztes \ da sie mit einer Absperrung von allem
+            <hi rend="color(#FF0000)">xxx</hi>
+            Verkehr verbunden ist, sie ist in der Mehrzahl der Fälle aber / um so stärker, als das künstliche Klima der Krankheit selbst wieder \ als / eine
+         
+         <lb/>Schädlichkeit bezeichnet werden muß, für viele Zustände bedenklicher als das Leiden selbst.
+         <lb/>
+            Die Idee ein künstliches Klima herzustellen, welches bei der Milden \ Temperatur / des Südens
+            <hi rend="color(#FF0000)">doch/</hi>
+            <hi rend="color(#FF0000)">auch</hi>
+            die Reinheit
+         
+         <lb/>der Luft, die Wohlthätigkeit des Lichtes u. den erfrischenden Einfluss eines bewegten heitern Lebens
+         <lb/>bietet, wie sie zur Erhaltung und Kräftigung der Gesundheit unentbehrlich sind, ist offenbar \ auch / eine
+         <lb/>Aufgabe, welche die Medizin \ noch / zu lösen hat.
+         <lb/>
+            Licht und
+            <hi rend="strikethrough">der</hi>
+            großartigster Verkehr in einem übrigens geschlossenen \ und von den Unbilden der Witterung sichernden / Raum, hat zuerst der Glas-
+         
+         <lb/>palast in London, und es sind bei jenem bewundernswürdigen Gebäude zugleich die Aufgaben
+         <lb/>der Heizung, \ der / Kühlung und \ der / Lufterneuerung auf eine so befriedigende Weise gelöst worden,
+         <lb/>
+            dass von dieser Seite der Ausführ
+            <hi rend="strikethrough">ung</hi>
+            barkeit der erwähnten großen medicinischen Aufgabe nichts
+         
+         <lb/>mehr im Wege steht.
+         <lb/>
+            Das Problem ist \
+            <hi rend="strikethrough">dadurch zwar</hi>
+            / gelöst, \ aber / die \ Aufgabe verlangt
+            <hi rend="strikethrough">ausführung</hi>
+            <hi rend="color(#FF0000)">eben</hi>
+            <hi rend="color(#FF0000)" />
+            praktische / Ausführung.
+            <hi rend="strikethrough">aber fehlt noch</hi>
+         
+         <lb/>Die allgemeine Forderung dafür ist also: die gewöhnliche Wohnung der Kranken nicht allein, sondern der
+         <lb/>ganze gesellig geistige Verkehr samt seinen Lebensgenüßen, an welchen die Bewohner unserer Länder
+         <lb/>
+            gewöhnt sind sollen von einer das allbelebende Sonnenlicht nicht ausschließenden Hülle
+            <hi rend="color(#FF0000)" />
+            in der Art umge-
+         
+         <lb/>
+            ben werden, daß sie samt und sonders von den Unbilden unserer \
+            <hi rend="strikethrough">der</hi>
+            / rauhen Heimat, \
+            <hi rend="strikethrough">die eigentlich</hi>
+         
+         <lb/>
+            <hi rend="strikethrough">der Sitz gebildeter Bevölkerungen sind</hi>
+            /
+            <note xml:id="_ftn0" place="foot" n="1">Vgl. Rupke und seine These von der eurozentrischen Interpretation der gemäßigten Klimazonen, F. Kather.</note>
+            geschüzt seinen u. zwar nicht bloß auf Tage u. Wochen
+         
+         <lb/>sondern auf Monate u. Jahre hinaus, wie es gerade der Natur der Krankheit und der Eigenthümlich-
+         <lb/>keit der einzelnen Fälle verlangt.
+         <lb/>Schon diese Bedingungen, dieß springt von selbst in die Augen, drängen auf sehr große Dimensionen
+         <lb/>
+            der etwa zu machenden Anlage hin.
+            <hi rend="strikethrough">Diese</hi>
+            Solche werden aber durch
+            <hi rend="strikethrough">das</hi>
+            eine höhere humane
+            <hi rend="strikethrough">Aufgabe</hi>
+            Rücksicht, die der
+         
+         <lb/>Arzt nie aus den Augen verlieren darf, noch gebieterischer gefordert.
+         <lb/>Kolossaler Reichtum würde dem Einzelnen gestatten, für sich ein solches künstliches Klima mit
+         <lb/>allen sonstigen Erfordernissen der Gesundheit u. des\jenigen/ Lebensgenußes, welcher gesund macht, zu schaffen.
+         <lb/>Sollen aber viele, sollen möglichst alle an der Wohlthat des beabsichtigten Fortschrittes in der Heuilkunst
+         <lb/>
+            theilhaben, so ist dieß \ da Staatsmittel für solche Zwecke nicht vorhanden sind, / nicht anders möglich zu machen, als daß die \ dafür nöthige / nicht unbedeutend
+            <hi rend="strikethrough">e</hi>
+            hohe pecuniärische Last
+         
+         <lb/>auf eine möglichst große Anzahl von Schultern vertheilt wird. Dieß ist der Grund, warum
+            </p>
+      </body>
+   </text>
 </TEI>
