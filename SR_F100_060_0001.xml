@@ -1,55 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>SR_F100_054_0001</title>
-        <author />
-      </titleStmt>
-      <publicationStmt>
-        <p>no publication statement available</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Written by OpenOffice</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p rend="color(#0e0e0e)">F 100-60</p>
-      <p rend="color(#0e0e0e)">Wiesbanden den 15ten October 1854.</p>
-      <p rend="color(#0e0e0e)">Lieber, verehrter Freund!</p>
-      <p rend="color(#0e0e0e)">Ihr Brief vom gestrigen, der mir eben Abends 7 Uhr</p>
-      <p rend="color(#0e0e0e)">zu kommet, hat einen so schlimmen Anfang, daß ich schon</p>
-      <p rend="color(#0e0e0e)">die Feder ergreifen wollte, noch ehe ich ihn vollständig</p>
-      <p rend="color(#0e0e0e)">gesehn, um das arge Mißtrauen zu strafen, mit</p>
-      <p rend="color(#0e0e0e)">dem Sie mir wahrhaft wehe gethan haben. Jedenfalls</p>
-      <p rend="color(#0e0e0e)">muß die Antwort auf dem Papiere stehen, ehe ich</p>
-      <p rend="color(#0e0e0e)">zu Bett gehe und womöglich sogar auf die Post ge-</p>
-      <p rend="color(#0e0e0e)">bracht sein, wenn ich nicht von peinlicher Unruhe ge-</p>
-      <p rend="color(#0e0e0e)">plagt die Nacht schlaflos zubringen soll. Allerdings</p>
-      <p rend="color(#0e0e0e)">gestehe ich, daß mein Schweigen zu allen möglichen</p>
-      <p rend="color(#0e0e0e)">Besorgnissen hat Anlaß geben können, aber ein-</p>
-      <p rend="color(#0e0e0e)">mal der Mann erkennt, konnte  und dürfte es nach</p>
-      <p rend="color(#0e0e0e)">
-        meiner Auffassung
-        <hi rend="underline">die</hi>
-        Deutung
-        <hi rend="underline">niemals</hi>
-        erfahren;
-      </p>
-      <p rend="color(#0e0e0e)">denn wie tausenderlei Ursachen gibt es nicht, die</p>
-      <p rend="color(#0e0e0e)">vom Schreiben abhalten. Denn ja auch kennen  Sie</p>
-      <p rend="color(#0e0e0e)">mich  grade in dieser Beziehung und wissen, wie schwer</p>
-      <p rend="color(#0e0e0e)">ich mich dazu entschließe, wenn ich nichts Erfreuliches</p>
-      <p rend="color(#0e0e0e)">zu melden haben. Diesen Grund hat unsere liebenswürdige</p>
-      <p rend="color(#0e0e0e)">
-        <hi rend="color(#ff0000)">Freundin</hi>
-        ganz richtig
-        <hi rend="color(#ff0000)">xxx</hi>
-        oder vielmehr geäußert,
-      </p>
-      <p rend="color(#0e0e0e)">da ich mich gegen sie ausgesprochen. Es ist aber leider</p>
-    </body>
-  </text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Signatur: F 100-60<!-- Hier noch die Gattung eintragen --></title>
+            <title type="part" n="1"></title>
+            <author>
+               <persName ref="https://d-nb.info/gnd/118861700">
+                  <surname>Froriep</surname>
+                  <forename>Robert</forename>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname>Polenz</surname>
+                  <forename>Kathrin</forename>
+               </persName>
+            </editor>
+            
+            <respStmt>
+               
+               <orgName>Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Herausgeber</note>
+                  
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>ausgewählte Briefe</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName role="project">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+            </publisher>
+            
+            <pubPlace>Jena</pubPlace>
+            <date type="publication">2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Distributed under the Creative Commons License
+                     Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00028987</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="remarkSource">Konvolut zum Südpalast-Projekt von Robert Froriep; 8. November 1853 bis 3. April 1856</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="MAN"><!-- hier noch Gattungsbegriff enfügen --></bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main"><!-- hier einen Titel einfügen --></title>
+                  <author>
+                     <persName ref="https://d-nb.info/gnd/118861700">
+                        <surname>Froriep</surname>
+                        <forename>Robert</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <extent>
+                  <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
+               </extent>
+               <publicationStmt>
+                  <publisher/>
+                  <pubPlace>Wiesbaden</pubPlace> <!-- Absendeort eintrage -->
+                  <date type="creation">18540118</date> <!-- Datum eintragen -->
+               </publicationStmt>
+               <notesStmt>
+                  <note>
+                     <p>
+                        Signatur: F 100-60
+                     </p>
+                  </note>
+               </notesStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
+                  <idno>
+                     <idno type="shelfmark">Signatur: F 100-60</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
+               kodiert.&lt;/p&gt; </p>
+         </editorialDecl>
+         <tagsDecl/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+               >Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+               >Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+         <lb/>F 100-60
+         <lb/>Wiesbanden den 15ten October 1854.
+         <lb/>Lieber, verehrter Freund!
+         <lb/>Ihr Brief vom gestrigen, der mir eben Abends 7 Uhr
+         <lb/>zu kommet, hat einen so schlimmen Anfang, daß ich schon
+         <lb/>die Feder ergreifen wollte, noch ehe ich ihn vollständig
+         <lb/>gesehn, um das arge Mißtrauen zu strafen, mit
+         <lb/>dem Sie mir wahrhaft wehe gethan haben. Jedenfalls
+         <lb/>muß die Antwort auf dem Papiere stehen, ehe ich
+         <lb/>zu Bett gehe und womöglich sogar auf die Post ge-
+         <lb/>bracht sein, wenn ich nicht von peinlicher Unruhe ge-
+         <lb/>plagt die Nacht schlaflos zubringen soll. Allerdings
+         <lb/>gestehe ich, daß mein Schweigen zu allen möglichen
+         <lb/>Besorgnissen hat Anlaß geben können, aber ein-
+         <lb/>mal der Mann erkennt, konnte  und dürfte es nach
+         <lb/>
+            meiner Auffassung
+            <hi rend="underline">die</hi>
+            Deutung
+            <hi rend="underline">niemals</hi>
+            erfahren;
+         
+         <lb/>denn wie tausenderlei Ursachen gibt es nicht, die
+         <lb/>vom Schreiben abhalten. Denn ja auch kennen  Sie
+         <lb/>mich  grade in dieser Beziehung und wissen, wie schwer
+         <lb/>ich mich dazu entschließe, wenn ich nichts Erfreuliches
+         <lb/>zu melden haben. Diesen Grund hat unsere liebenswürdige
+         <lb/>
+            <hi rend="color(#ff0000)">Freundin</hi>
+            ganz richtig
+            <hi rend="color(#ff0000)">xxx</hi>
+            oder vielmehr geäußert,
+         
+         <lb/>da ich mich gegen sie ausgesprochen. Es ist aber leider
+         </p>
+      </body>
+   </text>
 </TEI>
