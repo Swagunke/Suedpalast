@@ -1,316 +1,415 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Untitled Document</title>
-        <author>Admin</author>
-      </titleStmt>
-      <publicationStmt>
-        <p>no publication statement available</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Written by OpenOffice</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <p>
-        der Plan
-        <hi rend="color(#FF0000)">nach</hi>
-        <hi rend="color(#FF0000)" />
-        besonnenster Durcharbeitung bei einem Project stehen bleiben müßte, welches allerdings
-      </p>
-      <p>durch scheinbar übermäßigen Umfang im ersten Moment Zweifel gegen sich hervorrufen könnte. Der natürlich-</p>
-      <p>ste würde sein, einen Stadttheil mit vielen einzelnen Häusern u. Vergnügungslocalen anzulegen und unter</p>
-      <p>einer immensen Glashülle abzuschließen; dieß würde aber die Kosten ganz ins Unmöglicher steigern.</p>
-      <p>
-        Ökonomischer wird derselbe \
-        <hi rend="strikethrough">dadurch</hi>
-        / erreicht,
-        <hi rend="strikethrough">daß</hi>
-        wenn man eine Anzahl von
-        <hi rend="strikethrough">200</hi>
-        etwa 300 Wohnungen, (daran jede einen
-      </p>
-      <p>billigen Anspruch an Behaglichkeit durch Benutzung mehrerer Zimmer, wie die gerade der Einzelne nach sei-</p>
-      <p>
-        nen Lebensgewohnheiten bedarf, befriedigt) in einem großen Hotel vereinigt
-        <hi rend="strikethrough">werde</hi>
-        , welches mit
-      </p>
-      <p>einem Glaspalast so in Verbindung gesetzt ist, daß alle Zimmer dasselbe an dem künstlichen Klima</p>
-      <p>
-        des Glaspalastes theilhaben. Dadurch entsteht ein sehr großes Hotel
-        <hi rend="strikethrough">und</hi>
-        in einem entsprechend großen
-      </p>
-      <p>Glaspalast, in welchem sodann noch möglichst viele Veranstaltungen für den mannigfaltigsten Lebens-</p>
-      <p>
-        genuß
-        <hi rend="strikethrough">für</hi>
-        aller Bewohner getroffen sind.
-      </p>
-      <p>Das immense dieses Baues aber muss durch Schönheit \ der Formen und Reichthum / des Schmuckes ausgezeichnet sein, und</p>
-      <p>
-        zwar nicht bloß damit es auf die darin
-        <hi rend="color(#FF0000)">consignirten</hi>
-        Bewohner einen möglichst erheiternden und
-      </p>
-      <p>befriedigenden \ xxx / Eindruck mache, sondern abermals wegen der schon angeführten Forderung wahrer</p>
-      <p>
-        Humanität,
-        <hi rend="strikethrough">um</hi>
-        damit die Benutzung des neuen großartigen Heilinstitutes allen Vermögensverhältnissen
-      </p>
-      <p>
-        zugänglich
-        <hi rend="strikethrough">zu machen</hi>
-        wird. – Dies scheint einen Widerspruch zu enthalten, \ da / das koloßale wird
-        <hi rend="strikethrough">ja</hi>
-        durch
-      </p>
-      <p>Schönheit \ und Glanz / der Ausführung nur noch kostbarer \ wird /. Dieser Widerspruch ist nur ein scheinbarer.</p>
-      <p>
-        Es gibt bei uns Gottlob immer noch viel mehr Gesunde, als Kranke;
-        <hi rend="strikethrough">und</hi>
-        es giebt \ aber / unter den
-      </p>
-      <p>Gesunden immer \ unendlich / viel mehre, welche ihr \ überflüßiges / Mittel lieber ihrem Vergnügen opfern, als \ daß sie / es für Linderung</p>
-      <p>
-        der Leiden ihrer Mitmenschen
-        <hi rend="strikethrough">zu</hi>
-        widmen. Diese moralische Unvollkommenheit der menschlichen Natur, (ja
-      </p>
-      <p>
-        bekanntlich noch traurigere Verirrungen
-        <hi rend="strikethrough">derselben</hi>
-        ) können aber
-        <hi rend="strikethrough">darin</hi>
-        einige
-        <hi rend="color(#FF0000)">Versöhnung</hi>
-        <hi rend="color(#FF0000)">/Verhöhung</hi>
-        finden, wenn
-      </p>
-      <p>
-        sie dazu benuzt wird, daß man durch die
-        <hi rend="strikethrough">den</hi>
-        jenen Schwächen und Fehlern geopferten Geldmittel Dinge
-      </p>
-      <p>
-        herbeischafft, welche
-        <hi rend="strikethrough">bei</hi>
-        in den gewöhnlichen Verhältnißen unmöglich erscheinen, so sehr sie sich auch als
-      </p>
-      <p>
-        <hi rend="strikethrough">all</hi>
-        gemein
-        <hi rend="strikethrough">Gutes</hi>
-        <hi rend="color(#FF0000)">nützlich</hi>
-        und Wohlthätig
-        <hi rend="strikethrough">es</hi>
-        empfehlen mögen. Nach diesem Princip nun soll die \
-        <hi rend="color(#FF0000)">lange</hi>
-        /
-        <hi rend="color(#FF0000)" />
-        Neugier
-      </p>
-      <p>und Vergnügungs Sucht der Gesunden dazu verwandt werden, den Leidenden eine Hülfe</p>
-      <p>
-        \zugänglich zu machen
-        <note xml:id="_ftn0" place="foot" n="1">Und damit erfand er die Lotterie wie wir sie aus der ARD kennen. Interessant ist hierzu bspw. auch : https://www.youtube.com/watch?v=9PK-netuhHA</note>
-        / welche an und für sich unerschwingliche Geldmittel zu erfordern scheint. Macht man das neue
-      </p>
-      <p>
-        Heilinstitut so groß und so schön, daß es
-        <hi rend="strikethrough">\</hi>
-        <hi rend="strikethrough">dadurch</hi>
-        <hi rend="strikethrough">/</hi>
-        zu einem der ersten Schaustücke Europas
-        <hi rend="strikethrough">gestempelt</hi>
-      </p>
-      <p>
-        wird, so werden
-        <hi rend="strikethrough">nicht allein</hi>
-        hunderttausende herbeiströmen, einen Theil ihres Über-
-      </p>
-      <p>
-        flußes
-        <hi rend="strikethrough">in reichlichem Maaß</hi>
-        <hi rend="strikethrough">e</hi>
-        am Eingang hergeben und man wird dadurch in den Stand gesezt
-      </p>
-      <p>
-        sein, die Wohnung
-        <hi rend="color(#FF0000)">en</hi>
-        \und sonstigen Bedürfniße/
-        <hi rend="strikethrough">für die</hi>
-        der Leidenden selbst in diesem kostbaren Gebäude vollständig
-      </p>
-      <p>
-        zu denselben Preisen zu gewähren, wie sie in derselben
-        <hi rend="color(#FF0000)">Gegend</hi>
-        \außerhalb des Glaspalastes/ die natürlichen und durch den
-      </p>
-      <p>
-        Verkehr
-        <hi rend="color(#FF0000)">festgestellten</hi>
-        <hi rend="color(#FF0000)" />
-        <hi rend="strikethrough">auch</hi>
-        sind.
-      </p>
-      <p>Hierdurch möchte hinreichend nachgewiesen sein, daß das übermäßige in Dimension und</p>
-      <p>
-        Pracht, welches dem Plan
-        <hi rend="strikethrough">hier und da</hi>
-        zum Vorwurf gemacht
-        <hi rend="strikethrough">worden ist</hi>
-        \werden könnte/, keineswegs bloß aus
-      </p>
-      <p>einer Überschwänglichkeit der Phanatasie oder einer sonstigen frivolen Laune hervorgegan-</p>
-      <p>
-        gen ist, sondern recht wesentlich in den Forderungen einer
-        <hi rend="color(#FF0000)">höhern</hi>
-        Humanität wurzelt und
-      </p>
-      <p>
-        also aus dem \tiefsten Grund des ärztl./ Berufs
-        <hi rend="strikethrough">des Arztes</hi>
-        selbst hervorgeht.
-      </p>
-      <p>
-        Da das Klima, welches wir gebrauchen vorzugsweise
-        <hi rend="strikethrough">, wenigstens</hi>
-        im Süden gesucht und gefunden wird,
-      </p>
-      <p>
-        so wird das \palastartige/ Institut
-        <hi rend="strikethrough">zweckmäßig</hi>
-        ebenso bezeichnend als kurz der
-        <hi rend="underline">Südpalast</hi>
-        <hi rend="underline" />
-        genannt werden können,
-        <hi rend="color(#FF0000)">als</hi>
-        <hi rend="color(#FF0000)" />
-      </p>
-      <p>wohl sein Klima vor dem des Südens den Vorzug voraus haben wird, daß es auch nach Seite der</p>
-      <p>Wärme niemals ein gehöriges Maaß überschreiten wird, was im Süden der Fall ist und die armen Leidenden</p>
-      <p>
-        auch dort zu einem Nomadenleben nöthigt, welches bei
-        <hi rend="strikethrough">so</hi>
-        \krankhaft/
-        <hi rend="color(#FF0000)">verletzbaren</hi>
-        Naturen zu einer fast nicht zu
-      </p>
-      <p>verleugnenden Belästigung wird. Der Südpalast wird die Aufgabe lösen, daß seine Temperatur nie</p>
-      <p>unter 13°R und nie über 15°R steht.</p>
-      <p>Obwohl die Krankheitsformen, für deren Heilung ein zünftiges Klima und eine gleichmäßig tem-</p>
-      <p>
-        perierte Luft unentbehrliches Bedürfniß ist,  unzählig \genannt werden muß/
-        <hi rend="strikethrough">sind</hi>
-        , so sind doch einige vorzugsweise
-        <hi rend="color(#FF0000)">daselber</hi>
-        <hi rend="color(#FF0000)" />
-      </p>
-      <p>
-        bedürftig und für diese ist der
-        <hi rend="underline">Südpalast</hi>
-        auch spezieller noch mit weiteren Vorkehrungen zu versehen
-      </p>
-      <p>
-        <hi rend="strikethrough">welche</hi>
-        \
-        <hi rend="color(#FF0000)">wodurch</hi>
-        / systematisch angeordneten Kurarten möglich
-        <hi rend="strikethrough">machen</hi>
-        \werden/, die durch ihre Vollständigkeit auch mehr
-      </p>
-      <p>
-        zu leisten vermögen als dies bei dem jetzigen  Zustand des Heilapparates der Fall ist. Es
-        <hi rend="color(#FF0000)">mögen</hi>
-        hier,
-      </p>
-      <p>wo es um medicinische Ausführungen sich nicht handeln kann, dieselben nur kurz genannt werden. Es</p>
-      <p>
-        sind hauptsächlich
-        <hi rend="underline">Brustkranke</hi>
-        (namentlich diejenigen mit eigentlicher SchwindsuchtsAnlage) ferner
-      </p>
-      <p>
-        <hi rend="underline">Nerven</hi>
-        <hi rend="underline">kranke</hi>
-        mancher Art, und
-        <hi rend="underline">schwächliche verkümmerte Kinder</hi>
-        <hi rend="underline">,</hi>
-        denen der Südpalast Hülfe bietet.
-      </p>
-      <p>Nur von den leztern sey vergönnt noch einige Worte beizufügen. Solche Kinder, die einem</p>
-      <p>siechen Leben und fast unausweichlich Verkrümmungen und Verkrüppelungen ihres Körpers entgegensehen,</p>
-      <p>sind jetzt fast ohne Hülfe; man schickt sie in Salzbäder und Seebäder, läßt sie etwas turnen und</p>
-      <p>bringt sie allenfalls in ein orthopädisches Institut, welches eigentlich andere Aufgaben verfolgt; –</p>
-      <p>jeder Arzt wird aber der Behauptung beistimmen, daß auf diese Weise fast nie etwas erreicht</p>
-      <p>wird, – in der That, während der Zeit wo der Körper in fortwährender Weiterentwicklung be-</p>
-      <p>griffen ist, können so fragmentarische Einwirkungen auch nichts leisten, am wenigsten wenn immer</p>
-      <p>von Zeit zu Zeit und zwischen hinein selbst monatelang eine feuchte kalte Luft die Entwicklungsvor-</p>
-      <p>gänge, die ohnehin nur schwach vor sich gehen, unterbricht und die Kräfte der Kinder heruntersezt. Für</p>
-      <p>diese ganz besonders soll der Südpalast durch Bäder, Gymnastik jeder Art, warmen</p>
-      <p>
-        Aufenthalt und erheiternde Beschäftigung \ eine Kur / bieten, die sich bei den Ärzten den
-        <hi rend="color(#FF0000)">Rufen</hi>
-        einer fast
-      </p>
-      <p>idealen Vollständigkeit erwerben soll und durch ihre Erfolge bald die allgemeinste Beachtung</p>
-      <p>finden wird.</p>
-      <p>Theils in der Bedeutung als Vergnügungs\mittel/, theils u. weit mehr als man dieß jezt ahnt, in</p>
-      <p>der höhern Bedeutung als \ Theil eines großartigen / Heilapparates wird der Südpalast nun u. a. folgendes in seiner</p>
-      <p>
-        Einrichtungen enthalten; was hier
-        <hi rend="strikethrough">alles</hi>
-        ohne weitere Bemerkung nur genannt werden möge:
-      </p>
-      <p>gesunde, gut ventilirte und gleichmäßig \ temperirte d.h. / erwärmte oder gekühlte Wohnungen, immergrüne exotische</p>
-      <p>
-        Gärten mit Springbrunnen etc, große freie Plätze \ eine
-        <hi rend="color(#FF0000)">xxx</hi>
-        <hi rend="color(#FF0000)" />
-        /, Speise und Unterhaltungssäle, ein
-        <hi rend="strikethrough">en</hi>
-        <hi rend="strikethrough" />
-        Concert
-      </p>
-      <p>
-        und Schauspielsaal, und Gartentheater, Spielsäle, Billards,
-        <hi rend="strikethrough">einen</hi>
-        \ein/ Ballsaal, eine der schönsten Pano-
-      </p>
-      <p>
-        rama gewährende Spatziergallerie,
-        <hi rend="strikethrough">eine</hi>
-        \ein/ Reithofe mit
-        <hi rend="strikethrough">trefflichem</hi>
-        gutbesetzen Marstall, Kegelbahnen, Schieß-
-      </p>
-      <p>stände zum Pistolen u. Armbrustschießen, eine Voliere für exotische Vögel u. a. Thiere, naturhistorische Sammlungen</p>
-      <p>
-        für das Bedürfniß gebildeter
-        <hi rend="strikethrough">Dilettan</hi>
-        Laien, Journal und Lesezimmer, Bibliothek, mancherlei Kunstsammlungen, Säle
-      </p>
-      <p>für Übung der \ schönen / Künste, \ ein / permanente Gemäldeausstellung, \ u. / Palmenhaus, \ zwei / große Schwimmteiche, Dampf u. Sole-</p>
-      <p>
-        bäder,
-        <hi rend="strikethrough">u.</hi>
-        eine antike
-        <hi rend="strikethrough">s</hi>
-        <hi rend="strikethrough" />
-        Palustra für die gymnastischen Übungen etc. etc. Rechnet man dazu, daß die Verwal-
-      </p>
-      <p>tung die Aufgabe haben wird, immer aufs Neue durch die schönsten ästhetischen Genüße das Leben in dem</p>
-      <p>Südpalaste zu dem unterhaltendsten und. genußreichsten zu machen, so wird man an einer belebenden</p>
-      <p>Einwirkung eines solchen Aufenthaltes \ in einem Klima ewigen Frühlings / nicht zweifeln. Es wird sich aber zugleich die Befürchtung</p>
-      <p>aufdrängen, ob es auch möglich sein werde, die Kosten eines solchen Etablißements mit einer derartigen</p>
-      <p>Verwaltung zu decken. Dieß führt zu einer kurzen Übersicht des Calcüls, welches natürlich</p>
-    </body>
-  </text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Signatur: F 100-53<!-- Hier noch die Gattung eintragen --></title>
+            <title type="part" n="2"></title>
+            <author>
+               <persName ref="https://d-nb.info/gnd/118861700">
+                  <surname>Froriep</surname>
+                  <forename>Robert</forename>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname>Polenz</surname>
+                  <forename>Kathrin</forename>
+               </persName>
+            </editor>
+            
+            <respStmt>
+               
+               <orgName>Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Herausgeber</note>
+                  
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>ausgewählte Briefe</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName role="project">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+            </publisher>
+            
+            <pubPlace>Jena</pubPlace>
+            <date type="publication">2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Distributed under the Creative Commons License
+                     Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00028987</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="remarkSource">Konvolut zum Südpalast-Projekt von Robert Froriep; 8. November 1853 bis 3. April 1856</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="MAN"><!-- hier noch Gattungsbegriff enfügen --></bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main"><!-- hier einen Titel einfügen --></title>
+                  <author>
+                     <persName ref="https://d-nb.info/gnd/118861700">
+                        <surname>Froriep</surname>
+                        <forename>Robert</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <extent>
+                  <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
+               </extent>
+               <publicationStmt>
+                  <publisher/>
+                  <pubPlace>Wiesbaden</pubPlace> <!-- Absendeort eintrage -->
+                  <date type="creation">18540118</date> <!-- Datum eintragen -->
+               </publicationStmt>
+               <notesStmt>
+                  <note>
+                     <p>
+                        Signatur: F 100-53
+                     </p>
+                  </note>
+               </notesStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
+                  <idno>
+                     <idno type="shelfmark">Signatur: F 100-53</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
+               kodiert.&lt;/p&gt; </p>
+         </editorialDecl>
+         <tagsDecl/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+               >Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+               >Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <p>
+            der Plan
+            <hi rend="color(#FF0000)">nach</hi>
+            <hi rend="color(#FF0000)" />
+            besonnenster Durcharbeitung bei einem Project stehen bleiben müßte, welches allerdings
+         
+         <lb/>durch scheinbar übermäßigen Umfang im ersten Moment Zweifel gegen sich hervorrufen könnte. Der natürlich-
+         <lb/>ste würde sein, einen Stadttheil mit vielen einzelnen Häusern u. Vergnügungslocalen anzulegen und unter
+         <lb/>einer immensen Glashülle abzuschließen; dieß würde aber die Kosten ganz ins Unmöglicher steigern.
+         <lb/>
+            Ökonomischer wird derselbe \
+            <hi rend="strikethrough">dadurch</hi>
+            / erreicht,
+            <hi rend="strikethrough">daß</hi>
+            wenn man eine Anzahl von
+            <hi rend="strikethrough">200</hi>
+            etwa 300 Wohnungen, (daran jede einen
+         
+         <lb/>billigen Anspruch an Behaglichkeit durch Benutzung mehrerer Zimmer, wie die gerade der Einzelne nach sei-
+         <lb/>
+            nen Lebensgewohnheiten bedarf, befriedigt) in einem großen Hotel vereinigt
+            <hi rend="strikethrough">werde</hi>
+            , welches mit
+         
+         <lb/>einem Glaspalast so in Verbindung gesetzt ist, daß alle Zimmer dasselbe an dem künstlichen Klima
+         <lb/>
+            des Glaspalastes theilhaben. Dadurch entsteht ein sehr großes Hotel
+            <hi rend="strikethrough">und</hi>
+            in einem entsprechend großen
+         
+         <lb/>Glaspalast, in welchem sodann noch möglichst viele Veranstaltungen für den mannigfaltigsten Lebens-
+         <lb/>
+            genuß
+            <hi rend="strikethrough">für</hi>
+            aller Bewohner getroffen sind.
+         
+         <lb/>Das immense dieses Baues aber muss durch Schönheit \ der Formen und Reichthum / des Schmuckes ausgezeichnet sein, und
+         <lb/>
+            zwar nicht bloß damit es auf die darin
+            <hi rend="color(#FF0000)">consignirten</hi>
+            Bewohner einen möglichst erheiternden und
+         
+         <lb/>befriedigenden \ xxx / Eindruck mache, sondern abermals wegen der schon angeführten Forderung wahrer
+         <lb/>
+            Humanität,
+            <hi rend="strikethrough">um</hi>
+            damit die Benutzung des neuen großartigen Heilinstitutes allen Vermögensverhältnissen
+         
+         <lb/>
+            zugänglich
+            <hi rend="strikethrough">zu machen</hi>
+            wird. – Dies scheint einen Widerspruch zu enthalten, \ da / das koloßale wird
+            <hi rend="strikethrough">ja</hi>
+            durch
+         
+         <lb/>Schönheit \ und Glanz / der Ausführung nur noch kostbarer \ wird /. Dieser Widerspruch ist nur ein scheinbarer.
+         <lb/>
+            Es gibt bei uns Gottlob immer noch viel mehr Gesunde, als Kranke;
+            <hi rend="strikethrough">und</hi>
+            es giebt \ aber / unter den
+         
+         <lb/>Gesunden immer \ unendlich / viel mehre, welche ihr \ überflüßiges / Mittel lieber ihrem Vergnügen opfern, als \ daß sie / es für Linderung
+         <lb/>
+            der Leiden ihrer Mitmenschen
+            <hi rend="strikethrough">zu</hi>
+            widmen. Diese moralische Unvollkommenheit der menschlichen Natur, (ja
+         
+         <lb/>
+            bekanntlich noch traurigere Verirrungen
+            <hi rend="strikethrough">derselben</hi>
+            ) können aber
+            <hi rend="strikethrough">darin</hi>
+            einige
+            <hi rend="color(#FF0000)">Versöhnung</hi>
+            <hi rend="color(#FF0000)">/Verhöhung</hi>
+            finden, wenn
+         
+         <lb/>
+            sie dazu benuzt wird, daß man durch die
+            <hi rend="strikethrough">den</hi>
+            jenen Schwächen und Fehlern geopferten Geldmittel Dinge
+         
+         <lb/>
+            herbeischafft, welche
+            <hi rend="strikethrough">bei</hi>
+            in den gewöhnlichen Verhältnißen unmöglich erscheinen, so sehr sie sich auch als
+         
+         <lb/>
+            <hi rend="strikethrough">all</hi>
+            gemein
+            <hi rend="strikethrough">Gutes</hi>
+            <hi rend="color(#FF0000)">nützlich</hi>
+            und Wohlthätig
+            <hi rend="strikethrough">es</hi>
+            empfehlen mögen. Nach diesem Princip nun soll die \
+            <hi rend="color(#FF0000)">lange</hi>
+            /
+            <hi rend="color(#FF0000)" />
+            Neugier
+         
+         <lb/>und Vergnügungs Sucht der Gesunden dazu verwandt werden, den Leidenden eine Hülfe
+         <lb/>
+            \zugänglich zu machen
+            <note xml:id="_ftn0" place="foot" n="1">Und damit erfand er die Lotterie wie wir sie aus der ARD kennen. Interessant ist hierzu bspw. auch : https://www.youtube.com/watch?v=9PK-netuhHA</note>
+            / welche an und für sich unerschwingliche Geldmittel zu erfordern scheint. Macht man das neue
+         
+         <lb/>
+            Heilinstitut so groß und so schön, daß es
+            <hi rend="strikethrough">\</hi>
+            <hi rend="strikethrough">dadurch</hi>
+            <hi rend="strikethrough">/</hi>
+            zu einem der ersten Schaustücke Europas
+            <hi rend="strikethrough">gestempelt</hi>
+         
+         <lb/>
+            wird, so werden
+            <hi rend="strikethrough">nicht allein</hi>
+            hunderttausende herbeiströmen, einen Theil ihres Über-
+         
+         <lb/>
+            flußes
+            <hi rend="strikethrough">in reichlichem Maaß</hi>
+            <hi rend="strikethrough">e</hi>
+            am Eingang hergeben und man wird dadurch in den Stand gesezt
+         
+         <lb/>
+            sein, die Wohnung
+            <hi rend="color(#FF0000)">en</hi>
+            \und sonstigen Bedürfniße/
+            <hi rend="strikethrough">für die</hi>
+            der Leidenden selbst in diesem kostbaren Gebäude vollständig
+         
+         <lb/>
+            zu denselben Preisen zu gewähren, wie sie in derselben
+            <hi rend="color(#FF0000)">Gegend</hi>
+            \außerhalb des Glaspalastes/ die natürlichen und durch den
+         
+         <lb/>
+            Verkehr
+            <hi rend="color(#FF0000)">festgestellten</hi>
+            <hi rend="color(#FF0000)" />
+            <hi rend="strikethrough">auch</hi>
+            sind.
+         
+         <lb/>Hierdurch möchte hinreichend nachgewiesen sein, daß das übermäßige in Dimension und
+         <lb/>
+            Pracht, welches dem Plan
+            <hi rend="strikethrough">hier und da</hi>
+            zum Vorwurf gemacht
+            <hi rend="strikethrough">worden ist</hi>
+            \werden könnte/, keineswegs bloß aus
+         
+         <lb/>einer Überschwänglichkeit der Phanatasie oder einer sonstigen frivolen Laune hervorgegan-
+         <lb/>
+            gen ist, sondern recht wesentlich in den Forderungen einer
+            <hi rend="color(#FF0000)">höhern</hi>
+            Humanität wurzelt und
+         
+         <lb/>
+            also aus dem \tiefsten Grund des ärztl./ Berufs
+            <hi rend="strikethrough">des Arztes</hi>
+            selbst hervorgeht.
+         
+         <lb/>
+            Da das Klima, welches wir gebrauchen vorzugsweise
+            <hi rend="strikethrough">, wenigstens</hi>
+            im Süden gesucht und gefunden wird,
+         
+         <lb/>
+            so wird das \palastartige/ Institut
+            <hi rend="strikethrough">zweckmäßig</hi>
+            ebenso bezeichnend als kurz der
+            <hi rend="underline">Südpalast</hi>
+            <hi rend="underline" />
+            genannt werden können,
+            <hi rend="color(#FF0000)">als</hi>
+            <hi rend="color(#FF0000)" />
+         
+         <lb/>wohl sein Klima vor dem des Südens den Vorzug voraus haben wird, daß es auch nach Seite der
+         <lb/>Wärme niemals ein gehöriges Maaß überschreiten wird, was im Süden der Fall ist und die armen Leidenden
+         <lb/>
+            auch dort zu einem Nomadenleben nöthigt, welches bei
+            <hi rend="strikethrough">so</hi>
+            \krankhaft/
+            <hi rend="color(#FF0000)">verletzbaren</hi>
+            Naturen zu einer fast nicht zu
+         
+         <lb/>verleugnenden Belästigung wird. Der Südpalast wird die Aufgabe lösen, daß seine Temperatur nie
+         <lb/>unter 13°R und nie über 15°R steht.
+         <lb/>Obwohl die Krankheitsformen, für deren Heilung ein zünftiges Klima und eine gleichmäßig tem-
+         <lb/>
+            perierte Luft unentbehrliches Bedürfniß ist,  unzählig \genannt werden muß/
+            <hi rend="strikethrough">sind</hi>
+            , so sind doch einige vorzugsweise
+            <hi rend="color(#FF0000)">daselber</hi>
+            <hi rend="color(#FF0000)" />
+         
+         <lb/>
+            bedürftig und für diese ist der
+            <hi rend="underline">Südpalast</hi>
+            auch spezieller noch mit weiteren Vorkehrungen zu versehen
+         
+         <lb/>
+            <hi rend="strikethrough">welche</hi>
+            \
+            <hi rend="color(#FF0000)">wodurch</hi>
+            / systematisch angeordneten Kurarten möglich
+            <hi rend="strikethrough">machen</hi>
+            \werden/, die durch ihre Vollständigkeit auch mehr
+         
+         <lb/>
+            zu leisten vermögen als dies bei dem jetzigen  Zustand des Heilapparates der Fall ist. Es
+            <hi rend="color(#FF0000)">mögen</hi>
+            hier,
+         
+         <lb/>wo es um medicinische Ausführungen sich nicht handeln kann, dieselben nur kurz genannt werden. Es
+         <lb/>
+            sind hauptsächlich
+            <hi rend="underline">Brustkranke</hi>
+            (namentlich diejenigen mit eigentlicher SchwindsuchtsAnlage) ferner
+         
+         <lb/>
+            <hi rend="underline">Nerven</hi>
+            <hi rend="underline">kranke</hi>
+            mancher Art, und
+            <hi rend="underline">schwächliche verkümmerte Kinder</hi>
+            <hi rend="underline">,</hi>
+            denen der Südpalast Hülfe bietet.
+         
+         <lb/>Nur von den leztern sey vergönnt noch einige Worte beizufügen. Solche Kinder, die einem
+         <lb/>siechen Leben und fast unausweichlich Verkrümmungen und Verkrüppelungen ihres Körpers entgegensehen,
+         <lb/>sind jetzt fast ohne Hülfe; man schickt sie in Salzbäder und Seebäder, läßt sie etwas turnen und
+         <lb/>bringt sie allenfalls in ein orthopädisches Institut, welches eigentlich andere Aufgaben verfolgt; –
+         <lb/>jeder Arzt wird aber der Behauptung beistimmen, daß auf diese Weise fast nie etwas erreicht
+         <lb/>wird, – in der That, während der Zeit wo der Körper in fortwährender Weiterentwicklung be-
+         <lb/>griffen ist, können so fragmentarische Einwirkungen auch nichts leisten, am wenigsten wenn immer
+         <lb/>von Zeit zu Zeit und zwischen hinein selbst monatelang eine feuchte kalte Luft die Entwicklungsvor-
+         <lb/>gänge, die ohnehin nur schwach vor sich gehen, unterbricht und die Kräfte der Kinder heruntersezt. Für
+         <lb/>diese ganz besonders soll der Südpalast durch Bäder, Gymnastik jeder Art, warmen
+         <lb/>
+            Aufenthalt und erheiternde Beschäftigung \ eine Kur / bieten, die sich bei den Ärzten den
+            <hi rend="color(#FF0000)">Rufen</hi>
+            einer fast
+         
+         <lb/>idealen Vollständigkeit erwerben soll und durch ihre Erfolge bald die allgemeinste Beachtung
+         <lb/>finden wird.
+         <lb/>Theils in der Bedeutung als Vergnügungs\mittel/, theils u. weit mehr als man dieß jezt ahnt, in
+         <lb/>der höhern Bedeutung als \ Theil eines großartigen / Heilapparates wird der Südpalast nun u. a. folgendes in seiner
+         <lb/>
+            Einrichtungen enthalten; was hier
+            <hi rend="strikethrough">alles</hi>
+            ohne weitere Bemerkung nur genannt werden möge:
+         
+         <lb/>gesunde, gut ventilirte und gleichmäßig \ temperirte d.h. / erwärmte oder gekühlte Wohnungen, immergrüne exotische
+         <lb/>
+            Gärten mit Springbrunnen etc, große freie Plätze \ eine
+            <hi rend="color(#FF0000)">xxx</hi>
+            <hi rend="color(#FF0000)" />
+            /, Speise und Unterhaltungssäle, ein
+            <hi rend="strikethrough">en</hi>
+            <hi rend="strikethrough" />
+            Concert
+         
+         <lb/>
+            und Schauspielsaal, und Gartentheater, Spielsäle, Billards,
+            <hi rend="strikethrough">einen</hi>
+            \ein/ Ballsaal, eine der schönsten Pano-
+         
+         <lb/>
+            rama gewährende Spatziergallerie,
+            <hi rend="strikethrough">eine</hi>
+            \ein/ Reithofe mit
+            <hi rend="strikethrough">trefflichem</hi>
+            gutbesetzen Marstall, Kegelbahnen, Schieß-
+         
+         <lb/>stände zum Pistolen u. Armbrustschießen, eine Voliere für exotische Vögel u. a. Thiere, naturhistorische Sammlungen
+         <lb/>
+            für das Bedürfniß gebildeter
+            <hi rend="strikethrough">Dilettan</hi>
+            Laien, Journal und Lesezimmer, Bibliothek, mancherlei Kunstsammlungen, Säle
+         
+         <lb/>für Übung der \ schönen / Künste, \ ein / permanente Gemäldeausstellung, \ u. / Palmenhaus, \ zwei / große Schwimmteiche, Dampf u. Sole-
+         <lb/>
+            bäder,
+            <hi rend="strikethrough">u.</hi>
+            eine antike
+            <hi rend="strikethrough">s</hi>
+            <hi rend="strikethrough" />
+            Palustra für die gymnastischen Übungen etc. etc. Rechnet man dazu, daß die Verwal-
+         
+         <lb/>tung die Aufgabe haben wird, immer aufs Neue durch die schönsten ästhetischen Genüße das Leben in dem
+         <lb/>Südpalaste zu dem unterhaltendsten und. genußreichsten zu machen, so wird man an einer belebenden
+         <lb/>Einwirkung eines solchen Aufenthaltes \ in einem Klima ewigen Frühlings / nicht zweifeln. Es wird sich aber zugleich die Befürchtung
+         <lb/>aufdrängen, ob es auch möglich sein werde, die Kosten eines solchen Etablißements mit einer derartigen
+         <lb/>Verwaltung zu decken. Dieß führt zu einer kurzen Übersicht des Calcüls, welches natürlich
+            </p>
+      </body>
+   </text>
 </TEI>
