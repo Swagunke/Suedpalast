@@ -1,20 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>SR_F100_045_0001</title>
-        <author/>
-      </titleStmt>
-      <publicationStmt>
-        <p>no publication statement available</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Written by OpenOffice</p>
-      </sourceDesc>
-    </fileDesc>
-  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Signatur: F 100-45<!-- Hier noch die Gattung eintragen --></title>
+            <title type="part" n="1"></title>
+            <author>
+               <persName ref="https://d-nb.info/gnd/118861700">
+                  <surname>Froriep</surname>
+                  <forename>Robert</forename>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname>Polenz</surname>
+                  <forename>Kathrin</forename>
+               </persName>
+            </editor>
+            
+            <respStmt>
+               
+               <orgName>Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Herausgeber</note>
+                  
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>ausgewählte Briefe</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName role="project">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+            </publisher>
+            
+            <pubPlace>Jena</pubPlace>
+            <date type="publication">2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <p>Distributed under the Creative Commons License
+                     Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00028987</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="remarkSource">Konvolut zum Südpalast-Projekt von Robert Froriep; 8. November 1853 bis 3. April 1856</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="MAN"><!-- hier noch Gattungsbegriff enfügen --></bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main"><!-- hier einen Titel einfügen --></title>
+                  <author>
+                     <persName ref="https://d-nb.info/gnd/118861700">
+                        <surname>Froriep</surname>
+                        <forename>Robert</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <extent>
+                  <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
+               </extent>
+               <publicationStmt>
+                  <publisher/>
+                  <pubPlace>Wiesbaden</pubPlace> <!-- Absendeort eintrage -->
+                  <date type="creation">18540118</date> <!-- Datum eintragen -->
+               </publicationStmt>
+               <notesStmt>
+                  <note>
+                     <p>
+                        Signatur: F 100-45
+                     </p>
+                  </note>
+               </notesStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
+                  <idno>
+                     <idno type="shelfmark">Signatur: F 100-45</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+      
+   
+            <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -91,30 +171,50 @@
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
-  <text>
-    <body>
-      <p rend="color(#0e0e0e)">Hochzuverehrender Herr <persName key="Froriep, Robert, 1804-1861" ref="http://viaf.org/viaf/76439297/" cert="high" type="real">Geheimrath</persName>!</p>
-      <p rend="color(#0e0e0e)">Auf die gefälligen Schreiben Eurer Hochwohlgeboren</p>
-      <p rend="color(#0e0e0e)">vom 22ten laufenden Monats beehre ich mich ganz</p>
-      <p rend="color(#0e0e0e)">ergebenst zu erwiedern.</p>
-      <p rend="color(#0e0e0e)">Die erste Mittheilung Eurer Hochwohlgeboren</p>
-      <p rend="color(#0e0e0e)">über das beabsichtigte großartige Unternehmen</p>
-      <p rend="color(#0e0e0e)">beschränkte sich auf eine nähere Bezeichnung des</p>
-      <p rend="color(#0e0e0e)">Planes im Allgemeinen, wie solcher in dem über-</p>
-      <p rend="color(#0e0e0e)">gebenen Promemoria dargelegt war. Von einem</p>
-      <p rend="color(#0e0e0e)">Aufbringen der Mittel zu dessen Ausführung war</p>
-      <p rend="color(#0e0e0e)">damals noch keine Rede. In der, nach erstattetem</p>
-      <p rend="color(#0e0e0e)">Vortrag, Eurer Hochwohlgeboren mündlich von mir</p>
-      <p rend="color(#0e0e0e)">ertheilten Erwiederung konnte ich daher auch mehr</p>
-      <p rend="color(#0e0e0e)">nicht aussprechen, als daß man, die Großartigkeit</p>
-      <p rend="color(#0e0e0e)">des Unternehmens anerkennend, dasselbe auf jede</p>
-      <p rend="color(#0e0e0e)">mit den hiesigen Verhältnissen vereinbare Weise</p>
-      <p rend="color(#0e0e0e)">zu fördern gerne geneigt sein werde. Ueber die</p>
-      <p rend="color(#0e0e0e)">hierauf in den gefälligen Schreiben vom 19", 20" und</p>
-      <p rend="color(#0e0e0e)">21" dieses Monats niedergelegten Vorschläge habe</p>
-      <p rend="color(#0e0e0e)"/>
-    </body>
-  </text>
+         </rdf:Description>
+      </rdf:RDF></xenoData>
+      <encodingDesc>
+         <editorialDecl>
+            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
+               kodiert.&lt;/p&gt; </p>
+         </editorialDecl>
+         <tagsDecl/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+               >Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+               >Brief</classCode>
+         </textClass>
+      </profileDesc></teiHeader>
+   <text>
+      <body>
+         <p>
+         <lb/>Hochzuverehrender Herr <persName key="Froriep, Robert, 1804-1861" ref="http://viaf.org/viaf/76439297/" cert="high" type="real">Geheimrath</persName>!
+         <lb/>Auf die gefälligen Schreiben Eurer Hochwohlgeboren
+         <lb/>vom 22ten laufenden Monats beehre ich mich ganz
+         <lb/>ergebenst zu erwiedern.
+         <lb/>Die erste Mittheilung Eurer Hochwohlgeboren
+         <lb/>über das beabsichtigte großartige Unternehmen
+         <lb/>beschränkte sich auf eine nähere Bezeichnung des
+         <lb/>Planes im Allgemeinen, wie solcher in dem über-
+         <lb/>gebenen Promemoria dargelegt war. Von einem
+         <lb/>Aufbringen der Mittel zu dessen Ausführung war
+         <lb/>damals noch keine Rede. In der, nach erstattetem
+         <lb/>Vortrag, Eurer Hochwohlgeboren mündlich von mir
+         <lb/>ertheilten Erwiederung konnte ich daher auch mehr
+         <lb/>nicht aussprechen, als daß man, die Großartigkeit
+         <lb/>des Unternehmens anerkennend, dasselbe auf jede
+         <lb/>mit den hiesigen Verhältnissen vereinbare Weise
+         <lb/>zu fördern gerne geneigt sein werde. Ueber die
+         <lb/>hierauf in den gefälligen Schreiben vom 19", 20" und
+         <lb/>21" dieses Monats niedergelegten Vorschläge habe
+         </p>
+      </body>
+   </text>
 </TEI>
