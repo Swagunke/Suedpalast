@@ -441,7 +441,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20231006111335104",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-10-06T09:13:35.104Z",
-	"dcterms:modified": "2023-10-06T09:13:35.104Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -463,17 +462,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20231006111335104#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[11]"
+			"rdf:value": "TEI/text/body/p/persName[12]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/202370560/",
+		"@id": "p010",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -481,7 +480,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -521,7 +520,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20231006111520541",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-10-06T09:15:20.541Z",
-	"dcterms:modified": "2023-10-06T09:15:20.541Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -543,12 +541,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20231006111520541#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[12]"
+			"rdf:value": "TEI/text/body/p/persName[13]"
 		}
 	},
 	"oa:hasBody": {
@@ -561,7 +559,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.4.0"
 	}
 }]]>
         </rdf:Description>
@@ -678,7 +676,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20231006111634149",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-10-06T09:16:34.149Z",
-	"dcterms:modified": "2023-10-06T09:16:34.149Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -700,12 +697,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20231006111634149#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[15]/persName"
+			"rdf:value": "TEI/text/body/p/persName[16]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -718,7 +715,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -758,7 +755,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20231006111708308",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-10-06T09:17:08.308Z",
-	"dcterms:modified": "2023-10-06T09:17:08.308Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -780,12 +776,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20231006111708308#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[16]"
+			"rdf:value": "TEI/text/body/p/persName[17]"
 		}
 	},
 	"oa:hasBody": {
@@ -798,7 +794,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.4.0"
 	}
 }]]>
         </rdf:Description>
@@ -837,7 +833,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20231006111731633",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-10-06T09:17:31.633Z",
-	"dcterms:modified": "2023-10-06T09:17:31.633Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -859,12 +854,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20231006111731633#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[17]"
+			"rdf:value": "TEI/text/body/p/persName[18]"
 		}
 	},
 	"oa:hasBody": {
@@ -877,7 +872,87 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20240226113854174",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-26T10:38:54.174Z",
+	"dcterms:modified": "2024-02-26T10:38:54.174Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20240226113854174#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-14_0002.xml?person_annotation_20240226113854174#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013876/persNames/p023",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -917,7 +992,7 @@
 <lb/>sei, werde <persName ref="p021">Chabert</persName>-<persName ref="p019">Guntz</persName> übertriebene Forderungen machen. „Ganz richtig
 <lb/>Sie müßen die Actionäre dahin bringen, daß sie den Vertrag nicht anerkennen.“
 <lb/>Worauf ich erwiderte, daran scheine mir nichts gelegen, denn mir scheine der
-<lb/>Vertrag an u. für sich vollständig nichtig. Darauf fährt mein Advocat auf
+<lb/>Vertrag an u. für sich vollständig nichtig. Darauf fährt mein <persName key="Advocat" ref="https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013876/persNames/p023" cert="high" type="real">Advocat</persName> auf
 <lb/>„Freilich, aber davon spricht man nicht!“ – – Kurz es kam heraus, daß er bereits
 <lb/>auf diesen Punkt hin alle Schritte gethan hat, um den s. g. Vertrag als null u. nich-
 <lb/>tig umzustoßen. Actionäre stehen hinter ihm, er hat <persName ref="p021">Chabert</persName> eine Frist der persön-
