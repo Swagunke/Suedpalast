@@ -915,10 +915,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0001.xml?person_annotation_20231009095613970",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0001.xml?person_annotation_20240227094947011",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-10-09T07:56:13.970Z",
-	"dcterms:modified": "2023-10-09T07:56:13.970Z",
+	"dcterms:created": "2024-02-27T08:49:47.011Z",
+	"dcterms:modified": "2024-02-27T08:49:47.011Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -929,7 +929,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0001.xml?person_annotation_20231009095613970#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0001.xml?person_annotation_20240227094947011#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0001.xml",
@@ -940,17 +940,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0001.xml?person_annotation_20231009095613970#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-15_0001.xml?person_annotation_20240227094947011#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/persName[7]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/202370560/",
+		"@id": "https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013876/persNames/p023",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -958,7 +958,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
+		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -1006,7 +1006,7 @@
 <lb/>nimmermehr erreicht hätte. Ich war heute Abend bei <persName key="Carl Boos deutscher Architekt und nassauischer Baubeamter" ref="http://viaf.org/viaf/306063864/" cert="high" type="real">Boos</persName> der
 <lb/>hatte aber Hr <persName key="Leisler" ref="https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013876/persNames/p023" cert="high" type="real">Leisler</persName> nicht getroffen also noch nichts weiter
 <lb/>ermittelt. Wir haben nun die Sache mehrmals durchgesprochen, u.
-<lb/>verabredet, daß er dem L. hauptsächlich begreiflich zu machen habe
+<lb/>verabredet, daß er dem <persName key="L." ref="https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013876/persNames/p023" cert="high" type="real">L.</persName> hauptsächlich begreiflich zu machen habe
 <lb/>wie er, indem er meine Sache seinen Committenten zubringe, ihnen
 <lb/>noch einen Dienst weiter leiste, indem er ihnen durch seine Schritte nicht
          </p>
