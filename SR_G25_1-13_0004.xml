@@ -600,10 +600,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?person_annotation_20231005133234436",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?person_annotation_20240227093759226",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-10-05T11:32:34.436Z",
-	"dcterms:modified": "2023-10-05T11:32:34.436Z",
+	"dcterms:created": "2024-02-27T08:37:59.226Z",
+	"dcterms:modified": "2024-02-27T08:37:59.226Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -614,7 +614,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?person_annotation_20231005133234436#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?person_annotation_20240227093759226#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml",
@@ -625,17 +625,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.2.2"
+			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?person_annotation_20231005133234436#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_G25_1-13_0004.xml?person_annotation_20240227093759226#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[11]/persName"
+			"rdf:value": "TEI/text/body/p/persName[6]/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/76439297/",
+		"@id": "https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013876/persNames/p025",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -643,8 +643,9 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.2.2"
-	}
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -692,7 +693,7 @@
 <lb/>Hier ist übrigens jezt Regen u. Thauwetter, aber ohne kalten Wind
 <lb/>sehr mild u. angenehm, so daß ich auch nicht oder fast nicht mehr heitzen
 <lb/>zu laßen brauche. Gummi Kalosche habe ich.
-<pb/>Die Auffaßung von <persName type="real">Mathilde</persName> ist natürlich u. um so mehr, wenn das Pro-
+<pb/>Die Auffaßung von <persName type="real"><persName key="Mathilde" ref="https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013876/persNames/p025" cert="high" type="real">Mathilde</persName></persName> ist natürlich u. um so mehr, wenn das Pro-
 <lb/>ject nicht in seiner ganzen Größe dargestellt ist, denn – davon überzeuge
 <lb/>ich mich mehr, je mehr ich mich damit beschäftigt habe, daß nur in der 
 <lb/>immensen Größe die volle Sicherheit des Gewinns liegt, aber so wie
