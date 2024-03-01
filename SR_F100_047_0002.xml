@@ -149,8 +149,6 @@
          <lb/><persName key="Vollpracht, Ferdinand 1802-1859" ref="http://viaf.org/viaf/67244462/" cert="high" type="real">Vollpracht</persName>.
          <lb/><placeName key="Wiesbaden (Allemagne, Hesse ; région)" ref="http://viaf.org/viaf/9819149719125911130000/" cert="high">Wiesbaden<precision match="@ref" precision="high"/></placeName>, d. <date when="1854-01-22">22. Januar 1854</date>.
          </p>
-         
-         
       </body>
    </text>
 </TEI>
