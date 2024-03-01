@@ -206,7 +206,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_045_0001.xml?person_annotation_20240223093255976",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-23T08:32:55.976Z",
-	"dcterms:modified": "2024-02-23T08:32:55.976Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Swagunke",
 		"@type": [
@@ -233,12 +232,92 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_045_0001.xml?person_annotation_20240223093255976#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[2]"
+			"rdf:value": "TEI/text/body/p/persName[3]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "http://viaf.org/viaf/3418158188235920260006/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_045_0001.xml?person_annotation_20240301092848647",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-01T08:28:48.647Z",
+	"dcterms:modified": "2024-03-01T08:28:48.647Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_045_0001.xml?person_annotation_20240301092848647#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_045_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_045_0001.xml?person_annotation_20240301092848647#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/76439297/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -272,7 +351,7 @@
       <body>
          <p>
          <lb/>Hochzuverehrender Herr <persName key="Froriep, Robert, 1804-1861" ref="http://viaf.org/viaf/76439297/" cert="high" type="real">Geheimrath</persName>!
-         <lb/>Auf die gefälligen Schreiben Eurer Hochwohlgeboren
+         <lb/>Auf die gefälligen Schreiben Eurer <persName key="Froriep, Robert, 1804-1861" ref="http://viaf.org/viaf/76439297/" cert="high" type="real">Hochwohlgeboren</persName>
          <lb/>vom 22ten laufenden Monats beehre ich mich ganz
          <lb/>ergebenst zu erwiedern.
          <lb/>Die erste Mittheilung Eurer <persName key="Froriep, Ludwig Friedrich von" ref="http://viaf.org/viaf/3418158188235920260006/" cert="high" type="real">Hochwohlgeboren</persName>
