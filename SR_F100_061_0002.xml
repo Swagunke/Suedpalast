@@ -170,6 +170,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_061_0002.xml?person_annotation_20240301124504196",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-01T11:45:04.196Z",
+	"dcterms:modified": "2024-03-01T11:45:04.196Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_061_0002.xml?person_annotation_20240301124504196#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_061_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_061_0002.xml?person_annotation_20240301124504196#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013876/persNames/p023",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -197,8 +277,8 @@
 <lb/>Diese gute Meinung hat mir der ältere <persName key="Leisler, Ernst 1795-1875" ref="http://viaf.org/viaf/202370560/" cert="high" type="real">Leisler</persName> nun auch
 <lb/>genommen. Noch bis zur Stunde sehr kopfleidend und
 <lb/>größtentheils an das Zimmer gefesselt, ließ ich den jüngeren
-<lb/>Leisler noch an demselben Abend, als ich Ihren freundlichen
-<lb/>Brief und Hr. Auerbachs Zeilen empfing, zu mir bitten, statt
+<lb/><persName key="Leisler" ref="https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013876/persNames/p023" cert="high" type="real">Leisler</persName> noch an demselben Abend, als ich Ihren freundlichen
+<lb/>Brief und Hr. <persName cert="high" type="real">Auerbachs</persName> Zeilen empfing, zu mir bitten, statt
 <lb/>seiner kam aber der Bruder, mit dem ich dann Alles des
 <lb/>langen und breiten besprach und zuletzt übereinkam, selbst
 <lb/>an Sie zu schreiben. In dem Glauben, von dieser Seite
