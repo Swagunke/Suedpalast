@@ -205,7 +205,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_058_0001.xml?person_annotation_20240214143554766",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-14T13:35:54.766Z",
-	"dcterms:modified": "2024-02-14T13:35:54.766Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -232,7 +231,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_058_0001.xml?person_annotation_20240214143554766#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[2]"
+			"rdf:value": "TEI/text/body/p/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -284,7 +283,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_058_0001.xml?person_annotation_20240214143612864",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-14T13:36:12.864Z",
-	"dcterms:modified": "2024-02-14T13:36:12.864Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -311,12 +309,92 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_058_0001.xml?person_annotation_20240214143612864#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[3]"
+			"rdf:value": "TEI/text/body/p/persName[4]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "http://viaf.org/viaf/202370560/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_058_0001.xml?person_annotation_20240404133336030",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-04T11:33:36.030Z",
+	"dcterms:modified": "2024-04-04T11:33:36.030Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_058_0001.xml?person_annotation_20240404133336030#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_058_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_058_0001.xml?person_annotation_20240404133336030#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013875/persNames/p028",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -362,9 +440,9 @@
 <lb/>Lücke gelassen, die ich mit schriftlicher Unterhaltung aus-
 <lb/>zufüllen in Versuchung war. Der Abend am Tage
 <lb/>Ihrer Abreise hatte eine gewaltige Länge, da auch
-<lb/>meine liebe Frau keine Gesellschaft leisten konnte.
+<lb/>meine liebe <persName key="Frau" ref="https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013875/persNames/p028" cert="high" type="real">Frau</persName> keine Gesellschaft leisten konnte.
 <lb/>Jetzt gehe ich wieder aus und mein erster Gang war
-<lb/>zu <persName key="Leisler, Ernst 1795-1875" ref="http://viaf.org/viaf/202370560/">Leisler</persName> und W. Von <persName key="Leisler, Ernst 1795-1875" ref="http://viaf.org/viaf/202370560/" cert="high" type="real">L</persName> erfuhr ich, daß die 
+<lb>v</lb>zu <persName key="Leisler, Ernst 1795-1875" ref="http://viaf.org/viaf/202370560/">Leisler</persName> und V. Von <persName key="Leisler, Ernst 1795-1875" ref="http://viaf.org/viaf/202370560/" cert="high" type="real">L</persName> erfuhr ich, daß die 
 <lb/>Sache leider noch so liege, wie damals und muß ich
 <lb/>zufügen: Gott Lob, noch so liege. Der jetzige Pächter
          </p>
