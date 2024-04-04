@@ -361,10 +361,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_061_0001.xml?person_annotation_20240220102008115",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_061_0001.xml?person_annotation_20240404111129631",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-20T09:20:08.115Z",
-	"dcterms:modified": "2024-02-20T09:20:08.115Z",
+	"dcterms:created": "2024-04-04T09:11:29.631Z",
+	"dcterms:modified": "2024-04-04T09:11:29.631Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -375,7 +375,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_061_0001.xml?person_annotation_20240220102008115#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_061_0001.xml?person_annotation_20240404111129631#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_061_0001.xml",
@@ -389,14 +389,14 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_061_0001.xml?person_annotation_20240220102008115#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_061_0001.xml?person_annotation_20240404111129631#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/persName[2]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/202370560/",
+		"@id": "https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013875/persNames/p023",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -449,7 +449,7 @@
 <lb/>angemerkt und ich darf sagen, es hat mir Mühe gekostet,
 <lb/>nicht in einen schlechteren Ton gefallen zu sein. Und
 <lb/>doch waren Ihre Combinationen damals nicht so ganz un-
-<lb/>begründet, wirklich standen durch <persName key="Leisler, Ernst 1795-1875" ref="http://viaf.org/viaf/202370560/" cert="high" type="real">Leislers</persName> Mittheilungen
+<lb/>begründet, wirklich standen durch <persName key="Leislers" ref="https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013875/persNames/p023" cert="high" type="real">Leislers</persName> Mittheilungen
 <lb/>meine Hoffnungen eine kurze Zeit so, daß ich es möglich
 <lb/>hielt, dennoch in nicht zu weiter Ferne einen Anhaltspunkt
          </p>
