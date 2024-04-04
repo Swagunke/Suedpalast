@@ -205,7 +205,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240214120913658",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-14T11:09:13.658Z",
-	"dcterms:modified": "2024-02-14T11:09:13.658Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -232,7 +231,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240214120913658#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[2]"
+			"rdf:value": "TEI/text/body/p/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -284,7 +283,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240214121025311",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-14T11:10:25.311Z",
-	"dcterms:modified": "2024-02-14T11:10:25.311Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -311,7 +309,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240214121025311#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[3]"
+			"rdf:value": "TEI/text/body/p/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -364,7 +362,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240214121101573",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-14T11:11:01.573Z",
-	"dcterms:modified": "2024-02-14T11:11:01.573Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -391,7 +388,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240214121101573#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[4]"
+			"rdf:value": "TEI/text/body/p/persName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -405,7 +402,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -443,7 +441,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240214121131269",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-14T11:11:31.269Z",
-	"dcterms:modified": "2024-02-14T11:11:31.269Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -470,12 +467,12 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240214121131269#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[5]"
+			"rdf:value": "TEI/text/body/p/persName[6]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/67244462/",
+		"@id": "http://viaf.org/viaf/4328156619124528780003/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -523,7 +520,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240214121243659",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-14T11:12:43.659Z",
-	"dcterms:modified": "2024-02-14T11:12:43.659Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -550,12 +546,12 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240214121243659#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[6]"
+			"rdf:value": "TEI/text/body/p/persName[7]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/8159462/",
+		"@id": "http://viaf.org/viaf/67244462/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -564,7 +560,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -838,10 +835,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240404131516871",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240404134927484",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-04-04T11:15:16.871Z",
-	"dcterms:modified": "2024-04-04T11:15:16.871Z",
+	"dcterms:created": "2024-04-04T11:49:27.484Z",
+	"dcterms:modified": "2024-04-04T11:49:27.484Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -852,7 +849,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240404131516871#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240404134927484#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml",
@@ -866,14 +863,14 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240404131516871#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_056_0002.xml?person_annotation_20240404134927484#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[7]/persName"
+			"rdf:value": "TEI/text/body/p/persName[2]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/67244462/",
+		"@id": "https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013875/persNames/p023",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -882,8 +879,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
+	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -914,7 +910,7 @@
 <lb/>noch mit einigen Leuten Rücksprache zu nehmen, die
 <lb/>ich bisher nicht erreichen konnte, insbesondere <persName key="Adolphe (grand-duc de Luxembourg)" ref="http://viaf.org/viaf/269160307552557742714/" cert="high" type="real">Seine
 <lb/>Hoheit</persName> darüber Vortrag machen. – 
-<lb/>Die Ansicht <persName key="Leisler, Ernst 1795-1875" ref="http://viaf.org/viaf/202370560/">Leislers</persName> und seine Mithilfe wollte ich haupt-
+<lb/>Die Ansicht <persName key="Leislers" ref="https://collections.thulb.uni-jena.de/servlets/MCRFileNodeServlet/HisBest_derivate_00013875/persNames/p023">Leislers</persName> und seine Mithilfe wollte ich haupt-
 <lb/>sächlich in dem Punkte erfahren und beanspruchen, ob er
 <lb/>nicht glaube, seine überwundene Gesellschaft für den Glas-
 <lb/>palast interessiren zu können; er gab mir aber zur Ant-
@@ -941,7 +937,7 @@
 <lb/>Dann will es mir nicht unangemessen scheinen, wenn
 <lb/>Sie Sich dazu überwinden können, auf Ihre letzte
 <lb/>schriftliche Eingabe bei dem Herz. St Ministerium
-<lb/>und Herr <persName key="Vollpracht, Ferdinand 1802-1859" ref="http://viaf.org/viaf/67244462/" cert="high" type="real"><persName key="Vollpracht, Ferdinand 1802-1859" ref="http://viaf.org/viaf/67244462/" cert="high" type="real">V.</persName></persName> einen officiellen Bescheid zu verlangen, 
+<lb/>und Herr <persName key="Vollpracht, Ferdinand 1802-1859" ref="http://viaf.org/viaf/67244462/" cert="high" type="real">V.</persName> einen officiellen Bescheid zu verlangen, 
 <lb/>unter anderem auch darüber, welche Aussicht zur unent-
 <lb/>geltlichen Ueberlassung des Baugrundes vorhanden sei, wenn
 <lb/>es gelinge, das Baucapital zusammen zu bringen. Hier-
