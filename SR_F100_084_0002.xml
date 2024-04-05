@@ -1,8 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Signatur: F 100-84<!-- Hier noch die Gattung eintragen --></title>
+            <title type="main">Signatur: F 100-084<!-- Hier noch die Gattung eintragen --></title>
             <title type="part" n="2"></title>
             <author>
                <persName ref="https://d-nb.info/gnd/118861700">
@@ -60,7 +63,7 @@
                         <surname>Froriep</surname>
                         <forename>Robert</forename>
                      </persName>
-                  </author>
+                     </author>
                </titleStmt>
                <extent>
                   <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
@@ -73,7 +76,7 @@
                <notesStmt>
                   <note>
                      <p>
-                        Signatur: F 100-84
+                        Signatur: F 100-084
                      </p>
                   </note>
                </notesStmt>
@@ -82,7 +85,7 @@
                <msIdentifier>
                   <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
                   <idno>
-                     <idno type="shelfmark">Signatur: F 100-84</idno>
+                     <idno type="shelfmark">Signatur: F 100-084</idno>
                   </idno>
                </msIdentifier>
                <physDesc>
@@ -90,11 +93,6 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-      
-         </rdf:Description>
-      </rdf:RDF></xenoData>
       <encodingDesc>
          <editorialDecl>
             <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
@@ -113,35 +111,12 @@
             <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
                >Brief</classCode>
          </textClass>
-      </profileDesc></teiHeader>
+      </profileDesc>
+   </teiHeader>
    <text>
       <body>
          <p>
-         Ich für meine Person würde mich freuen zu einer so nützlichen
-<lb/>Einrichtung beitragen zu können.
-<lb/>Es freute mich aus Deinem Briefe zu ersehen, daß es Dir
-<lb/>in Deinem neuen schönen Wirkungskreise gefällt, was ich
-<lb/>nach manchen Mittheilungen, die mir geworden nichts
-<lb/>anders vermuthen konnte. Bei uns ist gerade die kirch-
-<lb/>liche Eintracht nicht erfreulich, denn die Anmaßungen der
-<lb/>ultramontanen Parthei sind anfangs so unerträglich, daß
-<lb/>unsere nur zu geduldige Regierung sie bald hoffentlich
-<lb/>auch nicht mehr ertragen kann und einschreiten wird.
-<lb/>Was mich betrifft, so bin zwar körperlich gesund aber
-<lb/>durch den im Januar u Februar d. J. erfolgten Tod meiner
-<lb/>beiden innigst geliebten Töchter und durch das grenzenlose
-<lb/>Leiden meiner armen Frau – tief gebeugt – und nur
-<lb/>die Pflicht für meine beiden Söhne von 18 u 14 Jahren,
-<lb/>die meiner noch bedürfen, hält mich aufrecht, wozu
-<lb/>mir Gott die Kraft verleihen möge!
-<lb/>Lebe wohl und glücklich, das wünscht mit den herz-
-<lb/>lichsten Grüßen Dein aufrichtiger Freund
-<lb/>Kuntz 
-<lb/>Baden d 8 November
-<lb/>1853
-<lb/>
-<lb/>Stolz erwiedert Deine Grüße herzlich
-<lb/>sowie Frau u Töchter
+            Hier die Transkription
          </p>
       </body>
    </text>

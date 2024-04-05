@@ -1,8 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Signatur: F 100-76<!-- Hier noch die Gattung eintragen --></title>
+            <title type="main">Signatur: F 100-076<!-- Hier noch die Gattung eintragen --></title>
             <title type="part" n="2"></title>
             <author>
                <persName ref="https://d-nb.info/gnd/118861700">
@@ -60,7 +63,7 @@
                         <surname>Froriep</surname>
                         <forename>Robert</forename>
                      </persName>
-                  </author>
+                     </author>
                </titleStmt>
                <extent>
                   <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
@@ -73,7 +76,7 @@
                <notesStmt>
                   <note>
                      <p>
-                        Signatur: F 100-76
+                        Signatur: F 100-076
                      </p>
                   </note>
                </notesStmt>
@@ -82,7 +85,7 @@
                <msIdentifier>
                   <repository>Thüringer Universitäts- und Landesbibliothek Jena</repository>
                   <idno>
-                     <idno type="shelfmark">Signatur: F 100-76</idno>
+                     <idno type="shelfmark">Signatur: F 100-076</idno>
                   </idno>
                </msIdentifier>
                <physDesc>
@@ -90,11 +93,6 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-      
-         </rdf:Description>
-      </rdf:RDF></xenoData>
       <encodingDesc>
          <editorialDecl>
             <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
@@ -113,11 +111,12 @@
             <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
                >Brief</classCode>
          </textClass>
-      </profileDesc></teiHeader>
+      </profileDesc>
+   </teiHeader>
    <text>
       <body>
          <p>
-         text
+            Hier die Transkription
          </p>
       </body>
    </text>

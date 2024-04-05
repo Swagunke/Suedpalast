@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -60,7 +63,7 @@
                         <surname>Froriep</surname>
                         <forename>Robert</forename>
                      </persName>
-                  </author>
+                     </author>
                </titleStmt>
                <extent>
                   <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
@@ -90,11 +93,6 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-      
-         </rdf:Description>
-      </rdf:RDF></xenoData>
       <encodingDesc>
          <editorialDecl>
             <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
@@ -113,32 +111,12 @@
             <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
                >Brief</classCode>
          </textClass>
-      </profileDesc></teiHeader>
+      </profileDesc>
+   </teiHeader>
    <text>
       <body>
          <p>
-         Ihre Anfrage mein Verehrter Freund, strebt so
-<lb/>hoch hinauf, daß ich sie mir schwehr zu beantworten wird, in der einfachen 
-<lb/>Weise wie sie gestellt ist.
-<lb/>Sie suchen „ein Capital von Th 600,000 - /: wie, und in
-<lb/>welchen Raten? :/ zu einer Unternehmung /?/ bei welcher Grund
-<lb/>und Boden nebst Gebäuden /: von welchem Werthe? :/ unter Inventar /?/
-<lb/>als Hypothek verschrieben würden, und wovon die Verzinsung mit /?/ %
-<lb/>Durch eine Staats Regierung für immer garantirt würde.“, denken dabei an
-<lb/>die Darmstädtische Bank, scheinen aber ihre eigene Bank zu vergessen.
-<lb/>Erstere würde auf ein bloses Darlehen von solchem Umfange
-<lb/>nicht eingehen; eigens sich aber das mir ganz unbekannte
-<lb/>Geschäft zur Ausstellung von Partial Obligationen durch
-<lb/>einen soliden Staat garantirt, so wäre wohl mit der Darmstäd-
-<lb/>ter Bank ein Übereinkommen zu treffen, diese zu übernehmen.
-<lb/>Durch diese Obligationen liesse sich der einfachste Weg der
-<lb/>Amortisation finden.
-<lb/>Das nachgesuchte Capital ist übrigens nicht von solcher
-<lb/>Bedeutung, daß man hier nicht einzelne Bankhäuser finden
-<lb/>sollte, dasselbe herzugeben, wenn es mit Vortheil geschehen kann.
-<lb/>Es ist daher nöthig, vorallem, daß Sie mich in die Lage setzen,
-<lb/>den Umfang des Unternehmens, seine Vortheile und seine
-<lb/>Gefahren, beurtheilen zu können. Ich weiß dann wann ich es anbieten kann.
+            Hier die Transkription
          </p>
       </body>
    </text>
