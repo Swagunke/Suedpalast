@@ -810,6 +810,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_112_0001.xml?note_annotation_20240415112002376",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-15T09:20:02.376Z",
+	"dcterms:modified": "2024-04-15T09:20:02.376Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_112_0001.xml?note_annotation_20240415112002376#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_112_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_112_0001.xml?note_annotation_20240415112002376#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "gestrichen: wird"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -835,9 +914,11 @@ Verehrtester <persName key="Froriep, Robert, 1804-1861" ref="http://viaf.org/via
 <lb/>Da ich jetzt in <placeName key="Schmalkalden" ref="http://www.wikidata.org/entity/Q489147">Schmalkalden</placeName> wohne, so hat Ihr Brief an mich
 <lb/>einen kleinen Umweg laufen müssen; daher die Verzögerung. 
 <lb/>Mit Vergnügen stehe ich Ihnen zu Gebote mit meinen Hülfsmitteln; 
-<lb/>allein Ihre Frage ist so allgemein gestellt, wieviel Procent
-<lb/>die Sterbefälle durch Schwindsucht von der Gesammtzahl aller Sterbefälle
-<lb/>aus machen. Soll das heissen die Gesammtzahl der Sterbefälle über den ganzen
+<lb/>allein Ihre Frage ist so allgemein gestellt, <hi cert="high" rendition="underlined" xml:space="default">wieviel Procent
+<lb/>
+die Sterbefälle durch Schwindsucht von der Gesammtzahl aller Sterbefälle
+<lb/>
+aus machen</hi>. Soll das heissen die Gesammtzahl der Sterbefälle über den ganzen
 <lb/>Erdboden, so weiß ich augenblicklich keine Auskunft zu geben, da dieß eine
 <lb/>weitläufige Rechnung voraussetzt. Wenn dieß Ihre Meinung ist, so theilen 
 <lb/>Sie mir dieselbe gefälligst mit und ich will sehen, wie ich Ihnen behülflich
@@ -849,7 +930,7 @@ Verehrtester <persName key="Froriep, Robert, 1804-1861" ref="http://viaf.org/via
 <lb/>in <placeName key="Thuringia (Germany)" ref="http://viaf.org/viaf/138407449/">Thüringen</placeName> kommt sie über 2000 Fuß nicht mehr vor. Die größte
 <lb/>Sterblichkeit findet sich unter den englischen Truppen in <placeName key="Republic of Ireland" ref="http://www.wikidata.org/entity/Q27" cert="high">Irland<precision match="@ref" precision="high"/></placeName>, 34 procent
 <lb/>Haben Sie, werther Herr Kollege, die Güte, wenn Ihnen dieß
-<lb/>nicht genügt, theilen Sie mir Ihre Ansicht nur etwas
+<lb/>nicht genügt, <note type="editorial">gestrichen: wird</note> theilen Sie mir Ihre Ansicht nur etwas
 <lb/>genauer mit, dann will ich mit der größten Freude Ihre 
          </p>
       </body>
