@@ -151,7 +151,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?note_annotation_20240926093658022#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note[2]"
+			"rdf:value": "TEI/text/body/note[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -203,7 +203,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?person_annotation_20240926094214129",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-09-26T07:42:14.129Z",
-	"dcterms:modified": "2024-09-26T07:42:14.129Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -230,7 +229,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?person_annotation_20240926094214129#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[2]"
+			"rdf:value": "TEI/text/body/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -283,7 +282,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?person_annotation_20240926094442119",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-09-26T07:44:42.119Z",
-	"dcterms:modified": "2024-09-26T07:44:42.119Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -310,7 +308,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?person_annotation_20240926094442119#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName"
+			"rdf:value": "TEI/text/body/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -362,7 +360,6 @@
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?person_annotation_20240926094534557",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-09-26T07:45:34.557Z",
-	"dcterms:modified": "2024-09-26T07:45:34.557Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -389,7 +386,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?person_annotation_20240926094534557#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[3]"
+			"rdf:value": "TEI/text/body/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -469,7 +466,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?person_annotation_20240926102418034#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[5]"
+			"rdf:value": "TEI/text/body/persName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -549,7 +546,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?place_annotation_20240926102432232#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName"
+			"rdf:value": "TEI/text/body/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -630,7 +627,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?date_annotation_20240926102520830#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/date"
+			"rdf:value": "TEI/text/body/date"
 		}
 	},
 	"oa:hasBody": {
@@ -708,7 +705,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?date_annotation_20240926102533358#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/date[2]"
+			"rdf:value": "TEI/text/body/date[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -786,7 +783,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?person_annotation_20240926102813717#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[6]"
+			"rdf:value": "TEI/text/body/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -865,7 +862,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?note_annotation_20240926110553432#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note"
+			"rdf:value": "TEI/text/body/note"
 		}
 	},
 	"oa:hasBody": {
@@ -902,7 +899,7 @@
    </teiHeader>
    <text>
       <body>
-         <p>
+         
             „Aufforderung“ zurück u. kann diese alsdann zu dem neueren
 <lb/>Plane paßend nochmals überarbeiten.
 <lb/>Hr <persName key="Ravenstein, August" ref="https://d-nb.info/gnd/116367377">Ravenstein</persName>, welchem ich diesen Entwurf für den <persName key="Stephan, Österreich, Erzherzog" ref="https://d-nb.info/gnd/119019116" cert="high" type="real">Erzherzog</persName>
@@ -924,7 +921,7 @@
 <lb/>Die Fremdenblätter u. 2 Bücher von mir<note>underlined</note>, die ich Sie freundlich anzu
 -<lb/>nehmen bitte, sind an <persName key="Sauerländer, Johann David" ref="https://d-nb.info/gnd/11701771X">Sauerländer</persName> mit<note type="editorial">korrigiert aus: unter</note> Ihrer Addr. abge
 <lb/>sendet.
-         </p>
+         
       </body>
    </text>
 </TEI>
