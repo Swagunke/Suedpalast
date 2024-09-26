@@ -754,10 +754,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?note_annotation_20240926110553432",
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?note_annotation_20240926111021840",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-09-26T09:05:53.432Z",
-	"dcterms:modified": "2024-09-26T09:05:53.432Z",
+	"dcterms:created": "2024-09-26T09:10:21.840Z",
+	"dcterms:modified": "2024-09-26T09:10:21.840Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KPolenz",
 		"@type": [
@@ -768,7 +768,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?note_annotation_20240926110553432#Target",
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?note_annotation_20240926111021840#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml",
@@ -782,7 +782,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?note_annotation_20240926110553432#Selector",
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_173_0003.xml?note_annotation_20240926111021840#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/note"
 		}
@@ -790,7 +790,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
 		"dc:format": "text/plain",
-		"rdf:value": "underlined"
+		"rdf:value": ""
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
