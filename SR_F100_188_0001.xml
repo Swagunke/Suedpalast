@@ -232,7 +232,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_188_0001.xml?person_annotation_20240926160214918#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[4]"
+			"rdf:value": "TEI/text/body/p/persName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -311,7 +311,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_188_0001.xml?person_annotation_20240926161310462#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[3]"
+			"rdf:value": "TEI/text/body/p/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -408,6 +408,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_188_0001.xml?person_annotation_20240926161347627",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-26T14:13:47.627Z",
+	"dcterms:modified": "2024-09-26T14:13:47.627Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_188_0001.xml?person_annotation_20240926161347627#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_188_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_188_0001.xml?person_annotation_20240926161347627#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/119019116",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_188_0001.xml?person_annotation_20240926161401442",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-09-26T14:14:01.442Z",
+	"dcterms:modified": "2024-09-26T14:14:01.442Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_188_0001.xml?person_annotation_20240926161401442#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_188_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_188_0001.xml?person_annotation_20240926161401442#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/119019116",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -440,7 +599,7 @@
 <lb/>Nun zum Südpalast! Statt vieler Worte schicke ich Ihnen einliegende Antwort des <persName key="Stephan, Österreich, Erzherzog" ref="https://d-nb.info/gnd/119019116">Erzherzogs</persName> in getreuer
 <lb/>Abschrift. Nach einer Stelle des Briefes darf ich mich zu dieser „wörtlichen“ Mittheilung wohl ermächtigt halten, 
 <lb/>obschon ich nicht wünsche, daß Sie bei Dritten „directen“ Gebrauch davon machen. – Im Verlaufe des anderen
-<lb/>Theiles mich persönlich betreffenden Briefes kömmt der Erzherzog noch einmal auf Sie zurück u. fragt an, ob ihm
+<lb/>Theiles mich persönlich betreffenden Briefes kömmt der <persName key="Stephan, Österreich, Erzherzog" ref="https://d-nb.info/gnd/119019116" cert="high" type="real">Erzherzog</persName> noch einmal auf Sie zurück u. fragt an, ob ihm
 <lb/>gestattet sei, Ihren Prospektus zu behalten. Ich habe ihm „ja“ geantwortet, was Ihnen wohl gewesen sein wird.
 <lb/>Meine Ansicht von der Sache ist nun folgende: Man sieht, daß der <persName key="Stephan, Österreich, Erzherzog" ref="https://d-nb.info/gnd/119019116" cert="high" type="real">Erzherzog</persName> für Ihre Idee (die er durch <persName key="Carl Boos deutscher Architekt und nassauischer Baubeamter" ref="http://viaf.org/viaf/306063864/">Boos</persName>
 <lb/>vorläufig schon kannte) warm ist. Für „Frankfurt“ „Weimar“ u. wo sonst schlägt er sein Protektorat ab. Da
@@ -454,7 +613,7 @@
 <lb/>wieder andere Elemente des Gedeihens. Sie werden dieß Alles wohl zu erwägen haben. – Endlich scheint der Vorschlag
 <lb/>an den Großherzog Carl v. S. W. E. zu gehen so übel nicht. Da Sie, wie die Sache jetzt liegt, der warmen Befür-
 <lb/>wortung seines „Freundes“ Stephan gewiß sind, so möchte dieß vielleicht von gutem Erfolg sein. Stellt sich 
-<lb/>Carl an die „Spitze“, dann fehlt auch Stephan mit einer „Betheiligung“ nicht, u. es ist zu erwarten, daß es dem Ein-
+<lb/>Carl an die „Spitze“, dann fehlt auch <persName key="Stephan, Österreich, Erzherzog" ref="https://d-nb.info/gnd/119019116">Stephan</persName> mit einer „Betheiligung“ nicht, u. es ist zu erwarten, daß es dem Ein-
 <lb/>fluß dieser hoch geachteten Persönlichkeiten gelingen werde, ein Comité aus den ersten Banquiers zu Frankfurt,
 <lb/>etc. zusammen zu bringen, welches eine Aufforderung zur Bildung einer Actiengesellschaft erließe. Hierzu könnte
 <lb/>Ihr mir mitgetheilter Entwurf allerdings dienen; es müßten aber noch die nöthigen Bestimmungen über die Rechte u.
