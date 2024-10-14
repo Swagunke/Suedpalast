@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">Signatur: F 100-190<!-- Hier noch die Gattung eintragen --></title>
-            <title type="part" n="1"></title>
+            <title type="part" n="1"/>
             <author>
                <persName ref="https://d-nb.info/gnd/118861700">
                   <surname>Froriep</surname>
@@ -66,7 +63,7 @@
                      </author>
                </titleStmt>
                <extent>
-                  <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
+                  <measure type="pages"/> <!-- hier den Umfang eingeben -->
                </extent>
                <publicationStmt>
                   <publisher/>
@@ -93,11 +90,11 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
          <editorialDecl>
-            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
-               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
-               kodiert.&lt;/p&gt; </p>
+            <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt;
+               kodiert.&amp;lt;/p&amp;gt; </p>
          </editorialDecl>
          <tagsDecl/>
       </encodingDesc>
@@ -106,10 +103,8 @@
             <language ident="deu">German</language>
          </langUsage>
          <textClass>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
-               >Gebrauchsliteratur</classCode>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
-               >Brief</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
          </textClass>
       </profileDesc>
    </teiHeader>
@@ -126,9 +121,9 @@
 <lb/>ich eine Einladung nach Schaumburg (was ich für wahrscheinlich halten darf) so werde ich nicht
 <lb/>verfehlen, Ihre Interessen auf`s Beste zu wahren: als Actionär bekommen wir ihn jedenfalls auf
 <lb/>die Liste u. durch ihn (resp. durch Sie selbst) auch den Großherzog Carl. etc.
-<lb/>Daß Sie die Lahngegend, insbesondere Schaumburg, nicht geeignet halten für die Anlage des Süd-
+<lb/>Daß Sie die Lahngegend, insbesondere Schaumburg, <hi cert="high" generatedBy="human" rendition="underlined" xml:space="default">nicht </hi>geeignet halten für die Anlage des Süd-
 <lb/>Palastes, kann Ihnen nicht verdacht werden. Selbst Eisenach od. Weimar wäre hierzu un-
-<lb/>geeignet. Wir kommen also auf Frankfurt zurück. Hier habe ich nun inzwischen folgende
+<lb/>geeignet. Wir kommen also auf <hi cert="high" generatedBy="human" rendition="underlined" xml:space="default">Frankfurt </hi>zurück. Hier habe ich nun inzwischen folgende
 <lb/>Schritte gethan, um Ihnen den Weg zu ebenen:
 <lb/>1. Die „Aufforderung“ gab ich Hr Varrentrapp, durch ihn Hr Mappes (Ihrem Freunde)
 <lb/>Dr. Kellner u. s. m. um diese Herren günstig zu stimmen, weil ihr Wort in den höhern Kreisen
@@ -136,7 +131,7 @@
 <lb/>schenswerth u. werden ihm ihre Fürsprache nicht versagen. Leider geben Sie wenig Hoffnung
 <lb/>auf die Gewinnung der Geldmänner.
 <lb/>2. Nach dem, was ich bei einem einflußreichen Senats Mitglied vernommen (doch dieß bleibt
-<lb/>unter uns) dürfte die Ueberlassung der Pfingstweide für den Südpalast wahrscheinlich durchzusetzen
+<lb/>unter uns) dürfte die Ueberlassung der Pfingstweide für den Südpalast <hi cert="high" generatedBy="human" rendition="underlined" xml:space="default">wahrscheinlich </hi>durchzusetzen
 <lb/>sein, obschon die Stadt hiermit vornweg ein Opfer von c. 50-70000 Fl. bringen müßte, welches
 <lb/>vielleicht auch der Gesellschaft zum Theil zur Last kommen würde. Man ist geneigt, das Unternehmen
 <lb/>als ein sehr förderliches für den Wohlstand der Stadt zu halten. Möglich (doch nicht wahr-
