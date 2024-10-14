@@ -567,6 +567,164 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_190_0001.xml?place_annotation_20241014103814496",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T08:38:14.496Z",
+	"dcterms:modified": "2024-10-14T08:38:14.496Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_190_0001.xml?place_annotation_20241014103814496#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_190_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_190_0001.xml?place_annotation_20241014103814496#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://d-nb.info/gnd/4664536-6",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_190_0001.xml?person_annotation_20241014105728345",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-14T08:57:28.345Z",
+	"dcterms:modified": "2024-10-14T08:57:28.345Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_190_0001.xml?person_annotation_20241014105728345#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_190_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_190_0001.xml?person_annotation_20241014105728345#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/117350591",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -597,11 +755,11 @@
 <lb/>ich eine Einladung nach <placeName key="Schaumburg (Balduinstein)" ref="https://d-nb.info/gnd/4664536-6" cert="high">Schaumburg<precision match="@ref" precision="high"/></placeName> (was ich für wahrscheinlich halten darf) so werde ich nicht
 <lb/>verfehlen, Ihre Interessen auf`s Beste zu wahren: als Actionär bekommen wir ihn jedenfalls auf
 <lb/>die Liste u. durch ihn (resp. durch Sie selbst) auch den <persName key="Karl Alexander, Sachsen-Weimar-Eisenach, Großherzog" ref="https://d-nb.info/gnd/119418134" cert="high" type="real">Großherzog Carl</persName> etc.
-<lb/>Daß Sie die Lahngegend, insbesondere Schaumburg, <hi cert="high" generatedBy="human" rendition="underlined" xml:space="default">nicht </hi>geeignet halten für die Anlage des Süd-
+<lb/>Daß Sie die Lahngegend, insbesondere <placeName key="Schaumburg (Balduinstein)" ref="https://d-nb.info/gnd/4664536-6">Schaumburg</placeName>, <hi cert="high" generatedBy="human" rendition="underlined" xml:space="default">nicht </hi>geeignet halten für die Anlage des Süd-
 <lb/>Palastes, kann Ihnen nicht verdacht werden. Selbst Eisenach od. Weimar wäre hierzu un-
 <lb/>geeignet. Wir kommen also auf <hi cert="high" generatedBy="human" rendition="underlined" xml:space="default">Frankfurt </hi>zurück. Hier habe ich nun inzwischen folgende
 <lb/>Schritte gethan, um Ihnen den Weg zu ebenen:
-<lb/>1. Die „Aufforderung“ gab ich Hr Varrentrapp, durch ihn Hr Mappes (Ihrem Freunde)
+<lb/>1. Die „Aufforderung“ gab ich Hr <persName key="Varrentrapp, Georg" ref="https://d-nb.info/gnd/117350591">Varrentrapp</persName>, durch ihn Hr Mappes (Ihrem Freunde)
 <lb/>Dr. Kellner u. s. m. um diese Herren günstig zu stimmen, weil ihr Wort in den höhern Kreisen
 <lb/>viel gilt. Diese Aerzte halten die Ausführung Ihres Projektes für eben so nützlich als wün-
 <lb/>schenswerth u. werden ihm ihre Fürsprache nicht versagen. Leider geben Sie wenig Hoffnung
