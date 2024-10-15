@@ -472,7 +472,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150726033#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[5]"
+			"rdf:value": "TEI/text/body/p/hi[2]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -553,7 +553,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150744561#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[6]"
+			"rdf:value": "TEI/text/body/p/placeName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -632,7 +632,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150800746#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[7]"
+			"rdf:value": "TEI/text/body/p/placeName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -860,8 +860,8 @@
 <lb/>Weise zu fordern, daß mehr u. mehr dafür gethan wer-
 <lb/>den müße, den Durchreisenden den Aufenthalt in <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2">Frcfrt</placeName>
 <lb/>besonders anziehend zu machen. Auch dafür drängt sich
-<lb/>in erster Reihe der Gedanke auf, daß es als eine Aufgabe
-<lb/>für <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2" cert="high">Francfurt<precision match="@ref" precision="high"/></placeName> betrachtet werden müße, einen zoologischen
+<lb/>in erster Reihe der Gedanke auf, <hi cert="high" generatedBy="human" rendition="underlined" xml:space="default">daß es als eine Aufgabe</hi>
+<lb/><hi cert="high" generatedBy="human" rendition="undelined" xml:space="default">für <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2" cert="high">Francfurt<precision match="@ref" precision="high"/></placeName> betrachtet werden müße, einen zoologischen</hi>
 <lb/>Garten zu gründen.
 <lb/>Dieser Aufgabe zu entsprechen, ist aber nicht ohne besondere
 <lb/>Schwierigkeit, weil – soll der wißenschaftliche und nament-
