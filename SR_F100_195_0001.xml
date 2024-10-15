@@ -331,6 +331,166 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150706993",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T13:07:06.993Z",
+	"dcterms:modified": "2024-10-15T13:07:06.993Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150706993#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150706993#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://d-nb.info/gnd/4018118-2",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150726033",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T13:07:26.033Z",
+	"dcterms:modified": "2024-10-15T13:07:26.033Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150726033#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150726033#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://d-nb.info/gnd/4018118-2",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -379,10 +539,10 @@
 <lb/>gewerblichen Theiles der Bürgerschaft bei. Gründe
 <lb/>der Billigkeit u. der Klugheit scheinen daher in gleicher
 <lb/>Weise zu fordern, daß mehr u. mehr dafür gethan wer-
-<lb/>den müße, den Durchreisenden den Aufenthalt in Frcfrt
+<lb/>den müße, den Durchreisenden den Aufenthalt in <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2">Frcfrt</placeName>
 <lb/>besonders anziehend zu machen. Auch dafür drängt sich
 <lb/>in erster Reihe der Gedanke auf, daß es als eine Aufgabe
-<lb/>für Francfurt betrachtet werden müße, einen zoologischen
+<lb/>für <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2" cert="high">Francfurt<precision match="@ref" precision="high"/></placeName> betrachtet werden müße, einen zoologischen
 <lb/>Garten zu gründen.
 <lb/>Dieser Aufgabe zu entsprechen, ist aber nicht ohne besondere
 <lb/>Schwierigkeit, weil – soll der wißenschaftliche und nament-
