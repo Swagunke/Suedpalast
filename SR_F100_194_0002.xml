@@ -409,6 +409,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_194_0002.xml?person_annotation_20241015105320421",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-15T08:53:20.421Z",
+	"dcterms:modified": "2024-10-15T08:53:20.421Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_194_0002.xml?person_annotation_20241015105320421#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_194_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_194_0002.xml?person_annotation_20241015105320421#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/118861700",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -446,8 +526,9 @@
 <lb/>so wie das Erste Banquierhaus <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2">Francfurts</placeName> die Absicht
 <lb/>aussprechen würde, unter Voraussetzung dieser Schenkung
 <lb/>(z. B. der Pfingstweide, worüber eine Skizze hier beiliegt)
-<lb/>die Gründung eines Actien Vereines für Südpalast mit
-<lb/>zoologischem Garten unternehmen zu wollen. Man wird
+<lb/>die Gründung eines <hi cert="high" generatedBy="human" rendition="underlinded" xml:space="default">Actien Vereines für Südpalast mit
+<lb/>
+zoologischem Garten</hi> unternehmen zu wollen. Man wird
 <lb/>sich aber wohl nicht täuschen, wenn man annimmt, daß
 <lb/>bei der Autorität einer solchen Firma u. bei der Sicher-
 <lb/>heit, welche durch ein so bedeutendes Grundstück noch überdies
@@ -459,7 +540,7 @@
 <lb/>geistes und reicher Mittel Francfurt über alle übri-
 <lb/>gen deutschen Städte und Staaten erheben würde.
 <lb/>
-<lb/>R Froriep.
+<lb/><persName key="Froriep, Robert" ref="https://d-nb.info/gnd/118861700" cert="high" type="real">R Froriep.</persName>
 <lb/><date when="1854-11-10" cert="high">10/11 54</date>
          </p>
       </body>
