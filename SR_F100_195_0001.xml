@@ -1032,7 +1032,7 @@
 <lb/>leicht die Wirkung haben könnten, spöttische Anmerkungen<note type="editorial">eingefügt: spöttische Anmerkungen</note> eine lächerliche
 <lb/>Seite hervorzurufen<note type="editorial">eingefügt: hervorzurufen</note> zu bieten, anstatt das allgemeine Ansehn der
 <lb/>Stadt zu erhöhen. 
-<lb/>Ein Zoologischer Garten, der <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2" cert="high">Francfurt<precision match="@ref" precision="high"/></placeName> würdig
+<lb/>Ein Zoologischer Garten, der <hi cert="high" generatedBy="human" rendition="underlined" xml:space="default"/><placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2" cert="high">Francfurt<precision match="@ref" precision="high"/></placeName> würdig
 <lb/>und im Stande wäre, eine hervorragende Stellung unter
 <lb/>derartigen Instituten einzunehmen, würde m. E. ein
 <lb/>bedeutendes Areal einnehmen müßen, welches
