@@ -618,8 +618,8 @@ zoologischem Garten</hi> unternehmen zu wollen. Man wird
 <lb/>geistes und reicher Mittel <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2">Francfurt</placeName> über alle übri-
 <lb/>gen deutschen Städte und Staaten erheben würde.
 <lb/>
-<lb/><persName key="Froriep, Robert" ref="https://d-nb.info/gnd/118861700" cert="high" type="real">R Froriep.</persName>
-<lb/><date when="1854-11-10" cert="high">10/11 54</date>
+<lb/><hi cert="high" generatedBy="human" rendition="right-aligned" xml:space="default"/><persName key="Froriep, Robert" ref="https://d-nb.info/gnd/118861700" cert="high" type="real">R Froriep.</persName>
+<lb/><hi cert="high" generatedBy="human" rendition="right-aligned" xml:space="default"/><date when="1854-11-10" cert="high">10/11 54</date>
          </p>
       </body>
    </text>
