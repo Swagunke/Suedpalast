@@ -1308,9 +1308,10 @@
    <text>
       <body>
          <p>
-            Verehrtester Herr <persName key="Fuchs, Caspar Friedrich 1807-1866" ref="http://viaf.org/viaf/309670124/" cert="high" type="real">Kollege</persName>!
+            Verehrtester Herr Kollege!
+<lb/>
 <lb/>Mit ergebenstem Dank habe ich Ihre gef. Zuschrift
-<lb/>vom <date when="1854-08-25" cert="high">25/8</date> erhalten, welche mir ganz genügend das bestätigt
+<lb/>vom 25/8 erhalten, welche mir ganz genügend das bestätigt
 <lb/>was ich für meinen untergeordneten Zweck brauche. Er thut mir
 <lb/>leid, daß ich durch mangelnde Präcision in meiner Frage Ihnen
 <lb/>vielleicht mehr Mühe gemacht habe, als bei hinreichender Genau-
@@ -1319,48 +1320,48 @@
 <lb/>mit künstlichem Klima pp wozu ich jezt mit der Bildung einer
 <lb/>Actien Gesellschaft beschäftigt bin. Dabei lag es mir daran, eine
 <lb/>ungefähre statistische Grundlage bezüglich der Zahl von Schwindsüchti-
-<lb/>gen in <placeName key="Mitteleuropa" ref="http://www.wikidata.org/entity/Q3498665" cert="high">Mittel<precision match="@ref" precision="high"/></placeName> u. <placeName key="Nordeuropa" ref="http://viaf.org/viaf/316875311/">Nord Europa</placeName> zu haben. Ich habe bei vorbereiteter
-<lb/>Berechnungen, die noch nicht veröffentlicht sind, 20–25<note type="editorial">eingefügt: -25</note> % der Sterbefälle
+<lb/>gen in Mittel u. Nord Europa zu haben. Ich habe bei vorbereiteter
+<lb/>Berechnungen, die noch nicht veröffentlicht sind, 20–25 % der Sterbefälle
 <lb/>der Schwindsucht zugeschrieben. 
-<lb/>Zu <placeName key="Mitteleuropa" ref="http://www.wikidata.org/entity/Q3498665" cert="high">Mittel Europa<precision match="@ref" precision="high"/></placeName> rechne ich für diesen meinen Zweck
+<lb/>Zu Mittel Europa rechne ich für diesen meinen Zweck
 <table>
 <row>
-<cell><placeName key="Germany" ref="http://www.wikidata.org/entity/Q183">Deutschland</placeName></cell>
+<cell>Deutschland</cell>
 <cell>mit</cell>
 <cell>37</cell>
 <cell> Millionen</cell>
 <cell>Bevölkerung</cell>
 </row>
 <row>
-<cell><placeName key="Switzerland" ref="http://www.wikidata.org/entity/Q39" cert="high">Schweitz<precision match="@ref" precision="high"/></placeName></cell>
+<cell>Schweitz</cell>
 <cell>–</cell>
 <cell>2</cell>
 <cell>–</cell>
 <cell>–</cell>
 </row>
 <row>
-<cell><placeName key="France" ref="http://www.wikidata.org/entity/Q142">Frankreich</placeName></cell>
+<cell>Frankreich</cell>
 <cell>–</cell>
 <cell>35</cell>
 <cell>–</cell>
 <cell>–</cell>
 </row>
 <row>
-<cell><placeName key="England" ref="http://www.wikidata.org/entity/Q21" cert="high">England<precision match="@ref" precision="high"/></placeName></cell>
+<cell>England</cell>
 <cell>–</cell>
 <cell>15</cell>
 <cell>–</cell>
 <cell>–</cell>
 </row>
 <row>
-<cell><placeName key="Netherlands" ref="http://www.wikidata.org/entity/Q55">Holland</placeName>. <placeName key="Belgium" ref="http://www.wikidata.org/entity/Q31" cert="high">Belgien<precision match="@ref" precision="high"/></placeName></cell>
+<cell>Holland. Belgien</cell>
 <cell>–</cell>
 <cell>7</cell>
 <cell>–</cell>
 <cell>–</cell>
 </row>
 <row>
-<cell><placeName key="Scandinavia" ref="http://www.wikidata.org/entity/Q21195">Skandinavien</placeName></cell>
+<cell>Skandinavien</cell>
 <cell>–</cell>
 <cell>6</cell>
 <cell>–</cell>
@@ -1370,16 +1371,22 @@
 <cell>Europäisches und</cell>
 </row>
 <row>
-<cell>westl. asiat. <placeName key="Russian Empire" ref="http://www.wikidata.org/entity/Q34266" cert="high">Rußland<precision match="@ref" precision="high"/></placeName></cell>
+<cell>westl. asiat. Rußland</cell>
 <cell>–</cell>
 <cell>60</cell>
 <cell>–</cell>
 <cell>–</cell>
 </row>
+<row>
+<cell></cell>
+<cell></cell>
+<cell>161 –</cell>
+<cell>–</cell>
+<cell>–</cell>
+</row>
 </table>
-161 –
-<lb/>Wenn ich nun die durchschnittliche Sterblichkeit = 1 : 40 setze
-<lb/>so erhalte ich etwa etwas über 4 Millionen jährliche Todesfälle u. darunter also 1 Million<note type="editorial">gestrichen:  über 4 Millionen; eingefügt: etwas über 4 ... also 1 Million</note> Sterbefälle durch Schwindsucht
+<lb/>Wann ich nun die durchschnittliche Sterblichkeit = 1 : 40 setze
+<lb/>so erhalte ich etwa etwas über 4 Millionen jährliche Todesfälle u. darunter also 1 Million Sterbefälle durch Schwindsucht
 <lb/>im Jahr, und nimmt man nun die mittlere Lebensdauer der Schwind-
          </p>
       </body>
