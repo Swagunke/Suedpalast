@@ -1282,6 +1282,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0001.xml?note_annotation_20241028093214590",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-28T08:32:14.590Z",
+	"dcterms:modified": "2024-10-28T08:32:14.590Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0001.xml?note_annotation_20241028093214590#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0001.xml?note_annotation_20241028093214590#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[8]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "gestrichen: spricht sich"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -1316,8 +1395,7 @@
 <lb/>ins Auge springen leuchten<note type="editorial">über die Zeile geschrieben: leuchten</note> und demselben<note type="editorial">gestrichen: wie in; eingefügt: demselben</note> Ihre einflußreiche Fürsprache<note type="editorial">korrigiert aus: Ihnen einem einflußreichen Fürsprecher </note> gewinnen.
 <lb/>Der Plan, welchen, wie ich mir schmeicheln darf, <note type="editorial">gestrichen: bei</note> mein in der ärztlichen Welt hin-
 <lb/>reichend bekannten Name, einigermaßen eine wohlwollende Aufnahme sichern wird,
-<lb/>ist in der Eingabe an das Ministerium, welche ich abschriftlich hier beilege,
-<lb/>ausführlicher dargelegt. So ausgedehnt diese Zuschrift ist, so mag ich doch
+<lb/>ist in der Eingabe an das Ministerium, welche ich abschriftlich hier beilege, <note type="editorial">gestrichen: spricht sich</note><lb/>ausführlicher dargelegt. So ausgedehnt diese Zuschrift ist, so mag ich doch
 <lb/>zu hoffen, daß Sie dieselbe in dem Intereße, welches Sie an <placeName key="Baden-Baden" ref="https://d-nb.info/gnd/4004169-4">Badens</placeName> Entwicklung nehmen, durch
 <lb/>sehen; ich brauche daher hier Ihre Geduld mit einer abermaligen Begründung meines
 <lb/>Planes nicht in Anspruch zu nehmen. Es handelt sich um die Anlage eines Thermal-
