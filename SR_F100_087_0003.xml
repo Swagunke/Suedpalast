@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -1059,9 +1061,9 @@
    <text>
       <body>
          <p>
-            muß in<note type="editorial">gestrichen: mit; eingefügt: in</note> der Anstalt vorhanden sein, – a) in <hi cert="high" generatedBy="human" rend="underline" xml:space="default">dem Wohnhaus</hi> außer eleganten Wohnungen<note type="editorial">eingefügt: außer eleganten Wohnungen</note> für ca. 300
+            muß in<note type="editorial">gestrichen: mit; eingefügt: in</note> der Anstalt vorhanden sein, – a) in <hi cert="high" rend="underline" xml:space="default">dem Wohnhaus</hi> außer eleganten Wohnungen<note type="editorial">eingefügt: außer eleganten Wohnungen</note> für ca. 300
 <lb/>Patienten: die nöthigen Säle zum Speisen, zu Unterhaltung, zu Schauspiel u.
-<lb/>Concert, und<note type="editorial">gestrichen: zu mancherlei Spielerei; eingefügt: und</note> eine Kapelle, b) in <hi cert="high" generatedBy="human" rend="underline" xml:space="default">dem Glaspalast</hi>
+<lb/>Concert, und<note type="editorial">gestrichen: zu mancherlei Spielerei; eingefügt: und</note> eine Kapelle, b) in <hi cert="high"  rend="underline" xml:space="default">dem Glaspalast</hi>
 <lb/>von ca. 600 Fuß Länge u. Breite u. 100-150 Fuß Höhe exotische<note type="editorial">eingefügt: exotische</note> Gärten, eine
 <lb/>Palästra, Schwimmteiche, gesellige Vergnügungsplätze, ein Circus mit Amphi-
 <lb/>theater, Reitbahn mit Marstall, Sammlungen u. Ausstellungen verschiedener Art<note type="editorial">eingefügt: Sammlungen u. Ausstellungen verschiedener Art</note> etc. etc.
@@ -1092,7 +1094,7 @@ des Hydeparkpalace)</cell><cell>=</cell><cell>	480,000</cell>
 <cell>Die Ausstattung der ges. Anstalt speciell berechnet</cell><cell>=</cell><cell>200,000</cell>
 </row>
 <row>
-<cell>An Faux Frais für Unerwartetes pp</cell><cell>=</cell><cell><hi cert="high" generatedBy="human" rend="underline" xml:space="default">298000</hi></cell>
+<cell>An Faux Frais für Unerwartetes pp</cell><cell>=</cell><cell><hi cert="high"  rend="underline" xml:space="default">298000</hi></cell>
 </row>
 <row><cell/><cell/><cell>1,500,000 rh</cell>
 </row>
