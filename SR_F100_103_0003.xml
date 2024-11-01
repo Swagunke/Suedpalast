@@ -406,6 +406,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0003.xml?note_annotation_20241101151746877",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-01T14:17:46.877Z",
+	"dcterms:modified": "2024-11-01T14:17:46.877Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0003.xml?note_annotation_20241101151746877#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0003.xml?note_annotation_20241101151746877#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "eingefügt: eingerichtet wäre"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0003.xml?note_annotation_20241101151812901",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-01T14:18:12.901Z",
+	"dcterms:modified": "2024-11-01T14:18:12.901Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0003.xml?note_annotation_20241101151812901#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0003.xml?note_annotation_20241101151812901#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "eingefügt: Baden"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -437,10 +595,10 @@
 <lb/>sprochene Phantasie zur Erfrischung u. Kräftigung der Constitution<note type="editorial">gestrichen: Steigerung der Menschen; eingefügt: Erfrischung und Kräftigung der Constitution</note> zu verwirklichen, in dem in derar-
 <lb/>tigen Anstalten eine <hi cert="high" generatedBy="human" rend="underline" xml:space="default">Trainir Anstalt</hi> nicht für Jockey`s u. Boxer sondern für reiche
 <lb/>im Wohlleben u. in der Opulenz aufgeschwemmte, kurzathmige, fett u. schwerfällig
-<lb/>gewordene Menschen eingerichtet wäre, deren Gedanken sich bloß in der Sorge um das nächste delikate
+<lb/>gewordene Menschen eingerichtet wäre<note type="editorial">eingefügt: eingerichtet wäre</note>, deren Gedanken sich bloß in der Sorge um das nächste delikate
 <lb/>Diner und in die Furcht vor dem nächsten Podagra oder Apoplexir Anfall theilt. Diese
 <lb/>würden in meiner Anstalt durch die angenehmste u. unterhaltendste Kur sich verjüngen
-<lb/>und Baden Baden als das gelobte Land ansehen, in welchem das utile cum dulci ganz comme
+<lb/>und Baden Baden<note type="editorial">eingefügt: Baden</note> als das gelobte Land ansehen, in welchem das utile cum dulci ganz comme
 <lb/>il faut geboten wird.
 <lb/>Die Gränzen eines Briefes laßen nur flüchtige Andeutungen deßen zu, was 
 <lb/>eigentlich in meinem Plane liegt. Ich kann mich aber Ihnen gegenüber auf dieße
