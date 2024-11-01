@@ -152,7 +152,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0002.xml?note_annotation_20241101142149567#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note"
+			"rdf:value": "TEI/text/body/note"
 		}
 	},
 	"oa:hasBody": {
@@ -231,7 +231,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0002.xml?note_annotation_20241101142419479#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note[2]"
+			"rdf:value": "TEI/text/body/note[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -310,7 +310,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0002.xml?note_annotation_20241101142501495#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note[3]"
+			"rdf:value": "TEI/text/body/note[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -389,7 +389,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0002.xml?note_annotation_20241101142529813#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note[4]"
+			"rdf:value": "TEI/text/body/note[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -468,7 +468,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0002.xml?note_annotation_20241101142554470#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note[5]"
+			"rdf:value": "TEI/text/body/note[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -547,7 +547,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0002.xml?note_annotation_20241101142718767#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note[6]"
+			"rdf:value": "TEI/text/body/note[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -626,7 +626,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0002.xml?note_annotation_20241101142756314#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note[7]"
+			"rdf:value": "TEI/text/body/note[7]"
 		}
 	},
 	"oa:hasBody": {
@@ -705,7 +705,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0002.xml?note_annotation_20241101142818817#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note[8]"
+			"rdf:value": "TEI/text/body/note[8]"
 		}
 	},
 	"oa:hasBody": {
@@ -784,7 +784,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0002.xml?note_annotation_20241101142842854#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note[9]"
+			"rdf:value": "TEI/text/body/note[9]"
 		}
 	},
 	"oa:hasBody": {
@@ -863,7 +863,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_103_0002.xml?note_annotation_20241101143006142#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note[10]"
+			"rdf:value": "TEI/text/body/note[10]"
 		}
 	},
 	"oa:hasBody": {
@@ -900,7 +900,7 @@
    </teiHeader>
    <text>
       <body>
-         <p>
+         
       hier mich etwas weiter auszusprechen.
 <lb/>Das was ich für die ärztliche Durchführung meiner selbstgestellten Aufgabe brau-
 <lb/>chen würde ist dem Wesentlichen nach<note type="editorial">gestrichen: zum Mindestens; eingefügt: dem Wesentlichen nach</note> folgendes: <hi cert="high" generatedBy="human" rend="underline" xml:space="default">1 Saal</hi> für einen bestimmten Cyclus gymnasti-
@@ -924,7 +924,7 @@
 <lb/>wäre) sondern namentlich durch reichere<note type="editorial">eingefügt: reichere</note> architectonische Auffaßung in großer Mannigfal-
 <lb/>tigkeit schöner u. immer<note type="editorial">eingefügt: immer</note> schöner ausführen, bis man mit den Bau<note type="editorial">eingefügt: Bau</note> Plänen endlich bei
 <lb/>einer modern aufgefaßten Herstellung der antiken Kaiserbäder eines 
-<lb/><note type="editorial">gestrichen: Titius</note> Caracalla oder Diocletian ankäme.
+<lb/><note type="editorial">gestrichen: Titius</note> Caracalla oder <placeName key="Diokletiansthermen (Rom)" ref="https://d-nb.info/gnd/4224548-5" cert="high">Diocletian</placeName> ankäme.
 <lb/>Wollte man fragen in welcher Weise sich die neue Anstalt
 <lb/>wohl am besten gestalten würde, wenn die Mittel dazu dem Zweck entsprechen
 <lb/>aber reichlich zu Gebote ständen so bieten sich namentlich zwei Pläne
@@ -955,7 +955,7 @@
 <lb/>Ludwigs hinter sich ließe und woneben deßen zweckloses Aschaffenburger Tusculum nur als eine
 <lb/>Spielerei erscheinen würde. Da es aber nicht zu verkennen ist, daß wenn
 <lb/>die neue Anstalt wirklich so schön ausgeführt würde, dadurch eine außerordentlich
-         </p>
+         
       </body>
    </text>
 </TEI>
