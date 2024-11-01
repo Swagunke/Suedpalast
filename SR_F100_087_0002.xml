@@ -2599,7 +2599,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_087_0002.xml?place_annotation_20241101112328996#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName"
+			"rdf:value": "TEI/text/body/p/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -2680,7 +2680,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_087_0002.xml?place_annotation_20241101112347545#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[2]"
+			"rdf:value": "TEI/text/body/p/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -2759,7 +2759,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_087_0002.xml?place_annotation_20241101112412050#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[3]"
+			"rdf:value": "TEI/text/body/p/placeName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -2840,7 +2840,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_087_0002.xml?place_annotation_20241101112423673#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[4]"
+			"rdf:value": "TEI/text/body/p/placeName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -2919,7 +2919,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_087_0002.xml?place_annotation_20241101112437524#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[5]"
+			"rdf:value": "TEI/text/body/p/placeName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -2936,6 +2936,85 @@
 	},
 	"cwrc:hasCertainty": "cwrc:high",
 	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_087_0002.xml?place_annotation_20241101112453018",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-01T10:24:53.018Z",
+	"dcterms:modified": "2024-11-01T10:24:53.018Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_087_0002.xml?place_annotation_20241101112453018#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_087_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_087_0002.xml?place_annotation_20241101112453018#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://d-nb.info/gnd/4011882-4",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -2965,11 +3044,11 @@
 <lb/>mir bei weiterer Durcharbeitung<note type="editorial">eingefügt: bei weiterer Durcharbeitung</note> immer klarer entgegen<note type="editorial">gestrichen: hervor; eingefügt: entgegen</note> trat, diesmal nicht in England ausge-
 <lb/>führt würde, vielmehr<note type="editorial">gestrichen: sondern; eingefügt: vielmehr</note> als etwas nicht bloß durch Geldwerth imponi-
 <lb/>rendes sondern durch wißenschafliche Bedeutung u. Gemeinnützigkeit
-<lb/>ausgezeichnetes für <hi cert="high" generatedBy="human" rend="underline" xml:space="default">Deutschand </hi>reservirt war. Ich habe den Plan
+<lb/>ausgezeichnetes für Deutschand reservirt war. Ich habe den Plan
 <lb/>seit jener Zeit sowohl in seinen wißenschaftlichen Grundlagen als
 <lb/>bezüglich seiner Ausführbarkeit u. Rentabilität <note type="editorial">gestrichen: mit</note> gründlich
 <lb/>durchgearbeitet u. glaube überzeugend nachweisen zu können<note type="editorial">gestrichen: habe nicht den mindesten Zweifel; eingefügt: glaube überzeugend nachweisen zu könne</note>, daß er mit Sicher-
-<lb/>heit glänzenden Erfolges in Deutschland ins Leben gerufen<note type="editorial">gestrichen: ausgeführt; eingefügt: ins Leben gerufen</note> werden könne.
+<lb/>heit glänzenden Erfolges in <placeName key="Deutschland" ref="https://d-nb.info/gnd/4011882-4">Deutschland</placeName> ins Leben gerufen<note type="editorial">gestrichen: ausgeführt; eingefügt: ins Leben gerufen</note> werden könne.
 <lb/>Ew. Maj. wollen mir allergnädigst erlauben, daß ich zunächst eine
 <lb/>möglichst kurze Schilderung deßen hier einschalte, was das Re-
 <lb/>sultat meiner Arbeiten u. Überlegungen über diesen Gegenstand
