@@ -2607,7 +2607,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
 		"dc:format": "text/plain",
-		"rdf:value": "gestrichen: Ich werde alsdann, sofern Sie mich dazu ermuthigen, nach Baden, sonst nach Wiesbaden gehen, um diese Sache zu betreiben.; eingefügt: u. zu dem Ende mich an Ort u. Stelle begeben kann. "
+		"rdf:value": "gestrichen: Ich werde alsdann, sofern Sie mich dazu ermuthigen, nach Baden, sonst; eingefügt: u. zu dem Ende mich an Ort u. Stelle begeben kann. "
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2688,7 +2688,7 @@
 <lb/>zurückwirken wird.
 <lb/>Für die Zeit nach Neujahr habe ich mich von meinen sonstigen Arbeiten soweit
 <lb/>frei gemacht, daß ich mich alsdann<note type="editorial">gestrichen: um auf; eingefügt: daß ich mich alsdann</note> 8-14 Tage <note type="editorial">gestrichen: mich</note> der Förderung dieser Aufgaben ganz<note type="editorial">gestrichen: zu</note>
-<lb/>widmen u. zu dem Ende mich an Ort u. Stelle begeben kann.<note type="editorial">gestrichen: Ich werde alsdann, sofern Sie mich dazu ermuthigen, nach Baden, sonst nach Wiesbaden gehen, um diese Sache zu betreiben.; eingefügt: u. zu dem Ende mich an Ort u. Stelle begeben kann. </note>
+<lb/>widmen u. zu dem Ende mich an Ort u. Stelle begeben kann.<note type="editorial">gestrichen: Ich werde alsdann, sofern Sie mich dazu ermuthigen, nach Baden, sonst; eingefügt: u. zu dem Ende mich an Ort u. Stelle begeben kann. </note>
 <lb/>Ich erlaube mir daher die erg.
 <lb/>Bitte, mir durch einige Zeilen vorher wißen zu laßen, ob ich diesen Ausflug
          </p>
