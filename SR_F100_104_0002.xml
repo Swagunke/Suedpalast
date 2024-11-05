@@ -3096,6 +3096,167 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_104_0002.xml?person_annotation_20241105094508186",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-05T08:45:08.186Z",
+	"dcterms:modified": "2024-11-05T08:45:08.186Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_104_0002.xml?person_annotation_20241105094508186#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_104_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_104_0002.xml?person_annotation_20241105094508186#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/1201440009",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_104_0002.xml?place_annotation_20241105094533250",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-05T08:45:33.250Z",
+	"dcterms:modified": "2024-11-05T08:45:33.250Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_104_0002.xml?place_annotation_20241105094533250#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_104_0002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_104_0002.xml?place_annotation_20241105094533250#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://d-nb.info/gnd/4004169-4",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -3149,10 +3310,10 @@
 <lb/><placeName key="Baden-Baden" ref="https://d-nb.info/gnd/4004169-4" cert="high">Badens<precision match="@ref" precision="high"/></placeName> <note type="editorial">gestrichen: auf</note> einiges Entgegenkommen der Behörde erwartet. Darüber hat mich die höchst trockene
 <lb/>abweisende Antwort des Ministeriums enttäuscht; – indeß ich bin so lange Mitglied der Universitäts<note type="editorial">eingefügt: Universitäts</note> Mini-
 <lb/>sterien <note type="editorial">gestrichen: hier</note> in <placeName key="Berlin" ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName> gewesen, daß ich zu<note type="editorial">gestrichen: recht; eingefügt: zu</note> wohl weiß, wie eigentlich solche Antworten zu beur-
-<lb/>theilen sind, als daß ich dadurch verstimmt u. zurückgestoßen sein könnte. <note type="editorial">gestrichen: In</note><lb/>Da ich aber aus Baden Baden selbst weder von Ihnen noch von Hr Stadtdirector Kuntz irgend
+<lb/>theilen sind, als daß ich dadurch verstimmt u. zurückgestoßen sein könnte. <note type="editorial">gestrichen: In</note><lb/>Da ich aber aus Baden Baden selbst weder von Ihnen noch von Hr Stadtdirector <persName key="Kuntz, Konrad" ref="https://d-nb.info/gnd/1201440009" cert="high" type="real">Kuntz</persName> irgend
 <lb/>eine Äußerung in Erwiderung meiner Zuschriften erhalten habe, so entsteht in mir allerdings
 <lb/>die Vermuthung, daß auch dort gar keine Neigung bestehe, irgend etwas Neues u. Großes
-<lb/>in Baden entstehen zu sehen. Dies würde mich von meiner Vorliebe für Baden Baden
+<lb/>in <placeName key="Baden-Baden" ref="https://d-nb.info/gnd/4004169-4" cert="high">Baden<precision match="@ref" precision="high"/></placeName> entstehen zu sehen. Dies würde mich von meiner Vorliebe für Baden Baden
 <lb/>heilen. Um mich jedoch nicht durch Vermuthungen leiten zu laßen, erlaube ich mir, noch-
 <lb/>mals an Sie zu schreiben, indem ich Ihnen eine etwas bestimmtere Mittheilung über
 <lb/>mein Project in Obigen mache. Ich habe das Vertrauen, daß für Sie großartiger
