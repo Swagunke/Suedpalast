@@ -967,9 +967,9 @@
       </profileDesc>
    </teiHeader>
    <text>
-      
-         
-            Gh Stadtdir. <persName key="Kuntz, Konrad" ref="https://d-nb.info/gnd/1201440009" cert="high" type="real">Kuntz</persName> in Badenbaden
+      <body>
+         <p>
+                     Gh Stadtdir. <persName key="Kuntz, Konrad" ref="https://d-nb.info/gnd/1201440009" cert="high" type="real">Kuntz</persName> in Badenbaden
 <lb/><placeName key="Weimar" ref="https://d-nb.info/gnd/4065105-8">Weimar</placeName>. <date when="1853-11-21" cert="high">21/11 53</date>
 <lb/><date when="1853-11-25">25/11</date> abgegangen.
 <lb/>Hochgeehrtester Herr Stadtdirector.
@@ -1000,7 +1000,7 @@
 <lb/>vorgenommen werden können, ohne den Blutlauf stürmisch zu machen, so eröffnet dieß eine
 <lb/>neue Bahn, eine neue Behandlungsmethode, die sich (wie dies bei jedem auf physiologischen Prin-
 <lb/>cipien beruhenden Verfahren der Fall ist) nicht auf eine einzige Krankheitsform
-         
-      
-   </text>
+	 </body>
+	 </p>    
+        </text>
 </TEI>
