@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">Signatur: F 100-193<!-- Hier noch die Gattung eintragen --></title>
-            <title type="part" n="1"></title>
+            <title type="part" n="1"/>
             <author>
                <persName ref="https://d-nb.info/gnd/118861700">
                   <surname>Froriep</surname>
@@ -66,7 +63,7 @@
                      </author>
                </titleStmt>
                <extent>
-                  <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
+                  <measure type="pages"/> <!-- hier den Umfang eingeben -->
                </extent>
                <publicationStmt>
                   <publisher/>
@@ -93,11 +90,11 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
          <editorialDecl>
-            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
-               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
-               kodiert.&lt;/p&gt; </p>
+            <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt;
+               kodiert.&amp;lt;/p&amp;gt; </p>
          </editorialDecl>
          <tagsDecl/>
       </encodingDesc>
@@ -106,18 +103,14 @@
             <language ident="deu">German</language>
          </langUsage>
          <textClass>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
-               >Gebrauchsliteratur</classCode>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
-               >Brief</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
          </textClass>
       </profileDesc>
    </teiHeader>
    <text>
       <body>
-         <p>
-            Hier die Transkription
-         </p>
+         <p>Allgemeine Grundzügefür die Anlage eines Zoologischen Gartensin Francfurt a/M. Ein Zoologischer Garten hat folgenden 5 Forderungen Genüge zu leisten:1) er muß geeignet sein, den Sinn für Naturgeschichte des Thierreichsanzuregen und zu unterhalten;2) er muß dem Naturforscher Gelegenheit geben zu unmittelbarer Beobachtungder lebenden Thiere, um dadurch dunkle Theile der Zoologie aufzuklären;3) er muß durch Verbindung mit größeren Sammlungen für vergleichendeAnatomie und Zoologie die wißenschaftliche Aubeute vervollstän-digen resp. controliren;4) er muß besondere pracktische Aufgaben nach wißenschaftlichem Plane ver-folgen, um dadurch der Landwirthschaft und der Hygiene der Men-schen neue und nützliche Thatsachen zu liefern;5) er muß die von ihm genommenen Thatsachen in wißenschaftlich populärer Wei-se dem wißenschaftlichen wie dem größeren gebildeten Publikum mit-theilenNur wenn ein Zoologischer Garten ununterbrochen diesen 5 Forderungen entspricht,kann man behaupten, daß er seine Aufgabe erfüllt also Anspruch habe auf dieöffentliche Beachtung. Nur dadurch kann er dem Ort wo er gegründet wird,wirklich zur Ehre gereichen.Wir wollen diese Bedingungen einer ehrenvollen Existenz noch im Einzelnen weiterbesprechen, um dabei zu bezeichnen, was ei der Anlage eines Zoologischen Gartensin Francfurt speciell im Auge zu behalten sein möchte, und was dort bereitsfördernd einer solchen Anlage vorgearbeitet ist.ad 1. Um das große Publikum für Zoologie zu intereßiren, braucht man es nur nichtdabei zu langweilen; man muß ihm im Gegentheil dabei möglichst viel Genuß undUnterhaltung bieten. Es muß also in einem geschmackvoll angelegten großen Gartenfür eine große Anzahl von gesunden kräftigen Thieren reichlich Raum gegeben werden.Die Thiere, welche ohne Gefährdung der Sicherheit der Menschen in freien Gehegengehalten werden können, müßen hier besonders weiten Raum erhalten, was sich umso leichter ausführen läßt, wenn man immer nicht bloß mehrere Exemplare, Paare, Rudeloder Heerden deßelben Thieres zusammenbringt, sondern wie es auch in der freien Naturder Fall ist, selbst mehrere Thierarten auf paßende Weise in einemGehege vereinigt; kleinere Vögel müßen nicht in einzelnen kleineren Käfigensondern in großen Volieren zu hunderten zusammengebracht werden; die Affenverlangen einige große Affenhäuser, in denen jedesmal mehrere Dutzend ver-schiedener, nur an Körperkraft ziemlich gleichstehender Affen gehalten werden, wel-che bei dieser Art der Aufstellung eine hauptsächliche und in der That unerschöpflicheQuelle von Unterhaltung und Belustigung für alle Klaßen der Beschauer abgeben;daßelbe läßt sich bei den Nagern, bei den Wiederkäuern, beid den Einhufern,bei den kleineren Raubthieren pp in Ausführung bringen, und selbst bei den großenund gefährlichen Raubthieren, bei denen die Sicherung sowohl der Menschen als selbst derThiere untereinander besondere Rücksicht fordert, läßt sich in ähnlicher Weise</p>
       </body>
    </text>
 </TEI>
