@@ -249,6 +249,87 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_186_0001.xml?place_annotation_20241113163953480",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-13T15:39:53.480Z",
+	"dcterms:modified": "2024-11-13T15:39:53.480Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_186_0001.xml?place_annotation_20241113163953480#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_186_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_186_0001.xml?place_annotation_20241113163953480#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://d-nb.info/gnd/4043271-3",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -277,7 +358,7 @@
 <lb/>abwarten wollte, ob ein Besuch beim <persName key="Stephan, Österreich, Erzherzog" ref="https://d-nb.info/gnd/119019116" cert="high" type="real">Erzherzog Stephan</persName> sich machen würde. Aus
 <lb/>letzterem ist nun bis zur Stunde nichts geworden. Der <persName key="Stephan, Österreich, Erzherzog" ref="https://d-nb.info/gnd/119019116">Erzherzog</persName>, zu welchem seit einiger
 <lb/>Zeit eine bedeutende Annäherung des Hofes stattgefunden hat, dürfte jetzt nicht in
-<lb/>der Stimmung sein (man denke nur an die kritische Lage Oesterreichs) Besuch zu
+<lb/>der Stimmung sein (man denke nur an die kritische Lage <placeName key="Österreich" ref="https://d-nb.info/gnd/4043271-3" cert="high">Oesterreich<precision match="@ref" precision="high"/></placeName>s) Besuch zu
 <lb/>empfangen. Für unser Unternehmen ist dieß jedoch auch ziemlich gleichgültig. Er hat
 <lb/>sich darüber so gründlich u. ausführlich ausgesprochen, als nur zu wünschen war, u. ich 
 <lb/>habe schon früher bemerkt, daß ich nicht glaube, er werde sich durch mündliche Besprechung
