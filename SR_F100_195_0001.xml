@@ -442,87 +442,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150726033",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-15T13:07:26.033Z",
-	"dcterms:modified": "2024-10-15T13:07:26.033Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/KPolenz",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kathrin Polenz"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150726033#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.6.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150726033#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/hi[2]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://d-nb.info/gnd/4018118-2",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.6.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:highCertainty"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0001.xml?place_annotation_20241015150744561",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-15T13:07:44.561Z",
@@ -567,7 +486,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.6.0"
-	}
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
       
@@ -1177,8 +1097,8 @@
 <lb/>den müße, den Durchreisenden den Aufenthalt in <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2">Frcfrt</placeName>
 <lb/>besonders anziehend zu machen. Auch dafür drängt sich
 <lb/>in erster Reihe der Gedanke auf, <hi cert="high" generatedBy="human" rendition="underlined" xml:space="default">daß es als eine Aufgabe</hi>
-<lb/><hi cert="high" generatedBy="human" rendition="undelined" xml:space="default">für <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2" cert="high">Francfurt<precision match="@ref" precision="high"/></placeName> betrachtet werden müße, einen zoologischen</hi>
-<lb/><hi cert="high" generatedBy="human" rendition="underlined" xml:space="default">Garten zu gründen</hi>.
+<lb/>für <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2" cert="high">Francfurt<precision match="@ref" precision="high"/></placeName> betrachtet werden müße, einen zoologischen
+<lb/>Garten zu gründen.
 <lb/>Dieser Aufgabe zu entsprechen, ist aber nicht ohne besondere
 <lb/>Schwierigkeit, weil – soll der wißenschaftliche und nament-
 <lb/>lich auch der ökonomisch speculative Zweck nicht verfehlt
@@ -1190,7 +1110,7 @@
 <lb/>leicht die Wirkung haben könnten, spöttische Anmerkungen<note type="editorial">eingefügt: spöttische Anmerkungen</note> eine lächerliche
 <lb/>Seite hervorzurufen<note type="editorial">eingefügt: hervorzurufen</note> zu bieten, anstatt das allgemeine Ansehn der
 <lb/>Stadt zu erhöhen. 
-<lb/>Ein Zoologischer Garten, der <hi cert="high" generatedBy="human" rendition="underlined" xml:space="default"/><placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2" cert="high">Francfurt<precision match="@ref" precision="high"/></placeName> würdig
+<lb/>Ein Zoologischer Garten, der <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2" cert="high">Francfurt<precision match="@ref" precision="high"/></placeName> würdig
 <lb/>und im Stande wäre, eine hervorragende Stellung unter
 <lb/>derartigen Instituten einzunehmen, würde m. E. ein
 <lb/>bedeutendes<note type="editorial">eingefügt: bedeutendes</note> Areal <note type="editorial">gestrichen: von ungefähr Morgen</note> einnehmen müßen, welches
