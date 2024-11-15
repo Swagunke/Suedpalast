@@ -250,6 +250,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0003.xml?note_annotation_20241115105817219",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-15T09:58:17.219Z",
+	"dcterms:modified": "2024-11-15T09:58:17.219Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0003.xml?note_annotation_20241115105817219#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_195_0003.xml?note_annotation_20241115105817219#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "gestrichen: 112; eingefügt: 150"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -302,7 +381,7 @@ Thieren zu beleben.</hi> Es ist dieß so unzweifelhaft, daß man
 <lb/>da 1 □ F. nach dem Maaßstab des <placeName key="Kristallpalast London" ref="https://d-nb.info/gnd/4361287-8" cert="high">Londoner Glaspalastes<precision match="@ref" precision="high"/></placeName> 3 Fl
 <lb/>kostet, eine Reduction von 66,000 □ F erforderlich, diese
 <lb/>aber würde man (in der That fast unmerklich) erlangen, wenn man
-<lb/>an der 800 F betragenden Länge des 400 F breiten Glasbau 150 F
+<lb/>an der 800 F betragenden Länge des 400 F breiten Glasbau 150<note type="editorial">gestrichen: 112; eingefügt: 150</note> F
 <lb/>abnähme und dadurch immer noch einen Glaspalast behielte man
 <lb/>400 F auf 650 F oder also von 260,000 □ F, was die Grundfläche des
 <lb/>Göthe u. Theaterplatzes in <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2">Francfurt</placeName> (von 135,000 □ F) immer noch beinahe um das doppelte
