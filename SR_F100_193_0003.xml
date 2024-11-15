@@ -514,7 +514,7 @@
             ist nicht zu bezweifeln, daß bei solchem Verfahren das <orgName key="Dr. Senckenbergische Stiftung" ref="https://d-nb.info/gnd/2032140-5" cert="high">Senkenbergsche Institut</orgName> bald
 <lb/>mit den Kabineten von <placeName key="Paris" ref="https://d-nb.info/gnd/4044660-8" cert="high">Paris<precision match="@ref" precision="high"/></placeName>, <placeName key="Leiden" ref="https://d-nb.info/gnd/4074118-7">Leyden</placeName> und <placeName key="Berlin" ref="https://d-nb.info/gnd/4005728-8" cert="high">Berlin<precision match="@ref" precision="high"/></placeName> wetteifern könnte. Eine wißen-
 <lb/>schaftliche Direction des zoologischen Gartens würde hier im Stande sein, für
-<lb/>beide Institute überraschende Bereicherungen zu sichern, die ohne planmäßiges
+<lb/><hi cert="high" generatedBy="human" rend="underline" xml:space="default">beide</hi> Institute überraschende Bereicherungen zu sichern, die ohne planmäßiges
 <lb/>Verfahren verloren gehen würden. Ohne Zweifel würde hier die Verwaltung
 <lb/>des <orgName key="Dr. Senckenbergische Stiftung" ref="https://d-nb.info/gnd/2032140-5">Senkenbergschen Institutes</orgName> gern entgegenkommen und durch Zusammenwirken
 <lb/>bezüglich neuer Erwerbungen (selbst durch auszusendende Sammler) so wie durch beson-
@@ -526,7 +526,7 @@
 <lb/>Südpalaste nicht fehlen dürfte und deßen zoologische Portrait Darstellungen
 <lb/>leicht einen nicht unerheblichen Ertrag für die Kaße des zoologischen Gartens
 <lb/>abwerfen könnten.
-<lb/>ad 4. Hieran schließt sich die 4te Bedingung an, wodurch vor Allem dem zoologischen 
+<lb/><hi cert="high" generatedBy="human" rend="underline" xml:space="default">ad 4.</hi> Hieran schließt sich die 4te Bedingung an, wodurch vor Allem dem zoologischen 
 <lb/>eine pracktische Bedeutung gegeben werden kann. Indem man nämlich be-
 <lb/>sondere wißenschaftliche und landwirthschaftliche Pläne consequent verfolgt wird
 <lb/>man im Stande sein, höchst intereßante Fragen bezüglich der Fortpflanzung der
