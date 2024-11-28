@@ -1749,6 +1749,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_054_0001.xml?note_annotation_20241128143838037",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-28T13:38:38.037Z",
+	"dcterms:modified": "2024-11-28T13:38:38.037Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_054_0001.xml?note_annotation_20241128143838037#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_054_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_054_0001.xml?note_annotation_20241128143838037#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/note[22]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "gestrichen: betheiligung; eingefügt: Fonds"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -1803,7 +1882,7 @@
 <lb/>Quelle erbohrt wäre) daran sich sofort das Gefühl der Verpflichtung geltend machen<note type="editorial">eingefügt: geltend machen</note> die Heil Quelle durch Anlage von Kur-
 <lb/>anstalten für die Einwohnerschaft zur Erwerbsquelle zu machen. Auf diese Weise wird sich<note type="editorial">gestrichen: rege u. sicherlich; eingefügt: Auf diese Weise wird sich</note> für meine 
 <lb/>Anträge eine Bereitwilligkeit bei der Behörde bilden<note type="editorial">gestrichen: schaffen; eingefügt: bei der Behörde bilden</note>, die <note type="editorial">gestrichen: alsdann in </note> dem Lokal Patriotismus der reichen 
-<lb/>Einwohnerschaft thätig entgegenkommend<note type="editorial">eingefügt: thätig entgegenkommend</note> die Ausführung durch Actien Fonds leicht vermitteln 
+<lb/>Einwohnerschaft thätig entgegenkommend<note type="editorial">eingefügt: thätig entgegenkommend</note> die Ausführung durch Actien Fonds<note type="editorial">gestrichen: betheiligung; eingefügt: Fonds</note>  leicht vermitteln 
 <lb/>wird. E. Hochwohlgeboren haben mir so viel Wohlwollen bewiesen, daß ich vertraue, Sie 
 <lb/>werden mich in dem weiteren Verfolg einer Aufgabe, der ich mein noch übriges Leben gewidmet 
 <lb/>habe, nicht hemmen sondern gütigst vermitteln, daß ich mich in dieser Sache vollkommen frei bewegen könne
