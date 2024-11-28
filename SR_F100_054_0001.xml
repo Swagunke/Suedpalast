@@ -2623,6 +2623,164 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_054_0001.xml?person_annotation_20241128144256686",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-28T13:42:56.686Z",
+	"dcterms:modified": "2024-11-28T13:42:56.686Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_054_0001.xml?person_annotation_20241128144256686#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_054_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_054_0001.xml?person_annotation_20241128144256686#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/1012176320",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_054_0001.xml?place_annotation_20241128144318511",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-28T13:43:18.511Z",
+	"dcterms:modified": "2024-11-28T13:43:18.511Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_054_0001.xml?place_annotation_20241128144318511#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_054_0001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_054_0001.xml?place_annotation_20241128144318511#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://d-nb.info/gnd/4066043-6",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <editorialDecl>
             <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
@@ -2657,7 +2815,7 @@
 <lb/>eine Verlängerung des bis dahin bestandenen für Wiesbaden so wenig ergiebigen Spielpachtvertrages nicht
 <lb/>möglich sein, sich als unrichtig erwiesen hat. Dadurch sind alle Erwartungen vereitelt, die sich auf die Offer-
 <lb/>ten neuer sich bewerbender Spielpachtgesellschaften gründen ließen. Diese Offerten näherten sich demjenigen
-<lb/>was die badische Regierung aus dem Spielpacht in <placeName key="Baden-Baden" ref="https://d-nb.info/gnd/4004169-4" cert="high">Badenbaden<precision match="@ref" precision="high"/></placeName> zieht, wo Benazet  von diesem Jahr an
+<lb/>was die badische Regierung aus dem Spielpacht in <placeName key="Baden-Baden" ref="https://d-nb.info/gnd/4004169-4" cert="high">Badenbaden<precision match="@ref" precision="high"/></placeName> zieht, wo <persName key="Bénazet, Jacques" ref="https://d-nb.info/gnd/1012176320">Benazet</persName>  von diesem Jahr an
 <lb/>127 400 Gulden jährlichen Pacht (an Pacht früher 45 400 Fl) zahlt u. sonstige jährliche<note type="editorial">eingefügt: jährlichen</note> Leistungen im Betrag von 82 400 Fl
 <lb/>übernommen hat, <note type="editorial">gestrichen: u. ich glaube</note> die Form <note type="editorial">gestrichen: angegeben zu haben auf</note> in welcher zu allseitigem Vortheil
 <lb/>die künftig nach diesem Maaßstab auch<note type="editorial">eingefügt: nach diesem Maaßstab auch</note> in Wiesbaden von dem Spielpächter zu übernehmenden Leistungen sofort auch die Ausführung
@@ -2665,7 +2823,7 @@
 <lb/>nicht, welche bestimmt haben mögen so große Vortheile von der Hand zu weisen u. habe auch kein Recht
 <lb/>danach zu fragen, so nahe ich dabei betheiligt bin,<note type="editorial">eingefügt: so nahe ich dabei betheiligt bin, </note> aber E. Hochwohlgeboren werden es nicht unangemeßen finden, wenn ich den Wunsch
 <lb/>ausspreche, daß mir eine directe Mittheilung darüber zukomme, daß die Aussichten für meinen Südpalast
-<lb/>in Wiesbaden verschwunden seien. Ich lege darauf einen Werth, weil ich mich bis jetzt als durch die
+<lb/>in <placeName key="Wiesbaden" ref="https://d-nb.info/gnd/4066043-6">Wiesbaden</placeName> verschwunden seien. Ich lege darauf einen Werth, weil ich mich bis jetzt als durch die
 <lb/>vorangegangenen Verhandlungen gebunden geachtet habe; diese Schranke möchte ich beseitigen, damit ich
 <lb/>mich mit Freiheit in <note type="editorial">gestrichen: der</note> weiteren Bestrebungen für<note type="editorial">eingefügt: Bestrebungen für</note> Förderung meiner Aufgabe bewegen könne; es liegt mir
 <lb/>daran umso mehr, als <note type="editorial">gestrichen: sich</note> von Frankfurt Annäherungen sich eingeleitet haben, die mir wahrscheinlich 
