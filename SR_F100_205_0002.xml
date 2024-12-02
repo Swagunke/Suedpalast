@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">Signatur: F 100_205<!-- Hier noch die Gattung eintragen --></title>
-            <title type="part" n="2"></title>
+            <title type="part" n="2"/>
             <author>
                <persName ref="https://d-nb.info/gnd/118861700">
                   <surname>Froriep</surname>
@@ -66,7 +63,7 @@
                      </author>
                </titleStmt>
                <extent>
-                  <measure type="pages"></measure> <!-- hier den Umfang eingeben -->
+                  <measure type="pages"/> <!-- hier den Umfang eingeben -->
                </extent>
                <publicationStmt>
                   <publisher/>
@@ -93,11 +90,11 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
          <editorialDecl>
-            <p> &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a
-               href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
-               kodiert.&lt;/p&gt; </p>
+            <p> &amp;lt;p&amp;gt;Dieses Werk wurde in XML/TEI P5 nach &amp;lt;a
+               href="http://www.deutschestextarchiv.de/doku/basisformat"&amp;gt;DTA-Basisformat&amp;lt;/a&amp;gt;
+               kodiert.&amp;lt;/p&amp;gt; </p>
          </editorialDecl>
          <tagsDecl/>
       </encodingDesc>
@@ -106,10 +103,8 @@
             <language ident="deu">German</language>
          </langUsage>
          <textClass>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
-               >Gebrauchsliteratur</classCode>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
-               >Brief</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
          </textClass>
       </profileDesc>
    </teiHeader>
@@ -130,7 +125,7 @@
 <lb/>tigt weite Wege zurücklegen müßten und neben den ausländischen Thieren auch durch geräumige
 <lb/>Gehege unterhalten würden, welche reiche und belebte Gruppen unserer einheimischen Thiere
 <lb/>möglichst in den ihnen eigenthümlichen Umgebungen und Verhältnißen darböten.
-<lb/>Ein solcher nach den beiliegenden „Grundzügen“ entworfener zoologischer Garten ist in der
+<lb/>Ein solcher nach den beiliegenden „<hi cert="high" generatedBy="human" rend="underline" xml:space="default">Grundzügen</hi>“ entworfener zoologischer Garten ist in der
 <lb/>beigefügten Skizze No I. dargestellt, auf welcher zugleich die Verbindung des zoolog. Gartens
 <lb/>mit einer anderen neuen Anlage (einem Südpalaste) angenommen ist. Es ist dieß eine Combina-
 <lb/>tion, durch welche dem Francfurter zoologischen Garten sowohl in den Augen der Naturforscher
@@ -138,7 +133,7 @@
 <lb/>Pariser und Londoner nicht ausgenommen, gesichert wäre, indem es durch diese Verbindung möglich
 <lb/>würde, auch tropische Thiere das ganze Jahr hindurch in offenen Gehegen der Beobachtung dar-
 <lb/>zubieten.
-<lb/>Der Südpalast nämlich ist, wie dieß der beiliegende gedruckte „Plan“ weiter ausführt,
+<lb/>Der Südpalast nämlich ist, wie dieß der beiliegende gedruckte „<hi cert="high" generatedBy="human" rend="underline" xml:space="default">Plan</hi>“ weiter ausführt,
 <lb/>eine Anstalt zum Aufenthalt und zur Heilung solcher Kranken, welche zu ihrer Herstellung
 <lb/>eines längeren Aufenthaltes in einem tropischen Klima bedürfen. – Ein sehr umfangrei-
 <lb/>cher Glaspalast, der mit den Wohngebäuden der Anstalt in Verbindung gebracht ist, muß
