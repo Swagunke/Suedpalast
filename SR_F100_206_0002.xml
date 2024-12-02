@@ -683,8 +683,9 @@
 <lb/>das dazu erforderliche Areal unentgeltlich gewähren.
 <lb/>Diese Schenkung wird gewiß nicht versagt werden, so wie das Erste Bankierhaus
 <lb/><placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2">Francfurts</placeName> die Absicht aussprechen würde, unter Voraussetzung dieser Schenkung (z. B.
-<lb/>der Pfingstweide, worüber eine Skizze hier beiliegt.) die Gründung eines Actien-
-<lb/>Vereines für den Südpalast nebst zoologischem Garten unternehmen zu wollen. Man wird
+<lb/>der Pfingstweide, worüber eine Skizze hier beiliegt.) die Gründung eines <hi cert="high" generatedBy="human" rend="underline" xml:space="default">Actien-
+<lb/>
+Vereines für den Südpalast nebst zoologischem Garten</hi> unternehmen zu wollen. Man wird
 <lb/>sich aber wohl nicht täuschen, wenn man annimmt, daß bei der Autorität einer solchen Firma
 <lb/>und bei der Sicherheit, welche durch ein so bedeutendes Grundstück noch überdieß geboten
 <lb/>wäre, die Kapitalisten <placeName key="Frankfurt am Main" ref="https://d-nb.info/gnd/4018118-2" cert="high">Francfurts<precision match="@ref" precision="high"/></placeName> sehr geneigt sein werden, die Actien zu zeichnen
