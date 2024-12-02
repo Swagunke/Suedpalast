@@ -109,6 +109,8 @@
       </profileDesc>
    </teiHeader>
    <text>
+      <body>
+      <p>
       Über die Herstellung eines zoologischen Gartens
 <lb/>durch Verbindung mit dem Südpalast.
 <lb/>
@@ -135,7 +137,7 @@
 <lb/>Gedanke auf, daß es als eine Aufgabe für Francfurt zu betrachten sei, einen zoologischen
 <lb/>Garten zu gründen. 
 <lb/>
-
-      <body/>
+      </p>
+      </body>
    </text>
 </TEI>
