@@ -1653,7 +1653,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_063_0003.xml?person_annotation_20241202162014400#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName"
+			"rdf:value": "TEI/text/body/p/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1733,7 +1733,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_063_0003.xml?person_annotation_20241202162045480#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[4]"
+			"rdf:value": "TEI/text/body/p/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -1812,7 +1812,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_063_0003.xml?person_annotation_20241202162123170#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[2]"
+			"rdf:value": "TEI/text/body/p/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -1892,12 +1892,171 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_063_0003.xml?person_annotation_20241202162144170#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/persName[3]"
+			"rdf:value": "TEI/text/body/p/persName[5]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "https://d-nb.info/gnd/118980386",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_063_0003.xml?person_annotation_20241202162216651",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-02T15:22:16.651Z",
+	"dcterms:modified": "2024-12-02T15:22:16.651Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_063_0003.xml?person_annotation_20241202162216651#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_063_0003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_063_0003.xml?person_annotation_20241202162216651#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/119208806",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_063_0003.xml?person_annotation_20241202162230258",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-12-02T15:22:30.258Z",
+	"dcterms:modified": "2024-12-02T15:22:30.258Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KPolenz",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kathrin Polenz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_063_0003.xml?person_annotation_20241202162230258#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_063_0003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Suedpalast/main/SR_F100_063_0003.xml?person_annotation_20241202162230258#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/119208806",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1930,7 +2089,7 @@
    <text>
       <body>
          <p>und das gekränkte Intereße der <note type="editorial">gestrichen: Min</note> unterdrückten Minderzahl der Acti-
-<lb/>onäre geschüzt werden kann ist er vielmehr in des Herzogs höherem Intereße genöthigt, helfend u. verbeßernd einzugreifen.<note type="editorial">eingefügt: ist er vielmehr in des Herzogs höherem Intereße genöthigt, helfend u. verbeßernd einzugreifen. </note> Der Fürst ist zum Schutz der Unterdrückten
+<lb/>onäre geschüzt werden kann ist er vielmehr in des Herzogs höherem Intereße genöthigt, helfend u. verbeßernd einzugreifen.<note type="editorial">eingefügt: ist er vielmehr in des Herzogs höherem Intereße genöthigt, helfend u. verbeßernd einzugreifen. </note> Der <persName key="Adolf Wilhelm August, Luxembourg, Grand-duc" ref="https://d-nb.info/gnd/119208806">Fürst</persName> ist zum Schutz der Unterdrückten
 <lb/>berufen; hat er durch Vertrauen zu einem leichtsinnigen Rathgeber, wie es in
 <lb/>diesem Falle Hr. <persName key="Dungern, Emil August von" ref="https://d-nb.info/gnd/118980386" cert="high" type="real">v. Dungern</persName> war, zu einer Unterdrückung und Kränkung
 <lb/>amtlich begründeter Intereßen einer Minderzahl von Actionären<note type="editorial">eingefügt: einer Minderzahl von Actionären</note> seine Hand geliehen, so meine ich, müßte
@@ -1938,7 +2097,7 @@
 <lb/>machen u. er müßte dem Rathgeber, der ihm noch zu rechter Zeit dazu Ge-
 <lb/>legenheit verschafft, aufrichtig<note type="editorial">korrigiert aus: aufrichtiger</note> Dank äußern<note type="editorial">gestrichen: sagen; eingefügt: äußern</note>. In dieser Lage aber<note type="editorial">eingefügt: aber</note> befindet
 <lb/>sich jezt Hr <persName key="Vollpracht, Ferdinand" ref="https://d-nb.info/gnd/117488380" cert="high" type="real">V.</persName>; es liegt in deßen Hand ganz stillschweigend, und ohne
-<lb/>seinem Herzog selbst nur ein<note type="editorial">eingefügt: nur ein</note> unangenehmes Gefühl durch die Bemerkung<note type="editorial">eingefügt: durch die Bemerkung</note> machen zu müßen, <note type="editorial">gestrichen: er hier müßte; gestrichen: ihn gesagt würde</note><note type="editorial">gestrichen: daß</note><lb/> „da haben sich E. H. übereilt“, den ganzen Fehler
+<lb/>seinem Herzog selbst nur ein<note type="editorial">eingefügt: nur ein</note> unangenehmes Gefühl durch die Bemerkung<note type="editorial">eingefügt: durch die Bemerkung</note> machen zu müßen, <note type="editorial">gestrichen: er hier müßte; gestrichen: ihn gesagt würde</note><note type="editorial">gestrichen: daß</note><lb/> „da haben sich <persName key="Adolf Wilhelm August, Luxembourg, Grand-duc" ref="https://d-nb.info/gnd/119208806" cert="high" type="real">E. H.</persName> übereilt“, den ganzen Fehler
 <lb/>wieder gut zu machen. Der Verkauf von Actienpapieren gehört
 <lb/>unzweifelhaft zu der Competenz der Domänen Präsidenten, ver-
 <lb/>fügt er heute die Veräußerung der nöthigen Anzahl Actien<note type="editorial">eingefügt: der nöthigen Anzahl Actien</note>, so kann morgen eine General-
